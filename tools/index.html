@@ -5,5 +5,80 @@ id: about
 ---
 
 <div class="page-container">
-Tools!
+
+
+'''APIs'''
+
+ * V.sexy comprehensive health dbs with apis http://www.freebase.com/view/medicine
+ * Assortment of APIs and other resources assembled, mainly clinical knowledge resources http://www.openclinical.org/dld_asbruInterpreter.html
+ * Pubmed Central Open Access Subset  http://pmc.jensenlab.org/
+ * NHS Choices APIs can be applied for via: http://www.nhs.uk/aboutNHSChoices/professionals/syndication/Pages/Webservices.aspx NHS Choices will supply temporary APIs for hack days.  How to videos can be found here: http://www.youtube.com/playlist?list=PLnhASgDToTktsqXPnXgeK7Y0BL1dvPq-k. You can get the following from the API:
+      * Editorial content about conditions and treatments and healthy living (including videos and animations)
+      * Behind the Headlines (debunking dodgy news stories: http://www.nhs.uk/News/Pages/NewsIndex.aspx)
+      * Data about where and what organisations and services are out there
+      * Performance and facilities data about organisations and services
+      * Comments and ratings information about services
+      * Comments and ratings capture components (collect them on your platform and they will be fed back through to nhs.uk)
+ * Infectious diseases links CDC: http://wwwnc.cdc.gov/travel/ WHO:http://www.who.int/csr/don/en/index.html  HPA:http://www.hpa.org.uk/NewsCentre/ MDTravel:     http://mdtravelhealth.com/recent_health_alerts.php Health Map:http://healthmap.org/en/
+ * Patient Opinion - Email  info@patientopinion.org.uk for an api key http://www.patientopinion.org.uk/info/api via James Munro of @patientopinion
+ * APIs for 'SNOFyre' a demonstrator tool for use with [[http://www.connectingforhealth.nhs.uk/systemsandservices/data/uktc/snomed|SNOMED CT]]clinical records in their aggregation and analysis - give a range of functions such as browsing the terminology
+ * 'SNOB' A server for the 300,000 clinical terms found in [[http://www.connectingforhealth.nhs.uk/systemsandservices/data/uktc/snomed|SNOMED CT]] with a range of services, Beta.
+ * [[http://bioportal.bioontology.org|BioPortal]]. A quick way to support auto-complete on a problem list app for example. `http://rest.bioontology.org/bioportal/search/?query={search term}&ontologyids=2040&maxnumhits=5&apikey={apikey}` . Need to register with http://bioontology.org for an API key. Uses SNOMED-CT Core subset.
+ * ALISS (Access to Local Information to Support Self-management - Scottish info) - community assets of all sorts to help you live well with a Long-Term Condition. Documentation at [[http://aliss-engineclub.readthedocs.org/]] and some simple demo publishing devices at [[http://demo.aliss.org/]].
+
+
+'''Datasets'''
+ * QOF Datasets http://www.gpcontract.co.uk/
+ * Datasets used to make CMO annual report on the nations health for 2011 http://www.dh.gov.uk/health/2012/11/cmo-data/
+ * NHS Atlas of Variation http://wiki.nhshackday.com/wiki/DatasetsAndAPIs?action=AttachFile&do=get&target=AtlasOfVariation2011.xls See http://www.rightcare.nhs.uk/index.php/nhs-atlas/ for more information and to view maps etc
+ * Marmot indicators for local authorities in England 2012 The maps can be found  [[http://www.lho.org.uk/LHO_Topics/National_Lead_Areas/Marmot/Maps/Single/atlas.html|here]] . All the data used in the indicators is available for your own analysis is [[http://www.lho.org.uk/viewResource.aspx?id=17034|here]]
+ * Data.gov.uk NHS Datasets -> http://data.gov.uk/search/apachesolr_search/nhs
+ * Kasabi NHS datasets -> http://blog.kasabi.com/?s=nhs (Kasabi no longer active, complete list of datasets here: https://docs.google.com/spreadsheet/ccc?key=0AiswT8ko8hb4dFhvcFBtangydmo0bmJ5NnMxT2dVWnc#gid=0 )
+ * ScraperWiki scrapers scraping NHS data -> https://scraperwiki.com/tags/NHS
+ * HSCIC Indicator Portal (Population health data, GP practice data, NHS Outcomes Framework data, hospital mortality, scoial care) http://indicators.ic.nhs.uk (interface to navigate data in multiple .xls files)
+ * HSCIC Searchable list of NHS apporved datasets, much of this being used to feed data up to policy makers -> http://infocat.ic.nhs.uk/Default.aspx
+ * HSCIC transparency data - includes GP Prescribing Data http://www.ic.nhs.uk/services/transparency
+ * HSCIC Useful list of stuff - http://www.ic.nhs.uk/services (some of these items may be restricted access or link only to pdf docs, useful starting point)
+ * CfH - Major Classification schemes for disease and intervention (more for bean counting than clinicians or patients) -> http://www.connectingforhealth.nhs.uk/systemsandservices/data/clinicalcoding ...   [[mailto:tom.seabury@nhs.net|further help]]
+ * NHS Data Hub http://datahub.io/group/nhs
+ * NHS Choices - limited range of datasets can be found here: http://www.nhs.uk/aboutNHSChoices/professionals/developments/Pages/NHSChoicesdatasets.aspx (use API for up-to-date info - apply here: http://www.nhs.uk/aboutNHSChoices/professionals/syndication/Pages/Webservices.aspx)
+
+
+'''Reference data and other useful information'''
+ * NHS Accountablility Data http://www.nhs.uk/Service-Search/Accountability
+ * NHS Organisation Data Service -> http://www.connectingforhealth.nhs.uk/systemsandservices/data/ods   ...   [[mailto:tom.seabury@nhs.net|further help]] - reference data includes unique IDs for NHS organisations used by most data providers
+ * Comprehensive Standardised Clinical (& machine processable) expressions (SNOMED CT) -> [[http://www.connectingforhealth.nhs.uk/systemsandservices/data/uktc/snomed|NHS SNOMED CT]] ...   [[mailto:tom.seabury@nhs.net|further help]]
+ * UK Standardised drug names, codes, expression model -> http://www.dmd.nhs.uk/  ...   [[mailto:tom.seabury@nhs.net|further help]]
+ * National Interim Clinical Imaging Procedure (NICIP) code set -> http://www.connectingforhealth.nhs.uk/systemsandservices/data/uktc/imaging   ...   [[mailto:tom.seabury@nhs.net|further help]]
+ * NICE guidelines http://www.nice.org.uk/guidance/ info about the tables http://www.nice.org.uk/guidance/index.jsp?action=moreinfo&type=2&status=3
+ * [[http://www.connectingforhealth.nhs.uk/systemsandservices/interop/|NHS Interoperability Toolkit (ITK)]]  - a collection of specifications, implementation guides and related documents, to bring consistency to system integration within the NHS. Specifications are available from [[http://www.uktcregistration.nss.cfh.nhs.uk/trud3/user/guest/group/0/pack/21|TRUD]] (simple registration required)  ...[[mailto:toolkit.enquiries@nhs.net|further help]]
+      * ITK (and other) messaging endpoint emulation [[http://www.cloud-harness.co.uk]]
+ * Technology Reference data Update Distribution http://www.uktcregistration.nss.cfh.nhs.uk/trud3/user/guest/group/0/home
+
+
+'''List of datasets with restricted access or restrictions on use'''
+
+ * NHS Safety Thermometer - restrictions on use include "It must not be used to make public statements or pronouncements, or cause, or allow it to appear in public either directly or indirectly" (AKA the 'Fight Club' rule) http://www.ic.nhs.uk/webfiles/Services/Safety%20Thermometer/SafetyThermometer_Data_TermsOfUse_0512.pdf
+ * NHS Comparators - http://www.ic.nhs.uk/nhscomparators only people with NHS or DH email address can sign up for an account but you need to use a password to access it
+ * iView - Lots of info some data restricted: http://www.ic.nhs.uk/services/nhs-iview
+ * Commissioning data packs: http://www.ic.nhs.uk/services/commissioning-data-packs
+ * National Dementia and Antipsychotic Prescribing Audit info at GP level is restricted to GPs and selected others http://www.ic.nhs.uk/services/national-clinical-audit-support-programme-ncasp/audit-reports/dementia
+ * Nationally supported clinical audits: http://www.ic.nhs.uk/services/national-clinical-audit-support-programme-ncasp (not all information is made available, for example some audits only publish data for participation and case ascertainment but the annual report demonstrates that much wider range of data is present and analysed - use heavily caveated)
+ * CPRD/GRPD/GOLD, patient level GP data [[pricelist|price list]]
+
+
+'''Data wishlist'''
+
+ * GPs mapped to non-health geographical areas such as local authorities to support linkages and presentation with other, non-health, information sources
+  (This is possible by linking two NHS data files http://nww.connectingforhealth.nhs.uk/ods/downloads/gmpdown and http://nww.connectingforhealth.nhs.uk/ods/downloads/officenatstats [36mb zipped data file])
+ * AHP Referral to Treatment: Collected since April 2011 but not yet published: http://www.ic.nhs.uk/services/in-development/community-information-programme/allied-health-professional--referral-to-treatment
+ * SUS/HES data - as a minimum aggregates could be made available at useful levels http://www.hesonline.nhs.uk/Ease/servlet/ContentServer?siteID=1937&categoryID=889
+ * NICOR - Positive intent but difficult to find datasets http://www.ucl.ac.uk/nicor/nicor/nicorandtheclinicaldatatransparencyinitiative
+ * http://legacy.library.ucsf.edu/action/search/basic (to be scraped and mined)
+ * http://www.scotcourts.gov.uk/opinions/2010FAI15.html (to be scraped and mined) *UPDATE* 24/5/13 [[attachment:FAIs.zip]]
+ * Stuff at hospital level rather than trust level - important for a public audience who don't know or care about who runs an organisation and important for understanding variations within a provider
+ * CQC's Quality and Risk Profiles (currently only available to providers and CQC staff
+
+
+
 </div>
