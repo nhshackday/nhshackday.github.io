@@ -1,5 +1,4 @@
 body {
-  padding-top: 20px;
   padding-bottom: 20px;
   background-color: #F5F5F5;
 }
@@ -13,9 +12,13 @@ body {
 }
 
 .page-container {
-    min-height: 400px;
+    min-height: 200px;
     border: solid 3px #e5e5e5;
     padding: 8px;
     border-radius: 8px;
     background-color: #F8F8F8;
+}
+
+.footer {
+  margin-top: 20px;
 }
