@@ -17,9 +17,7 @@
    <body>
 
     <div class="container">
-
-
-
+      {% assign url = page.url|remove:'index.html' %}
       <!-- Static navbar -->
       <a href="/">
         <img src="/assets/images/header-logo.png"/>
@@ -37,22 +35,22 @@
           </div>
           <div class="navbar-collapse collapse">
             <ul class="nav navbar-nav">
-              <li><a href="/rationale">Rationale</a></li>
-              <li><a href="/tools">Tools</a></li>
-              <li><a href="/faqs">FAQs</a></li>
+              <li {% if url == '/rationale/' %}class="active"{% endif %}><a href="/rationale/">Rationale</a></li>
+              <li {% if url == '/tools/' %}class="active"{% endif %}><a href="/tools">Tools</a></li>
+              <li {% if url == '/faqs/' %}class="active"{% endif %}><a href="/faqs">FAQs</a></li>
 
-              <li class="dropdown">
-                <a href="/previous" class="dropdown-toggle" data-toggle="dropdown">Past Events, Projects and Code <b class="caret"></b></a>
+              <li {% if url contains '/previous/' %}class="active dropdown"{%else%}class="dropdown"{% endif %} >
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Past Events, Projects and Code <b class="caret"></b></a>
                 <ul class="dropdown-menu">
-                  <li><a href="/previous/events">Events</a></li>
-                  <li><a href="/previous/projects">Projects</a></li>
-                  <li><a href="/previous/code">Code</a></li>
+                  <li {% if url == '/previous/events/' %}class="active"{% endif %}><a href="/previous/events/">Events</a></li>
+                  <li {% if url == '/previous/projects/' %}class="active"{% endif %}><a href="/previous/projects/">Projects</a></li>
+                  <li {% if url == '/previous/code/' %}class="active"{% endif %}><a href="/previous/code/">Code</a></li>
                 </ul>
               </li>
 
-              <li><a href="/sponsorship">Accounts and Sponsorship</a></li>
-              <li><a href="/media">Media</a></li>
-              <li><a href="/contact">Contact Us</a></li>
+              <li {% if url == '/sponsorship/' %}class="active"{% endif %}><a href="/sponsorship/">Accounts and Sponsorship</a></li>
+              <li {% if url == '/media/' %}class="active"{% endif %}><a href="/media/">Media</a></li>
+              <li {% if url == '/contact/' %}class="active"{% endif %}><a href="/contact/">Contact Us</a></li>
             </ul>
             <!--
             <ul class="nav navbar-nav navbar-right">
