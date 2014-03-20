@@ -17,8 +17,11 @@ body {
     padding: 8px;
     border-radius: 8px;
     background-color: #F8F8F8;
+    font-weight: 200;
 }
 
 .footer {
   margin-top: 20px;
 }
+
+h2 { font-weight: 200; }
