@@ -1,3 +1,15 @@
 name: NHSHackday
 markdown: redcarpet
 pygments: true
+previous:
+    - Jan 2014 Cardiff
+    - Nov 2013 Cambridge
+    - May 2013 London
+    - Jan 2013 Oxford
+    - Sep 2012 Liverpool
+    - May 2012 London
+next-event:
+    date: 26th May 2014
+    location: London
+    venue: Venue name
+    signup: http://signup/page
