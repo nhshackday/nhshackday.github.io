@@ -34,3 +34,21 @@ h2 { font-weight: 200; }
 .event-block {
     padding: 8px
 }
+
+.event-sidebar {
+  min-width: 200px;
+  max-width: 250px;
+  padding: 10px;
+  background-color: #e5e5e5;
+  border-radius: 8px;
+  border: solid 2px #a5a5a5;
+}
+
+.event-sidebar  h3 {
+  font-weight: 200;
+  margin-top: 0;
+}
+
+.event-sidebar ul li {
+  margin-left: -25px;
+}

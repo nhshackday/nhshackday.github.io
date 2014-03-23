@@ -3,10 +3,23 @@ layout: default
 ---
 <div class="page-container">
 
-<h2>{{ page.title }}
+<h2 class="pull-left">{{ page.title }}
 <small>{{ page.date_range[0] |date: '%d %b' }} - {{ page.date_range[1] |date: '%d %b' }} {{ page.date_range[1] |date: '%Y' }}</small></h2>
 
+{% if page.blog-posts %}
+<div class="pull-right event-sidebar">
+    <h3>Blog posts</h3>
+    <ul>
+    {% for pair in page.blog-posts %}
+        {% for item in pair %}
+            <li>
+            <a href="{{ item[1] }}" target="_blank">{{item[0]}}</a>
+            </li>
+        {% endfor %}
+    {% endfor%}
+    </ul>
+</div>
+{% endif %}
 
-{{ content }}
-
+<div class="clearfix"></div>
 </div>
