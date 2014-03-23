@@ -31,13 +31,13 @@ blog-posts:
 
 | Key  | Values |
 | ------------- | ------------- |
-| layout  | always 'event'  |
-| permalink  | CHange the year and month values and put the location at the end  |
-| title  | always 'event'  |
+| layout  | Always 'event'  |
+| permalink  | Change the year and month values and put the location at the end  |
+| title  | The title of the event, normally the city it was held in  |
 | summary  | A short description of the venue and organiser  |
-| date  | the start date of the event  |
+| date  | The start date of the event  |
 | date_range  | The start and end date of the event  |
-| categories  | always 'events'  |
+| categories  | Always 'events'  |
 | label  | If there are two events at the same location in the same year, this will differentiate them. By default should just be the year |
 | blog-posts  | If wanted, should be a link of dictionaries (hashes) where the key is the label, and the value is the link  |
 
@@ -47,6 +47,7 @@ blog-posts:
 To add an event you should create a new file in the _posts/projects/ folder with a filename like: ```YYYY-MM-DD-PROJECTNAME.md```
 
 The following page-matter should be at the top of the file```---```
+
 
 ```YAML
 ---
@@ -60,6 +61,17 @@ logo-with-name: true
 website: http://ipatch.azurewebsites.net/
 ---
 ```
+
+| Key  | Values |
+| ------------- | ------------- |
+| layout  | Always 'post'  |
+| title  | The name of the project  |
+| summary  | A short description of the project  |
+| date  | A date, more recent dates will appear higher up on the page |
+| categories  | Always 'projects'  |
+| logo  | The filename of an image in /assets/images/projects/, i.e. ipatch.png  |
+| logo-with-name  | true if the logo is small enough that it needs the project title next to it, false otherwise (which is the default) |
+| website  | The URL to the website for the project |
 
 
 ## Adding sponsors
