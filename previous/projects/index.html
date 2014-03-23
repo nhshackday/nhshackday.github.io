@@ -5,5 +5,25 @@ id: about
 ---
 
 <div class="page-container">
-    Projects!
+
+ <h4>
+ The projects below all started life as NHS Hack Day projects
+ </h4>
+
+ {% for project in site.categories['projects'] %}
+    <div class="col-md-6" style="min-height: 200px">
+      <div style="text-align:center;">
+          <a href="{{project.website}}"  target="_blank">
+            <img src="/assets/images/projects/{{ project.logo }}" border="0"/>
+          </a>
+      </div>
+
+      <p>{{ project.summary }}</p>
+
+       <p><a href="{{project.website}}" target="_blank">Learn more &raquo;</a></p>
+    </div>
+  {% endfor %}
+
+  <div class="clearfix"></div>
+
 </div>
