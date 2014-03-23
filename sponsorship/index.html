@@ -2,14 +2,104 @@
 layout: default
 title: About
 id: about
+sponsors:
+    ohc:
+        name: Open Health Care UK
+        url: http://openhealthcare.org.uk/
+        logo: /assets/images/sponsors/ohc.png
+    londonlime:
+        name: LondonLime
+        url: http://londonlime.net/
+        logo: /assets/images/sponsors/londonlime-logo.jpg
+    oreilly:
+        name: O'Reilly
+        url: http://www.oreilly.com/
+        logo: http://cdn.oreilly.com/images/sitewide-headers/ml-header-home-blinking.gif
+    elasticsearch:
+        name: ElasticSearch
+        url: http://elasticsearch.com/
+        logo: http://i.imgur.com/qLSTCY9.png
+    laterpay:
+        name: LaterPay
+        url: http://laterpay.net/
+        logo: http://i.imgur.com/3cgCNK2.png
+    gocardless:
+        name: GoCardless
+        url: https://gocardless.com/
+        logo: http://i.imgur.com/gIoR4vA.png
+    retrosnub:
+        name: Retrosnug
+        url: http://www.retrosnub.co.uk/
+        logo: http://www.retrosnub.co.uk/img/2013/retrosnub.svg
+    tinamous:
+        name: Tinamous
+        url: http://www.tinamous.com/
+        logo: http://i.imgur.com/v8bk3x1.png
+    nhse:
+        name: NHS Commissioning Board
+        url: http://www.commissioningboard.nhs.uk/
+        logo: /assets/images/sponsors/NHSE.jpg
+    nesta:
+        name: Nesta
+        url: http://www.nesta.org.uk/
+        logo: /assets/images/sponsors/nesta_logo_large.jpg
+    badscience:
+        name: Bad Science
+        url: http://www.badscience.net
+        logo: /assets/images/sponsors/BadScience-logo.150.jpg
+    phe:
+        name: Public Health England
+        url: https://www.gov.uk/government/organisations/public-health-england
+        logo: /assets/images/sponsors/PHE.jpeg
+    tactix4:
+        name: Tactix4
+        url: http://www.tactix4.com
+        logo: /assets/images/sponsors/global.jpg
+    bjss:
+        name: BJSS
+        url: http://www.bjss.com
+        logo: /assets/images/sponsors/BJSS_LogogTeal.png
+    openeyes:
+        name: OpenEyes
+        url: http://www.openeyes.org.uk/
+        logo: /assets/images/sponsors/openeyes.png
+    odi:
+        name: The Open Data Institute
+        url: http://www.theodi.org
+        logo: /assets/images/sponsors/ODI-logo-med.png
+    health:
+        name: The Health Foundation
+        url: http://www.health.org.uk/
+        logo: /assets/images/sponsors/tczqKN_web.gif
+    bytemark:
+        name: Bytemark
+        url: http://www.bytemark.com/
+        logo: /assets/images/sponsors/Bytemark-THN.jpg
+    knowledge:
+        name: Knowledge Into Action
+        url: #
+        logo: /assets/images/sponsors/kintoa.png
 ---
+
+
 
 <div class="page-container">
 
 <p>Open Health Care UK organize NHS Hack Day as a not for profit event. By this we mean that no one, including the organizers, is getting paid to attend. If you would like to support the next event email <a href="mailto:hello@openhealthcare.org.uk?Subject=Can I help?">hello@openhealthcare.org.uk</a></p>
 
 <hr/>
-<h2>Cambridge, Nov 2013</h2>
+<h2 style="background-color: #e8e8e8; padding: 8px;margin:0">London, May 2014</h2>
+<table class="table table-condensed">
+<tr>
+    <th>Who</th>
+    <th>What</th>
+    <th>Website</th>
+</tr>
+
+</table>
+
+<hr/>
+<h2 style="background-color: #e8e8e8; padding: 8px;margin:0">Cambridge, Nov 2013</h2>
 
 <table class="table table-condensed">
 <tr>
@@ -17,48 +107,19 @@ id: about
     <th>What</th>
     <th>Website</th>
 </tr>
-<tr>
-    <td><img src="/assets/images/sponsors/londonlime-logo.jpg"></td>
-    <td>Stickers and design work</td>
-    <td><a href="http://londonlime.net/">http://londonlime.net/</a></td>
-</tr>
-<tr>
-    <td><img src="http://cdn.oreilly.com/images/sitewide-headers/ml-header-home-blinking.gif"></td>
-    <td>A selection of books as prizes</td>
-    <td><a href="http://www.oreilly.com/">http://www.oreilly.com/</a></td>
-</tr>
-<tr>
-    <td><img src="http://i.imgur.com/qLSTCY9.png"></td>
-    <td>£600 towards food</td>
-    <td><a href="http://elasticsearch.com/">http://elasticsearch.com/</a></td>
-</tr>
-<tr>
-    <td><img src="http://i.imgur.com/3cgCNK2.png"></td>
-    <td>£250</td>
-    <td><a href="http://laterpay.net/">http://laterpay.net/</a></td>
-</tr>
-<tr>
-    <td><img src="http://i.imgur.com/gIoR4vA.png"></td>
-    <td>£500</td>
-    <td><a href="https://gocardless.com/">https://gocardless.com/</a></td>
-</tr>
-<tr>
-    <td><img src="http://www.retrosnub.co.uk/img/2013/retrosnub.svg"></td>
-    <td>Networking, virtual server credits, and video streaming</td>
-    <td><a href="http://www.retrosnub.co.uk/">http://www.retrosnub.co.uk/</a></td>
-</tr>
-<tr>
-    <td><img src="http://i.imgur.com/v8bk3x1.png"></td>
-    <td>£600 towards food</td>
-    <td><a href="http://www.tinamous.com/">http://www.tinamous.com/</a></td>
-</tr>
-
+{% include sponsor_row.html org=page.sponsors.londonlime sponsored="Stickers and design work" %}
+{% include sponsor_row.html org=page.sponsors.oreilly sponsored="Books" %}
+{% include sponsor_row.html org=page.sponsors.elasticsearch sponsored="£600 towards food" %}
+{% include sponsor_row.html org=page.sponsors.laterpay sponsored="£250" %}
+{% include sponsor_row.html org=page.sponsors.gocardless sponsored="£500" %}
+{% include sponsor_row.html org=page.sponsors.retrosnub sponsored="Networking, virtual server credits, and video streaming" %}
+{% include sponsor_row.html org=page.sponsors.tinamous sponsored="£600 towards food" %}
 </table>
 
 
 <hr/>
 
-<h2>London, May 2013</h2>
+<h2 style="background-color: #e8e8e8; padding: 8px;margin:0">London, May 2013</h2>
 
 <table class="table table-condensed">
 <tr>
@@ -66,62 +127,23 @@ id: about
     <th>What</th>
     <th>Website</th>
 </tr>
-<tr>
-    <td><img src="/assets/images/sponsors/NHSE.jpg"></td>
-    <td>£3000 towards lunch</td>
-    <td><a href="http://www.commissioningboard.nhs.uk/">http://www.commissioningboard.nhs.uk/</a></td>
-</tr>
-<tr>
-    <td><img src="/assets/images/sponsors/nesta_logo_large.jpg"></td>
-    <td>£1000</td>
-    <td><a href="http://www.nesta.org.uk/">http://www.nesta.org.uk/</a></td>
-</tr>
-<tr>
-    <td><img src="/assets/images/sponsors/ml-header-home-blinking.gif"></td>
-    <td>Books</td>
-    <td><a href="http://www.oreilly.com/">http://www.oreilly.com/</a></td>
-</tr>
-<tr>
-    <td><img src="/assets/images/sponsors/ohc.jpg"></td>
-    <td>t-shirts + £100 for best openprescribing.org hack</td>
-    <td><a href="http://www.openhealthcare.org.uk">http://www.openhealthcare.org.uk</a></td>
-</tr>
-<tr>
-    <td><img src="/assets/images/sponsors/BadScience-logo.150.jpg"></td>
-    <td>£100 for best conflict interest of hack</td>
-    <td><a href="http://www.badscience.net">http://www.badscience.net</a></td>
-</tr>
-<tr>
-    <td><img src="/assets/images/sponsors/PHE.jpeg"></td>
-    <td>£300 of vouchers for public best health data visualisation</td>
-    <td><a href="https://www.gov.uk/government/organisations/public-health-england">https://www.gov.uk/government/organisations/public-health-england</a></td>
-</tr>
-<tr>
-    <td><img src="/assets/images/sponsors/global.jpg" width="300" height="75"></td>
-    <td>£500</td>
-    <td><a href="http://www.tactix4.com">http://www.tactix4.com</a></td>
-</tr>
-<tr>
-    <td><img src="/assets/images/sponsors/BJSS_LogogTeal.png" width="300" height="75"></td>
-    <td>£500</td>
-    <td><a href="http://www.bjss.com">http://www.bjss.com</a></td>
-</tr>
-<tr>
-    <td><img src="/assets/images/sponsors/openeyes.png" height="80"></td>
-    <td>£500 personal donation from Bill Aylwood director of OpenEyes</td>
-    <td><a href="http://www.openeyes.org.uk/">http://www.openeyes.org.uk/</a></td>
-</tr>
-<tr>
-    <td><img src="/assets/images/sponsors/ODI-logo-med.png"></td>
-    <td>£1000 from ODI towards venue costs</td>
-    <td><a href="http://www.theodi.org/">http://www.theodi.org/</a></td>
-</tr>
+{% include sponsor_row.html org=page.sponsors.nhse sponsored="£3000 towards lunch" %}
+{% include sponsor_row.html org=page.sponsors.nesta sponsored="£1000" %}
+{% include sponsor_row.html org=page.sponsors.oreilly sponsored="Books" %}
+{% include sponsor_row.html org=page.sponsors.ohc sponsored="t-shirts + £100 for best openprescribing.org hack" %}
+{% include sponsor_row.html org=page.sponsors.badscience sponsored="£100 for best conflict interest of hack" %}
+{% include sponsor_row.html org=page.sponsors.phe sponsored="£300 of vouchers for public best health data visualisation" %}
+{% include sponsor_row.html org=page.sponsors.tactix4 sponsored="£300" %}
+{% include sponsor_row.html org=page.sponsors.bjss sponsored="£500" %}
+{% include sponsor_row.html org=page.sponsors.openeyes sponsored="£500 personal donation from Bill Aylwood director of OpenEyes" %}
+{% include sponsor_row.html org=page.sponsors.odi sponsored="£1000 from ODI towards venue costs" %}
+
 </table>
 
 
 <hr/>
 
-<h2>Oxford, Jan 2013</h2>
+<h2 style="background-color: #e8e8e8; padding: 8px;margin:0">Oxford, Jan 2013</h2>
 
 <table class="table table-condensed">
 <tr>
@@ -129,52 +151,21 @@ id: about
     <th>What</th>
     <th>Website</th>
 </tr>
-<tr>
-    <td><img src="/assets/images/sponsors/nhscb_banner.jpg"></td>
-    <td>£3000 towards lunch</td>
-    <td><a href="http://www.commissioningboard.nhs.uk/">http://www.commissioningboard.nhs.uk/</a></td>
-</tr>
-<tr>
-    <td><img src="/assets/images/sponsors/nesta_logo_large.jpg"></td>
-    <td>£500 for best overall knowledge managment project + £100 towards refreshments</td>
-    <td><a href="http://www.nesta.org.uk/">http://www.nesta.org.uk/</a></td>
-</tr>
-<tr>
-    <td><img src="/assets/images/sponsors/ml-header-home-blinking.gif"></td>
-    <td>Books</td>
-    <td><a href="http://www.oreilly.com/">http://www.oreilly.com/</a></td>
-</tr>
-<tr>
-    <td><img src="/assets/images/sponsors/tczqKN_web.gif"></td>
-    <td>£500 knowledge management in diabetes</td>
-    <td><a href="http://www.health.org.uk/">http://www.health.org.uk/</a></td>
-</tr>
-<tr>
-    <td><img src="/assets/images/sponsors/ohc.png"></td>
-    <td>t-shirts + £100 for best conflict of interest hack</td>
-    <td><a href="http://www.openhealthcare.org.uk">http://www.openhealthcare.org.uk</a></td>
-</tr>
-<tr>
-    <td><img src="/assets/images/sponsors/Bytemark-THN.jpg"></td>
-    <td>£500 towards refreshments + free hosting trial for 4 months for whoever wants it</td>
-    <td><a href="http://www.bytemark.com/">http://www.bytemark.com/</a></td>
-</tr>
-<tr>
-    <td><img src="/assets/images/sponsors/BadScience-logo.150.jpg"></td>
-    <td>£100 for best conflict interest of hack</td>
-    <td><a href="http://www.badscience.net">http://www.badscience.net</a></td>
-</tr>
-<tr>
-    <td><img src="/assets/images/sponsors/kintoa.png"></td>
-    <td>£200 for knowledge management hack</td>
-    <td><a href="http://www.knowledgeintoaction.org/">http://www.knowledgeintoaction.org/</a></td>
-</tr>
+{% include sponsor_row.html org=page.sponsors.nhse sponsored="£3000 towards lunch" %}
+{% include sponsor_row.html org=page.sponsors.nesta sponsored="£500 for best overall knowledge managment project + £100 towards refreshments" %}
+{% include sponsor_row.html org=page.sponsors.oreilly sponsored="Books" %}
+{% include sponsor_row.html org=page.sponsors.health sponsored="£500 knowledge management in diabetes" %}
+{% include sponsor_row.html org=page.sponsors.ohc sponsored="t-shirts + £100 for best conflict of interest hack" %}
+{% include sponsor_row.html org=page.sponsors.bytemark sponsored="£500 towards refreshments + free hosting trial for 4 months for whoever wants it" %}
+{% include sponsor_row.html org=page.sponsors.badscience sponsored="£100 for best conflict interest of hack" %}
+{% include sponsor_row.html org=page.sponsors.knowledge sponsored="£200 for knowledge management hack" %}
+
 </table>
 
 
 <hr/>
 
-<h2>Liverpool, Sept 2012</h2>
+<h2 style="background-color: #e8e8e8; padding: 8px;margin:0">Liverpool, Sept 2012</h2>
 
 <table class="table table-condensed">
 <tr>
@@ -249,7 +240,7 @@ id: about
 
 <hr/>
 
-<h2>London, May 2012</h2>
+<h2 style="background-color: #e8e8e8; padding: 8px;margin:0">London, May 2012</h2>
 
 <table class="table table-condensed">
 <tr>

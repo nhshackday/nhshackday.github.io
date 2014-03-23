@@ -1,9 +1,23 @@
 ---
 layout: default
-title: About
-id: about
+title: Events
+id: events
 ---
 
 <div class="page-container">
-Events
+
+ {% for event in site.categories['events'] %}
+
+     <div class="event-block">
+        <h2>
+        <a href="{{event.permalink}}">{{event.title}} {{event.year}} {{event.label}}</a>
+        </h2>
+        <p>{{event.summary}}
+        <a href="{{event.url}}">Learn more &raquo;</a>
+        </p>
+    </div>
+
+ {% endfor %}
+
+
 </div>
