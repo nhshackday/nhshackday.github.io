@@ -11,6 +11,7 @@ To add an event you should create a new file in the _posts/events/ folder with a
 The following page-matter should be at the top of the file between the  ```---```.
 
 ```YAML
+---
 layout: event
 permalink: /previous/events/2014/01/cardiff
 title:  "Cardiff"
@@ -24,13 +25,28 @@ label: 2014
 blog-posts:
     - BCon.cc at NHSHackday : http://www.webdevbros.net/2014/02/20/cardiff-nhs-hack-day-or-weekend-and-bcon-cc/
     - NHS Hack Day : http://blogs.cardiff.ac.uk/development/2014/01/26/nhs-hack-day/
+---
+
 ```
+
+| Key  | Values |
+| ------------- | ------------- |
+| layout  | always 'event'  |
+| permalink  | CHange the year and month values and put the location at the end  |
+| title  | always 'event'  |
+| summary  | A short description of the venue and organiser  |
+| date  | the start date of the event  |
+| date_range  | The start and end date of the event  |
+| categories  | always 'events'  |
+| label  | If there are two events at the same location in the same year, this will differentiate them. By default should just be the year |
+| blog-posts  | If wanted, should be a link of dictionaries (hashes) where the key is the label, and the value is the link  |
+
 
 ## Adding projects
 
 To add an event you should create a new file in the _posts/projects/ folder with a filename like: ```YYYY-MM-DD-PROJECTNAME.md```
 
-The following page-matter should be at the top of the file between the ```---```
+The following page-matter should be at the top of the file```---```
 
 ```YAML
 ---
