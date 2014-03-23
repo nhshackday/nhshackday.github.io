@@ -1,0 +1,12 @@
+---
+layout: default
+---
+<div class="page-container">
+
+<h2>{{ page.title }}
+<small>{{ page.date_range[0] |date: '%d %b' }} - {{ page.date_range[1] |date: '%d %b' }} {{ page.date_range[1] |date: '%Y' }}</small></h2>
+
+
+{{ content }}
+
+</div>
