@@ -36,9 +36,7 @@
           <div class="navbar-collapse collapse">
             <ul class="nav navbar-nav">
               <li {% if url == '/rationale/' %}class="active"{% endif %}><a href="/rationale/">Rationale</a></li>
-              <li {% if url == '/tools/' %}class="active"{% endif %}><a href="/tools">Tools</a></li>
               <li {% if url == '/faqs/' %}class="active"{% endif %}><a href="/faqs">FAQs</a></li>
-
               <li {% if url contains '/previous/' %}class="active dropdown"{%else%}class="dropdown"{% endif %} >
                 <a href="#" class="dropdown-toggle" data-toggle="dropdown">Past Events, Projects and Code <b class="caret"></b></a>
                 <ul class="dropdown-menu">
@@ -46,7 +44,7 @@
                   <li {% if url == '/previous/projects/' %}class="active"{% endif %}><a href="/previous/projects/">Projects and code</a></li>
                 </ul>
               </li>
-
+              <li {% if url == '/tools/' %}class="active"{% endif %}><a href="/tools">Tools</a></li>
               <li {% if url == '/sponsorship/' %}class="active"{% endif %}><a href="/sponsorship/">Accounts and Sponsorship</a></li>
               <li {% if url == '/media/' %}class="active"{% endif %}><a href="/media/">Media</a></li>
               <li {% if url == '/contact/' %}class="active"{% endif %}><a href="/contact/">Contact Us</a></li>
