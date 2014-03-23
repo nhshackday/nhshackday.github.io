@@ -2,14 +2,50 @@
 layout: default
 title: About
 id: about
+sponsors:
+    ohc:
+        name: Open Health Care UK
+        url: http://openhealthcare.org.uk/
+        logo: /assets/images/sponsors/ohc.png
+    londonlime:
+        name: LondonLime
+        url: http://londonlime.net/
+        logo: /assets/images/sponsors/londonlime-logo.jpg
+    oreilly:
+        name: O'Reilly
+        url: http://www.oreilly.com/
+        logo: http://cdn.oreilly.com/images/sitewide-headers/ml-header-home-blinking.gif
+    elasticsearch:
+        name: ElasticSearch
+        url: http://elasticsearch.com/
+        logo: http://i.imgur.com/qLSTCY9.png
+    laterpay:
+        name: LaterPay
+        url: http://laterpay.net/
+        logo: http://i.imgur.com/3cgCNK2.png
+    gocardless:
+        name: GoCardless
+        url: https://gocardless.com/
+        logo: http://i.imgur.com/gIoR4vA.png
+    retrosnub:
+        name: Retrosnug
+        url: http://www.retrosnub.co.uk/
+        logo: http://www.retrosnub.co.uk/img/2013/retrosnub.svg
+    tinamous:
+        name: Tinamous
+        url: http://www.tinamous.com/
+        logo: http://i.imgur.com/v8bk3x1.png
+
 ---
+
+
 
 <div class="page-container">
 
 <p>Open Health Care UK organize NHS Hack Day as a not for profit event. By this we mean that no one, including the organizers, is getting paid to attend. If you would like to support the next event email <a href="mailto:hello@openhealthcare.org.uk?Subject=Can I help?">hello@openhealthcare.org.uk</a></p>
 
 <hr/>
-<h2>Cambridge, Nov 2013</h2>
+<h2 style="background-color: #e8e8e8; padding: 8px;margin:0">Cambridge, Nov 2013</h2>
 
 <table class="table table-condensed">
 <tr>
@@ -17,48 +53,19 @@ id: about
     <th>What</th>
     <th>Website</th>
 </tr>
-<tr>
-    <td><img src="/assets/images/sponsors/londonlime-logo.jpg"></td>
-    <td>Stickers and design work</td>
-    <td><a href="http://londonlime.net/">http://londonlime.net/</a></td>
-</tr>
-<tr>
-    <td><img src="http://cdn.oreilly.com/images/sitewide-headers/ml-header-home-blinking.gif"></td>
-    <td>A selection of books as prizes</td>
-    <td><a href="http://www.oreilly.com/">http://www.oreilly.com/</a></td>
-</tr>
-<tr>
-    <td><img src="http://i.imgur.com/qLSTCY9.png"></td>
-    <td>£600 towards food</td>
-    <td><a href="http://elasticsearch.com/">http://elasticsearch.com/</a></td>
-</tr>
-<tr>
-    <td><img src="http://i.imgur.com/3cgCNK2.png"></td>
-    <td>£250</td>
-    <td><a href="http://laterpay.net/">http://laterpay.net/</a></td>
-</tr>
-<tr>
-    <td><img src="http://i.imgur.com/gIoR4vA.png"></td>
-    <td>£500</td>
-    <td><a href="https://gocardless.com/">https://gocardless.com/</a></td>
-</tr>
-<tr>
-    <td><img src="http://www.retrosnub.co.uk/img/2013/retrosnub.svg"></td>
-    <td>Networking, virtual server credits, and video streaming</td>
-    <td><a href="http://www.retrosnub.co.uk/">http://www.retrosnub.co.uk/</a></td>
-</tr>
-<tr>
-    <td><img src="http://i.imgur.com/v8bk3x1.png"></td>
-    <td>£600 towards food</td>
-    <td><a href="http://www.tinamous.com/">http://www.tinamous.com/</a></td>
-</tr>
-
+{% include sponsor_row.html org=page.sponsors.londonlime sponsored="Stickers and design work" %}
+{% include sponsor_row.html org=page.sponsors.oreilly sponsored="Books" %}
+{% include sponsor_row.html org=page.sponsors.elasticsearch sponsored="£600 towards food" %}
+{% include sponsor_row.html org=page.sponsors.laterpay sponsored="£250" %}
+{% include sponsor_row.html org=page.sponsors.gocardless sponsored="£500" %}
+{% include sponsor_row.html org=page.sponsors.retrosnub sponsored="Networking, virtual server credits, and video streaming" %}
+{% include sponsor_row.html org=page.sponsors.tinamous sponsored="£600 towards food" %}
 </table>
 
 
 <hr/>
 
-<h2>London, May 2013</h2>
+<h2 style="background-color: #e8e8e8; padding: 8px;margin:0">London, May 2013</h2>
 
 <table class="table table-condensed">
 <tr>
@@ -121,7 +128,7 @@ id: about
 
 <hr/>
 
-<h2>Oxford, Jan 2013</h2>
+<h2 style="background-color: #e8e8e8; padding: 8px;margin:0">Oxford, Jan 2013</h2>
 
 <table class="table table-condensed">
 <tr>
@@ -174,7 +181,7 @@ id: about
 
 <hr/>
 
-<h2>Liverpool, Sept 2012</h2>
+<h2 style="background-color: #e8e8e8; padding: 8px;margin:0">Liverpool, Sept 2012</h2>
 
 <table class="table table-condensed">
 <tr>
@@ -249,7 +256,7 @@ id: about
 
 <hr/>
 
-<h2>London, May 2012</h2>
+<h2 style="background-color: #e8e8e8; padding: 8px;margin:0">London, May 2012</h2>
 
 <table class="table table-condensed">
 <tr>
