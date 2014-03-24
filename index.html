@@ -9,29 +9,9 @@ published: true
     <div class="col-md-6">
         <img src="/assets/images/mainroom2.jpg" style="width:100%;"/>
 
-        <p style="text-align:center;">
-            <br/>
-             <form class="form" style="padding:3px;text-align:center;" action="https://tinyletter.com/nhshackday" method="post" target="popupwindow" onsubmit="window.open('https://tinyletter.com/nhshackday', 'popupwindow', 'scrollbars=yes,width=800,height=600');return true">
-			<br><br>
-                <p>
-                    <label for="tlemail">Sign up to get news and announcements about NHS Hack Day</label></p>
-                    <p>
-                    <div class="form-group">
-                        <div class="input-group">
-                            <span class="input-group-addon">
-                            <span class="glyphicon glyphicon-envelope"></span>
-                            </span>
-                            <input type="email" class="form-control" name="email" id="tlemail" /></p><input type="hidden" value="1" name="embed"/>
-                        </div>
-                    </div>
-                        <input class="btn btn-info" type="submit" value="Subscribe" />
-      <p>
-        <small>
-          (Low volume ~= 1 email per month)
-        </small>
-      </p>
-            </form>
-
+        <p style="margin-top: 10px;">
+        <a class="twitter-timeline" data-dnt="true" href="https://twitter.com/NHSHackDay" data-widget-id="448173326255398912">Recent Tweets by @NHSHackDay</a>
+        <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
         </p>
     </div>
     <div class="col-md-6" style="font-size: 18px; font-weight: 200">
@@ -41,15 +21,30 @@ published: true
         <p>Our events are free to attend, and have great support from across the healthcare and tech sectors. We’re a friendly bunch, so come along and get stuck in!</p>
 
         <p>The next NHS Hack Day will be on {{site.next-event.date}} in {{site.next-event.location}}.</p>
-        <p style="text-align:center">
-            <br/>
+        <p style="text-align:center; margin-top: 20px;">
             {% if site.next-event.signup %}
             <a class="btn btn-lg btn-warning" href="{{site.next-event.signup}}">Sign up for the next NHS Hack Day!</a>
             {% endif %}
         </p>
-<br>
-<a class="twitter-timeline" data-dnt="true" href="https://twitter.com/NHSHackDay" data-widget-id="448173326255398912">Recent Tweets by @NHSHackDay</a>
-<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+
+
+        <p style="text-align:center; margin-top: 40px;">
+          <form class="form" style="padding:3px;text-align:center;" action="https://tinyletter.com/nhshackday" method="post" target="popupwindow" onsubmit="window.open('https://tinyletter.com/nhshackday', 'popupwindow', 'scrollbars=yes,width=800,height=600');return true">
+          <p><label for="tlemail">Sign up to get news and announcements about future NHS Hack Days</label></p>
+          <p>
+            <div class="form-group">
+                <div class="input-group">
+                  <span class="input-group-addon">
+                    <span class="glyphicon glyphicon-envelope"></span>
+                  </span>
+                  <input type="email" class="form-control" name="email" id="tlemail" /></p><input type="hidden" value="1" name="embed"/>
+                </div>
+            </div>
+            <input class="btn btn-info" type="submit" value="Subscribe" />
+          <p><small>(Low volume ~= 1 email per month)</small></p>
+          </form>
+        </p>
+
 
     </div>
 </div>
