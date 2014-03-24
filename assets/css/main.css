@@ -21,6 +21,7 @@ body {
 }
 
 .footer {
+    margin-top: 8px;
     border-top: solid 1px #e5e5e5;
     padding: 8px;
     font-weight: 200;
