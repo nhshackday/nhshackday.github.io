@@ -79,6 +79,54 @@ sponsors:
         name: Knowledge Into Action
         url: #
         logo: /assets/images/sponsors/kintoa.png
+    scraperwiki:
+        name: ScraperWiki
+        url: https://scraperwiki.com
+        logo: /assets/images/sponsors/scraperwiki.png
+    canonical:
+        name: Canonical
+        url: http://canonical.com
+        logo: /assets/images/sponsors/canonical.jpg
+    ol:
+        name: OpenLabs
+        url: http://www.ljmu.ac.uk/aps/OpenLabs/
+        logo: /assets/images/sponsors/ol.png
+    rightcare:
+        name: Rightcare
+        url: http://www.rightcare.nhs.uk/
+        logo: /assets/images/sponsors/rightcarelogo.png
+    mayden:
+        name: Mayden
+        url: http://www.mayden.co.uk/
+        logo: "/assets/images/sponsors/Mayden Logo.png"
+    aa:
+        name: Mayden
+        url: http://www.advancedcomputersoftware.com/
+        logo: "/assets/images/sponsors/AdvancedHC.png"
+    quicksila:
+        name: Quicksilva
+        url: http://www.qxlva.com/
+        logo: "/assets/images/sponsors/Qxlva_logo_CMYK.png"
+    totallyhealth:
+        name: Totally Health
+        url: http://www.totallyhealth.com/
+        logo: "/assets/images/sponsors/TOTALLY HEALTH LOGO no strapline.jpg"
+    kainos:
+        name: Kainos
+        url: http://www.kainos.com/
+        logo: "/assets/images/sponsors/kainos.png"
+    masty:
+        name: Mastodon C
+        url: http://www.mastodonc.com/
+        logo: "/assets/images/sponsors/masty.jpg"
+    ukgovcamp:
+        name: UK Gov Camp
+        url: http://www.ukgovcamp.com
+        logo: "/assets/images/sponsors/ukgovcamp.png"
+    nhsic:
+        name: NHS Information Centre
+        url: http://www.ic.nhs.uk
+        logo: "/assets/images/sponsors/nhsic.gif"
 ---
 
 
@@ -185,70 +233,22 @@ sponsors:
     <th>What</th>
     <th>Website</th>
 </tr>
-<tr>
-    <td><img src="/assets/images/sponsors/nhscb_banner.jpg"></td>
-    <td>£3000 unrestricted</td>
-    <td><a href="http://www.commissioningboard.nhs.uk/">http://www.commissioningboard.nhs.uk/</a></td>
-</tr>
-<tr>
-    <td><img src="/assets/images/sponsors/ol.png"></td>
-    <td>Venue/Staff/Media/T-shirts etc</td>
-    <td><a href="http://www.ljmu.ac.uk/aps/OpenLabs/">http://www.ljmu.ac.uk/aps/OpenLabs/</a></td>
-</tr>
-<tr>
-    <td><img src="/assets/images/sponsors/rightcarelogo.png"></td>
-    <td>£4000 unrestricted</td>
-    <td><a href="http://www.rightcare.nhs.uk/">http://www.rightcare.nhs.uk/</a></td>
-</tr>
-<tr>
-    <td><img src="/assets/images/sponsors/ml-header-home-blinking.gif"></td>
-    <td>Ticket to Strata - best big data project</td>
-    <td><a href="http://www.oreilly.com/">http://www.oreilly.com/</a></td>
-</tr>
-<tr>
-    <td><img src="/assets/images/sponsors/tczqKN_web.gif"></td>
-    <td>Patient involvement in patient safety prize</td>
-    <td><a href="http://www.health.org.uk/">http://www.health.org.uk/</a></td>
-</tr>
-<tr>
-    <td><img src="/assets/images/sponsors/"></td>
-    <td>Prizes - best Juju charm (https://juju.ubuntu.com/)</td>
-    <td><a href="http://www.canonical.com">http://www.canonical.com</a></td>
-</tr>
-<tr>
-    <td><img src="/assets/images/sponsors/scraperwiki.png"></td>
-    <td>Prizes - best use of ScraperWiki (http://scraperwiki.com) </td>
-    <td><a href="http://www.scraperwiki.com">http://www.scraperwiki.com</a></td>
-</tr>
-<tr>
-    <td><img src="/assets/images/sponsors/scraperwiki.png"></td>
-    <td>Prizes - best use of ScraperWiki (http://scraperwiki.com) </td>
-    <td><a href="http://www.scraperwiki.com">http://www.scraperwiki.com</a></td>
-</tr>
+
+{% include sponsor_row.html org=page.sponsors.nhse sponsored="£3000 unrestricted" %}
+{% include sponsor_row.html org=page.sponsors.ol sponsored="Venue/Staff/Media/T-shirts etc" %}
+{% include sponsor_row.html org=page.sponsors.rightcare sponsored="£4000 unrestricted" %}
+{% include sponsor_row.html org=page.sponsors.oreilly sponsored="Ticket to Strata - best big data project" %}
+{% include sponsor_row.html org=page.sponsors.health sponsored="Patient involvement in patient safety prize" %}
+{% include sponsor_row.html org=page.sponsors.canonical sponsored="Prizes - best Juju charm (https://juju.ubuntu.com/)" %}
+{% include sponsor_row.html org=page.sponsors.scraperwiki sponsored="Prizes - best use of ScraperWiki (http://scraperwiki.com) " %}
+{% include sponsor_row.html org=page.sponsors.tactix4 sponsored="Google Nexus 7 tablet" %}
+{% include sponsor_row.html org=page.sponsors.mayden sponsored="Google Nexus 7 tablet" %}
+{% include sponsor_row.html org=page.sponsors.aa sponsored="Google Nexus 7 tablet" %}
+{% include sponsor_row.html org=page.sponsors.quicksila sponsored="Google Nexus 7 tablet" %}
+{% include sponsor_row.html org=page.sponsors.totallyhealth sponsored="Google Nexus 7 tablet" %}
+{% include sponsor_row.html org=page.sponsors.londonlime sponsored="Design wizardry inc. NHS Hack Day Logos, t-shirts, and stickers" %}
+{% include sponsor_row.html org=page.sponsors.ohc sponsored="Samsung Galaxy Tablet - best use of open data" %}
 </table>
-
-
-||{{}}|||| ||||pledged||||||
-
-||{{https://bitbucket.org/ScraperWiki/scraperwiki/raw/cbcca9b46a52/web/media/images/}}||||||||pledged||||||
-
-||{{attachment:global.jpg|alt Tactix4|width=300 height=75}}||||Google Nexus 7 tablet||||PAID||||[[http://www.tactix4.com]]||
-
-||{{attachment:Mayden Logo.png|alt Mayden|width=300 height=75}}||||Google Nexus 7 tablet||||PAID||||[[http://www.mayden.co.uk/]]||
-
-||{{attachment:AdvancedHC.png|alt Advanced|width=300 height=75}}||||Google Nexus 7 tablets||||PAID||||[[http://www.advancedcomputersoftware.com/]]||
-
-||{{attachment:Qxlva_logo_CMYK.png|alt Quicksilva|width=300 height=75}}||||Google Nexus 7 tablet||||PAID||||[[http://www.qxlva.com/]]||
-
-||{{attachment:TOTALLY HEALTH LOGO no strapline.jpg|alt Totally Health|width=300 height=75}}||||Google Nexus 7 tablet||||PAID||||[[http://www.totallyhealth.com/]]||
-
-||{{attachment:londonlime-logo.jpg}}||||Design wizardry inc. NHS Hack Day Logos, t-shirts, and stickers||||paid||||http://portfolio.londonlime.net/index.html||
-
-||{{attachment:ohc.png}}||||Samsung Galaxy Tablet - best use of open data||||PAID||||http://www.openhealthcare.org.uk||
-
-
-
-
 
 <hr/>
 
@@ -261,22 +261,19 @@ sponsors:
     <th>Website</th>
 </tr>
 <tr>
-    <td><img src=""></td>
-    <td></td>
-    <td><a href=""></a></td>
+
+{% include sponsor_row.html org=page.sponsors.rightcare sponsored="£5000 unrestricted" %}
+{% include sponsor_row.html org=page.sponsors.ohc sponsored="£3226.40 venue costs + £4560 refreshments (healthy lunch + tea and coffee for 200 for 2 days @ULU) + £200 prizes (inc t-shirts)+ approx £500 on pub meets and other incidental costs (total £8486.40)|" %}
+{% include sponsor_row.html org=page.sponsors.tactix4 sponsored="£beer" %}
+{% include sponsor_row.html org=page.sponsors.oreilly sponsored="Books" %}
+{% include sponsor_row.html org=page.sponsors.scraperwiki sponsored="£150 amazon vouchers as prizes for best nhshackday scraper" %}
+{% include sponsor_row.html org=page.sponsors.kainos sponsored="Raspberry Pi" %}
+{% include sponsor_row.html org=page.sponsors.masty sponsored="Cloud computing time" %}
+{% include sponsor_row.html org=page.sponsors.ukgovcamp sponsored="£250 unrestricted" %}
+{% include sponsor_row.html org=page.sponsors.nhsic sponsored="£2000 catering sponsorship for 200 attendees" %}
+
 </tr>
 </table>
-
-||Who||||What||||Status||||Website||
-||NHS Right Care||||£5000 unrestricted||||paid to Open Health Care UK||||http://www.rightcare.nhs.uk/||
-||Open Health Care UK||||£3226.40 venue costs + £4560 refreshments (healthy lunch + tea and coffee for 200 for 2 days @ULU) <<BR>> + £200 prizes (inc t-shirts)+ approx £500 on pub meets and other incidental costs (total £8486.40)||||paid||||http://www.openhealthcare.org.uk||
-||Tactix4||||£beer||||paid||||http://www.tactix4.com/||
-||Kainos||||Raspberry Pi||||paid||||http://www.kainos.com/||
-||Mastodon C||||Cloud computing time||||paid||||http://www.mastodonc.com/||
-||O'Reilly||||Books||||Prizes given||||http://www.oreilly.com/||
-||UKGovcamp||||£250 unrestricted||||paid||||http://www.ukgovcamp.com||
-||NHS Information Centre||||£2000 catering sponsorship for 200 attendees||||paid||||http://www.ic.nhs.uk||
-||Scraperwiki||||£150 amazon vouchers as prizes for best "nhshackday" scraper||||Prizes given||||http://www.scraperwiki.com||
 
 
 
