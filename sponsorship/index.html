@@ -127,6 +127,23 @@ sponsors:
         name: NHS Information Centre
         url: http://www.ic.nhs.uk
         logo: "/assets/images/sponsors/nhsic.gif"
+
+    wao:
+        name: Wales Audit Office Good Practice
+        url: http://www.wao.gov.uk/
+        logo: /assets/images/sponsors/wao.png
+    phw:
+        name: Lives Improvement Service, Public Health Wales
+        url: http://www.publichealthwales.wales.nhs.uk/
+        logo: /assets/images/sponsors/phw.jpg
+    nhswis:
+        name: NHS Wales Informatics Service
+        url: http://www.wales.nhs.uk/nwis/page/52490
+        logo: /assets/images/sponsors/nhswis.jpg
+    cloudant:
+        name: Cloudant
+        url: http://cloudant.com
+        logo: /assets/images/sponsors/cloudant.png
 ---
 
 
@@ -152,6 +169,12 @@ sponsors:
     <th>Who</th>
     <th>What</th>
     <th>Website</th>
+</tr>
+<tr>
+{% include sponsor_row.html org=page.sponsors.wao sponsored="£1000" %}
+{% include sponsor_row.html org=page.sponsors.phw sponsored="£1500" %}
+{% include sponsor_row.html org=page.sponsors.nhswis sponsored="£1500" %}
+{% include sponsor_row.html org=page.sponsors.cloudant sponsored="£250" %}
 </tr>
 </table>
 
