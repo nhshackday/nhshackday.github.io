@@ -9,6 +9,9 @@ date_range:
     - 2013-11-03 00:00:00
 categories: events
 label: 2013
+blog-posts:
+    - doismellburning -- NHS Hack Day Cambridge : http://blog.doismellburning.co.uk/2014/02/20/nhs-hack-day-cambridge-2013
+
 ---
 
 Content goes here...
