@@ -6,15 +6,14 @@ id: tools
 
 <div class="page-container">
 
-      <h1>Tools</h1>
-
  {% for event in site.categories['tools'] %}
+
      <div class="event-block">
-		<h2>
-        	<a href="{{tools.permalink}}">{{tool.title}}</a>
+        <h2>
+        <a href="{{event.permalink}}">{{tool.title}}</a>
         </h2>
         <p>{{tool.summary}}
-        <a href="{{event.url}}">Learn more &raquo;</a>
+        <a href="{{tool.permalink}}">See list &raquo;</a>
         </p>
     </div>
 
