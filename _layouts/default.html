@@ -42,17 +42,21 @@
                   <li {% if url == '/previous/projects/' %}class="active"{% endif %}><a href="/previous/projects/">Projects and Code</a></li>
                 </ul>
               </li>
-              <li {% if url == '/tools/' %}class="active"{% endif %}><a href="/tools">Tools</a></li>
+
+              <li {% if url contains '/tools/' %}class="active dropdown"{%else%}class="dropdown"{% endif %} >
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Tools <b class="caret"></b></a>
+                <ul class="dropdown-menu">
+                  <li {% if url == '/tools/apis/' %}class="active"{% endif %}><a href="/tools/apis/">APIs</a></li>
+                  <li {% if url == '/tools/datasets/' %}class="active"{% endif %}><a href="/tools/datasets/">Datasets</a></li>
+                  <li {% if url == '/tools/datasets-restricted/' %}class="active"{% endif %}><a href="/tools/datasets-restricted/">Restricted datasets</a></li>
+                  <li {% if url == '/tools/data-wishlist/' %}class="active"{% endif %}><a href="/tools/data-wishlist/">Data wish list</a></li>
+                </ul>
+              </li>
+
               <li {% if url == '/sponsorship/' %}class="active"{% endif %}><a href="/sponsorship/">Accounts and Sponsorship</a></li>
               <li {% if url == '/media/' %}class="active"{% endif %}><a href="/media/">Media</a></li>
               <li {% if url == '/contact/' %}class="active"{% endif %}><a href="/contact/">Contact Us</a></li>
             </ul>
-            <!--
-            <ul class="nav navbar-nav navbar-right">
-              <li class="active"><a href="./">Default</a></li>
-              <li><a href="../navbar-static-top/">Static top</a></li>
-              <li><a href="../navbar-fixed-top/">Fixed top</a></li>
-            </ul> -->
           </div>
         </div>
       </div>
