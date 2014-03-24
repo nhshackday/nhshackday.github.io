@@ -1,9 +1,22 @@
 ---
 layout: default
 ---
-<h2>{{ page.title }}</h2>
-<p class="meta">{{ page.date | date_to_string }}</p>
+<div class="page-container">
 
-<div class="post">
-{{ content }}
+<h2 class="pull-left">{{ page.title }}
+<small>{{ page.summary }}</small></h2>
+
+{% if page.links %}
+    <ul>
+    {% for pair in page.links %}
+        {% for item in pair %}
+            <li>
+            {{ item[0] }}: <a href="{{ item[1] }}" target="_blank">{{item[1]}}</a>
+            </li>
+        {% endfor %}
+    {% endfor%}
+    </ul>
+{% endif %}
+
+<div class="clearfix"></div>
 </div>

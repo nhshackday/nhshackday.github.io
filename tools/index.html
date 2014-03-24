@@ -1,31 +1,24 @@
 ---
 layout: default
-title: Projects and Code
-id: projects
+title: Tools
+id: tools
 ---
 
 <div class="page-container">
 
- <h4>
- Tools
- </h4>
+      <h1>Tools</h1>
 
- {% for project in site.categories['tools'] %}
-    <!-- col-md-6 will make these all show side by side but doesn't take account
-         of differences in the amount of summary text which will skew the layout -->
-    <div class="col-md-6" style="min-height: 200px">
-      <div style="text-align:center;">
-          {% else %}
-          <span class="logorepl">{{tool.title}}</span>
-          {% endif %}
-      </div>
-
-      <p>{{ tool.summary }}</p>
-
-       <p><a href="{{tool.website}}" target="_blank">Learn more &raquo;</a></p>
+ {% for event in site.categories['tools'] %}
+     <div class="event-block">
+		<h2>
+        	<a href="{{event.permalink}}">{{tool.title}}</a>
+        </h2>
+        <p>{{tool.summary}}
+        <a href="{{event.url}}">Learn more &raquo;</a>
+        </p>
     </div>
-  {% endfor %}
 
-  <div class="clearfix"></div>
+ {% endfor %}
+
 
 </div>
