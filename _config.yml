@@ -11,5 +11,5 @@ previous:
 next-event:
     date: 26th May 2014
     location: London
-    venue: Venue name
-    signup-not-really: http://signup/page
+    venue:  "St.George's Students' Union"
+    signup: https://nhshackday.eventwax.com/nhs-hack-day-london/register
