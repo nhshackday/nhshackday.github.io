@@ -4,8 +4,9 @@ layout: default
 <div class="page-container">
 
 <h2 class="pull-left">{{ page.title }}
-<small>{{ page.summary }}</small></h2>
+<small></small></h2>
 
+<div class="well well-large">
 {% if page.links %}
     <ul>
     {% for pair in page.links %}
@@ -16,6 +17,7 @@ layout: default
         {% endfor %}
     {% endfor%}
     </ul>
+</div>
 {% endif %}
 
 <div class="clearfix"></div>
