@@ -35,6 +35,10 @@ h2 { font-weight: 200; }
     padding: 8px
 }
 
+.tool-block {
+    padding: 8px
+}
+
 .event-sidebar {
   min-width: 200px;
   max-width: 250px;
