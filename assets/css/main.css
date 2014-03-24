@@ -21,7 +21,17 @@ body {
 }
 
 .footer {
-  margin-top: 20px;
+    border-top: solid 1px #e5e5e5;
+    padding: 8px;
+    font-weight: 200;
+}
+.footer ul {
+  margin-top: 8px;
+  width: 100%;
+}
+.footer ul li {
+  display: inline;
+  margin-left: 30px;
 }
 
 h2 { font-weight: 200; }
