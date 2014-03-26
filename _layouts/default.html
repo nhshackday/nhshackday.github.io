@@ -40,10 +40,10 @@
               <li {% if url == '/rationale/' %}class="active"{% endif %}><a href="/rationale/">Rationale</a></li>
               <li {% if url == '/faqs/' %}class="active"{% endif %}><a href="/faqs">FAQs</a></li>
               <li {% if url contains '/previous/' %}class="active dropdown"{%else%}class="dropdown"{% endif %} >
-                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Past Events, Projects and Code <b class="caret"></b></a>
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Events and Projects <b class="caret"></b></a>
                 <ul class="dropdown-menu">
-                  <li {% if url == '/previous/events/' %}class="active"{% endif %}><a href="/previous/events/">Events</a></li>
-                  <li {% if url == '/previous/projects/' %}class="active"{% endif %}><a href="/previous/projects/">Projects and Code</a></li>
+                  <li {% if url == '/previous/events/' %}class="active"{% endif %}><a href="/previous/events/">Events, projects and code</a></li>
+                  <li {% if url == '/previous/projects/' %}class="active"{% endif %}><a href="/previous/projects/">Ongoing projects</a></li>
                 </ul>
               </li>
 
