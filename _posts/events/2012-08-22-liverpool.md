@@ -2,7 +2,7 @@
 layout: event
 permalink: /previous/events/2012/05/liverpool
 title:  "Liverpool"
-summary: "."
+summary: "Held at ***, and organised by ***."
 date:   2012-09-22 00:00:00
 date_range:
     - 2012-09-22 00:00:00
