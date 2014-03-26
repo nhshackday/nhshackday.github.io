@@ -7,10 +7,18 @@ layout: default
 <small>{{ page.date_range[0] |date: '%d %b' }} - {{ page.date_range[1] |date: '%d %b' }} {{ page.date_range[1] |date: '%Y' }}</small></h2>
 
 
+<p class="well">Held in *** and organised by ***.<br><br>
+{% if page.teams%}
+	{% if page.blog-posts%}
+			<a href="#teams">#List of teams</a></br>
+    		<a href="#blogs">#Blog posts</a>
+	{% endif %}
+{% endif %}
+</p>
 
 {% if page.teams%}
 <div>
-    <h3>Teams</h3>
+    <h3 id="teams">Teams</h3>
     <table class="table table-striped table-bordered">
 		<thead>
 			<tr><th>Project</th><th>Members</th><th>Summary</th><th>URL</th></tr>
@@ -28,7 +36,7 @@ layout: default
 
 {% if page.blog-posts %}
 <div>
-    <h3>Blog posts</h3>
+    <h3 id="blogs">Blog posts</h3>
     <ul>
     {% for pair in page.blog-posts %}
         {% for item in pair %}
