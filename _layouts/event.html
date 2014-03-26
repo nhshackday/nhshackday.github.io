@@ -7,7 +7,7 @@ layout: default
 <small>{{ page.date_range[0] |date: '%d %b' }} - {{ page.date_range[1] |date: '%d %b' }} {{ page.date_range[1] |date: '%Y' }}</small></h2>
 
 
-<p class="well">Held in *** and organised by ***.<br><br>
+<p class="well">{{page.summary}}<br><br>
 {% if page.teams%}
 	{% if page.blog-posts%}
 			<a href="#teams">#List of teams</a></br>
