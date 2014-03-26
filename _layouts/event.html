@@ -27,12 +27,12 @@ layout: default
     <h3>Teams</h3>
     <table class="table table-striped">
 		<thead>
-			<tr><th>Project</th><th>Members</th><th>Summary</th><th>URL</th><th>Notes</th></tr>
+			<tr><th>Project</th><th>Members</th><th>Summary</th><th>URL</th></tr>
 		</thead>
     {% for team in page.teams %}
             <tr>
 				<td>{{team.project}}</td><td>{{team.members}}</td><td>{{team.summary}}</td>
-<td>{{team.url}}</td><td>{{team.notes}}</td>
+<td>{{team.url}}</td></td>
            </tr>
     {% endfor%}
     </table>
