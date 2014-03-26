@@ -67,3 +67,11 @@ h2 { font-weight: 200; }
 .event-sidebar ul li {
   margin-left: -25px;
 }
+
+tr:nth-child(even) {
+  background:#eef;
+}
+
+th {
+  background:#ddd;
+}
