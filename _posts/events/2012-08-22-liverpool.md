@@ -14,15 +14,7 @@ blog-posts:
     - Francis Irving -- Hacking the National Health Service : http://blog.scraperwiki.com/2012/09/24/hacking-the-nhs/
     - The NHS ePortfolio Revolution starts here : http://nhseportfoliorevolution.wordpress.com/2012/09/24/nhs-hackday-and-the-eportfolio-data-liberation-front
     - Nick Tollervey -- A deadly equation of acronyms -- NHS+IT=FUBAR : http://ntoll.org/article/nhsitfubar
+teams:
+    - {project: "OpFast", members: "Michael Odling-Smee", summary: "A convenient and elegant way for patients to complete a wide variety of health forms, which can be exported for clinicians (PDF) or for the patient's clinical record (XML).", url: "Now forms4health: http://sourceforge.net/projects/forms4health/"}
+    - {project: "", members: "", summary: "", url: ""}
 ---
-
-<table class="table table-striped">
-<thead>
-	<tr><th>Presentation</th><th>Team</th><th>Members</th><th>Twitter</th><th>Code</th></tr>
-</thead>
-	<tr><td>x</td><td>OpFast</td><td>Michael Odling-Smee</td><td></td><td>Now forms4health: <a href="http://sourceforge.net/projects/forms4health/">http://sourceforge.net/projects/forms4health/</a></td></tr>
-	<tr><td>x</td><td></td><td></td><td></td><td></td></tr>
-	<tr><td>x</td><td></td><td></td><td></td><td></td></tr>
-	<tr><td>x</td><td></td><td></td><td></td><td></td></tr>
-	<tr><td>x</td><td></td><td></td><td></td><td></td></tr>
-</table>

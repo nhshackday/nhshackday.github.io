@@ -21,6 +21,24 @@ layout: default
 </div>
 {% endif %}
 
+
+{% if page.teams%}
+<div>
+    <h3>Teams</h3>
+    <table class="table table-striped">
+		<thead>
+			<tr><th>Project</th><th>Members</th><th>Summary</th><th>URL</th></tr>
+		</thead>
+    {% for team in page.teams %}
+            <tr>
+				<td>{{team.project}}</td><td>{{team.members}}</td><td>{{team.summary}}</td>
+<td>{{team.url}}</td></td>
+           </tr>
+    {% endfor%}
+    </table>
+</div>
+{% endif %}
+
 <div class="clearfix"></div>
 {{ content }}
 </div>

@@ -12,24 +12,21 @@ label: 2013
 blog-posts:
     - doismellburning -- NHS Hack Day Cambridge : http://blog.doismellburning.co.uk/2014/02/20/nhs-hack-day-cambridge-2013
     - Rachel Graves (@didlix) -- NHS Hack Day 5 : http://didlix.net/2013/11/02/nhs-hack-day-5.html
----
+teams:
+    - {project: iPatch, members: "@diamondsparker, @philpursglove", summary: "iPatch is an application for tracking the treatment of lazy eyes in children and adults.", url: "http://ipatch.azurewebsites.net/"}
+    - {project: 3D-printed Brachy Moulds, members: "Martin Green", summary: "", url: ""}
+    - {project: NHS Rainbow, members: "Rachel Graves @didlix, Camille Baldock @camille_ldn", summary: "Information about LGBTQ*-friendly health services by geographic location.", url: "http://nhsrainbow.herokuapp.com/"}
+    - {project: CellClustr, members: "Sadiq Jaffer @sadiqj, John Winn @johnmwinnm, Duncan Brian @haematologic, Oscar Bennett, Wai Keong Wong @wai2k", summary: "Image-recognition functionality for www.cellcountr.com", url: ""}
+    - {project: Task Hero, members: "Manuel, Ryan, Imran, Heidi, Steve, Tilman", summary: "", url: ""}
+    - {project: PatientRFID, members: "Yuriy Akopov @y_akopov", summary: "", url: "http://tinyurl.com/patientrfid"}
+    - {project: FYi, members: "@jonjhilton", summary: "", url: "medqna-vps.retrosnub.co.uk", notes: ""}
+    - {project: myPatients, members: "", summary: "", url: "", notes: ""}
+    - {project: , members: "Martyn Loughran @mloughran, Dafydd Loughran Dafydd Loughran, Dan Lashley", summary: "", url: ""}
+    - {project: Practiceminder, members: "Allen Lin @allenlin, Anne Marie Cunningham @amcunningham, Phelim Bradley @phelimb, Ole Schulz-Trieglaff, Matt Bates @mattbates25, Brice Fernandes @fractallambda", summary: "", url: "http://practiceminder.herokuapp.com/"}
+    - {project: Online Pre-Op Assessment, members: "Gareth Mula @gazrhys, Andrew Davey @andrewdavey", summary: "", url: "", notes: ""}
+    - {project: healthBridge, members: "Jonny Austin, rinter is @bergcloud on loan from @cammakespace", summary: "", url: ""}
+    - {project: Up and About, members: "Wai Keong Wong @wai2k, Ross Jones @rossjones", summary: "", url: ""}
+    - {project: MyHeart, members: ">Hans @hanspinckaers, Michele @mattions, Matias @mz2, Tom @tomcallender, @mdogruel", summary: "", url: ""}
+    - {project: MedicPic, members: ">Vishaal Virani @vishv19, Meredydd Luff @meredydd, Veron Lai @norev517, @PsychOrBust", summary: "", url: ""}
 
-<table class="table table-striped">
-<thead>
-	<tr><th>Presentation</th><th>Team</th><th>Members</th><th>Twitter</th><th>Code</th></tr>
-</thead>
-	<tr><td>1</td><td>iPatch</td><td></td><td>@diamondsparker, @philpursglove</td><td>IPatch.azurewebsites.net</td></tr>
-	<tr><td>2</td><td>3D-printed Brachy Moulds</td><td>Martin Green</td><td></td><td></td></tr>
-	<tr><td>3</td><td>NHS Rainbow</td><td>Rachel Graves, Camille Baldock</td><td>@didlix, @camille_ldn</td><td>http://nhsrainbow.herokuapp.com/</td></tr>
-	<tr><td>4</td><td>CellClustr</td><td>Sadiq Jaffer, John Winn, Duncan Brian, Oscar Bennett, Wai Keong Wong</td><td>@wai2k, @haematologic, @johnmwinnm, @sadiqj</td><td></td></tr>
-	<tr><td>5</td><td>Task Hero</td><td>Manuel, Ryan, Imran, Heidi, Steve, Tilman</td><td></td><td></td></tr>
-	<tr><td>6</td><td>PatientRFID</td><td></td><td>@y_akopov</td><td>http://tinyurl.com/patientrfid</td></tr>
-	<tr><td>7</td><td>FYi</td><td>Yuriy Akopov</td><td>@jonjhilton</td><td>medqna-vps.retrosnub.co.uk</td></tr>
-	<tr><td>8</td><td>myPatients</td><td>Martyn Loughran, Dafydd Loughran, Dan Lashley</td><td>@mloughran, @dafyddsion</td><td></td></tr>
-	<tr><td>9</td><td>Practiceminder</td><td>Allen Lin, Anne Marie Cunningham, Phelim Bradley, Ole Schulz-Trieglaff, Matt Bates, Brice Fernandes</td><td>@allenlin, @amcunningham, @phelimb, @mattbates25, @fractallambda</td><td>http://practiceminder.herokuapp.com/</td></tr>
-	<tr><td>10</td><td>Online Pre-Op Assessment</td><td>Gareth Mula, Andrew Davey</td><td>@gazrhys, @andrewdavey</td><td>tinyurl.com/orbb8mt</td></tr>
-	<tr><td>11</td><td>healthBridge</td><td>Jonny Austin</td><td>printer is @bergcloud, on loan from @cammakespace</td><td></td></tr>
-	<tr><td>12</td><td>Up and About</td><td>Wai Keong Wong, Ross Jones</td><td>@wai2k, @rossjones</td><td></td></tr>
-	<tr><td>13</td><td>MyHeart</td><td>Hans, Michele, Matias, Tom</td><td>@mz2, @hanspinckaers, @mattions, @mdogruel, @tomcallender</td><td></td></tr>
-	<tr><td>14</td><td>MedicPic</td><td>Vishaal Virani, Meredydd Luff, Veron Lai</td><td>@norev517,@meredydd,@vishv19,@PsychOrBust</td><td></td></tr>
-</table>
+---
