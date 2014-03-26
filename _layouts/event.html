@@ -11,7 +11,7 @@ layout: default
 {% if page.teams%}
 	{% if page.blog-posts%}
 			<a href="#teams">#List of teams</a></br>
-    		<a href="#blogs">#Blog posts</a>
+    		<a href="#blogs">#Blog posts and Articles</a>
 	{% endif %}
 {% endif %}
 </p>
@@ -36,7 +36,7 @@ layout: default
 
 {% if page.blog-posts %}
 <div>
-    <h3 id="blogs">Blog posts</h3>
+    <h3 id="blogs">Blog posts and Articles</h3>
     <ul>
     {% for pair in page.blog-posts %}
         {% for item in pair %}
