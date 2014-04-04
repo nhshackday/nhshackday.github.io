@@ -26,7 +26,7 @@ teams:
     - {project: Online Pre-Op Assessment, members: "Gareth Mula @gazrhys, Andrew Davey @andrewdavey", summary: "", url: "", notes: ""}
     - {project: healthBridge, members: "Jonny Austin, rinter is @bergcloud on loan from @cammakespace", summary: "", url: ""}
     - {project: Up and About, members: "Wai Keong Wong @wai2k, Ross Jones @rossjones", summary: "", url: ""}
-    - {project: MyHeart, members: ">Hans @hanspinckaers, Michele @mattions, Matias @mz2, Tom @tomcallender, @mdogruel", summary: "", url: ""}
-    - {project: MedicPic, members: ">Vishaal Virani @vishv19, Meredydd Luff @meredydd, Veron Lai @norev517, @PsychOrBust", summary: "", url: ""}
+    - {project: MyHeart, members: "Hans @hanspinckaers, Michele @mattions, Matias @mz2, Tom @tomcallender, @mdogruel", summary: "", url: ""}
+    - {project: MedicPic, members: "Vishaal Virani @vishv19, Meredydd Luff @meredydd, Veron Lai @norev517, @PsychOrBust", summary: "", url: ""}
 
 ---
