@@ -1,6 +1,8 @@
 name: NHSHackday
 markdown: redcarpet
 pygments: true
+gems:
+  - jekyll-redirect-from
 previous:
     - Jan 2014 Cardiff
     - Nov 2013 Cambridge
