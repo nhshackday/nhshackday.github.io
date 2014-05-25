@@ -12,15 +12,20 @@ We're using [The Open Definition](http://opendefinition.org/) which can be summa
 
 > A piece of data or content is open if anyone is free to use, reuse, and redistribute it — subject only, at most, to the requirement to attribute and/or share-alike.
 
+ * [Pubmed Central Open Access Subset](http://pmc.jensenlab.org)
+ * [SGUL's Linked Open Data repository. Academic API, SPARQL endpoint](http://data.sgul.ac.uk)
+
 ## Proprietary Data
 
 While it may be easy to get access to this data, it's subject to various terms and conditions that make it not [open](http://opendefinition.org/).
+
+ * NHS Choices -- limited range of datasets (apply to http://www.nhs.uk/aboutNHSChoices/professionals/syndication/Pages/Webservices.aspx for API) : http://www.nhs.uk/aboutNHSChoices/professionals/developments/Pages/NHSChoicesdatasets.aspx
+ * [API for Food, Ingredients and Nutrition with Diet Restrictions. 130,000 packaged Products and 500,000 recipes](https://www.sensum.io/)
 
 ## Unknown
 
  * [A comprehensive health database with APIs](  http://www.freebase.com/view/medicine)
  * [Assortment of APIs and other resources, mainly clinical knowledge](http://www.openclinical.org/dld_asbruInterpreter.html)
- * [Pubmed Central Open Access Subset](http://pmc.jensenlab.org)
  * [NHS Choices API application](http://www.nhs.uk/aboutNHSChoices/professionals/syndication/Pages/Webservices.aspx)
  * [Infectious diseases -- CDC](http://wwwnc.cdc.gov/travel)
  * [Infectious diseases -- WHO](http://www.who.int/csr/don/en/index.html)
@@ -32,8 +37,6 @@ While it may be easy to get access to this data, it's subject to various terms a
  * [SNOB, a server for the 300,000 clinical terms found in SNOMED CT](http://snob.eggbird.eu)
  * [BioPortal, a quick way to support autocomplete on a problem list](http://bioportal.bioontology.org)
  * [ALISS (Access to Local Information to Support Self-management -- Scottish info) -- community assets of all sorts to help people live well with a long-term condition. Documentation at](http://aliss-engineclub.readthedocs.org)
- * [SGUL's Linked Open Data repository. Academic API, SPARQL endpoint](http://data.sgul.ac.uk)
- * [API for Food, Ingredients and Nutrition with Diet Restrictions. 130,000 packaged Products and 500,000 recipes](https://www.sensum.io/)
  * [NHS Safety Thermometer -- restrictions on use include "It must not be used to make public statements or pronouncements, or cause, or allow it to appear in public either directly or indirectly"](http://www.ic.nhs.uk/webfiles/Services/Safety%20Thermometer/SafetyThermometer_Data_TermsOfUse_0512.pdf)
  * [NHS Comparators](http://www.ic.nhs.uk/nhscomparators) -- only people with NHS or DH email address can sign up for an account
  * [NHS iView](http://www.ic.nhs.uk/services/nhs-iview) -- lots of information, and some data is restricted
@@ -55,7 +58,6 @@ While it may be easy to get access to this data, it's subject to various terms a
  * [HSCIC -- useful list of stuff](http://www.ic.nhs.uk/services)
  * [CfH -- major classification schemes for disease and intervention (more for bean counting than clinicians or patients](http://www.connectingforhealth.nhs.uk/systemsandservices/data/clinicalcoding)
  * [NHS Data Hub](http://datahub.io/group/nhs)
- * NHS Choices -- limited range of datasets (apply to http://www.nhs.uk/aboutNHSChoices/professionals/syndication/Pages/Webservices.aspx for API) : http://www.nhs.uk/aboutNHSChoices/professionals/developments/Pages/NHSChoicesdatasets.aspx
  * [Government economic costing for various sectors, including healthcare, for example cost per GP visit](http://data.gov.uk/sib_knowledge_box/toolkit)
 
 ## Wish List
