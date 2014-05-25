@@ -14,6 +14,8 @@ We're using [The Open Definition](http://opendefinition.org/) which can be summa
 
 ## Proprietary Data
 
+While it may be easy to get access to this data, it's subject to various terms and conditions that make it not [open](http://opendefinition.org/).
+
 ## Unknown
 
  * [A comprehensive health database with APIs](  http://www.freebase.com/view/medicine)
