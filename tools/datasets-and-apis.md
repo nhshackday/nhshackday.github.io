@@ -21,6 +21,9 @@ While it may be easy to get access to this data, it's subject to various terms a
 
  * NHS Choices -- limited range of datasets (apply to http://www.nhs.uk/aboutNHSChoices/professionals/syndication/Pages/Webservices.aspx for API) : http://www.nhs.uk/aboutNHSChoices/professionals/developments/Pages/NHSChoicesdatasets.aspx
  * [API for Food, Ingredients and Nutrition with Diet Restrictions. 130,000 packaged Products and 500,000 recipes](https://www.sensum.io/)
+ * [NHS Safety Thermometer](http://www.ic.nhs.uk/webfiles/Services/Safety%20Thermometer/SafetyThermometer_Data_TermsOfUse_0512.pdf) -- restrictions on use include "It must not be used to make public statements or pronouncements, or cause, or allow it to appear in public either directly or indirectly"
+ * [NHS Comparators](http://www.ic.nhs.uk/nhscomparators) -- only people with NHS or DH email address can sign up for an account
+ * [NHS iView](http://www.ic.nhs.uk/services/nhs-iview) -- lots of information, and some data is restricted
 
 ## Unknown
 
@@ -37,9 +40,6 @@ While it may be easy to get access to this data, it's subject to various terms a
  * [SNOB, a server for the 300,000 clinical terms found in SNOMED CT](http://snob.eggbird.eu)
  * [BioPortal, a quick way to support autocomplete on a problem list](http://bioportal.bioontology.org)
  * [ALISS (Access to Local Information to Support Self-management -- Scottish info) -- community assets of all sorts to help people live well with a long-term condition. Documentation at](http://aliss-engineclub.readthedocs.org)
- * [NHS Safety Thermometer -- restrictions on use include "It must not be used to make public statements or pronouncements, or cause, or allow it to appear in public either directly or indirectly"](http://www.ic.nhs.uk/webfiles/Services/Safety%20Thermometer/SafetyThermometer_Data_TermsOfUse_0512.pdf)
- * [NHS Comparators](http://www.ic.nhs.uk/nhscomparators) -- only people with NHS or DH email address can sign up for an account
- * [NHS iView](http://www.ic.nhs.uk/services/nhs-iview) -- lots of information, and some data is restricted
  * [Commissioning data packs](http://www.ic.nhs.uk/services/commissioning-data-packs)
  * [National Dementia and Antipsychotic Prescribing Audit info at GP level -- restricted to GPs and selected others](http://www.ic.nhs.uk/services/national-clinical-audit-support-programme-ncasp/audit-reports/dementia)
  * [Nationally supported clinical audits](http://www.ic.nhs.uk/services/national-clinical-audit-support-programme-ncasp)
