@@ -4,7 +4,13 @@ title: "Datasets and APIs"
 summary: "Data sources that may be of interest"
 ---
 
-## [Open Data](http://opendefinition.org/)
+## Open Data
+
+Lots of data claims to be "open" but has problematic restrictions, e.g. on redistribution, use for "indirect financial gain", etc.
+
+We're using [The Open Definition](http://opendefinition.org/) which can be summarised as:
+
+> A piece of data or content is open if anyone is free to use, reuse, and redistribute it — subject only, at most, to the requirement to attribute and/or share-alike.
 
 ## Proprietary Data
 
