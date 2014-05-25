@@ -24,6 +24,7 @@ While it may be easy to get access to this data, it's subject to various terms a
  * [NHS Safety Thermometer](http://www.ic.nhs.uk/webfiles/Services/Safety%20Thermometer/SafetyThermometer_Data_TermsOfUse_0512.pdf) -- restrictions on use include "It must not be used to make public statements or pronouncements, or cause, or allow it to appear in public either directly or indirectly"
  * [NHS Comparators](http://www.ic.nhs.uk/nhscomparators) -- only people with NHS or DH email address can sign up for an account
  * [NHS iView](http://www.ic.nhs.uk/services/nhs-iview) -- lots of information, and some data is restricted
+ * [Patient Opinion](http://www.patientopinion.org.uk/info/api) -- [CC BY-NC-ND 3.0](https://creativecommons.org/licenses/by-nc-nd/3.0/deed.en) so no distributing derivative works
 
 ## Unknown
 
@@ -35,7 +36,6 @@ While it may be easy to get access to this data, it's subject to various terms a
  * [Infectious diseases -- HPA](http://www.hpa.org.uk/NewsCentre/ MDTravel)
  * [Infectious diseases -- MDTravel](http://mdtravelhealth.com/recent_health_alerts.php)
  * [Infectious diseases -- Health Map](http://healthmap.org/en)
- * [Patient Opinion -- Email info@patientopinion.org.uk for an API key](http://www.patientopinion.org.uk)
  * [APIs for SNOFyre, a demonstrator tool for use with SNOMED CT clinical records for aggregation and analysis, giving a range of functions such as browsing the terminology](https://code.google.com/p/snofyre)
  * [SNOB, a server for the 300,000 clinical terms found in SNOMED CT](http://snob.eggbird.eu)
  * [BioPortal, a quick way to support autocomplete on a problem list](http://bioportal.bioontology.org)
