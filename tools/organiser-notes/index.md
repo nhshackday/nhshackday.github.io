@@ -34,6 +34,12 @@ Ensure that you will have access to the wifi (in a previous NHSHD, "wifi" meant 
 
 Wired internet is preferable to no internet, but not ideal; it limits people's movement and creates potential trip hazards - it's better than no internet though.
 
+#### Accessibility
+
+Make sure the venue is accessible by people with extra mobility requirements.
+
+At the very least ensure that someone using a mobility scooter / wheelchair / similar can get into the building, get to the hacking, get to the bathroom, and deliver a presentation.
+
 ### Power
 
 TODO Can never have enough, want it built in to venue
