@@ -159,6 +159,22 @@ sponsors:
         name: Alfresco
         url: http://www.alfresco.com/
         logo: /assets/images/sponsors/alfresco.png
+    lnccg:
+        name: Leeds North CCG
+        url: http://www.leedsnorthccg.nhs.uk/
+        logo: /assets/images/sponsors/lnccg.gif
+    lseccg:
+        name: Leeds South and East CCG
+        url: http://www.leedssouthandeastccg.nhs.uk/
+        logo: /assets/images/sponsors/lseccg.gif
+    lwccg:
+        name: Leeds West CCG
+        url: http://www.leedswestccg.nhs.uk/
+        logo: /assets/images/sponsors/lwccg.svg
+    redder:
+        name: Redder Marketing
+        url: http://www.reddermarketing.co.uk/
+        logo: /assets/images/sponsors/redder.png
 ---
 
 
@@ -176,9 +192,14 @@ sponsors:
     <th>Website</th>
 </tr>
 <tr>
-    {% include sponsor_row.html org=page.sponsors.alfresco sponsored="£?" %}
-    {% include sponsor_row.html org=page.sponsors.imsmaxims sponsored="£?" %}
-    {% include sponsor_row.html org=page.sponsors.nhsenglandopensource sponsored="£?" %}
+    {% include sponsor_row.html org=page.sponsors.lnccg sponsored=" " %}
+    {% include sponsor_row.html org=page.sponsors.lseccg sponsored=" " %}
+    {% include sponsor_row.html org=page.sponsors.lwccg sponsored=" " %}
+
+    {% include sponsor_row.html org=page.sponsors.alfresco sponsored=" " %}
+    {% include sponsor_row.html org=page.sponsors.imsmaxims sponsored=" " %}
+    {% include sponsor_row.html org=page.sponsors.nhsenglandopensource sponsored=" " %}
+    {% include sponsor_row.html org=page.sponsors.redder sponsored=" " %}
 </tr>
 </table>
 
