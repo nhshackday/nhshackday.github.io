@@ -151,7 +151,14 @@ sponsors:
         name: NHS England Open Source
         url: http://www.technologystrategy.england.nhs.uk/pg/groups/99205/
         logo: /assets/images/sponsors/nhsenglandopensource.png
-
+    imsmaxims:
+        name: IMS MaxIMS
+        url: http://www.imsmaxims.com/opensource/
+        logo: /assets/images/sponsors/imsmaxims.png
+    alfresco:
+        name: Alfresco
+        url: http://www.alfresco.com/
+        logo: /assets/images/sponsors/alfresco.png
 ---
 
 
@@ -169,6 +176,9 @@ sponsors:
     <th>Website</th>
 </tr>
 <tr>
+    {% include sponsor_row.html org=page.sponsors.alfresco sponsored="£?" %}
+    {% include sponsor_row.html org=page.sponsors.imsmaxims sponsored="£?" %}
+    {% include sponsor_row.html org=page.sponsors.nhsenglandopensource sponsored="£?" %}
 </tr>
 </table>
 
