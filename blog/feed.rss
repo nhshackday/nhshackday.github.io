@@ -1,0 +1,30 @@
+---
+layout: none
+---
+
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+
+<channel>
+
+<title>NHSHackday</title>
+<link>http://nhshackday.com</link>
+
+<language>en-gb</language>
+
+<description>This is the RSS feed for blog posts about NHSHackday<description>
+
+{% for post in site.categories['blogs'] %}
+<item>
+  <title>{{ post.title }}</title>
+  <link>http://nhshackday.com{{ post.url }}</link>
+  <author>{{ post.author }}</author>
+  <description><![CDATA[{{ post.summary }}]]></description>
+  <guid>http://nhshackday.com{{ post.url }}</guid>
+  <pubDate>{{ post.date | date_to_rfc822 }}</pubDate>
+</item>
+
+{% endfor %}
+
+</channel>
+</rss>

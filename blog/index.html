@@ -1,0 +1,24 @@
+---
+layout: default
+title: Blogs
+id: blogs
+---
+
+
+<div class="page-container">
+
+<h2>Recent blog posts</h2>
+
+{% for blog in site.categories['blogs'] %}
+
+    <div>
+        <h3>{{blog.title}} <small>by <a href="{{blog.author_link}}">{{blog.author}}</a></h3>
+        <p>
+            {{blog.summary}}
+        </p>
+        <p><a href="{{blog.permalink}}">Read more &raquo;</a></p>
+    </div>
+
+{% endfor %}
+
+</div>
