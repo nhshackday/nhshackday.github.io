@@ -5,7 +5,10 @@ layout: default
 <div class="page-container">
 
 <h2>{{ page.title }}</h2>
-<p class="meta">{{ page.date | date_to_string }}</p>
+<p class="meta">{{ page.date | date_to_string }}
+<a href="{{page.author_link}}">{{page.author}}</a>
+</p>
+
 
 <div class="post">
 {{ content }}

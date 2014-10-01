@@ -1,6 +1,6 @@
 ---
 layout: blog
-permalink: /blog/2014/09/alan-hackday-leeds
+permalink: /blog/2014/10/01/alan-hackday-leeds
 date:   2014-10-01 00:00:00
 categories: blogs
 author: Alan Gopal

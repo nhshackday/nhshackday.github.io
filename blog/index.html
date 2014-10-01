@@ -11,12 +11,15 @@ id: blogs
 
 {% for blog in site.categories['blogs'] %}
 
-    <div>
-        <h3>{{blog.title}} <small>by <a href="{{blog.author_link}}">{{blog.author}}</a></h3>
+    <div class='col-md-6 col-sm-12'>
+        <h3>{{blog.title}}</h3>
+        <p class="meta">{{ blog.date | date_to_string }}
+<a href="{{blog.author_link}}">{{blog.author}}</a></p>
+
         <p>
-            {{blog.summary}}
+            {{blog.summary}} &nbsp; <a href="{{blog.permalink}}">Read more &raquo;</a>
         </p>
-        <p><a href="{{blog.permalink}}">Read more &raquo;</a></p>
+
     </div>
 
 {% endfor %}
