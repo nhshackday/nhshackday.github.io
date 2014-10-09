@@ -20,7 +20,7 @@ published: true
 
         <p>Our events are free to attend, and have great support from across the healthcare and tech sectors. We’re a friendly bunch, so come along and get stuck in!</p>
 
-        <p>The next NHS Hack Day will be in {{site.next-event.date}} in {{site.next-event.location}}.</p>
+        <p>The next NHS Hack Day will be {% if site.next-event.date %}on {{site.next-event.date}} {% endif %}in {{site.next-event.location}}.</p>
         <p style="text-align:center; margin-top: 20px;">
             {% if site.next-event.signup %}
             <a class="btn btn-lg btn-warning" href="{{site.next-event.signup}}">Sign up for the next NHS Hack Day!</a>
