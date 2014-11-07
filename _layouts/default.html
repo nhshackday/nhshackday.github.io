@@ -13,6 +13,8 @@
         <!-- syntax highlighting CSS -->
         <link rel="stylesheet" href="/assets/css/bootstrap.min.css">
         <link rel="stylesheet" href="/assets/css/main.css">
+
+        <link rel="alternate" type="application/rss+xml" href="/blog/feed.rss" title="NHSHackday blog RSS"/>
     </head>
 
    <body>
@@ -59,6 +61,7 @@
               </li>
 
               <li {% if url == '/sponsorship/' %}class="active"{% endif %}><a href="/sponsorship/">Accounts and Sponsorship</a></li>
+              <li {% if url == '/blog/' %}class="active"{% endif %}><a href="/blog/">Blogs</a></li>
               <li {% if url == '/media/' %}class="active"{% endif %}><a href="/media/">Media</a></li>
               <li {% if url == '/contact/' %}class="active"{% endif %}><a href="/contact/">Contact Us</a></li>
             </ul>

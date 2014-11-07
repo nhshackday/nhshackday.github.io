@@ -1,0 +1,27 @@
+---
+layout: default
+title: Blogs
+id: blogs
+---
+
+
+<div class="page-container">
+
+<h2>Recent blog posts</h2>
+
+{% for blog in site.categories['blogs'] %}
+
+    <div class='col-md-6 col-sm-12'>
+        <h3>{{blog.title}}</h3>
+        <p class="meta">{{ blog.date | date_to_string }}
+<a href="{{blog.author_link}}">{{blog.author}}</a></p>
+
+        <p>
+            {{blog.summary}} &nbsp; <a href="{{blog.permalink}}">Read more &raquo;</a>
+        </p>
+
+    </div>
+
+{% endfor %}
+
+</div>
