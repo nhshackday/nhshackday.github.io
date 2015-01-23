@@ -1,0 +1,14 @@
+<hr/>
+<h2 style="background-color: #e8e8e8; padding: 8px;margin:0">{{ include.where }}, {{ include.when }}</h2>
+<table class="table table-condensed">
+<tr>
+    <th>Who</th>
+    <th>What</th>
+    <th>Website</th>
+</tr>
+<tr>
+	{% for sponsorship in include.sponsorships %}
+		{% include sponsor_row.html org=sponsorship.sponsor sponsored=sponsorship.amount %}
+	{% endfor %}
+</tr>
+</table>
