@@ -1,5 +1,9 @@
 name: NHSHackday
-markdown: redcarpet
+markdown: rdiscount
+rdiscount:
+    extensions:
+        - generate_toc
+    toc_token: "!!!TOC"
 pygments: true
 source: source
 
