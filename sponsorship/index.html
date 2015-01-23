@@ -175,10 +175,16 @@ sponsors:
         name: Redder Marketing
         url: http://www.reddermarketing.co.uk/
         logo: /assets/images/sponsors/redder.png
-    hemavault:
+    hemavault: &hemavault
         name: Hemavault
         url: http://www.hemavault.com/
         logo: /assets/images/sponsors/hemavault.png
+events:
+    - where: Cardiff
+      when: January 2015
+      sponsorships:
+        - sponsor: *hemavault
+          amount: "£100"
 ---
 
 
@@ -186,18 +192,9 @@ sponsors:
 
 <p>Open Health Care UK organise NHS Hack Day as a not-for-profit event. By this we mean that no one, including the organisers, is getting paid to attend. If you would like to support the next event, please email <a href="mailto:hello@openhealthcare.org.uk?Subject=Can I help?">hello@openhealthcare.org.uk</a></p>
 
-<hr/>
-<h2 style="background-color: #e8e8e8; padding: 8px;margin:0">Cardiff, January 2015</h2>
-<table class="table table-condensed">
-<tr>
-    <th>Who</th>
-    <th>What</th>
-    <th>Website</th>
-</tr>
-<tr>
-    {% include sponsor_row.html org=page.sponsors.hemavault sponsored="£100" %}
-</tr>
-</table>
+{% for event in page.events %}
+	{% include sponsorship_table.html when=event.when where=event.where sponsorships=event.sponsorships %}
+{% endfor %}
 
 <hr/>
 <h2 style="background-color: #e8e8e8; padding: 8px;margin:0">Leeds, September 2014</h2>
