@@ -185,6 +185,21 @@ events:
       sponsorships:
         - sponsor: *hemavault
           amount: "£100"
+    - where: Leeds
+      when: September 2014
+      sponsorships:
+        - sponsor: *alfresco
+          amount: "£500"
+        - sponsor: *imsmaxims
+          amount: "£100"
+        - sponsor: *nhsenglandopensource
+          amount: "£2500"
+        - sponsor: *redder
+          amount: "Employee time and sundries"
+        - sponsor: *lnccg
+          amount: "£500"
+        - sponsor: *lseccg
+        - sponsor: *lwccg
 ---
 
 
@@ -195,29 +210,6 @@ events:
 {% for event in page.events %}
 	{% include sponsorship_table.html when=event.when where=event.where sponsorships=event.sponsorships %}
 {% endfor %}
-
-<hr/>
-<h2 style="background-color: #e8e8e8; padding: 8px;margin:0">Leeds, September 2014</h2>
-<table class="table table-condensed">
-<tr>
-    <th>Who</th>
-    <th>What</th>
-    <th>Website</th>
-</tr>
-<tr>
-    {% include sponsor_row.html org=page.sponsors.alfresco sponsored="£500" %}
-    {% include sponsor_row.html org=page.sponsors.imsmaxims sponsored="£100" %}
-    {% include sponsor_row.html org=page.sponsors.nhsenglandopensource sponsored="£2500" %}
-    {% include sponsor_row.html org=page.sponsors.redder sponsored="Employee time and sundries" %}
-
-    {% include sponsor_row.html org=page.sponsors.lnccg sponsored="£500" %}
-    {% include sponsor_row.html org=page.sponsors.lseccg sponsored="" %}
-    {% include sponsor_row.html org=page.sponsors.lwccg sponsored="" %}
-
-</tr>
-</table>
-
-
 
 <hr/>
 <h2 style="background-color: #e8e8e8; padding: 8px;margin:0">London, May 2014</h2>
