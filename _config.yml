@@ -5,6 +5,8 @@ rdiscount:
         - generate_toc
     toc_token: "!!!TOC"
 pygments: true
+source: source
+
 previous:
     - Sep 2014 Leeds
     - Jan 2014 Cardiff
