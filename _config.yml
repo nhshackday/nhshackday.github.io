@@ -6,6 +6,7 @@ rdiscount:
     toc_token: "!!!TOC"
 pygments: true
 previous:
+    - Jan 2015 Cardiff
     - Sep 2014 Leeds
     - Jan 2014 Cardiff
     - Nov 2013 Cambridge
@@ -14,7 +15,7 @@ previous:
     - Sep 2012 Liverpool
     - May 2012 London
 next-event:
-    date: "24th-25th January 2015"
-    location: Cardiff
-    venue: "Hadyn Ellis Building, Cardiff University School of Medicine, CF24 4HQ"
-    signup: "https://www.eventbrite.co.uk/e/nhs-hack-day-cardiff-2015-tickets-13564701387"
+    date: "May 2015"
+    location: London
+    venue: "tbc asap"
+    signup: ""
