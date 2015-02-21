@@ -12,6 +12,20 @@ title: Organiser notes
 * Prizes
 * Refreshments
 
+### Dates
+
+Try to make sure that there are no clashes with other events that will/should have a significant attendee x-over.
+
+A non-exhaustive list of such events is: 
+
+* UK Gov Camp
+* PyCon (UK/US)
+* Djangocon EU
+* Open Data Day
+* OpenTech
+
+Experience tells us that bank holiday w/ends are bad && reduce attendance thanks to people having family fun times planned. Do avoid these wherever possible.
+
 ### Venue
 
 There are many things to consider when choosing a venue:
