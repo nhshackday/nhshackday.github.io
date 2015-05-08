@@ -45,8 +45,17 @@
               <li {% if url == '/rationale/' %}class="active"{% endif %}><a href="/rationale/">Rationale</a></li>
               <li {% if url == '/faqs/' %}class="active"{% endif %}><a href="/faqs">FAQs</a></li>
               <li {% if url contains '/previous/' %}class="active dropdown"{%else%}class="dropdown"{% endif %} ><a href="#" class="dropdown-toggle" data-toggle="dropdown">Events, Teams and Projects <b class="caret"></b></a>
-                	<ul class="dropdown-menu">
-                      <li><a href="/current">Current event</a></li>
+                	<ul class="dropdown-menu multi-level">
+
+                  <li class="dropdown-submenu">
+                    <a tabindex="-1" href="#">Current Event</a>
+                    <ul class="dropdown-menu">
+                        <li><a tabindex="-1" href="/current/general/">General Information</a></li>
+                        <li><a href="/current/pitches/">Pitches</a></li>
+                        <li><a href="/current/presentations/">Presentations</a></li>
+                    </ul>
+                  </li>
+
                   		<li><a href="/previous/events/2012/05/london/">1: London 2012</a></li>
                   		<li><a href="/previous/events/2012/05/liverpool/">2: Liverpool 2012</a></li>
                   		<li><a href="/previous/events/2013/01/oxford/">3: Oxford 2012</a></li>
@@ -63,7 +72,8 @@
                 <a href="#" class="dropdown-toggle" data-toggle="dropdown">Tools <b class="caret"></b></a>
                 <ul class="dropdown-menu">
                   <li {% if url == '/tools/datasets-and-apis.html' %}class="active"{% endif %}><a href="/tools/datasets-and-apis.html">Datasets and APIs</a></li>
-                  <li><hr></li>
+                  <li>
+                  </li>
                   <li {% if url == '/tools/organiser-notes/' %}class="active"{% endif %}><a href="/tools/organiser-notes/">Organiser Notes</a></li>
                 </ul>
               </li>
