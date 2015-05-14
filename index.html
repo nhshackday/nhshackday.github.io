@@ -4,55 +4,79 @@ title: Home
 published: true
 ---
 
-<div class="page-container jumobtron">
-<div class="row ">
+<div class="page-container">
+
+<div class="row">
     <div class="col-md-6">
         <img src="/assets/images/mainroom2.jpg" style="width:100%;"/>
+    </div>
 
-        <p style="margin-top: 10px;">
+    <div class="col-md-6" style="font-size: 16px; font-weight: 200">
+        <blockquote style="font-size:20px;" class="well"><i>"...My main take-home message from the Hack Day was how the human drive to create and collaborate can be so strong given the right conditions..." <p align="right">-- NHS Hack Day attendee, 2014</p></i></blockquote> 
+
+            <p>The <b>NHS Hack Day</b> team run weekend events that bring together healthcare and technology professionals and other “geeks who love the NHS” to promote health, good practice and good science.</p>
+
+            <p>Our events are free to attend, and have great support from across the healthcare and tech sectors. We’re a friendly bunch, so come along and get stuck in!</p>
+    </div>
+</div>
+
+<div class="row">
+    <div class="col-md-6"> 
+
+        <p style="margin-top: 10px; align=center;">
         <a class="twitter-timeline" data-dnt="true" href="https://twitter.com/NHSHackDay" data-widget-id="448173326255398912">Recent Tweets by @NHSHackDay</a>
         <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
         </p>
+
     </div>
 
-    <div class="col-md-6" style="font-size: 17px; font-weight: 200">
-        <p>NHS Hack Days are weekend events that bring together healthcare and technology professionals and other “geeks who love the NHS” to promote health, good practice and good science.</p>
-
-        <p>Our events are free to attend, and have great support from across the healthcare and tech sectors. We’re a friendly bunch, so come along and get stuck in!</p>
-
-        <p>The next NHS Hack Day will be {% if site.next-event.date %}on {{site.next-event.date}} {% endif %}in {{site.next-event.location}}.</p>
-        <p style="text-align:center; margin-top: 20px;">
-            {% if site.next-event.signup %}
-            <a class="btn btn-lg btn-warning" href="{{site.next-event.signup}}">Sign up for the next NHS Hack Day!</a>
-            {% endif %}
-        </p>
-
-        <p style="text-align:center; margin-top: 40px;">
-          <form class="form" style="padding:3px;text-align:center;" action="https://tinyletter.com/nhshackday" method="post" target="popupwindow" onsubmit="window.open('https://tinyletter.com/nhshackday', 'popupwindow', 'scrollbars=yes,width=800,height=600');return true">
-          <p align="left"><label for="tlemail">Sign up to our mailing list for news and annoucements:</label></p>
-
-            <div class="form-group">
-                <div class="input-group">
-                  <span class="input-group-addon">
-                    <span class="glyphicon glyphicon-envelope"></span>
-                  </span>
-                  <input type="email" class="form-control" name="email" id="tlemail" /><input type="hidden" value="1" name="embed"/>
-                </div>
-                <p align="right"><small>(Low volume ~= 1 email per month)&nbsp;</small><input class="btn btn-info" type="submit" value="Subscribe" /></p>
-
-            </div>
-          </form>
-
-
-
-        <p>Our Supporters include:<br /> 
-        <div class="pull-left well">
-            NHS England, Sir Muir Gray, Sir Liam Donaldson, Sir Bruce Keogh, Dame Sally Davies, Mr Peter Lees,
-            Ben Goldacre, Francis Irving, Nicholas Tollervey, Ross Jones, Sam Smith, NHS QIPP Right Care, Open	Labs LJMU, Clare Gerada, Geraint Lewis, O'Reilly Media, UKGovCamp, Open Health Care UK, Health Innovation Network </div>
+    <div class="col-md-6">
+        <div class="well">        
+            <p><b>The next NHS Hack Day will be {% if site.next-event.date %}on {{site.next-event.date}} {% endif %}in {{site.next-event.location}}.</b></p>
+            <p style="text-align:center; margin-top: 20px;">
+                {% if site.next-event.signup %}
+                <a class="btn btn-lg btn-warning" href="{{site.next-event.signup}}">Sign up for the next NHS Hack Day!</a>
+                {% endif %}
             </p>
+        </div>
 
+        <div class="row">
+            <p style="text-align:center; margin-top: 40px;">
+            <form class="form" style="padding:3px;text-align:center;" action="https://tinyletter.com/nhshackday" method="post" target="popupwindow" onsubmit="window.open('https://tinyletter.com/nhshackday', 'popupwindow', 'scrollbars=yes,width=800,height=600');return true">
+                <p align="left"><label for="tlemail">Sign up to our mailing list for news and annoucements:</label></p>
+
+                <div class="form-group">
+                    <div class="col-md-9">
+                        <div class="input-group">
+                          <span class="input-group-addon">
+                            <span class="glyphicon glyphicon-envelope"></span>
+                          </span>
+                          <input type="email" class="form-control" name="email" id="tlemail" /><input type="hidden" value="1" name="embed"/>
+                        </div>
+                    </div>
+                    <div class="col-md-3" align="right">                
+                        <input class="btn btn-info" type="submit" value="Subscribe" />
+                    </div>
+                </div>
+            </form>         
+        </div>
+        <div class="row">
+            <p style="margin-right:10px;" align="right"><small>( ~1 email per month)&nbsp;</small></p>
+        </div>
     </div>
 </div>
 
 
+<div class="row">
+    <div class="col-md-12">
+        <p>Our supporters include:<br /> 
+        <div class="pull-left well">
+            NHS England, Sir Muir Gray, Sir Liam Donaldson, Sir Bruce Keogh, Dame Sally Davies, Mr Peter Lees,
+            Ben Goldacre, Francis Irving, Nicholas Tollervey, Ross Jones, Sam Smith, NHS QIPP Right Care, Open  Labs LJMU, Clare Gerada, Geraint Lewis, O'Reilly Media, UKGovCamp, Open Health Care UK, Health Innovation Network
+        </div>
+        </p>
+    </div>
+</div>
+
+   
 </div>
