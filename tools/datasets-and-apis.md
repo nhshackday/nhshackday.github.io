@@ -5,7 +5,7 @@ summary: Data sources that may be of interest
 published: true
 ---
 
-<div class="page-container">
+
 ## Open Data
 
 Lots of data claims to be "open" but has problematic restrictions, e.g. on redistribution, use for "indirect financial gain", etc.
@@ -73,4 +73,3 @@ Things we'd love to have!
  * Data at hospital level rather than trust level -- important for a public audience who don't know or care about who runs an organisation and important for understanding variations within a provider : (no link)
  * CQC's Quality and Risk Profiles (currently only available to providers and CQC staff)
  
- </div>
