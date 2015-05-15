@@ -1,9 +1,11 @@
 ---
 layout: default
-title: "Datasets and APIs"
-summary: "Data sources that may be of interest"
+title: Datasets and APIs
+summary: Data sources that may be of interest
+published: true
 ---
 
+<div class="page-container">
 ## Open Data
 
 Lots of data claims to be "open" but has problematic restrictions, e.g. on redistribution, use for "indirect financial gain", etc.
@@ -69,4 +71,6 @@ Things we'd love to have!
  * Legacy Library -- to be scraped and mined : http://legacy.library.ucsf.edu/action/search/basic
  * www.scotcourts.gov.uk/opinions/2010FAI15.html -- to be scraped and mined : http://wiki.nhshackday.com/wiki/DatasetsAndAPIs?action=AttachFile&do=view&target=FAIs.zip
  * Data at hospital level rather than trust level -- important for a public audience who don't know or care about who runs an organisation and important for understanding variations within a provider : (no link)
- * CQC's Quality and Risk Profiles (currently only available to providers and CQC staff) :
+ * CQC's Quality and Risk Profiles (currently only available to providers and CQC staff)
+ 
+ </div>
