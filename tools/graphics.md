@@ -1,14 +1,16 @@
 ---
 layout: default
-title: "NHSHD graphics"
-summary: "Own own branding that you can use"
+title: NHSHD graphics
+summary: Own own branding that you can use
+published: true
 ---
+
 <div class="page-container">
 
 <h2>NHS Hack Day graphics</h2>
 <p>This is a selection of our own graphics that you can use for your projects if you like. Please credit Ayesha Garrett of <a href="www.londonlime.net">LondonLime</a> where appropriate, and please don't use any of them commercially without her permission.</p>
 
-<p>The images used to make the coveted NHS Hack Day T shirts are at the bottom of the table, anbd you're welcome to get clothes made with these if you want!</p>
+<p>The images used to make the coveted NHS Hack Day T shirts are at the bottom of the table, and you're welcome to get clothes made with these if you want!</p>
 
 <br>
 
