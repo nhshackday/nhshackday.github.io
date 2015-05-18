@@ -76,7 +76,7 @@ NHS Hack Day has a healthy-eating policy. So none of the "traditional" hack day 
 
 Basically you want a "healthy lunch" for both days (don't forget about vegetarians, and it's probably worth lobbing in some vegan provision if you can - consider asking at signup about dietary requirements), plus hydration - coffee and tea and water are pretty essential; you'll want these constantly flowing throughout both days.
 
-High-bandwidth coffee provision is rather useful, as is avoiding instant if possible. (This is probably author bias - Kristian)
+High-bandwidth coffee provision is rather useful, as is avoiding instant if possible.
 
 ### Sponsors
 
