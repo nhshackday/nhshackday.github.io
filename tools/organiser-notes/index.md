@@ -1,5 +1,5 @@
 ---
-layout: blog
+layout: default
 title: Organiser notes
 published: true
 ---
@@ -83,7 +83,7 @@ NHSHD needs money to run. Nearly all of this comes from sponsorship.
 
 Things we are willing to do for sponsors:
 
-* Repeatedly mention throughout the event how wonderful we think they are
+* Repeatedly[1] mention throughout the event how wonderful we think they are
 * Include them on the list of sponsors on the website
 * Mention and thank them as part of emails in the run-up to the event
 
@@ -99,6 +99,8 @@ We have also in the past actively refused sponsorship from organisations whose v
 What this tends to mean is that the best sponsors tend to be NHS organisations and small to medium tech companies who work with open source. They tend to be very light-handed on the publicity desires, while being exactly the kinds of things we'd like to publicise through NHS Hack Day.
 
 It is probably wise to check with Open Healthcare UK before approaching / accepting sponsors.
+
+[1] Within reason. It is not the Coca Cola NHS Hack Day.
 
 ### Attendees
 
