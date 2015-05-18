@@ -48,9 +48,9 @@ If catering isn't contractually constrained, the MVP for hackday catering is ord
 
 Inevitably there is not enough internet. Inevitably venues will underestimate how much you need in the way of internet. Make it clear to them that this is not "200ish people turning up to sit quietly as someone talks", this is "200ish people each turning up with multiple devices making heavy use of the network".
 
-Eduroam (UK(?) academic wifi) is useful, since a sizeable proportion of attendees will have access to it. The majority won't though, but it still lightens the load on whatever they'll be using.
-
 Ensure that you will have access to the wifi (in a previous NHSHD, "wifi" meant some BT-pay-five-pounds-to-use thing, which was fairly bad) and that you know what the terms are (often it's "we will generate you disposable guest tokens" in which case get _many_, people will inevitably lose them between days / sometimes they'll be tied to a day; it may also be "we need the names of everyone attending and will issue them individually a guest token")
+
+In the case of access codes/tokens, do try to allocate them and print them on name badges. People lose name badges less often than bits of paper with random hex strings on them.
 
 Wired internet is preferable to no internet, but not ideal; it limits people's movement and creates potential trip hazards - it's better than no internet though.
 
