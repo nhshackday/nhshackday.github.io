@@ -1,7 +1,9 @@
 ---
 layout: default
 title: Organiser notes
+published: true
 ---
+
 
 ## Beforehand
 
@@ -32,11 +34,15 @@ There are many things to consider when choosing a venue:
 
 #### Layout
 
-TODO Everywhere in Cam was "auditorium", want freeform movable tables and chairs
+Needs a place where everyone can see a projector for pitches/presentations.
+
+Also need freeform movable tables and chairs for hacktivity.
 
 #### Catering
 
 Some venues of a more conference-y nature will require you to use in-house catering. This generally makes things easier, but also tends to be fairly pricey. It's also worth ensuring that they're around for both days of the weekend.
+
+If catering isn't contractually constrained, the MVP for hackday catering is ordering from a local M&S or similar.
 
 #### WiFi
 
