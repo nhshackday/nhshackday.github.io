@@ -3,7 +3,6 @@ layout: default
 title: Organiser notes
 published: true
 ---
-<div style="font-size: 1.4em; width: 60%;">
 
 ## Beforehand
 
@@ -235,4 +234,3 @@ Thank people. A list of potential thankees to consider:
 * Whoever first discovered coffee
 
 Direct people to any kind of post-event gathering, then grab your stuff, do as much/little tidying as required for the venue, encourage people to leave, then go have a well-deserved chill-out!
-</div>
