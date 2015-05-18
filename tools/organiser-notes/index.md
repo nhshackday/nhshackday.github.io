@@ -62,7 +62,9 @@ At the very least ensure that someone using a mobility scooter / wheelchair / si
 
 ### Power
 
-TODO Can never have enough, want it built in to venue
+Strong preference for venues with electrical power.
+
+NHS Hack Day owns a collection of power cables. These were helpfully branded with London Python Dojo stickers by @ntoll so you can recognise them. Someone will have them in a box. Ask on the organizers list to find out who lugged them home last time.
 
 ### Access
 
