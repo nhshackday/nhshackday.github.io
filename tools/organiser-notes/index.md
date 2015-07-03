@@ -4,6 +4,14 @@ title: Organiser notes
 published: true
 ---
 
+## Values
+
+NHS Hack Day values transparency, openness, collaboration, iteration, community, and the power of multi-disciplinary teams.
+
+We deliberately seek out non-geek, non-white, non-male participants.
+
+We don't tell, we show.
+
 ## Beforehand
 
 * Venue
