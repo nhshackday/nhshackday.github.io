@@ -14,11 +14,11 @@ previous:
     - Jan 2013 Oxford
     - Sep 2012 Liverpool
     - May 2012 London
-next-event: 
+nexter-event: 
     location: "Manchester this autumn"
-nexter-event:
-    date: "16 & 17 May 2015"
-    location: "London"
-    venue: "Henriette Raphael Function Room, Guy's Campus, King's College London, London SE1 1UL"
-    signup: "https://nhshackday10.eventbrite.co.uk"
+next-event:
+    date: "12 & 13 September 2015"
+    location: "Manchester"
+    venue: "Ziferblat Edge Street Manchester M4 1HW"
+    signup: "http://nhshd11manchester.eventbrite.co.uk"
 
