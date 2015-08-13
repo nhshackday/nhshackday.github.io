@@ -1,0 +1,33 @@
+<section class="sponsors section-spacing">
+	<div class="row bottom-spacing">
+		<div class="col-md-12">
+			<h2 class="sub-header">Sponsors</h2>
+			<p>
+				The NHS Hackdays would not be possible without the help of our
+				excellent sponsors
+			</p>
+		</div>
+	</div>
+	<div class="row">
+		<div class="col-md-12">
+			<table class="table">
+			{% for sponsor in page.sponsorships %}
+				{% assign sponsor_details = site.data.sponsors.sponsors[sponsor.sponsor] %}
+				<tr class="event-sponsor-row">
+					<td class="vert-align">
+						<img class="logo" alt="{{ sponsor_details.name }}" src="/assets/imgs/sponsors/{{ sponsor_details.logo }}">
+					</td>
+					<td class="vert-align">
+						{{ sponsor.amount }}
+					</td>
+					<td class="vert-align">
+						<a href="{{ sponsor_details.url }}">
+							{{ sponsor_details.url }}
+						</a>
+					</td>
+				</tr>
+			{% endfor %}
+			</table>
+		</div>
+	</div>
+</section>

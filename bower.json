@@ -1,0 +1,24 @@
+{
+  "name": "nhshackday.github.io",
+  "version": "0.0.0",
+  "authors": [
+    "fredkingham <fredkingham@gmail.com>"
+  ],
+  "description": "website for the nhs hackday",
+  "keywords": [
+    "nhs",
+    "hackday"
+  ],
+  "license": "MIT",
+  "homepage": "nhshackday.com",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap-sass-official": "~3.3.5"
+  }
+}

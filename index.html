@@ -1,0 +1,97 @@
+---
+layout: default
+---
+
+<div class="page-container">
+    <!-- background image, modal image -->
+
+    <section class="home-header hidden-xs">
+        <div class="quote">
+            <blockquote>
+                <p>
+                "...My main take-home message from the Hack Day was how the human drive to create and collaborate can be so strong given the right conditions..."
+                </p>
+            </blockquote>
+            <footer><cite title="Source Title">NHS Hack Day attendee, 2014</cite>
+        </div>
+        {% include stripes.html %}
+    </section>
+
+    <!-- summary statement and sign up button -->
+    <section class="section container-fluid  summary-statement">
+        <div class="row">
+            <div class="col-md-8 col-md-push-2">
+                <h1 class="center">
+                The NHS Hack Day brings together geeks who love the NHS
+                </h2>
+            </div>
+        </div>
+        {% assign latest_event = site.categories.events.first %}
+        {% if latest_event.date_range[1] > site.time %}
+            <div class="row">
+                <div class="col-md-8 col-md-push-2 center">
+                    <a class="btn btn-lg btn-warning" style="white-space: initial" href="https://nhshackday10.eventbrite.co.uk">
+                        Sign up for the next NHS Hack Day on 16 & 17 May 2015 in London!
+                    </a>
+                </div>
+            </div>
+        {% else %}
+            <a class="link-on-dark" href="{{ latest_event.permalink }}">
+                <h4 class="center">Take a look at all the things were made in the last event</h4>
+            </a>
+        {% endif %}
+    </section>
+
+    <section class="section container-fluid">
+        <div class="row">
+            <div class="col-md-10 col-md-push-1 center section">
+                <div class="top-summary-section">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <img class="img-header" src="/assets/imgs/cog.png">
+                        </div>
+                    </div>
+                    <div class="row section">
+                        <div class="col-md-12">
+                            <p>
+                                Technology is changing the world and our expectations. Corporate IT systems are lagging behind, partly due to slow and cumbersome procurement processes, and the NHS cannot afford to be stuck in this position.
+                                The NHS Hack Day team run weekend events to promote health, good practice and good science.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="bottom-summary-section">
+                    <div class="row">
+                        <img class="img-header img-middle" src="/assets/imgs/heart.png">
+                    </div>
+
+                    <div class="row section">
+                        <div class="col-md-12">
+                            <p>
+                                Taking a simple view, being open -- open governance and open source -- allows effective collaboration and gives a competitive advantage in terms of the potential for lower costs and higher quality. Openness is now standard in the technology industry, and in some parts of government, for example the Cabinet Office. Openness within technology stands alongside the openness found in academic culture, with no room for "black boxes".
+                            </p>
+                            <p>
+                                we can build an environment where world-class NHS digital services flourish
+                            </p>
+                        </div>
+                    </div>
+                    <div class="row section">
+                        <div class="col-md-12">
+                            <img class="img-header" src="/assets/imgs/health.png">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+    <!-- supporters -->
+    <section class="supporters section">
+        <div class="row">
+            <div class="col-md-12">
+                <strong>Our supporters include:</strong>
+                NHS England, Sir Muir Gray, Sir Liam Donaldson, Sir Bruce Keogh, Dame Sally Davies, Mr Peter Lees, Ben Goldacre, Francis Irving, Nicholas Tollervey, Ross Jones, Sam Smith, NHS QIPP Right Care, Open Labs LJMU, Clare Gerada, Geraint Lewis, O'Reilly Media, UKGovCamp, Open Health Care UK, Health Innovation Network
+            </div>
+        </div>
+    </section
+</div>
