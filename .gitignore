@@ -1,6 +1,5 @@
 _site
 .sass-cache
-_bower_components
 Gemfile.lock
 _site/
 assets/.DS_Store

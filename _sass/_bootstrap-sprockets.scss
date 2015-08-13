@@ -1,1 +1,9 @@
-../_bower_components/bootstrap-sass-official/assets/stylesheets/_bootstrap-sprockets.scss
+@function twbs-font-path($path) {
+  @return font-path($path);
+}
+
+@function twbs-image-path($path) {
+  @return image-path($path);
+}
+
+$bootstrap-sass-asset-helper: true;

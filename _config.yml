@@ -10,5 +10,7 @@ baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://yourdomain.com" # the base hostname & protocol for your site
 twitter_username: jekyllrb
 markdown: kramdown
-projects_link:
-presentations_link:
+sass:
+  sourceMap: true
+  style: compressed
+  sass_dir: _sass
