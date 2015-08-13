@@ -1,0 +1,23 @@
+---
+layout: default
+title: Tools
+id: tools
+---
+
+<div class="page-container">
+
+ {% for tool in site.categories['tools'] %}
+
+     <div class="event-block">
+        <h2>
+        <a href="{{tool.permalink}}">{{tool.title}}</a>
+        </h2>
+        <p>{{tool.summary}}
+        <a href="{{tool.permalink}}">See list &raquo;</a>
+        </p>
+    </div>
+
+ {% endfor %}
+
+
+</div>
