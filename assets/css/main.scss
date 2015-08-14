@@ -19,6 +19,10 @@ $blockquote-font-size: $font-size-base;
 	@media screen and (min-width: $screen-sm-min)  and (max-width: $screen-md-min){
 		margin-top: 0;
 	}
+
+	@media screen and (max-width: $screen-sm-min){
+		margin-top: 10px;
+	}
 }
 
 .nav-horizontal-margin{
@@ -151,4 +155,14 @@ rect.cover {
 
 .bold{
 	font-weight: bold;
+}
+
+.overflow-hidden{
+	overflow: hidden;
+}
+
+.logo{
+	@media screen and (max-width: $screen-sm-min){
+		width: 200px;
+	}
 }
