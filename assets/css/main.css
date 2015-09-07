@@ -76,9 +76,6 @@ th {
   background:#ddd;
 }
 
-
-
-
 .dropdown-submenu {
     position: relative;
 }
@@ -125,4 +122,9 @@ th {
     -webkit-border-radius: 6px 0 6px 6px;
     -moz-border-radius: 6px 0 6px 6px;
     border-radius: 6px 0 6px 6px;
+}
+
+/* bootstrap buttons don't allow wrapping which breaks mobile views */
+.btn.btn-wrapped{
+    white-space: normal;
 }
