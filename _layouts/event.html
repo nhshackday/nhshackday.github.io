@@ -11,6 +11,9 @@ layout: default
 {% if page.teams%}
 	{% if page.blog-posts%}
 			<a href="#teams">#List of teams</a></br>
+            {% if page.videos %}
+               <a href="#videos">#Videos</a><br/>
+            {% endif %}
     		<a href="#blogs">#Blog posts and Articles</a>
 	{% endif %}
 {% endif %}
@@ -33,6 +36,13 @@ layout: default
 </div>
 {% endif %}
 
+
+{% if page.videos %}
+<div>
+    <h3 id="videos">Videos</h3>
+    <p>Videos of the presentations are available at <a href="{{page.videos.url}}">{{page.videos.name}}</a>
+</div>
+{% endif %}
 
 {% if page.blog-posts %}
 <div>
