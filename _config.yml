@@ -1,24 +1,16 @@
+# Site settings
+title: NHSHackday
 name: NHSHackday
-markdown: rdiscount
-rdiscount:
-    extensions:
-        - generate_toc
-    toc_token: "!!!TOC"
-pygments: true
-previous:
-    - Jan 2015 Cardiff
-    - Sep 2014 Leeds
-    - Jan 2014 Cardiff
-    - Nov 2013 Cambridge
-    - May 2013 London
-    - Jan 2013 Oxford
-    - Sep 2012 Liverpool
-    - May 2012 London
-nexter-event: 
-    location: "Manchester this autumn"
-next-event:
-    date: "12 & 13 September 2015"
-    location: "Manchester"
-    venue: "Ziferblat Edge Street Manchester M4 1HW"
-    signup: "http://nhshd11manchester.eventbrite.co.uk"
-
+email: your-email@domain.com
+description: > # this means to ignore newlines until "baseurl:"
+  Write an awesome description for your new site here. You can edit this
+  line in _config.yml. It will appear in your document head meta (for
+  Google search results) and in your feed.xml site description.
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "http://yourdomain.com" # the base hostname & protocol for your site
+twitter_username: jekyllrb
+markdown: kramdown
+sass:
+  sourceMap: true
+  style: compressed
+  sass_dir: _sass

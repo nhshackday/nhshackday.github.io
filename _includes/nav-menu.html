@@ -1,0 +1,17 @@
+<ul class="nav navbar-nav navbar-right">
+  <li {% if page.url == '/index.html' %}class="active"{% endif %} ><a href="/">Home</a>
+  <li {% if page.url contains '/about/' %}class="active"{% endif %}><a href="/about/about-nhs-hack-days/">About</a></li>
+  <li {% if page.url == '/success_stories/index.html' %}class="active"{% endif %} ><a href="/success_stories/">Success stories</a>
+  </li>
+  <li {% if page.url == site.categories.events.first.permalink %}class="active"{% endif %}>
+          {% assign latest_event = site.categories.events.first %}
+          <a href="{{ latest_event.permalink }}">
+          {% if latest_event.date_range[1] > site.time %}
+              Next Event:
+          {% else %}
+              Last Event:
+          {% endif %}
+      {{ latest_event.title }}, {{ latest_event.date | date: '%b %Y' }}
+      </a>
+  </li>
+</ul>

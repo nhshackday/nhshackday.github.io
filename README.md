@@ -8,12 +8,15 @@ The new NHSHackday website
 
 To add an event you should create a new file in the _posts/events/ folder with a filename like: ```YYYY-MM-DD-LOCATION.md```
 
+if an event is in the future it will show up as the next event, if you want to add an special details of this event edit the _includes/events/on_the_day.html. After the event has happened, push to the repo and the event
+will appear as a past event.
+
 The following page-matter should be at the top of the file between the  ```---```.
 
 ```YAML
 ---
 layout: event
-permalink: /previous/events/2014/01/cardiff
+permalink: /events/2014/01/cardiff
 title:  "Cardiff"
 summary: "Held at the Hadyn Ellis Building in Cathays, Cardiff and organised by Dr Anne-Marie Cunningham."
 date:   2014-01-25 00:00:00
@@ -22,10 +25,12 @@ date_range:
     - 2014-01-26 00:00:00
 categories: events
 label: 2014
-blog-posts:
-    - BCon.cc at NHSHackday : http://www.webdevbros.net/2014/02/20/cardiff-nhs-hack-day-or-weekend-and-bcon-cc/
-    - NHS Hack Day : http://blogs.cardiff.ac.uk/development/2014/01/26/nhs-hack-day/
 ---
+
+you can add an optional background image, by putting the image in assets/imgs/locations/
+and adding a field to the yaml like
+
+background-image: "manchester.jpg"
 
 ```
 
@@ -39,39 +44,12 @@ blog-posts:
 | date_range  | The start and end date of the event  |
 | categories  | Always 'events'  |
 | label  | If there are two events at the same location in the same year, this will differentiate them. By default should just be the year |
-| blog-posts  | If wanted, should be a link of dictionaries (hashes) where the key is the label, and the value is the link  |
+| background-image  | If wanted, should be a filename (without path) for an image in  assets/imgs/locations/ |
+| sponsors  | sponsors should be in sponsorship: sponsor: {{ name of sponsor as referenced in _data/sponsors.yml}} value: - what they gave |
+| projects | a teams field should contain the project and any links, if you just use a url: field it will show the url as a link, if you use urls: you can use multiple links of a dictionary form link_name -> link_address, e.g. demo: http://example.com |
 
+please take a look at an example event such as _posts/events/2015-05-16-london.md
 
-## Adding projects
-
-To add an event you should create a new file in the _posts/projects/ folder with a filename like: ```YYYY-MM-DD-PROJECTNAME.md```
-
-The following page-matter should be at the top of the file```---```
-
-
-```YAML
----
-layout: post
-title:  "iPatch"
-summary: "iPatch is an application for tracking the treatment of lazy eyes in children and adults. iPatch is a project from NHS HackDay Cambridge, November 2013."
-date:   2014-02-01 17:33:13
-categories: projects
-logo: ipatch.png
-logo-with-name: true
-website: http://ipatch.azurewebsites.net/
----
-```
-
-| Key  | Values |
-| ------------- | ------------- |
-| layout  | Always 'post'  |
-| title  | The name of the project  |
-| summary  | A short description of the project  |
-| date  | A date, more recent dates will appear higher up on the page |
-| categories  | Always 'projects'  |
-| logo  | The filename of an image in /assets/images/projects/, i.e. ipatch.png  |
-| logo-with-name  | true if the logo is small enough that it needs the project title next to it, false otherwise (which is the default) |
-| website  | The URL to the website for the project |
-
-
-## Adding sponsors
+## to add a sponsor
+sponsors are in _data/sponsors.yml, add a sponsor to the bottom of the file, then add the sponsor to the project
+as described above, the project does a look up on the sponsors file based on the sponsor's name

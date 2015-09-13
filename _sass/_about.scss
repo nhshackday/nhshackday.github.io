@@ -1,0 +1,25 @@
+.sub-menu{
+	display: -webkit-flex;
+	display: flex;
+	flex-direction: row;
+
+	.menu-item{
+		flex: 1 0 0;
+		text-align: center;
+		border-bottom: 1px solid $brand-primary;
+		border-right: 1px solid $brand-primary;
+		padding-top: $padding-large-vertical * 2;
+		padding-bottom: $padding-large-vertical * 2;
+		color: $brand-primary;
+
+		&:last-child{
+			border-right: none;
+		}
+
+		&.active, &:hover{
+			color: $component-active-color;
+			background-color: $brand-primary;
+			text-decoration: none;
+		}
+	}
+}

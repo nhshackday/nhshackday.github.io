@@ -1,64 +1,26 @@
 ---
 layout: default
 ---
-<div class="page-container">
 
-<h2>{{ page.title }}
-<small>{{ page.date_range[0] |date: '%d %b' }} - {{ page.date_range[1] |date: '%d %b' }} {{ page.date_range[1] |date: '%Y' }}</small></h2>
-
-
-<p class="well">{{page.summary}}<br><br>
-{% if page.teams%}
-	{% if page.blog-posts%}
-			<a href="#teams">#List of teams</a></br>
-            {% if page.videos %}
-               <a href="#videos">#Videos</a><br/>
-            {% endif %}
-    		<a href="#blogs">#Blog posts and Articles</a>
-	{% endif %}
-{% endif %}
-</p>
-
-{% if page.teams%}
-<div>
-    <h3 id="teams">Teams</h3>
-    <table class="table table-striped table-bordered">
-		<thead>
-			<tr><th>Project</th><th>Members</th><th>Summary</th><th>URL</th></tr>
-		</thead>
-    {% for team in page.teams %}
-            <tr>
-				<td>{{team.project}}</td><td>{{team.members}}</td><td>{{team.summary}}</td>
-<td>{{team.url}}</td></td>
-           </tr>
-    {% endfor%}
-    </table>
+{% comment %}
+so we have an event page, current event will
+{% endcomment %}
+<div style="background-image: url('/assets/imgs/locations/{{ page.background-image }}');" class="jumbotron header center">
+	<h1 class="event-title">{{ page.title }}, {{ page.date | date: "%-d %h %Y" }}</h1>
+	<p class="event-description">
+		{{ page.summary }}
+	</p>
+	{% include stripes.html %}
 </div>
-{% endif %}
-
-
-{% if page.videos %}
-<div>
-    <h3 id="videos">Videos</h3>
-    <p>Videos of the presentations are available at <a href="{{page.videos.url}}">{{page.videos.name}}</a>
-</div>
-{% endif %}
-
-{% if page.blog-posts %}
-<div>
-    <h3 id="blogs">Blog posts and Articles</h3>
-    <ul>
-    {% for pair in page.blog-posts %}
-        {% for item in pair %}
-            <li>
-            <a href="{{ item[1] }}" target="_blank">{{item[0]}}</a>
-            </li>
-        {% endfor %}
-    {% endfor%}
-    </ul>
-</div>
-{% endif %}
-
-<div class="clearfix"></div>
-{{ content }}
+<div class="row bottom-spacing">
+	<div class="col-md-10 col-md-push-1">
+		{% if page.date_range[1] < site.time %}
+			{% include events/teams.html %}
+			{% include events/sponsors.html %}
+			{% include events/blogs.html %}
+		{% else %}
+			{% include events/on_the_day.html %}
+		{% endif %}
+		{% include events/other_events.html %}
+	</div>
 </div>
