@@ -12,8 +12,6 @@ We deliberately seek out non-geek, non-white, non-male participants.
 
 We don't tell, we show.
 
-## Beforehand
-
 ### Dates
 
 Try to make sure that there are no clashes with other events that will/should have a significant attendee x-over.
