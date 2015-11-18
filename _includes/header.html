@@ -1,29 +1,24 @@
-<header class="site-header">
-    <nav class="navbar navbar-default navbar-fixed-top">
-        <div class="container-fluid">
-            <div class="row">
-                <div class="col-xs-10 col-sm-12 col-md-4">
-                    <a href="/">
-                        <img class="logo" src="/assets/imgs/header-logo.png" alt="logo" />
-                    </a>
-                </div>
-                <div class="col-xs-2 col-sm-12 col-md-8 nav-vertical-align">
-                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#collapsed-menu">
-                      <span class="sr-only">Toggle navigation</span>
-                      <span class="icon-bar"></span>
-                      <span class="icon-bar"></span>
-                      <span class="icon-bar"></span>
-                    </button>
-                    <div class="hidden-xs nav-horizontal-margin">
-                     {% include nav-menu.html %}
-                     </div>
-                  </div>
-                  <div id="collapsed-menu" class="collapse">
-                      <div class="col-xs-6 col-xs-push-1">
-                      {% include nav-menu.html %}
-                      </div>
-                  </div>
-            </div>
-        </div>
-    </nav>
+<header>
+     <div class="container">
+          <div class="navbar navbar-default" role="navigation">
+               <div class="navbar-header"><a class="navbar-brand" href="index.html"> <img src="assets/imgs/cog.png" alt="optional logo" height="90" width="90"> <span class="logo_title">NHS <strong>Hack Day</strong></span> <span class="logo_subtitle">Geeks who love the NHS</span> </a><a class="btn btn-navbar btn-default navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse"><span class="nb_left pull-left"> <span class="fa fa-reorder"></span></span> <span class="nb_right pull-right">menu</span> </a></div>
+               <div class="collapse navbar-collapse">
+                    <ul class="nav pull-right navbar-nav">
+                         <li class="active"><a href="index.html">Home</a></li>
+                         <li><a href="about.html">About</a></li>
+                         <li><a href="cardiff-16.html">Next Event</a></li>
+                         <li class="dropdown"> <a data-toggle="dropdown" class="dropdown-toggle" href="#">Previous Events<span class="caret"></span></a>
+                              <ul class="dropdown-menu">
+                                   <li><a href="loremipsum.html">Lorem Ipsum
+                                  <span class="label label-danger">new</span></a></li>
+                              </ul>
+                         </li>
+                         <li><a href="contact.html">Contact</a></li>
+                    </ul>
+               </div>
+          </div>
+
+
+
+     </div>
 </header>

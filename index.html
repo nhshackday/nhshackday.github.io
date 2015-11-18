@@ -1,107 +1,209 @@
 ---
 layout: default
 ---
+<body class="collapsing_header">
 
-<div class="page-container">
-    <!-- background image, modal image -->
+<section id="slider_wrapper" class="slider_wrapper full_page_photo">
+     <div id="main_flexslider" class="flexslider">
+          <ul class="slides">
+               <li class="item" style="background-image: url(assets/images/mainroom2.jpg)">
+                    <div class="container">
+                         <div class="carousel-caption">
+                              <h1><strong>NHS Hack Days</strong><br>
+                                   Geeks who love the NHS</h1>
+                              <p class="lead skincolored">Promoting <strong>good health</strong>, <strong>good practice</strong> and <strong>good science</strong></p>
+                         </div>
+                    </div>
+               </li> <!-- no more sliders or Helen will get murderous -->
+          </ul>
+     </div>
+</section>
 
-    <section class="home-header hidden-xs">
-        <div class="quote">
-            <blockquote>
-                <p>
-                NHS Hack Day brings together people who love the NHS to help make it better...
-                </p>
-            </blockquote>
-        </div>
-        {% include stripes.html %}
-    </section>
+<div class="main">
+     
+     <section class="call_to_action"> 
+          <div class="container">
+               <h3>Come to the next Hack Day</h3>
+               <h4>$details</h4>
+               <a class="btn btn-primary btn-lg" href="#">Sign up now with random rocket icon&nbsp;<i class="fa fa-rocket"></i></a>
+          </div>
+     </section>
 
-    <!-- summary statement and sign up button -->
-    <section class="section container-fluid  summary-statement">
-        <div class="row">
-            <div class="col-md-8 col-md-push-2">
-                <h1 class="center">
-                Join us 12-13 Sep 2015 in Manchester
-                </h2>
-            </div>
-        </div>
-        {% assign latest_event = site.categories.events.first %}
-        {% if latest_event.date_range[1] > site.time %}
-            <div class="row">
-                <div class="col-md-8 col-md-push-2 center">
-                    <a class="btn btn-lg btn-warning" style="white-space: initial" href="https://www.eventbrite.co.uk/e/nhs-hack-day-11-manchester-nhshd-tickets-17633576502">
-                        Sign up!
-                    </a>
-                </div>
-            </div>
-        {% else %}
-            <a class="link-on-dark" href="{{ latest_event.permalink }}">
-                <h4 class="center">Take a look at all the things were made in the last event</h4>
-            </a>
-        {% endif %}
-    </section>
+     <section class="features_teasers_wrapper">
+          <div class="container">
+               <div class="row">
+                    <div class="feature_teaser col-sm-4 col-md-4"> <img alt="responsive" src="assets/restart-images/responsive.png">
+                         <h3>Free to attend</h3>
+                         <p>Words and <strong>other words</strong> and more words here look at all these words.</p>
+                    </div>
+                    <div class="feature_teaser col-sm-4 col-md-4"> <img alt="responsive" src="assets/restart-images/git.png">
+                         <h3>Three weekends a year</h3>
+                         <p>Words and <strong>other words</strong> and more words here look at all these words.</p>
+                    </div>
+                    <div class="feature_teaser col-sm-4 col-md-4"> <img alt="responsive" src="assets/restart-images/less.png">
+                         <h3>Making NHS IT less bad</h3>
+                         <p>Words and <strong>other words</strong> and more words here look at all these wordss.</p>
+                    </div>
+               </div>
+          </div>
+     </section>
 
-    <section class="section container-fluid">
-        <div class="row">
-            <div class="col-md-10 col-md-push-1 center section">
-                <div class="top-summary-section">
+     <section class="portfolio_teasers_wrapper">
+          <div class="container">
+               <h2 class="section_header fancy centered">Projects built at recent Hack Days<small>Some are even in use today</small></h2>
+               <div class="portfolio_strict row">
+                    <div class="col-sm-4 col-md-4">
+                         <div class="portfolio_item wow animated flipInX"> <a href="portfolio_item.html" data-path-hover="M 180,190 0,158 0,0 180,0 z">
+                              <figure style="background-image:url(assets/restart-images/portfolio/p4.jpg)">
+                                   <svg viewBox="0 0 180 320" preserveAspectRatio="none">
+                                        <path d="M 180,0 0,0 0,0 180,0 z"/>
+                                   </svg>
+                                   <figcaption>
+                                        <p>Description of the project dapibus, tellus ac cursus commodo, mauesris condime ntum nibh, ut fermentum....</p>
+                                        <div class="view_button">View</div>
+                                   </figcaption>
+                              </figure>
+                              </a>
+                              <div class="portfolio_description">
+                                   <h3><a href="portfolio_item.html">The {re}start Project</a></h3>
+                                   <p>Design</p>
+                              </div>
+                         </div>
+                    </div>
+                    <div class="col-sm-4 col-md-4">
+                         <div class="portfolio_item wow animated flipInX"> <a href="portfolio_item.html" data-path-hover="M 180,190 0,158 0,0 180,0 z">
+                              <figure style="background-image:url(assets/restart-images/portfolio/a5.jpg)">
+                                   <svg viewBox="0 0 180 320" preserveAspectRatio="none">
+                                        <path d="M 180,0 0,0 0,0 180,0 z"/>
+                                   </svg>
+                                   <figcaption>
+                                        <p>Description of the project dapibus, tellus ac cursus commodo, mauesris condime ntum nibh, ut fermentum....</p>
+                                        <div class="view_button">View</div>
+                                   </figcaption>
+                              </figure>
+                              </a>
+                              <div class="portfolio_description">
+                                   <h3><a href="portfolio_item.html">Colorfull iOS Apps</a></h3>
+                                   <p>Development</p>
+                              </div>
+                         </div>
+                    </div>
+                    <div class="col-sm-4 col-md-4">
+                         <div class="portfolio_item wow animated flipInX"> <a href="portfolio_item.html" data-path-hover="M 180,190 0,158 0,0 180,0 z">
+                              <figure style="background-image:url(assets/restart-images/portfolio/p1.jpg)">
+                                   <svg viewBox="0 0 180 320" preserveAspectRatio="none">
+                                        <path d="M 180,0 0,0 0,0 180,0 z"/>
+                                   </svg>
+                                   <figcaption>
+                                        <p>Description of the project dapibus, tellus ac cursus commodo, mauesris condime ntum nibh, ut fermentum....</p>
+                                        <div class="view_button">View</div>
+                                   </figcaption>
+                              </figure>
+                              </a>
+                              <div class="portfolio_description">
+                                   <h3><a href="portfolio_item.html">POETIC Magazine</a></h3>
+                                   <p>Illustrations</p>
+                              </div>
+                         </div>
+                    </div>
+               </div>
+          </div>     
+     </section>
+
+     <section class="clients_section wow animated fadeInUp">
+          <div class="container">
+               <h2 class="section_header elegant centered">Our supporters<small>supporter name supporter name supporter name supporter name supporter name supporter name supporter name supporter name supporter name supporter name supporter name supporter name supporter name supporter name supporter name supporter name supporter name supporter name supporter name </small></h2>
+          </div>     
+     </section>
+
+     <footer>
+
+          <section class="twitter_feed_wrapper">
+               <div class="container">
+                    <div class="row wow animated fadeInUp">
+                         <div class="twitter_feed_icon col-sm-1 col-md-1"><a href="#twitter"><i class="fa fa-twitter"></i></a></div>
+                         <div class="col-sm-11 col-md-11">
+                              <blockquote>
+                                   <p>A quote from someone who likes us, probably not with the big twitter icon</p>
+                                   — A NHS Lover <a href="#">attribution</a></blockquote>
+                         </div>
+                    </div>
+               </div>
+          </section>
+
+          <section id="footer_teasers_wrapper">
+               <div class="container">
                     <div class="row">
-                        <div class="col-md-12">
-                            <img class="img-header" src="/assets/imgs/cog.png">
-                        </div>
+
+                         <div class="footer_teaser col-sm-4 col-md-4">
+                              <h3>About us</h3>
+                              <p>Geeks who love the NHS.</p>
+                              <p><i class="fa fa-envelope"></i> hello@openhealthcare.org.uk</p>
+                              <p><i class="fa fa-twitter"></i> @NHSHackDay</p>
+                              <p><strong>Reddit:</strong> <a href="http://www.reddit.com/r/nhshackday" target="new">/r/nhshackday</a></p>
+                         </div>
+
+                         <div class="footer_teaser col-sm-4 col-md-4">
+                              <h3>Latest Hack Days</h3>
+                              <ul class="media-list">
+                                   <li class="media"> <a href="#" class="media-photo" style="background-image:url(assets/restart-images/portfolio/t5.jpg)"></a> <a href="#" class="media-date">19<span>FEB</span></a>
+                                        <h5 class="media-heading"><a href="#">NHS Hack Day 11, Manchester</a></h5>
+                                        <p>Fugiat dapibus, tellus ac cursus commodo, ut fermentum...</p>
+                                   </li>
+                                   <li class="media"> <a href="#" class="media-photo" style="background-image:url(assets/restart-images/portfolio/t4.jpg)"></a> <a href="#" class="media-date">18<span>FEB</span></a>
+                                        <h5 class="media-heading"><a href="#">NHS Hack Day 10, London</a></h5>
+                                        <p>Fugiat dapibus, tellus ac cursus commodo, condime ntum nibh, ut fermentum...</p>
+                                   </li>
+                              </ul>
+                         </div>
+
+                         <div class="footer_teaser col-sm-4 col-md-4">
+                              <h3>Twitter feed</h3>
+                              <p>Put the widget thing here</p> 
+                         </div>
                     </div>
-                    <div class="row section">
-                        <div class="col-md-12">
-                            <p>
-                                The digital revolution is changing the world and our expectations. 
-                                The NHS has lagging behind in this transformation, but it cannot afford to be 
-                                stuck in this position.
-                            </p>
-                            <p>
-                                The NHS Hack Day team run weekend events to promote health, good practice and 
-                                good science.
-                            </p>
-                        </div>
-                    </div>
-                </div>
-                <div class="bottom-summary-section">
+               </div>
+          </section>
+          <section class="copyright">
+               <div class="container">
                     <div class="row">
-                        <img class="img-header img-middle" src="/assets/imgs/heart.png">
+                         <div class="col-sm-6 col-md-6"> Copyright ©2014 all rights reserved </div>
+                         <div class="text-right col-sm-6 col-md-6"> Designed by <a href="http://www.leonart.gr">LeonArt</a> </div>
                     </div>
-
-                    <div class="row section">
-                        <div class="col-md-12">
-                            <p>Make things open: it makes them better.</p>
-                            <p>
-                                Open Governance and Open Source encourage effective collaboration and gives a 
-                                competitive advantage in terms 
-                                of the potential for lower costs and higher quality. 
-                                Openness is now standard in the technology industry, and across government. 
-                                Openness within technology stands alongside the openness found in academic culture, 
-                                with no room for "black boxes".
-                            </p>
-                            <p>
-                                Together, we can build an environment where world-class NHS digital services flourish
-                            </p>
-                        </div>
-                    </div>
-                    <div class="row section">
-                        <div class="col-md-12">
-                            <img class="img-header" src="/assets/imgs/health.png">
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-    </section>
-    <!-- supporters -->
-    <section class="supporters section">
-        <div class="row">
-            <div class="col-md-12">
-                <strong>Our supporters include:</strong>
-                NHS England, Sir Muir Gray, Sir Liam Donaldson, Sir Bruce Keogh, Dame Sally Davies, Mr Peter Lees, Ben Goldacre, Francis Irving, Nicholas Tollervey, Ross Jones, Sam Smith, NHS QIPP Right Care, Open Labs LJMU, Clare Gerada, Geraint Lewis, O'Reilly Media, UKGovCamp, Open Health Care UK, Health Innovation Network
-            </div>
-        </div>
-    </section
+               </div>
+          </section>
+     </footer>
 </div>
+
+
+
+
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-35112560-9', 'auto');
+  ga('send', 'pageview');
+
+</script>
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <script src="/assets/js/bootstrap.min.js"></script>
+
+  <!-- <script src="http://code.jquery.com/jquery-latest.min.js"></script> -->
+  <script>window.jQuery || document.write('<script src="assets/js/jquery-1.9.0.min.js"><\/script>')</script>
+  <script src="assets/twitter-bootstrap/js/bootstrap.min.js" type="text/javascript"></script>
+  <script src="assets/js/woothemes-FlexSlider-06b12f8/jquery.flexslider-min.js"></script>
+  <script src="assets/js/prettyPhoto_3.1.5/jquery.prettyPhoto.js" type="text/javascript" charset="utf-8"></script>
+  <script src="assets/js/isotope/jquery.isotope.min.js" type="text/javascript"></script>
+  <script type="text/javascript" src="assets/js/jquery.ui.totop.js"></script>
+  <script type="text/javascript" src="assets/js/easing.js"></script>
+  <script type="text/javascript" src="assets/js/wow.min.js"></script>
+  <script type="text/javascript" src="assets/js/snap.svg-min.js"></script>
+  <script type="text/javascript" src="assets/js/restart_theme.js"></script>
+  <script type="text/javascript" src="assets/js/parallax.min.js"></script>
