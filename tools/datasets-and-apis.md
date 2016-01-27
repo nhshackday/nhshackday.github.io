@@ -18,8 +18,6 @@ We're using [The Open Definition](http://opendefinition.org/) which can be summa
  * [OpenODS - NHS Organisation API](http://www.openods.co.uk) - API serving NHS organisational data under the Open Government Licence
 
 
-Lots of data claims to be "open" but has problematic restrictions, e.g. on redistribution, use for "indirect financial gain", etc.
-
 ## Proprietary Data
 
 While it may be easy to get access to this data, it's subject to various terms and conditions that make it not [open](http://opendefinition.org/).
