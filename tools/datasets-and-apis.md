@@ -14,6 +14,7 @@ We're using [The Open Definition](http://opendefinition.org/) which can be summa
 
 > A piece of data or content is open if anyone is free to use, reuse, and redistribute it — subject only, at most, to the requirement to attribute and/or share-alike.
 
+ * [NHS England Data Catalogue](https://data.england.nhs.uk)
  * [Pubmed Central Open Access Subset](http://pmc.jensenlab.org)
  * [SGUL's Linked Open Data repository. Academic API, SPARQL endpoint](http://data.sgul.ac.uk)
  * [OpenODS - NHS Organisation API](http://www.openods.co.uk) - API serving NHS organisational data under the Open Government Licence
