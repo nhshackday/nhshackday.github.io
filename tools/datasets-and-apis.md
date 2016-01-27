@@ -8,8 +8,6 @@ published: true
 
 ## Open Data
 
-Lots of data claims to be "open" but has problematic restrictions, e.g. on redistribution, use for "indirect financial gain", etc.
-
 We're using [The Open Definition](http://opendefinition.org/) which can be summarised as:
 
 > A piece of data or content is open if anyone is free to use, reuse, and redistribute it — subject only, at most, to the requirement to attribute and/or share-alike.
@@ -18,6 +16,9 @@ We're using [The Open Definition](http://opendefinition.org/) which can be summa
  * [Pubmed Central Open Access Subset](http://pmc.jensenlab.org)
  * [SGUL's Linked Open Data repository. Academic API, SPARQL endpoint](http://data.sgul.ac.uk)
  * [OpenODS - NHS Organisation API](http://www.openods.co.uk) - API serving NHS organisational data under the Open Government Licence
+
+
+Lots of data claims to be "open" but has problematic restrictions, e.g. on redistribution, use for "indirect financial gain", etc.
 
 ## Proprietary Data
 
