@@ -13,3 +13,7 @@
   display: block;
   text-shadow: 1px 1px 0px #ffffff;
 }
+
+.panel-body p {
+  font-size: 1em;
+}
