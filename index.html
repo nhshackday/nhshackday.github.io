@@ -2,106 +2,186 @@
 layout: default
 ---
 
-<div class="page-container">
-    <!-- background image, modal image -->
+<section id="slider_wrapper" class="slider_wrapper full_page_photo">
+     <div id="main_flexslider" class="flexslider">
+          <ul class="slides">
+               <li class="item" style="background-image: url(assets/images/mainroom2.jpg)">
+                    <div class="container">
+                         <div class="carousel-caption">
+                              <h1><strong>NHS Hack Day</strong><br>
+                                   Geeks who love the NHS</h1>
+                              <p class="lead skincolored">Promoting <strong>good health</strong>, <strong>good practice</strong> and <strong>good science</strong></p>
+                         </div>
+                    </div>
+               </li> <!-- no more sliders or Helen will get murderous -->
+          </ul>
+     </div>
+</section>
 
-    <section class="home-header hidden-xs">
-        <div class="quote">
-            <blockquote>
-                <p>
-                NHS Hack Day brings together people who love the NHS to help make it better...
-                </p>
-            </blockquote>
-        </div>
-        {% include stripes.html %}
-    </section>
+<div class="main">
+     <section class="call_to_action" style="background-color:rgba(240,240,240,1)"> 
+          <div class="container">
+               <h3>Join us at the next NHS Hack Day</h3>
+               <h4>January 30-31, Cardiff</h4>
+               <a class="btn btn-primary btn-lg" href="http://www.eventbrite.co.uk/e/nhs-hack-day-cardiff-2016-tickets-19078337822">Sign up now</a>
+          </div>
+     </section>
 
-    <!-- summary statement and sign up button -->
-    <section class="section container-fluid  summary-statement">
-        <div class="row">
-            <div class="col-md-8 col-md-push-2">
-                <h1 class="center">
-                Join us 12-13 Sep 2015 in Manchester
-                </h2>
-            </div>
-        </div>
-        {% assign latest_event = site.categories.events.first %}
-        {% if latest_event.date_range[1] > site.time %}
-            <div class="row">
-                <div class="col-md-8 col-md-push-2 center">
-                    <a class="btn btn-lg btn-warning" style="white-space: initial" href="https://www.eventbrite.co.uk/e/nhs-hack-day-11-manchester-nhshd-tickets-17633576502">
-                        Sign up!
-                    </a>
-                </div>
-            </div>
-        {% else %}
-            <a class="link-on-dark" href="{{ latest_event.permalink }}">
-                <h4 class="center">Take a look at all the things were made in the last event</h4>
-            </a>
-        {% endif %}
-    </section>
+     <section class="features_teasers_wrapper">
+          <div class="container">
+               <div class="row">
+                    <div class="feature_teaser col-sm-4 col-md-4"> <img alt="responsive" src="assets/imgs/cog-black.png" height="120px" width="130px">
+                         <h3>Free to attend</h3>
+                         <p class="fred">Tickets are and always will be <strong>free</strong> and we'll lay on <strong>free lunch</strong> and drinks all day.</p>
+                    </div>
+                    <div class="feature_teaser col-sm-4 col-md-4"> <img alt="responsive" src="assets/imgs/heart-black.png" height="120px" width="130px">
+                         <h3>A weekend hack day</h3>
+                         <p class="fred">Not an overnight event, but all day Saturday and Sunday with a <strong>fun social</strong> event in between.</p>
+                    </div>
+                    <div class="feature_teaser col-sm-4 col-md-4"> <img alt="responsive" src="assets/imgs/cross-black.png" height="120px" width="130px">
+                         <h3>Judges and prizes</h3>
+                         <p class="fred">We'll invite <strong>credible judges</strong> from across health, tech and patient sectors to award <strong>prizes</strong>.</p>
+                    </div>
+               </div>
+          </div>
+     </section>
 
-    <section class="section container-fluid">
-        <div class="row">
-            <div class="col-md-10 col-md-push-1 center section">
-                <div class="top-summary-section">
+     <section class="portfolio_teasers_wrapper">
+          <div class="container">
+               <h2 class="section_header fancy centered" style="background-color:rgba(240,240,240,1)">Featured projects from previous NHS Hack Days<small>Just a small taster of our success stories</small></h2>
+               <div class="portfolio_strict row">
+
+                    <div class="col-sm-4 col-md-4">
+                         <div class="portfolio_item wow animated flipInX"> <a href="portfolio_item.html" data-path-hover="M 180,190 0,158 0,0 180,0 z">
+                              <figure style="background-image:url(assets/imgs/projects/takeyourmeds.jpg)">
+                                   <svg viewBox="0 0 180 320" preserveAspectRatio="none">
+                                        <path d="M 180,0 0,0 0,0 180,0 z"/>
+                                   </svg>
+                                   <figcaption>
+                                        <p>Take Your Meds is a telephone reminder service to help you remember to take your medication.</p>
+                                        <div class="view_button">View</div>
+                                   </figcaption>
+                              </figure>
+                              </a>
+                              <div class="portfolio_description">
+                                   <h3><a href="portfolio_item.html"><img src="/assets/imgs/projects/takeyourmeds-logo.png"</img</a></h3>
+                                   <p class="fred">Simple medication reminders for you and yours</p>
+                              </div>
+                         </div>
+                    </div>
+
+                    <div class="col-sm-4 col-md-4">
+                         <div class="portfolio_item wow animated flipInX"> <a href="portfolio_item.html" data-path-hover="M 180,190 0,158 0,0 180,0 z">
+                              <figure style="background-image:url(assets/imgs/projects/cellcountr.png)">
+                                   <svg viewBox="0 0 180 320" preserveAspectRatio="none">
+                                        <path d="M 180,0 0,0 0,0 180,0 z"/>
+                                   </svg>
+                                   <figcaption>
+                                        <p>A simple way to perform cell differentials on a peripheral blood or bone marrow aspirate.</p>
+                                        <div class="view_button">View</div>
+                                   </figcaption>
+                              </figure>
+                              </a>
+                              <div class="portfolio_description">
+                                   <h3><img src="/assets/imgs/projects/cellcountr-logo.png"</img></h3>
+                                   <p>Haematology differentials webapp</p>
+                              </div>
+                         </div>
+                    </div>
+
+
+                    <div class="col-sm-4 col-md-4">
+                         <div class="portfolio_item wow animated flipInX"> <a href="portfolio_item.html" data-path-hover="M 180,190 0,158 0,0 180,0 z">
+                              <figure style="background-image:url(assets/imgs/projects/openbnf.png)">
+                                   <svg viewBox="0 0 180 320" preserveAspectRatio="none">
+                                        <path d="M 180,0 0,0 0,0 180,0 z"/>
+                                   </svg>
+                                   <figcaption>
+                                        <p>A simple way to perform cell differentials on a peripheral blood or bone marrow aspirate.</p>
+                                        <div class="view_button">View</div>
+                                   </figcaption>
+                              </figure>
+                              </a>
+                              <div class="portfolio_description">
+                                   <h3><img src="/assets/imgs/projects/openbnf-logo.png"</img></h3>
+                                   <p>Formulary information on a smartphone</p>
+                              </div>
+                         </div>
+                    </div>
+
+               </div>
+          </div>     
+     </section>
+
+     <section class="clients_section wow animated fadeInUp">
+          <div class="container" style="background-color:rgba(240,240,240,1)">
+               <h2 class="section_header elegant centered">Our supporters<small>NHS England, Sir Muir Gray, Sir Liam Donaldson, Sir Bruce Keogh, Dame Sally Davies, Mr Peter Lees, Ben Goldacre, Francis Irving, Sam Smith, NHS QIPP Right Care, Open Labs LJMU, Clare Gerada, Geraint Lewis, O'Reilly Media, UKGovCamp, Open Health Care UK, Health Innovation Network</small></h2>
+          </div>     
+     </section>
+
+     <footer>
+          <section class="twitter_feed_wrapper" style="background-color:rgba(100,100,100,0.1)">
+               <div class="container">
+                    <div class="row wow animated fadeInUp">
+                         <div class="twitter_feed_icon col-sm-1 col-md-1"><a href="#twitter"><i class="fa fa-heart" style="color:white"></i></a></div>
+                         <div class="col-sm-11 col-md-11">
+                              <blockquote>
+                                   <p><i>"...My main take-home message from the Hack Day was how the human drive to create and collaborate can be so strong given the right conditions..."</p>
+                                   <p align="right">— NHS Hack Day 10 attendee</i></p></blockquote>
+                         </div>
+                    </div>
+               </div>
+          </section>
+
+          <section id="footer_teasers_wrapper">
+               <div class="container">
                     <div class="row">
-                        <div class="col-md-12">
-                            <img class="img-header" src="/assets/imgs/cog.png">
-                        </div>
+
+                         <div class="footer_teaser col-sm-4 col-md-4">
+                              <h3>About us</h3>
+                              <p>Geeks who love the NHS.</p>
+                              <p><i class="fa fa-envelope"></i>&nbsp;hello@openhealthcare.org.uk</p>
+                              <p><a href="https://twitter.com/nhshackday"><i class="fa fa-twitter"></i>&nbsp;@NHSHackDay</a></p>
+                              <p><i class="fa fa-reddit-alien"></i>&nbsp;<a href="http://www.reddit.com/r/nhshackday"&nbsp;target="new">/r/nhshackday</a></p>
+                         </div>
+
+                         <div class="footer_teaser col-sm-4 col-md-4">
+                              <a class="twitter-timeline" data-dnt="true" href="https://twitter.com/NHSHackDay" data-widget-id="684768489115127808">Tweets by @NHSHackDay</a>
+                         </div>
+
+                         <div class="col-md-4 col-md-push-1">
+                              <form class="form" action="https://tinyletter.com/nhshackday" method="post" target="popupwindow" onsubmit="window.open('https://tinyletter.com/nhshackday', 'popupwindow', 'scrollbars=yes,width=800,height=600');return true">
+                                   <label for="tlemail">Sign up to our mailing list for news and announcements: </label>
+                                   <div class="form-group row">
+                                        <div class="col-md-10">
+                                             <div class="input-group">
+                                               <span class="input-group-addon">
+                                                  <span class="glyphicon glyphicon-envelope"></span>
+                                               </span>
+                                               <input type="email" class="form-control" name="email" id="tlemail" /><input type="hidden" value="1" name="embed"/>
+                                             </div>
+                                        </div>
+                                        <div class="col-md-2" align="right">
+                                             <input class="btn btn-info" type="submit" value="Subscribe" />
+                                        </div>
+                                   </div>
+                                   <p align="right"><small>( ~1 email per month)</small></p>
+                              </form>
+                         </div>
+
                     </div>
-                    <div class="row section">
-                        <div class="col-md-12">
-                            <p>
-                                The digital revolution is changing the world and our expectations. 
-                                The NHS has lagging behind in this transformation, but it cannot afford to be 
-                                stuck in this position.
-                            </p>
-                            <p>
-                                The NHS Hack Day team run weekend events to promote health, good practice and 
-                                good science.
-                            </p>
-                        </div>
-                    </div>
-                </div>
-                <div class="bottom-summary-section">
+               </div>
+          </section>
+          <section class="copyright">
+               <div class="container">
                     <div class="row">
-                        <img class="img-header img-middle" src="/assets/imgs/heart.png">
+                         <div class="col-sm-6 col-md-6"> Copyright ©2014 all rights reserved </div>
+                         <div class="text-right col-sm-6 col-md-6"> Designed by <a href="http://www.leonart.gr">LeonArt</a> </div>
                     </div>
-
-                    <div class="row section">
-                        <div class="col-md-12">
-                            <p>Make things open: it makes them better.</p>
-                            <p>
-                                Open Governance and Open Source encourage effective collaboration and gives a 
-                                competitive advantage in terms 
-                                of the potential for lower costs and higher quality. 
-                                Openness is now standard in the technology industry, and across government. 
-                                Openness within technology stands alongside the openness found in academic culture, 
-                                with no room for "black boxes".
-                            </p>
-                            <p>
-                                Together, we can build an environment where world-class NHS digital services flourish
-                            </p>
-                        </div>
-                    </div>
-                    <div class="row section">
-                        <div class="col-md-12">
-                            <img class="img-header" src="/assets/imgs/health.png">
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-    </section>
-    <!-- supporters -->
-    <section class="supporters section">
-        <div class="row">
-            <div class="col-md-12">
-                <strong>Our supporters include:</strong>
-                NHS England, Sir Muir Gray, Sir Liam Donaldson, Sir Bruce Keogh, Dame Sally Davies, Mr Peter Lees, Ben Goldacre, Francis Irving, Nicholas Tollervey, Ross Jones, Sam Smith, NHS QIPP Right Care, Open Labs LJMU, Clare Gerada, Geraint Lewis, O'Reilly Media, UKGovCamp, Open Health Care UK, Health Innovation Network
-            </div>
-        </div>
-    </section
+               </div>
+          </section>
+     </footer>
 </div>
+
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+
