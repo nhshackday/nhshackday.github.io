@@ -1,6 +1,6 @@
 ---
 layout: event
-permalink: /events/2015/05/london
+permalink: previous/events/2015/09/manchester/
 title:  "Manchester"
 summary: "Get Your Tickets Now"
 date:   2015-09-23 00:00:00
