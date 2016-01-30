@@ -7645,6 +7645,7 @@ ul.portfolio_filters li .active a:hover {
   color: #fff;
 }
 .portfolio_strict .portfolio_item a:hover figcaption p {
+  margin:0;
   transition-timing-function: ease-out;
   -webkit-transition-timing-function: ease-out;
   transform: translateY(0px);
@@ -7723,6 +7724,7 @@ ul.portfolio_filters li .active a:hover {
   color: #aaa;
   font-weight: 300;
   font-size: 13px;
+  text-align: center;
   transform: translateY(-10px);
   -webkit-transform: translateY(-10px);
   backface-visibility: hidden;
