@@ -6,23 +6,35 @@ layout: default
 so we have an event page, current event will
 {% endcomment %}
 
-<div style="background-image: url('/assets/imgs/locations/{{ page.background-image }}');" class="jumbotron header center">
-	<h1 class="event-title">{{ page.title }}, {{ page.date | date: "%-d %h %Y" }}</h1>
-	<p class="event-description">
-		{{ page.summary }}
-	</p>
-	{% include stripes.html %}
-</div>
-<div class="row bottom-spacing">
-	<div class="col-md-10 col-md-push-1">
-		{% if page.date_range[1] < site.time %}
-			{% include events/teams.html %}
-			{% include events/sponsors.html %}
-			{% include events/blogs.html %}
-		{% else %}
-			{% include events/on_the_day.html %}
-		{% endif %}
-		{% include events/other_events.html %}
-	</div>
-</div>
+
+<section class="service_teasers">
+          <div class="container">
+               <div class="service_teaser">
+                    <div class="row">
+                         <div class="service_photo col-sm-4 col-md-4">
+                              <figure style="background-image:url(images/serv_2.jpg)"></figure>
+                         </div>
+                         <div class="service_details col-sm-8 col-md-8">
+                              <h2 class="section_header skincolored"><b>Clean</b>Service<small>this default style is about minimalism and simplicity</small></h2>
+                              <p><strong>Restart</strong> makes real use of the power of {LESS} syntax!. It is built upon Bootstrap, a front-end development framework with a steep learning curve. It comes with a style.less file that tries to use <strong>all the power of {less} and bootstrap combined</strong>. </p>
+                              <a class="btn btn-primary pull-right" href="documentation/index.html"><i class="fa fa-gears"></i>&nbsp; Read Full Documentation</a> </div>
+                    </div>
+               </div>
+              
+               <div class="service_teaser right">
+                    <div class="row">
+                         <div class="service_details col-sm-8 col-md-8 wow animated slideInLeft">
+                              <h2 class="section_header skincolored"><b>Right</b>Service<small>is the default style <code>.right</code> aligned for some reason</small></h2>
+                              <p><strong>Restart</strong> is a multipurpose but <strong>mainly business oriented</strong> design, built to serve as a foundation for your web projects. It is built upon Bootstrap, a front-end development framework with a steep learning curve. It comes with a style.less file that tries to use <strong>all the power of {less} and bootstrap combined</strong>. </p>
+                         </div>
+                         <div class="service_photo col-sm-4 col-md-4 wow animated slideInRight">
+                              <figure style="background-image:url(images/serv_1.jpg)"></figure>
+                         </div>
+                    </div>
+               </div>
+          </div>
+     </section>
+
+
+
 
