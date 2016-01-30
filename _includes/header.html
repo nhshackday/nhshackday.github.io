@@ -6,14 +6,24 @@
                     <ul class="nav pull-right navbar-nav">
                          <li class="active"><a href="index.html">Home</a></li>
                          <li><a href="about.html">About</a></li>
-                         <li><a href="cardiff-16.html">Next Event</a></li>
-                         <li><a href="this.html">This Event</a></li>
+                         <li {% if page.url == site.categories.events.first.permalink %}class="active"{% endif %}>
+                                   {% assign latest_event = site.categories.events.first %}
+                                   <a href="{{ latest_event.permalink }}">
+                                   {% if latest_event.date_range[1] > site.time %}
+                                       Next Event:
+                                   {% else %}
+                                       Last Event:
+                                   {% endif %}
+                               {{ latest_event.title }}, {{ latest_event.date | date: '%b %Y' }}
+                               </a>
+                         </li>
                          <li class="dropdown"> <a data-toggle="dropdown" class="dropdown-toggle" href="#">Previous Events<span class="caret"></span></a>
                               <ul class="dropdown-menu">
                                    <li><a href="loremipsum.html">Lorem Ipsum
                                   <span class="label label-danger">new</span></a></li>
                               </ul>
                          </li>
+                         <li><a href="resources.html">Resources</a></li>
                          <li><a href="contact.html">Contact</a></li>
                     </ul>
                </div>
