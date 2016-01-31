@@ -10,4 +10,5 @@ date_range:
 categories: events
 background-image: “/assets/images/Manchester.jpg"
 photo-credit: "Tom Blackwell"
+photo-credit-link: https://www.flickr.com/photos/tjblackwell/1604324742
 ---
