@@ -1,0 +1,140 @@
+---
+layout: default
+---
+
+<style>
+  .black-bg{
+      background-color: #333;
+  }
+
+  ul.no-icon li{
+    background-image: None;
+  }
+
+  .cog{
+    background-image:url(/assets/imgs/cog-black.png);
+  }
+  .heart{
+    background-image:url(/assets/imgs/heart-black.png);
+  }
+  .cross{
+    background-image:url(/assets/imgs/cross-black.png);
+  }
+</style>
+
+<section class="team_members">
+     <div class="container">
+          <div class="row">
+               <div class="col-md-12">
+                 <span data-bind="foreach: presentations">
+                     <div class="service_teaser">
+                        <div class="row">
+                             <div class="service_photo col-sm-4 col-md-4">
+                                  <figure data-bind="css: { cog: $root.getImages($index) === 'cog', cross: $root.getImages($index) === 'cross', heart: $root.getImages($index) === 'heart'}" style="-webkit-background-size: auto; background-size: auto; background-image:url(/assets/imgs/cog.png)"></figure>
+                             </div>
+                             <div class="service_details col-sm-8 col-md-8">
+                                  <h2 class="section_header skincolored"><b data-bind="text: Project_Title"></b><small data-bind="text: Project_Members"></small></h2>
+                                  <ul data-bind="foreach: links" class="breadcrumb pull-right no-icon">
+                                     <li><a data-bind="attr: {href: href}"><span data-bind="text: name"></span></a></li>
+                                  </ul>
+                                  <p data-bind="text: Project_description"></p>
+                             </div>
+                        </div>
+                 </span>
+                 </div>
+               </div>
+          </div>
+     </div>
+</section>
+<div class="row">
+  <div style="text-align: center" class="col-md-12">
+    <small>see the <a data-bind="attr: {href: spreadSheetUrl}">original spreadsheet</a></small>
+  </div>
+</div>
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/knockout/3.4.0/knockout-min.js"></script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/underscore.js/1.8.3/underscore-min.js"></script>
+
+<script>
+  var spreadSheetUrl = "https://docs.google.com/spreadsheets/d/1Hdm3tRp3palzfsOA9u5E3N-Iq651lEy8oc_mQJBfTuQ/pubhtml"
+  var url = "http://cors.io/?u=" + spreadSheetUrl;
+  $(document).ready(function(){
+      // the tab seperated url
+      // var url = "https://docs.google.com/spreadsheets/d/10GJzFeCXPzDMQ4Ox1_dwp-P6gTCsmT2U6QoBmlrp0bI/pubhtml?widget=true&amp;headers=false"
+
+      // read in the url
+      var htmlPromise = $.get(url);
+
+      var getHeaders = function(html){
+        var result = [];
+        $($(html).find("table").find("tbody").find("tr:first-child")).find("td").each(function(x, y){ result.push($(y).text().replace(/ /g, "_").replace("(", "").replace(")", "")); });
+        return result;
+      }
+
+      var getRest = function(html){
+        var result = [];
+        $($(html).find("table").find("tbody").find("tr").not(":first-child")).each(function(index, row){
+            rowArray = [];
+            $(row).find("td").each(function(index, cell){
+              rowArray.push($(cell).text())
+            });
+            result.push(rowArray);
+        });
+
+        result = _.filter(result, function(x){
+            return _.some(x, function(cell){
+                return cell.length;
+            });
+        });
+        return result;
+      }
+
+      var toJson = function(html){
+          var headers = getHeaders(html);
+          var rest = getRest(html);
+          var result = [];
+          _.map(rest, function(line){
+            var lineObj = {};
+            _.each(headers, function(header, index){
+              lineObj[header] = line[index];
+            });
+            result.push(lineObj);
+          });
+
+          var links = ["Project_URL", "Presentation_URL", "GitHub"];
+          _.each(result, function(x){
+              x["links"] = []
+              _.each(links, function(link){
+                  if(x[link].startsWith("http") || x[link].startsWith("www")){
+                    var href = x[link];
+                    if(href.startsWith("www")){
+                      href = "http://" + href
+                    }
+                    x["links"].push({
+                        name: link.replace("_", " "),
+                        href: href
+                    });
+                  }
+              });
+          });
+
+          return result;
+      }
+
+      htmlPromise.then(function(e){
+          presentations(toJson(e));
+      });
+      var presentations = ko.observableArray();
+      var getImages = function(index){
+          images = ["cog", "heart", "cross"];
+          return images[index() % images.length]
+      }
+
+      ko.applyBindings({
+        presentations: presentations,
+        getImages: getImages,
+        spreadSheetUrl: spreadSheetUrl
+      });
+  });
+</script>

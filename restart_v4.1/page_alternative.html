@@ -1,97 +1,110 @@
 <!doctype html>
 <html class="no-js" lang="en">
 <head>
-<link href="http://fonts.googleapis.com/css?family=Open+Sans:400,300,400italic,600,600italic,700,700italic,300italic" rel="stylesheet" type="text/css">
-<meta charset="utf-8">
-<title>About us</title>
-<meta name="apple-mobile-web-app-capable" content="yes">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<link href="animate.css" rel="stylesheet" type="text/css">
-<link rel="stylesheet" href="js/woothemes-FlexSlider-06b12f8/flexslider.css" type="text/css" media="screen">
-<link rel="stylesheet" href="js/prettyPhoto_3.1.5/prettyPhoto.css" type="text/css" media="screen">
-<link href="style.css" rel="stylesheet" type="text/css">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width initial-scale=1" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="description" content="">
+	<meta name="apple-mobile-web-app-capable" content="yes">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>NHS Hack Day | Geeks who love the NHS</title>
 
-<link rel="stylesheet" href="fonts/font-awesome/css/font-awesome.min.css" media="screen">
-<script type="text/javascript" src="js/modernizr.custom.48287.js"></script>
-<!-- Fav and touch icons -->
-<link rel="apple-touch-icon-precomposed" sizes="114x114" href="apple-touch-icon-114x114-precomposed.png">
-<link rel="apple-touch-icon-precomposed" sizes="72x72" href="apple-touch-icon-72x72-precomposed.png">
-<link rel="apple-touch-icon-precomposed" href="apple-touch-fa-57x57-precomposed.png">
-<link rel="shortcut icon" href="favicon.png">
+  <link rel="stylesheet" href="/assets/css/main.css">
+  <link href="http://fonts.googleapis.com/css?family=Open+Sans:400,300,400italic,600,600italic,700,700italic,300italic" rel="stylesheet" type="text/css">
+	<link href="/assets/css/animate.css" rel="stylesheet" type="text/css">
+	<link rel="stylesheet" href="/assets/js/woothemes-FlexSlider-06b12f8/flexslider.css" type="text/css" media="screen">
+	<link href="/assets/css/nhshackday-www.css" rel="stylesheet" type="text/css">
+	<link rel="stylesheet" href="/assets/js/prettyPhoto_3.1.5/prettyPhoto.css" type="text/css" media="screen">
+	<link href="/assets/css/style.css" rel="stylesheet" type="text/css">
+	<link rel="stylesheet" href="/assets/fonts/font-awesome/css/font-awesome.min.css" media="screen">
+
+	<script type="text/javascript" src="/assets/js/modernizr.custom.48287.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/knockout/3.4.0/knockout-min.js"></script>
+  <style>
+    .black-bg{
+        background-color: #333;
+    }
+
+    ul.no-icon li{
+      background-image: None;
+    }
+
+    .cog{
+      background-image:url(/assets/imgs/cog-black.png);
+    }
+    .heart{
+      background-image:url(/assets/imgs/heart-black.png);
+    }
+    .cross{
+      background-image:url(/assets/imgs/cross-black.png);
+    }
+  </style>
 </head>
 <body>
-<header>
-     <div class="container">
-          <div class="navbar navbar-default" role="navigation">
-               <div class="navbar-header"><a class="navbar-brand" href="index.html"> <img src="images/restart_logo.png" alt="optional logo" height="90" width="90"> <span class="logo_title">{re}<strong>start</strong></span> <span class="logo_subtitle">a multipurpose template</span> </a><a class="btn btn-navbar btn-default navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse"><span class="nb_left pull-left"> <span class="fa fa-reorder"></span></span> <span class="nb_right pull-right">menu</span> </a></div>
-               <div class="collapse navbar-collapse">
-                    <ul class="nav pull-right navbar-nav">
-                         <li><a href="index.html">Home</a></li>
-                         <li><a href="about_us.html">About Us</a></li>
-                         <li><a href="services.html">Services</a></li>
-                         <li><a href="portfolio.html">Portfolio</a></li>
-                         <li><a href="blog.html">Blog</a></li>
-                         <li><a href="contact.html">Contact</a></li>
-                         <li class="dropdown"> <a data-toggle="dropdown" class="dropdown-toggle" href="#">Pages<span class="caret"></span></a>
-                              <ul class="dropdown-menu">
-                                   <li><a href="home_alternative.html">Home Alternative</a></li>
-                                   <li class="active"><a href="page_alternative.html">Page Alternative</a></li>
-                                   <li><a href="gallery.html">Portfolio Masonry</a></li>
-                                   <li><a href="portfolio_item.html">Portfolio Item</a></li>
-                                   <li><a href="portfolio_item_2.html">Portfolio Item II</a></li>
-                                   <li><a href="single_post.html">Single Post</a></li>
-                                   <li><a href="404.html">ERROR 404</a></li>
-                                   <li><a href="register.html">Register or Sign in</a></li>
-                                   <li><a href="elements.html">Design Elements</a></li>
-                                   <li><a href="documentation/index.html">Documentation <span class="label label-danger">new</span></a></li>
-                              </ul>
-                         </li>
-                    </ul>
-               </div>
-          </div>
-          <div id="social_media_wrapper"> <a href="https://www.facebook.com"><i class="fa fa-facebook"></i></a> <a href="https://twitter.com/leonartgr"><i class="fa fa-twitter"></i></a> <a href="https://github.com/PlethoraThemes"><i class="fa fa-github-alt"></i></a> </div>
-     </div>
-</header>
+  <header>
+       <div class="container">
+            <div class="navbar navbar-default" role="navigation">
+                 <div class="navbar-header"><a class="navbar-brand" href="index.html"> <img src="/assets/imgs/cog.png" alt="optional logo" height="90" width="90"> <span class="logo_title">NHS <strong>Hack Day</strong></span> <span class="logo_subtitle">Geeks who love the NHS</span> </a><a class="btn btn-navbar btn-default navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse"><span class="nb_left pull-left"> <span class="fa fa-reorder"></span></span> <span class="nb_right pull-right">menu</span> </a></div>
+                 <div class="collapse navbar-collapse">
+                      <ul class="nav pull-right navbar-nav">
+                           <li class="active"><a href="index.html">Home</a></li>
+                           <li><a href="about.html">About</a></li>
+                           <li class="dropdown"> <a data-toggle="dropdown" class="dropdown-toggle" href="#">Previous Events<span class="caret"></span></a>
+                                <ul class="dropdown-menu">
+                                    <li><a href="/previous/events/2015/09/manchester/">11: Manchester 2015</a></li>
+                                    <li><a href="/previous/events/2015/05/london/">10: London 2015</a></li>
+                                    <li><a href="/previous/events/2015/01/cardiff/">9: Cardiff 2015</a></li>
+                                    <li><a href="/previous/events/2014/09/leeds/">8: Leeds 2014</a></li>
+                                    <li><a href="/previous/events/2014/05/london/">7: London 2014</a></li>
+                                    <li><a href="/previous/events/2014/01/cardiff/">6: Cardiff 2014</a></li>
+                                    <li><a href="/previous/events/2013/11/cambridge/">5: Cambridge 2013</a></li>
+                                    <li><a href="/previous/events/2013/05/london/">4: London 2013</a></li>
+                                    <li><a href="/previous/events/2013/01/oxford/">3: Oxford 2012</a></li>
+                                    <li><a href="/previous/events/2012/05/london/">2: Liverpool 2012</a></li>
+                                    <li><a href="/previous/events/2012/05/london/">1: London 2012</a></li>
+                                  </a></li>
+                                </ul>
+                           </li>
+                           <li><a href="resources.html">Resources</a></li>
+                           <li><a href="contact.html">Contact</a></li>
+                      </ul>
+                 </div>
+            </div>
+       </div>
+  </header>
 <div class="main">
      <section class="hgroup">
           <div class="container">
-               <h1>About us</h1>
-               <h2>This is the contained, plain style of the about us page. There is also the <a href="about_us.html">collapsing header version</a> you should definitely visit!</h2>
-               <ul class="breadcrumb pull-right">
-                    <li><a href="index.html">Home</a> </li>
-                    <li class="active">About us</li>
-               </ul>
+               <h1>Presentations</h1>
+               <h2>All the presentations that are happening today</h2>
           </div>
      </section>
-     <figure>
-          <div class="container">
-          <img src="images/services.jpg" class="img-rounded" alt="1">
-          </div>
-     </figure>
-     <section class="article-text">
+     <section class="team_members">
           <div class="container">
                <div class="row">
-                    <div class="col-sm-8 col-md-8">
-                         <p>Vivamus vestibulum neque quis nunc convallis venenatis. Nulla tristique lorem sit amet ipsum ornare sit amet feugiat nulla condimentum. Sed faucibus volutpat nunc, at ullamcorper augue elementum id. Quisque at lectus leo, nec placerat mi. Curabitur egestas eleifend interdum. Suspendisse potenti. Suspendisse nec risus fermentum. </p>
-                         <p class="columns_2">In hac habitasse platea dictumst. In hac habitasse platea dictumst. Donec aliquet tellus enim, a tincidunt nulla. Praesent mollis felis at nulla fermentum mattis. Vivamus vestibulum neque quis nunc convallis venenatis. Nulla tristique lorem sit amet ipsum ornare sit amet feugiat nulla condimentum. Sed faucibus volutpat nunc, at ullamcorper augue elementum id. Quisque at lectus leo, nec placerat mi. Curabitur egestas eleifend interdum. Suspendisse potenti. Suspendisse nec risus fermentum sapien congue fermentum sed at lorem. Suspendisse quis sem lorem, a euismod nisl. Nullam eget tortor purus, id molestie sapien. Curabitur egestas eleifend interdum. Curabitur egestas eleifend interdum.</p>
-                         <p><img src="images/clients/wordpress.jpg" width="140" height="70" alt="jquery"></p>
-                         <blockquote>
-                              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
-                              <small>Clients are talking about us</small> </blockquote>
-                    </div>
-                    <div class="col-sm-4 col-md-4">
-                         <div class="service_teaser vertical elegant">
-                              <div class="service_photo">
-                                   <figure style="background-image:url(images/serv_2.jpg)"></figure>
-                              </div>
-                              <div class="service_details">
-                                   <h2 class="section_header elegant"><b>Teaser</b>Element<small>responds with style changing!</small></h2>
-                                   <a class="btn btn-primary" href="documentation/index.html">Just teasing you &nbsp; <i class="fa fa-code-fork"></i></a> </div>
-                         </div>
+                    <div class="col-md-12">
+                      <span data-bind="foreach: presentations">
+                          <div class="service_teaser">
+                             <div class="row">
+                                  <div class="service_photo col-sm-4 col-md-4">
+                                       <figure data-bind="css: { cog: $root.getImages($index) === 'cog', cross: $root.getImages($index) === 'cross', heart: $root.getImages($index) === 'heart'}" style="-webkit-background-size: auto; background-size: auto; background-image:url(/assets/imgs/cog.png)"></figure>
+                                  </div>
+                                  <div class="service_details col-sm-8 col-md-8">
+                                       <h2 class="section_header skincolored"><b data-bind="text: Project_Title"></b><small data-bind="text: Project_Members"></small></h2>
+                                       <ul data-bind="foreach: links" class="breadcrumb pull-right no-icon">
+                                          <li><a data-bind="attr: {href: href}"><span data-bind="text: name"></span></a></li>
+                                       </ul>
+                                       <p data-bind="text: Project_description"></p>
+                                  </div>
+                             </div>
+                      </span>
+                      </div>
                     </div>
                </div>
           </div>
      </section>
+     <!--
      <section class="call_to_action"> <img alt="responsive" src="images/star.png">
           <div class="container">
                <h3>give your creative ideas a boost</h3>
@@ -145,6 +158,7 @@
                </div>
           </div>
      </section>
+     -->
      <footer>
           <section class="twitter_feed_wrapper">
                <div class="container">
@@ -217,31 +231,78 @@
 <script>
   $(document).ready(function(){
       // the tab seperated url
-      var url = "https://docs.google.com/spreadsheets/d/10GJzFeCXPzDMQ4Ox1_dwp-P6gTCsmT2U6QoBmlrp0bI/pub?output=tsv"
+      var url = "https://docs.google.com/spreadsheets/d/1Hdm3tRp3palzfsOA9u5E3N-Iq651lEy8oc_mQJBfTuQ/pubhtml"
+      var url = "http://cors.io/?u=" + url;
+      // var url = "https://docs.google.com/spreadsheets/d/10GJzFeCXPzDMQ4Ox1_dwp-P6gTCsmT2U6QoBmlrp0bI/pubhtml?widget=true&amp;headers=false"
 
       // read in the url
-      var tabSeperatedPromise = $.get(url);
+      var htmlPromise = $.get(url);
 
-      var parseTabSeperated = function(tsv){
-          var columnHeaders = tsv[0].split("	");
-          var restOfTheData = _.rest(tsv, 1);
-          var allRows = _.compact(_.map(restOfTheData, function(line){
-              var splitLine = line.split(columnHeaders);
-              var result = {};
-              if(splitLine.length > columnHeaders.length){
-                  return;
-              }
-              _.each(columnHeaders, function(columnTitle, index){
-                  result[columnTitle] = splitLine[index];
-              });
-
-              return result;
-          }));
+      var getHeaders = function(html){
+        var result = [];
+        $($(html).find("table").find("tbody").find("tr:first-child")).find("td").each(function(x, y){ result.push($(y).text().replace(/ /g, "_").replace("(", "").replace(")", "")); });
+        return result;
       }
-      tabSeperatedPromise.then(function(e){
-          var result = parseTabSeperated(e);
-          debugger;
+
+      var getRest = function(html){
+        var result = [];
+        $($(html).find("table").find("tbody").find("tr").not(":first-child")).each(function(index, row){
+            rowArray = [];
+            $(row).find("td").each(function(index, cell){
+              rowArray.push($(cell).text())
+            });
+            result.push(rowArray);
+        });
+
+        result = _.filter(result, function(x){
+            return _.some(x, function(cell){
+                return cell.length;
+            });
+        });
+        return result;
+      }
+
+      var toJson = function(html){
+          var headers = getHeaders(html);
+          var rest = getRest(html);
+          var result = [];
+          _.map(rest, function(line){
+            var lineObj = {};
+            _.each(headers, function(header, index){
+              lineObj[header] = line[index];
+            });
+            result.push(lineObj);
+          });
+
+          var links = ["Project_URL", "Presentation_URL", "GitHub"];
+          _.each(result, function(x){
+              x["links"] = []
+              _.each(links, function(link){
+                  if(x[link].startsWith("http") || x[link].startsWith("www")){
+                    var href = x[link];
+                    if(href.startsWith("www")){
+                      href = "http://" + href
+                    }
+                    x["links"].push({
+                        name: link.replace("_", " "),
+                        href: href
+                    });
+                  }
+              });
+          });
+
+          return result;
+      }
+
+      htmlPromise.then(function(e){
+          presentations(toJson(e));
       });
+      var presentations = ko.observableArray();
+      var getImages = function(index){
+          images = ["cog", "heart", "cross"];
+          return images[index() % images.length]
+      }
+      ko.applyBindings({presentations: presentations, getImages: getImages});
   });
 </script>
 </body>
