@@ -231,9 +231,19 @@ th {
   z-index: 99; 
   margin-bottom: 0.5cm;
 }
+.organiser_image p{
+  font-size: 15px;
+  font-weight: 500;
+  padding: 5px;
+  margin:0 5% 0.5cm 5%;
+}
+.organiser_image h4{
+  margin:0 5% 0 5%; 
+}
 .organiser_image img{
-  margin:auto;
-  margin-bottom: 0.5cm;
+  width: 90%;
+  margin:0 5% 0.5cm 5%;
+  
 }
 /*! Source: https://github.com/h5bp/html5-boilerplate/blob/master/src/css/main.css */
 @media print {
@@ -1343,6 +1353,7 @@ p {
   line-height: 1.4;
 }
 @media (min-width: 768px) {
+
   .lead {
     font-size: 21px;
   }
