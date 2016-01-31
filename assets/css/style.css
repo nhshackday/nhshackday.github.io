@@ -194,6 +194,15 @@ td,
 th {
   padding: 0;
 }
+.smallFont p{
+  font-size: 14px;
+  font-weight: 900;
+  font-family: sans-serif;
+  margin: 0;
+  padding-left: 20px;
+  text-align: left;
+}
+
 /*! Source: https://github.com/h5bp/html5-boilerplate/blob/master/src/css/main.css */
 @media print {
   *,
@@ -7384,7 +7393,18 @@ section.parallax-window {
   padding: 0 20px;
 }
 .service_teaser .service_details p {
-  font-weight: 300;
+  font-weight: 400;
+}
+.service_teaser ul{
+  list-style-type: none;
+  padding: 0;
+  margin:0;
+}
+.service_teaser li{
+  padding-left: 1em;
+  background-image: url('../images/blue-heart.png');
+  background-repeat: no-repeat;
+  background-position: left top;
 }
 .service_teaser.right {
   border-radius: 0 6px 6px 0;
@@ -7427,6 +7447,10 @@ section.parallax-window {
 }
 .service_teaser.elegant .service_details p {
   font-weight: 300;
+}
+.service_teaser.elegant .service_details li{
+  font-size: 13px;
+  font-weight: 500;
 }
 .service_teaser.elegant .service_photo figure {
   border-radius: 50%;
