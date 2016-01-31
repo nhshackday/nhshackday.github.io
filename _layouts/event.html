@@ -12,9 +12,10 @@ so we have an event page, current event will
 	<p class="event-description">
 		{{ page.summary }}
 	</p>
+
 	<!-- move this styling to CSS -->
-	<p class="photo-credit" style="display: block; text-align: right; font-size: 1em; margin-right: 0.5em; margin-bottom: 0.5em; z-index:1;">
-		Photo by <a href="{{page.photo-credit-link}}" target="_blank">{{page.photo-credit}}</a>
+	<p class="photo-credit" style="display: block; position: absolute; bottom: 0; right: 0; text-align: right; font-size: 1em; margin-right: 0.5em; margin-bottom: 0.5em; z-index:1;">
+		Photo by <a href="{{page.photo-credit-link}}" target="_blank">{{page.photo-credit}}</a> &copy;
 	</p>
 
 	{% include stripes.html %}
