@@ -12,6 +12,9 @@ so we have an event page, current event will
 	<p class="event-description">
 		{{ page.summary }}
 	</p>
+	<p class="photo-credit">
+		Photo by {{page.photo-credit}}
+	</p>
 	{% include stripes.html %}
 </div>
 <div class="row bottom-spacing">
@@ -26,6 +29,3 @@ so we have an event page, current event will
 		{% include events/other_events.html %}
 	</div>
 </div>
-
-
-

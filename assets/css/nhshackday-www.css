@@ -17,3 +17,10 @@
 .panel-body p {
   font-size: 1em;
 }
+
+.photo-credit {
+  font-size: 0.5em;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}

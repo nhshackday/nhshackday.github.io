@@ -8,5 +8,5 @@ date_range:
     - 2015-09-23 00:00:00
     - 2015-09-24 00:00:00
 categories: events
-background-image: "manchester.jpg"
+background-image: “/assets/images/Manchester.jpg"
 ---
