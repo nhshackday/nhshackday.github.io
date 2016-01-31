@@ -202,7 +202,14 @@ th {
   padding-left: 20px;
   text-align: left;
 }
-
+.resources_title{
+  height:150px;
+  background: url('../images/resources_title.jpg') no-repeat;
+  background-size:cover; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  z-index: 99;
+}
 /*! Source: https://github.com/h5bp/html5-boilerplate/blob/master/src/css/main.css */
 @media print {
   *,
@@ -7384,7 +7391,6 @@ section.parallax-window {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  border-right: solid 1px #cccccc;
   margin: 0;
 }
 .service_teaser .service_details {
@@ -7415,8 +7421,6 @@ section.parallax-window {
 }
 .service_teaser.right .service_photo figure {
   border-radius: 0 6px 6px 0;
-  border-right: solid 0px #cccccc;
-  border-left: solid 1px #cccccc;
 }
 .service_teaser.inverted {
   border-radius: 6px 6px 6px 6px;
@@ -8516,7 +8520,6 @@ blockquote p {
   .service_teaser.elegant .service_photo {
     padding: 0 0 0 20px;
     max-height: 200px;
-    border-bottom: solid 1px #cccccc;
   }
   .service_teaser.elegant .service_photo figure {
     margin: 0px;
@@ -8690,8 +8693,7 @@ blockquote p {
   }
   .service_teaser.elegant .service_photo {
     padding: 0 0 0 20px;
-    max-height: 220px;
-    border-bottom: solid 1px #cccccc;
+    max-height: 250px;
   }
   .service_teaser.elegant .service_photo figure {
     margin: 0px;
