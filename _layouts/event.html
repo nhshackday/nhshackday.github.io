@@ -5,6 +5,8 @@ layout: default
 {% comment %}
 so we have an event page, current event will
 {% endcomment %}
+
+
 <div style="background-image: url('/assets/imgs/locations/{{ page.background-image }}');" class="jumbotron header center">
 	<h1 class="event-title">{{ page.title }}, {{ page.date | date: "%-d %h %Y" }}</h1>
 	<p class="event-description">
@@ -24,3 +26,6 @@ so we have an event page, current event will
 		{% include events/other_events.html %}
 	</div>
 </div>
+
+
+

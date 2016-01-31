@@ -1,0 +1,130 @@
+body {
+  padding-bottom: 20px;
+  background-color: #F5F5F5;
+}
+
+.navbar {
+  margin-bottom: 20px;
+}
+
+.navbar-brand img {
+    margin-top: -16px;
+}
+
+.page-container {
+    min-height: 200px;
+    border: solid 3px #e5e5e5;
+    padding: 8px;
+    border-radius: 8px;
+    background-color: #F8F8F8;
+    font-weight: 200;
+}
+
+.footer {
+    margin-top: 8px;
+    border-top: solid 1px #e5e5e5;
+    padding: 8px;
+    font-weight: 200;
+}
+.footer ul {
+  margin-top: 8px;
+  width: 100%;
+}
+.footer ul li {
+  display: inline;
+  margin-left: 30px;
+}
+
+h2 { font-weight: 200; }
+
+.logorepl {
+  font-weight: 300;
+  font-size: 2.5em;
+}
+
+.event-block {
+    padding: 8px
+}
+
+.tool-block {
+    padding: 8px
+}
+
+.event-sidebar {
+  min-width: 250px;
+  max-width: 300px;
+  padding: 10px;
+  background-color: #e5e5e5;
+  border-radius: 8px;
+  border: solid 2px #a5a5a5;
+}
+
+.event-sidebar  h3 {
+  font-weight: 200;
+  margin-top: 0;
+}
+
+.event-sidebar ul li {
+  margin-left: -25px;
+}
+
+tr:nth-child(even) {
+  background:#eef;
+}
+
+th {
+  background:#ddd;
+}
+
+.dropdown-submenu {
+    position: relative;
+}
+
+.dropdown-submenu>.dropdown-menu {
+    top: 0;
+    left: 100%;
+    margin-top: -6px;
+    margin-left: -1px;
+    -webkit-border-radius: 0 6px 6px 6px;
+    -moz-border-radius: 0 6px 6px;
+    border-radius: 0 6px 6px 6px;
+}
+
+.dropdown-submenu:hover>.dropdown-menu {
+    display: block;
+}
+
+.dropdown-submenu>a:after {
+    display: block;
+    content: " ";
+    float: right;
+    width: 0;
+    height: 0;
+    border-color: transparent;
+    border-style: solid;
+    border-width: 5px 0 5px 5px;
+    border-left-color: #ccc;
+    margin-top: 5px;
+    margin-right: -10px;
+}
+
+.dropdown-submenu:hover>a:after {
+    border-left-color: #fff;
+}
+
+.dropdown-submenu.pull-left {
+    float: none;
+}
+
+.dropdown-submenu.pull-left>.dropdown-menu {
+    left: -100%;
+    margin-left: 10px;
+    -webkit-border-radius: 6px 0 6px 6px;
+    -moz-border-radius: 6px 0 6px 6px;
+    border-radius: 6px 0 6px 6px;
+}
+
+/* bootstrap buttons don't allow wrapping which breaks mobile views */
+.btn.btn-wrapped{
+    white-space: normal;
+}
