@@ -9,4 +9,5 @@ date_range:
     - 2015-09-24 00:00:00
 categories: events
 background-image: “/assets/images/Manchester.jpg"
+photo-credit: "Tom Blackwell"
 ---
