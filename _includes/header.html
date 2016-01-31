@@ -4,8 +4,8 @@
                <div class="navbar-header"><a class="navbar-brand" href="index.html"> <img src="/assets/imgs/cog.png" alt="optional logo" height="90" width="90"> <span class="logo_title">NHS <strong>Hack Day</strong></span> <span class="logo_subtitle">Geeks who love the NHS</span> </a><a class="btn btn-navbar btn-default navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse"><span class="nb_left pull-left"> <span class="fa fa-reorder"></span></span> <span class="nb_right pull-right">menu</span> </a></div>
                <div class="collapse navbar-collapse">
                     <ul class="nav pull-right navbar-nav">
-                         <li class="active"><a href="index.html">Home</a></li>
-                         <li><a href="about.html">About</a></li>
+                         <li class="active"><a href="/index.html">Home</a></li>
+                         <li><a href="/about.html">About</a></li>
                          <li {% if page.url == site.categories.events.first.permalink %}class="active"{% endif %}>
                                    {% assign latest_event = site.categories.events.first %}
                                    <a href="{{ latest_event.permalink }}">
@@ -35,12 +35,12 @@
                          </li>
                          <li class="dropdown"> <a data-toggle="dropdown" class="dropdown-toggle" href="#">Resources<span class="caret"></span></a>
                               <ul class="dropdown-menu">
-                                  <li><a href="resources.html">Datasets and APIs</a></li>
-                                  <li><a href="graphics.html">NHS Hack Day graphics</a></li>
-                                  <li><a href="organiser.html">Organiser notes</a></li>
+                                  <li><a href="/resources.html">Datasets and APIs</a></li>
+                                  <li><a href="/graphics.html">NHS Hack Day graphics</a></li>
+                                  <li><a href="/organiser.html">Organiser notes</a></li>
                               </ul>
                          </li>
-                         <li><a href="contact.html">Contact</a></li>
+                         <li><a href="/contact.html">Contact</a></li>
                     </ul>
                </div>
           </div>
