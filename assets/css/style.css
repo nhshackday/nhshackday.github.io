@@ -222,6 +222,19 @@ th {
   z-index: 99; 
   margin-bottom: 0.5cm;
 }
+.organiser_title{
+  height:200px;
+  background: url('../images/branding.jpg') no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size:cover; 
+  z-index: 99; 
+  margin-bottom: 0.5cm;
+}
+.organiser_image img{
+  margin:auto;
+  margin-bottom: 0.5cm;
+}
 /*! Source: https://github.com/h5bp/html5-boilerplate/blob/master/src/css/main.css */
 @media print {
   *,
