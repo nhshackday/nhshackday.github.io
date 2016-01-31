@@ -203,12 +203,24 @@ th {
   text-align: left;
 }
 .resources_title{
-  height:150px;
+  height:200px;
+  /* image retrieved from https://m.flickr.com/#/photos/paul_clarke/24710348265/in/set-72157663924567942/ */
   background: url('../images/resources_title.jpg') no-repeat;
   background-size:cover; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   z-index: 99;
+  margin-bottom: 0.5cm;
+}
+.graphics_title{
+  height:200px;
+  /*  images retrieved from https://m.flickr.com/#/photos/paul_clarke/24614341371/in/set-72157663924567942/ */
+  background: url('../images/graphics_title.jpg') no-repeat;
+  background-size:cover; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  z-index: 99; 
+  margin-bottom: 0.5cm;
 }
 /*! Source: https://github.com/h5bp/html5-boilerplate/blob/master/src/css/main.css */
 @media print {
@@ -7391,7 +7403,7 @@ section.parallax-window {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  margin: 0;
+  margin: 10px 0 0 0;
 }
 .service_teaser .service_details {
   background-color: #ffffff;
