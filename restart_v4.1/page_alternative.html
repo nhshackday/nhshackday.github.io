@@ -296,14 +296,14 @@
       }
 
       htmlPromise.then(function(e){
-          var result = toJson(e);
-          var getImages = function(index){
-              images = ["cog", "heart", "cross"];
-              return images[index() % images.length]
-          }
-
-          ko.applyBindings({presentations: result, getImages: getImages});
+          presentations(toJson(e));
       });
+      var presentations = ko.observableArray();
+      var getImages = function(index){
+          images = ["cog", "heart", "cross"];
+          return images[index() % images.length]
+      }
+      ko.applyBindings({presentations: presentations, getImages: getImages});
   });
 </script>
 </body>
