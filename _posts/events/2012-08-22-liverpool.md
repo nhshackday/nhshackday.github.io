@@ -9,6 +9,7 @@ date_range:
     - 2012-09-23 00:00:00
 categories: events
 label: 2012
+background-image: “/assets/images/Liverpool.jpg"
 blog-posts:
     Katherine Koerner -- Making Sense of Patient Comments : http://www.pickereurope.org/making-sense-of-patient-comments.html
     Francis Irving -- Hacking the National Health Service : http://blog.scraperwiki.com/2012/09/24/hacking-the-nhs/
