@@ -17,3 +17,8 @@
 .panel-body p {
   font-size: 1em;
 }
+
+.photo-credit {
+  font-size: 10px;
+  float: right;
+}
