@@ -19,6 +19,8 @@
 }
 
 .photo-credit {
-  font-size: 10px;
-  float: right;
+  font-size: 0.5em;
+  position: absolute;
+  bottom: 0;
+  right: 0;
 }
