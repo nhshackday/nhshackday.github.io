@@ -6,6 +6,9 @@ rdiscount:
     toc_token: "!!!TOC"
 pygments: true
 previous:
+    - January 2016 Cardiff
+    - September 2015 Leeds
+    - May 2015 London
     - Jan 2015 Cardiff
     - Sep 2014 Leeds
     - Jan 2014 Cardiff
@@ -14,11 +17,9 @@ previous:
     - Jan 2013 Oxford
     - Sep 2012 Liverpool
     - May 2012 London
-nexter-event: 
-    location: "Manchester this autumn"
 next-event:
-    date: "30 & 31 January 2016"
-    location: "Cardiff"
-    venue: "Cardiff, Wales"
-    signup: "http://www.eventbrite.co.uk/e/nhs-hack-day-cardiff-2016-tickets-19078337822"
+    date: "14 & 15 May 2016"
+    location: "London"
+    venue: "KCL Strand Campus, London WC2R 2LS"
+    signup: "https://www.eventbrite.co.uk/e/nhs-hack-day-london-2016-tickets-23403024075"
 
