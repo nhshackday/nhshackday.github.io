@@ -1,6 +1,6 @@
 ---
 layout: event
-permalink: /previous/events/2015/09/manchester
+permalink: /previous/events/2015/09/manchester/
 title:  "Manchester"
 summary: "Held at Ziferblat Manchester, and organised by Marcus Baw"
 date:   2015-09-12 00:00:00
