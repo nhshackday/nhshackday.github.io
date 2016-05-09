@@ -1,48 +1,30 @@
 <header>
-     <div class="container">
-          <div class="navbar navbar-default" role="navigation">
-               <div class="navbar-header"><a class="navbar-brand" href="/index.html"> <img src="/assets/imgs/cog.png" alt="optional logo" height="90" width="90"> <span class="logo_title">NHS <strong>Hack Day</strong></span> <span class="logo_subtitle">Geeks who love the NHS</span> </a><a class="btn btn-navbar btn-default navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse"><span class="nb_left pull-left"> <span class="fa fa-reorder"></span></span> <span class="nb_right pull-right">menu</span> </a></div>
-               <div class="collapse navbar-collapse">
-                    <ul class="nav pull-right navbar-nav">
-                         <li class="active"><a href="/index.html">Home</a></li>
-                         <li><a href="/about.html">About</a></li>
-                         <li {% if page.url == site.categories.events.first.permalink %}class="active"{% endif %}>
-                                   {% assign latest_event = site.categories.events.first %}
-                                   <a href="{{ latest_event.permalink }}">
-                                   {% if latest_event.date_range[1] > site.time %}
-                                       Next Event:
-                                   {% else %}
-                                       Last Event:
-                                   {% endif %}
-                               {{ latest_event.title }}, {{ latest_event.date | date: '%b %Y' }}
-                               </a>
-                         </li>
-                         <li class="dropdown"> <a data-toggle="dropdown" class="dropdown-toggle" href="#">Previous Events<span class="caret"></span></a>
-                              <ul class="dropdown-menu">
-                                  <li><a href="/previous/events/2015/09/manchester/">11: Manchester 2015</a></li>
-                                  <li><a href="/previous/events/2015/05/london/">10: London 2015</a></li>
-                                  <li><a href="/previous/events/2015/01/cardiff/">9: Cardiff 2015</a></li>
-                                  <li><a href="/previous/events/2014/09/leeds/">8: Leeds 2014</a></li>
-                                  <li><a href="/previous/events/2014/05/london/">7: London 2014</a></li>
-                                  <li><a href="/previous/events/2014/01/cardiff/">6: Cardiff 2014</a></li>
-                                  <li><a href="/previous/events/2013/11/cambridge/">5: Cambridge 2013</a></li>
-                                  <li><a href="/previous/events/2013/05/london/">4: London 2013</a></li>
-                                  <li><a href="/previous/events/2013/01/oxford/">3: Oxford 2012</a></li>
-                                  <li><a href="/previous/events/2012/05/london/">2: Liverpool 2012</a></li>
-                                  <li><a href="/previous/events/2012/05/london/">1: London 2012</a></li>
-                                </a></li>
-                              </ul>
-                         </li>
-                         <li class="dropdown"> <a data-toggle="dropdown" class="dropdown-toggle" href="#">Resources<span class="caret"></span></a>
-                              <ul class="dropdown-menu">
-                                  <li><a href="/datasetsandapis.html">Datasets and APIs</a></li>
-                                  <li><a href="/graphics.html">NHS Hack Day graphics</a></li>
-                                  <li><a href="/organiser.html">Organiser notes</a></li>
-                              </ul>
-                         </li>
-                         <li><a href="/contact.html">Contact</a></li>
-                    </ul>
-               </div>
-          </div>
-     </div>
+  <div class="container">
+    <div class="navbar navbar-default" role="navigation">
+      <div class="navbar-header">
+        <a class="navbar-brand" href="/">
+          <img src="/assets/images/header-logo.png" alt="NHS Hack Day - Geeks who love the NHS">
+          <!-- <span class="logo_title">NHS <strong>Hack Day</strong></span> <span class="logo_subtitle">Geeks who love the NHS</span> -->
+        </a>
+        <a class="btn btn-navbar btn-default navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse"><span class="nb_left pull-left"> <span class="fa fa-reorder"></span></span> <span class="nb_right pull-right">menu</span>
+        </a>
+
+      </div>
+      <div class="collapse navbar-collapse">
+        <ul class="nav pull-right navbar-nav">
+          <li {% if page.url == "/" %}class="active"{% endif %}><a href="/index.html">Home</a></li>
+          <li ><a href="/about/">About</a></li>
+          <li class="dropdown"> <a data-toggle="dropdown" class="dropdown-toggle" href="#">Resources<span class="caret"></span></a>
+            <ul class="dropdown-menu">
+              <li><a href="/datasetsandapis.html">Datasets and APIs</a></li>
+              <li><a href="/graphics.html">NHS Hack Day graphics</a></li>
+              <li><a href="/organiser.html">Organiser notes</a></li>
+            </ul>
+          </li>
+          <li><a href="/contact.html">Contact</a></li>
+
+        </ul>
+      </div>
+    </div>
+  </div>
 </header>
