@@ -1,0 +1,20 @@
+---
+layout: default
+title: "Previous events"
+---
+<div class="page-container">
+  <div class="container">
+    <div class="row">
+      <ol class="lead" reversed="reversed">
+        {% for event in site.categories.events %}
+        <li>
+          <a href="{{ event.url }}">
+            {{ event.title }}
+          </a>
+          {{ event.summary }}
+        </li>
+      {% endfor %}
+      </ol>
+    </div>
+  </div>
+</div>
