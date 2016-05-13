@@ -10,6 +10,8 @@ date_range:
 categories: events
 label: 2013
 background-image: “/assets/images/Cambridge.jpg"
+photo-credit: "Caffeinehit"
+photo-credit-link: https://www.flickr.com/photos/caffeinehit/184019023
 blog-posts:
     doismellburning -- NHS Hack Day Cambridge : http://blog.doismellburning.co.uk/2014/02/20/nhs-hack-day-cambridge-2013
     Rachel Graves (@didlix) -- NHS Hack Day 5 : http://didlix.net/2013/11/02/nhs-hack-day-5.html

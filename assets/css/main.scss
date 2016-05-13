@@ -87,9 +87,6 @@ rect.cover {
 }
 
 
-.main-content{
-	margin-top: 100px;
-}
 
 .project-logo{
 	// margin bottom should mirror the bottom margin of h2
@@ -170,4 +167,8 @@ p {
     font-size: 1.4em;
     width: 80%;
     margin: 0 auto;
+}
+
+p.full-width {
+   width: 100%;
 }

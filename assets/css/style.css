@@ -2,14 +2,14 @@
 /*!
 Theme Name: {re}start
 Theme URI: http://www.leonart.gr/htmlthemes/restart_v3/
-Description: Multipurpose HTML Template based on twitter bootstrap. 
+Description: Multipurpose HTML Template based on twitter bootstrap.
 Version: 4.0
 Author: Leon Turut
 Author URI: http://www.leonart.gr
 */
 /* =Imports
 We import bootstrap.less in order to take advantage of its classes and mixins.
-AFTER THAT we import the custom_variables.less which is Bootstrap variables.less 
+AFTER THAT we import the custom_variables.less which is Bootstrap variables.less
 that we copied and altered in order to override the original variables and make our custom bootstrap skin.
 This way we leave Bootstrap unharmed.
 --------------------------------------------------------------*/
@@ -206,9 +206,9 @@ th {
   height:200px;
   /* image retrieved from https://m.flickr.com/#/photos/paul_clarke/24710348265/in/set-72157663924567942/ */
   background: url('../images/resources_title.jpg') no-repeat;
-  background-size:cover; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
+  background-size:cover;
   z-index: 99;
   margin-bottom: 0.5cm;
 }
@@ -216,11 +216,34 @@ th {
   height:200px;
   /*  images retrieved from https://m.flickr.com/#/photos/paul_clarke/24614341371/in/set-72157663924567942/ */
   background: url('../images/graphics_title.jpg') no-repeat;
-  background-size:cover; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
-  z-index: 99; 
+  background-size:cover;
+  z-index: 99;
   margin-bottom: 0.5cm;
+}
+.organiser_title{
+  height:200px;
+  background: url('../images/branding.jpg') no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size:cover;
+  z-index: 99;
+  margin-bottom: 0.5cm;
+}
+.organiser_image p{
+  font-size: 15px;
+  font-weight: 500;
+  padding: 5px;
+  margin:0 5% 0.5cm 5%;
+}
+.organiser_image h4, .organiser_image li{
+  margin:0 5% 0 5%;
+}
+.organiser_image img{
+  width: 90%;
+  margin:0 5% 0.5cm 5%;
+
 }
 /*! Source: https://github.com/h5bp/html5-boilerplate/blob/master/src/css/main.css */
 @media print {
@@ -1330,6 +1353,7 @@ p {
   line-height: 1.4;
 }
 @media (min-width: 768px) {
+
   .lead {
     font-size: 21px;
   }
@@ -6590,10 +6614,10 @@ button.close {
     display: none !important;
   }
 }
-/*!                    
+/*!
 Theme Name: ReStart
 THEME STYLES
-================================================================= 
+=================================================================
 */
 /* =General
 -------------------------------------------------------------- */
@@ -6765,8 +6789,6 @@ header .container {
 .navbar a.navbar-brand img {
   float: left;
   margin: 0 6px 0 0;
-  width: 90px;
-  height: 90px;
 }
 .navbar a.navbar-brand span.logo_title {
   font-size: 24px;
