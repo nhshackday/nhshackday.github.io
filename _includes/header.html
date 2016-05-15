@@ -13,7 +13,15 @@
       <div class="collapse navbar-collapse">
         <ul class="nav pull-right navbar-nav">
           <li {% if page.url == "/" %}class="active"{% endif %}><a href="/index.html">Home</a></li>
-          <li ><a href="/about/">About</a></li>
+          <li class="dropdown"> <a data-toggle="dropdown" class="dropdown-toggle" href="#">About<span class="caret"></span></a>
+            <ul class="dropdown-menu">
+              <li><a href="/about/">About and FAQs</a></li>
+              <li><a href="/about/rationale/">Rationale</a></li>
+              <li><a href="/about/team/">Team</a></li>
+  
+            </ul>
+          </li>
+
           <li><a href="/events/">Previous events</a></li>
           <li class="dropdown"> <a data-toggle="dropdown" class="dropdown-toggle" href="#">Resources<span class="caret"></span></a>
             <ul class="dropdown-menu">
