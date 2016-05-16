@@ -9,7 +9,7 @@ date_range:
     - 2013-11-03 00:00:00
 categories: events
 label: 2013
-background-image: “/assets/imgs/locations/Cambridge.jpg"
+background-image: "/assets/imgs/locations/Cambridge.jpg"
 photo-credit: "Caffeinehit"
 photo-credit-link: https://www.flickr.com/photos/caffeinehit/184019023
 blog-posts:
