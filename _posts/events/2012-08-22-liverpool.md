@@ -1,6 +1,6 @@
 ---
 layout: event
-permalink: /previous/events/2012/05/liverpool
+permalink: /previous/events/2012/05/liverpool/
 title:  "Liverpool"
 summary: "Held at Liverpool School of Art and Design, and organised by Ross Jones."
 date:   2012-09-22 00:00:00

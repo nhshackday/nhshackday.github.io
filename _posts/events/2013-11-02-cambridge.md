@@ -1,6 +1,6 @@
 ---
 layout: event
-permalink: /previous/events/2013/11/cambridge
+permalink: /previous/events/2013/11/cambridge/
 title:  "Cambridge"
 summary: "Held at the University Centre, Cambridge, and organised by Kristian Glass."
 date:   2013-11-02 00:00:00

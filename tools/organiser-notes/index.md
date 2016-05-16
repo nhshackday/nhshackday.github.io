@@ -12,15 +12,6 @@ We deliberately seek out non-geek, non-white, non-male participants.
 
 We don't tell, we show.
 
-## Beforehand
-
-* Venue
-* Attendees
-* Sponsors
-* Judges
-* Prizes
-* Refreshments
-
 ### Dates
 
 Try to make sure that there are no clashes with other events that will/should have a significant attendee x-over.
@@ -135,6 +126,62 @@ Make sure that you have technical representation on the panel. This is particula
 It's nice to have something to give to people recognised by the judges. That said, NHSHD is about doing good, not "winning"; if people are there for the prizes, something's wrong.
 
 NHSHD t-shirts are popular, as are books (a good avenue for sponsorship). Remember that groups will be diverse and varied in size, ensure you have enough stuff to make a plausible offering to whoever's getting it. That doesn't mean (in the case of books) turning up with a small library, but having a variety of medical and technical books targeted at various levels for winners to choose from.
+
+#### T Shirts
+
+Rrapanui had good pricing but - girls tees were TEENY tiny so factor this in. Not sure if the sizing was the reason we had many girls shirts left over at the end
+
+Fifth Column have been great and used several times.
+
+Numbers of different shirts - need to skew this towards the larger sizes (L XL XXL)
+
+### Video
+
+You'll need a nominated person for video recording & live streaming if you are going to do it. Otherwise it is too much work.
+Minimum viable stream is tripod & Video camera / phone.
+
+### NHSHD Kit / Swag
+
+
+#### Stickers
+I used an online low priced sticker service, but they were all on a single sheet of backing and had to be cut to separate them => suboptimal
+
+others have used MOO who supply the stickers ready cut - recommended
+
+#### lanyards
+
+Marcus had a load of white lanyards made (black print) - colours chosen so they would be reusable at future NHS Hack Days
+Ask marcus for them
+
+#### banners
+
+We have 2 banners 6ftx2ft in white vinyl with the NHSHD logo in black, Marcus has these
+
+### Promotion 
+
+Some useful contacts to start with are: 
+
+#### twitter
+@ladygeek
+@lpoolgirlgeeks
+
+#### email, newsgroups, googlegroups, fora to contact 
+
+CCIO leaders network (via Marcus)
+BCS Primary Health Care Specialist Group (via Marcus)
+python UK
+
+There are often also local networks you can use.
+The local point-person should be in charge of finding out what they are.
+If you don't know, ask the hackday community & we'll help find them.
+
+## Over the Weekend
+
+### Social Media
+
+Would be good to have a number of people tweeting with @nhshackday account
+Organisers should  be able to use it for the weekend
+Nominating a dedicated social media person is a good idea because they make sure they have time !
 
 ## General Format
 
