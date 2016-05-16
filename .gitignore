@@ -1,4 +1,7 @@
-assests/.DS_Store
+_site
+.sass-cache
 Gemfile.lock
 _site/
-assets/.DS_Store
+.jekyll-metadata
+*.DS_Store
+*~

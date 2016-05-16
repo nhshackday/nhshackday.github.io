@@ -1,0 +1,72 @@
+.home-header{
+	background-image: url("../imgs/cover_image.png");
+	background-color: $gray-dark;
+    background-position:center;
+    background-repeat: no-repeat;
+	background-size:cover;
+    position: relative;
+	height: 500px;
+
+	// allow the nav bar
+	margin-top: 100px;
+}
+
+.summary-statement{
+	background-color: $gray-dark;
+	color: white;
+}
+
+.quote{
+	position: absolute;
+	right: 5%;
+	width: 40%;
+	top: 55%;
+	background-color: rgba(230, 230, 230, 0.9);
+	color: #777;
+	z-index: 500;
+	border-radius: 5px;
+	padding: 5px;
+
+	blockquote{
+		border-left: none;
+	}
+
+	cite{
+		margin-left: 50%;
+		padding-bottom: 5px;
+	}
+}
+
+.img-header{
+	width: 100px;
+}
+
+.top-summary-section{
+	padding-bottom: $padding-large-vertical * 4;
+	padding-top: $padding-large-vertical * 4;
+	border-left: 1px dashed $gray-dark;
+	border-right: 1px dashed $gray-dark;
+	border-top: 1px dashed $gray-dark;
+	font-size: 18px;
+}
+
+.bottom-summary-section{
+	background-color: $gray-dark;
+	color: white;
+	padding-bottom: $padding-large-vertical * 4;
+	padding-top: $padding-large-vertical * 4;
+	border-left: 1px dashed white;
+	border-right: 1px dashed white;
+	border-bottom: 1px dashed white;
+	font-size: 18px;
+}
+
+.img-middle{
+	margin-top: -105px;
+}
+
+
+.supporters{
+	font-size: 16px;
+	background-color: $brand-info;
+}

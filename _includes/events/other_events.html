@@ -1,0 +1,27 @@
+<section class="other-events section-spacing">
+	<div class="row">
+		<div class="col-md-12">
+			<h2 class="sub-header">
+				Other Events
+			</h2>
+		</div>
+	</div>
+	<div class="row">
+		<div class="col-md-6">
+			{% assign end_col_1 = site.categories.events | size | divided_by: 2%}
+			{% for event in site.categories.events | sort 'date' %}
+				{% if event.permalink != page.permalink %}
+					<p>
+						<a href="{{ event.permalink }}">
+							{{ event.title }}, {{ event.date | date: '%b %Y' }}
+						</a>
+					</p>
+					{% if forloop.index == end_col_1 %}
+						</div>
+						<div class="col-md-6">
+					{% endif %}
+				{% endif %}
+			{% endfor %}
+		</div>
+	</div>
+</section>

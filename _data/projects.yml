@@ -1,0 +1,24 @@
+
+- title:  "takeYourMeds"
+  summary: "Take Your Meds is a telephone service to help you remember to take your medication. It's easy to set up, and you can start receiving your reminder phonecalls today."
+  date:   2014-02-01 17:33:13
+  website: http://www.takeyourmeds.co.uk/
+  logo: takeyourmeds.png
+  youtube_id: 59n77-rJHxU
+  twitter: takeyourmedsapp
+  date:   2015-05-16
+
+- title:  "Cellcountr"
+  summary: "CellCountr provides a simple way for cells on a peripheral blood or bone marrow aspirate film to be counted and analysed. CellCountr can help you perform counts with ease"
+  logo: cellcountr.png
+  website: https://cellcountr.com/
+  youtube_id: e3ja3-1gk_0
+  twitter: cellcountr
+  date:   2014-03-20
+
+- title:  "OpenGPSoc"
+  summary: "Building an open source GP clinical system and providing free custodianship for any and all homeless open source projects."
+  website: http://www.opengpsoc.org/
+  logo: opengpsoc.png
+  youtube_id: LaSxRDL68YI
+  date:   2014-02-01

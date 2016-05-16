@@ -1,0 +1,35 @@
+---
+layout: default
+title: "Previous events"
+---
+<div class="page-container">
+
+  <section class="hgroup centered">
+
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-12 col-md-12 col-xs-12 col-lg-12" style="height: 300px; margin-bottom: 0.5cm; float: left; display: block; background-image: url(/assets/images/previous_img.jpg); background-size: cover;">
+      </div>
+    </div>
+    <div class="row">
+      <h1>Previous NHS Hack Days</h1>
+      <h2>Lists of the teams and their projects</h2>
+    </div>
+  </div>
+</section>
+
+  <div class="container">
+    <div class="row">
+      <ol class="lead" reversed="reversed">
+        {% for event in site.categories.events %}
+        <li>
+          <a href="{{ event.url }}">
+            {{ event.title }}
+          </a>
+          {{ event.summary }}
+        </li>
+      {% endfor %}
+      </ol>
+    </div>
+  </div>
+</div>

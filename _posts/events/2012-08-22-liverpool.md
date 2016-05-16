@@ -9,11 +9,14 @@ date_range:
     - 2012-09-23 00:00:00
 categories: events
 label: 2012
+background-image: "/assets/imgs/locations/Liverpool.jpg"
+photo-credit: Hilts uk
+photo-credit-link: https://www.flickr.com/photos/hilts_uk/8772822732
 blog-posts:
-    - Katherine Koerner -- Making Sense of Patient Comments : http://www.pickereurope.org/making-sense-of-patient-comments.html
-    - Francis Irving -- Hacking the National Health Service : http://blog.scraperwiki.com/2012/09/24/hacking-the-nhs/
-    - The NHS ePortfolio Revolution starts here : http://nhseportfoliorevolution.wordpress.com/2012/09/24/nhs-hackday-and-the-eportfolio-data-liberation-front
-    - Nick Tollervey -- A deadly equation of acronyms -- NHS+IT=FUBAR : http://ntoll.org/article/nhsitfubar
+    Katherine Koerner -- Making Sense of Patient Comments : http://www.pickereurope.org/making-sense-of-patient-comments.html
+    Francis Irving -- Hacking the National Health Service : http://blog.scraperwiki.com/2012/09/24/hacking-the-nhs/
+    The NHS ePortfolio Revolution starts here : http://nhseportfoliorevolution.wordpress.com/2012/09/24/nhs-hackday-and-the-eportfolio-data-liberation-front
+    Nick Tollervey -- A deadly equation of acronyms -- NHS+IT=FUBAR : http://ntoll.org/article/nhsitfubar
 teams:
     - {project: "OpFast", members: "Michael Odling-Smee", summary: "A convenient and elegant way for patients to complete a wide variety of health forms, which can be exported for clinicians (PDF) or for the patient's clinical record (XML).", url: ""}
     - {project: "CellCountr", members: "Wai Keong (@wai2k), Duncan (@haematologic), Helen (@DeckOfPandas), James (@jvc26),  Oliver,  Ian (@ianmcnicoll), Jo Leng", summary: "Helping you make Bone Marrow Diagnosis faster, more accurate and more fun! ", url: "www.cellcountr.com"}
@@ -31,4 +34,33 @@ teams:
     - {project: "OpenPropofol TCI", members: "@resusbot @chrisb33 @timd Martin Green", summary: "A mobile application for anaesthesia, to enable safe delivery of propofol without the need for an expensive pump.", url: "http://opentci.org/doku.php?id=start;"}
     - {project: "Pretreatment Worklist", members: "Martin Green", summary: "Organisation and analysis of pretreatment work flow in radiotherapy", url: ""}
     - {project: "WTFdoc", members: "@carlplant @colinwren", summary: "NHS jargon busting web app", url: "http://wtfdoc.healthdatasearch.com/"}
+sponsorships:
+  - sponsor: nhse
+    amount: "£3000 unrestricted"
+  - sponsor: ol
+    amount: "Venue/Staff/Media/T-shirts etc"
+  - sponsor: rightcare
+    amount: "£4000 unrestricted"
+  - sponsor: oreilly
+    amount: "Ticket to Strata - best big data project"
+  - sponsor: health
+    amount: "Patient involvement in patient safety prize"
+  - sponsor: canonical
+    amount: "Prizes - best Juju charm (https://juju.ubuntu.com/)"
+  - sponsor: scraperwiki
+    amount: "Prizes - best use of ScraperWiki (http://scraperwiki.com) "
+  - sponsor: tactix4
+    amount: "Google Nexus 7 tablet"
+  - sponsor: mayden
+    amount: "Google Nexus 7 tablet"
+  - sponsor: aa
+    amount: "Google Nexus 7 tablet"
+  - sponsor: quicksila
+    amount: "Google Nexus 7 tablet"
+  - sponsor: totallyhealth
+    amount: "Google Nexus 7 tablet"
+  - sponsor: londonlime
+    amount: "Design wizardry inc. NHS Hack Day Logos, t-shirts, and stickers"
+  - sponsor: ohc
+    amount: "Samsung Galaxy Tablet - best use of open data"
 ---

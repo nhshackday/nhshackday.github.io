@@ -1,0 +1,21 @@
+.navbar a.navbar-brand span.logo_title {
+  font-size: 18px;
+  font-weight: 300;
+  display: block;
+  padding: 10px 0 0px 0;
+  line-height: 42px;
+  text-shadow: 1px 1px 0px #ffffff;
+}
+
+.navbar a.navbar-brand span.logo_subtitle {
+  font-size: 13px;
+  font-weight: 300;
+  display: block;
+  text-shadow: 1px 1px 0px #ffffff;
+}
+
+.panel-body p {
+  font-size: 1em;
+}
+
+

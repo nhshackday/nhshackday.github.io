@@ -1,0 +1,104 @@
+.event-margin {
+	margin-left: 4.166%;
+	margin-right: 4.166%;
+}
+
+.event-title {
+	position: relative;
+	z-index: 10;
+}
+
+.photo-credit {
+	display: block;
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	text-align: right;
+	font-size: 1em;
+	margin-right: 0.5em;
+	margin-bottom: 0.5em;
+	z-index: 1
+}
+
+.event-description {
+	background-color: rgba(230, 230, 230, 0.9);
+	color: #777;
+	display: inline-block;
+	border-radius: 5px;
+	padding: 8px;
+	position: relative;
+	z-index: 10;
+	max-width: 96%;
+}
+
+.event-sponsor-row {
+	height: 80px;
+}
+
+.table tbody>tr>td.vert-align {
+	vertical-align: middle;
+}
+
+.section-link {
+	// to allow internal links that start below the fixed header
+	position: absolute;
+	margin-top: -100px
+}
+
+.header {
+	position: relative;
+	background-color: $gray-dark;
+    background-position:center;
+    background-repeat: no-repeat;
+	background-size:cover;
+    position: relative;
+	color: white;
+}
+
+.team {
+	h3 {
+		display: block;
+		background-color: $gray-dark;
+		border-radius: $border-radius-base $border-radius-base 0px 0px;
+		color: white;
+		text-align: center;
+		padding-top: $padding-large-vertical * 2;
+		padding-bottom: $padding-large-vertical * 2;
+		margin-bottom: 0;
+	}
+
+	.body {
+		border-left: 1px solid $gray-dark;
+		border-right: 1px solid $gray-dark;
+		padding-top: $padding-large-vertical;
+		padding-bottom: $padding-large-vertical;
+		padding-left: $padding-large-horizontal;
+		padding-left: $padding-large-horizontal;
+		min-height: 100px;
+	}
+
+	.footer {
+		display: block;
+		background-color: $brand-primary;
+		border-radius: 0px 0px $border-radius-base $border-radius-base;
+		padding-top: $padding-large-vertical;
+		padding-bottom: $padding-large-vertical;
+		text-align: center;
+		color: white;
+
+		a{
+			color: white;
+		}
+	}
+
+	.no-footer {
+		border-bottom: 1px solid $gray-dark;
+		border-radius: 0px 0px $border-radius-base $border-radius-base;
+	}
+}
+
+.sponsors {
+	.logo{
+		width: 100px;
+	}
+}
