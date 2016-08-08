@@ -1,52 +1,47 @@
 <section class="event_teams section-spacing">
-	{% if page.teams.size > 0 %}
-		<div class="row">
-			<div class="col-md-6">
-				<h2 class="sub-header">Teams</h2>
-			</div>
-		</div>
+  <div class="row">
+    <div class="col-md-6">
+      <h2 class="sub-header">Teams</h2>
+    </div>
+  </div>
 
-		{% for team in page.teams %}
-			{% assign mod = forloop.index | modulo:2 %}
-			{% assign url_size = team.url | size %}
-			{% assign urls_size = team.urls | size %}
-			{% if mod == 1 %}
-			<div class="row">
-			{% endif %}
-				<div class="col-md-6">
-					<div class="row">
-						<div class="col-md-10 col-md-push-1">
-							<div class="team">
-								<h3>{{team.project }}</h3>
-								<div class="body {% if url_size == 0 and urls_size == 0 %}no-footer{% endif %}">
-									<p>
-										{{ team.summary }}
-									</p>
-									<p>
-										{{team.members}}
-									</p>
-								</div>
-								{% if urls_size > 0 or url_size > 0 %}
-									<div class="footer">
-										{% if urls_size > 0 %}
-											{% for url in team.urls %}
-												<a href="{{ url[1] }}">{{ url[0] }}</a>{% if forloop.last == false %}, {% endif %}
-											{% endfor %}
-										{% else %}
-											{% if url_size > 0 %}
-												<a href="{{ team.url }}">{{ team.url }}</a>
-											{% endif %}
-										{% endif %}
-									</div>
-								{% endif %}
-							</div>
-						</div>
-					</div>
-				</div>
-			{% if mod == 0 or forloop.last %}
-			</div>
-			{% endif %}
-
-		{% endfor %}
-	{% endif %}
+  <div class="row">
+    <div class="col-md-12">
+      <table class="table">
+	{% for team in page.teams %}
+        {% assign url_size = team.url | size %}
+        {% assign urls_size = team.urls | size %}
+	<tr class="vert-align">
+	  <td class="vert-align" width="20%">
+	    <b>{{team.project }}</b>
+	  </td>
+	  <td class="vert-align">
+            {{ team.summary }}
+	  </td>
+	  <td class="vert-align">
+            {% assign handles = team.members | split:',' %}
+            {% for handle in handles %}
+            {% if handle contains '@' %}
+            <a href="https://twitter.com/{{ handle }}" target="_blank">{{ handle }}</a>
+            {% else %}
+            {{ handle }}
+            {% endif %}
+            {% endfor %}
+	  </td>
+          <td>
+            {% if urls_size > 0 %}
+	    {% for url in team.urls %}
+	    <a href="{{ url[1] }}" target="_blank">Project Link {{ forloop.counter }}</a>{% if forloop.last == false %}, {% endif %}
+	    {% endfor %}
+	    {% else %}
+	    {% if url_size > 0 %}
+	    <a href="{{ team.url }}" target="_blank">Project Link</a>
+	    {% endif %}
+	    {% endif %}
+          </td>
+	</tr>
+	{% endfor %}
+      </table>
+    </div>
+  </div>
 </section>
