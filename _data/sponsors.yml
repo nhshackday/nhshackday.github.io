@@ -1,0 +1,219 @@
+sponsors:
+    johnpyle: &johnpyle
+      name: John Pyle
+      url: https://www.linkedin.com/pub/john-pyle/18/6a/89b
+      logo: johnpyle.jpg
+    ohc: &ohc
+        name: Open Health Care UK
+        url: http://openhealthcare.org.uk/
+        logo: ohc.png
+    londonlime: &londonlime
+        name: LondonLime
+        url: http://londonlime.net/
+        logo: londonlime-logo.jpg
+    oreilly: &oreilly
+        name: O'Reilly
+        url: http://www.oreilly.com/
+        logo: oreilly.gif
+    elasticsearch: &elasticsearch
+        name: ElasticSearch
+        url: http://elasticsearch.com/
+        logo: elasticsearch.png
+    laterpay: &laterpay
+        name: LaterPay
+        url: http://laterpay.net/
+        logo: laterpay.png
+    gocardless: &gocardless
+        name: GoCardless
+        url: https://gocardless.com/
+        logo: gocardless.png
+    retrosnub: &retrosnub
+        name: Retrosnub
+        url: http://www.retrosnub.co.uk/
+        logo: retrosnub.svg
+    tinamous: &tinamous
+        name: Tinamous
+        url: http://www.tinamous.com/
+        logo: tinamous.png
+    nhse: &nhse
+        name: NHS Commissioning Board
+        url: http://www.commissioningboard.nhs.uk/
+        logo: NHSE.jpg
+    nesta: &nesta
+        name: Nesta
+        url: http://www.nesta.org.uk/
+        logo: nesta_logo_large.jpg
+    badscience: &badscience
+        name: Bad Science
+        url: http://www.badscience.net
+        logo: BadScience-logo.150.jpg
+    phe: &phe
+        name: Public Health England
+        url: https://www.gov.uk/government/organisations/public-health-england
+        logo: PHE.jpeg
+    tactix4: &tactix4
+        name: Tactix4
+        url: http://www.tactix4.com
+        logo: global.jpg
+    bjss: &bjss
+        name: BJSS
+        url: http://www.bjss.com
+        logo: BJSS_LogogTeal.png
+    openeyes: &openeyes
+        name: OpenEyes
+        url: http://www.openeyes.org.uk/
+        logo: openeyes.png
+    odi: &odi
+        name: The Open Data Institute
+        url: http://www.theodi.org
+        logo: ODI-logo-med.png
+    health: &health
+        name: The Health Foundation
+        url: http://www.health.org.uk/
+        logo: tczqKN_web.gif
+    bytemark: &bytemark
+        name: Bytemark
+        url: http://www.bytemark.com/
+        logo: Bytemark-THN.jpg
+    knowledge: &knowledge
+        name: Knowledge Into Action
+        url: #
+        logo: kintoa.png
+    scraperwiki: &scraperwiki
+        name: ScraperWiki
+        url: https://scraperwiki.com
+        logo: scraperwiki.png
+    canonical: &canonical
+        name: Canonical
+        url: http://canonical.com
+        logo: canonical.jpg
+    ol: &ol
+        name: OpenLabs
+        url: http://www.ljmu.ac.uk/aps/OpenLabs/
+        logo: ol.png
+    rightcare: &rightcare
+        name: Rightcare
+        url: http://www.rightcare.nhs.uk/
+        logo: rightcarelogo.png
+    mayden: &mayden
+        name: Mayden
+        url: http://www.mayden.co.uk/
+        logo: "Mayden Logo.png"
+    aa: &aa
+        name: Mayden
+        url: http://www.advancedcomputersoftware.com/
+        logo: "AdvancedHC.png"
+    quicksila: &quicksila
+        name: Quicksilva
+        url: http://www.qxlva.com/
+        logo: "Qxlva_logo_CMYK.png"
+    totallyhealth: &totallyhealth
+        name: Totally Health
+        url: http://www.totallyhealth.com/
+        logo: "TOTALLY HEALTH LOGO no strapline.jpg"
+    kainos: &kainos
+        name: Kainos
+        url: http://www.kainos.com/
+        logo: "kainos.png"
+    masty: &masty
+        name: Mastodon C
+        url: http://www.mastodonc.com/
+        logo: "masty.jpg"
+    ukgovcamp: &ukgovcamp
+        name: UK Gov Camp
+        url: http://www.ukgovcamp.com
+        logo: "ukgovcamp.png"
+    nhsic: &nhsic
+        name: NHS Information Centre
+        url: http://www.ic.nhs.uk
+        logo: "nhsic.gif"
+    wao: &wao
+        name: Wales Audit Office Good Practice
+        url: http://www.wao.gov.uk/
+        logo: wao.png
+    phw: &phw
+        name: Lives Improvement Service, Public Health Wales
+        url: http://www.publichealthwales.wales.nhs.uk/
+        logo: phw.jpg
+    nhswis: &nhswis
+        name: NHS Wales Informatics Service
+        url: http://www.wales.nhs.uk/nwis/page/52490
+        logo: nhswis.jpg
+    cloudant: &cloudant
+        name: Cloudant
+        url: http://cloudant.com
+        logo: cloudant.png
+    zesty: &zesty
+        name: Zesty
+        url: http://www.zesty.co.uk
+        logo: zesty.png
+    nhsenglandopensource: &nhsenglandopensource
+        name: NHS England Open Source
+        url: http://www.technologystrategy.england.nhs.uk/pg/groups/99205/
+        logo: nhsenglandopensource.png
+    imsmaxims: &imsmaxims
+        name: IMS MaxIMS
+        url: http://www.imsmaxims.com/opensource/
+        logo: imsmaxims.png
+    alfresco: &alfresco
+        name: Alfresco
+        url: http://www.alfresco.com/
+        logo: alfresco.png
+    lnccg: &lnccg
+        name: Leeds North CCG
+        url: http://www.leedsnorthccg.nhs.uk/
+        logo: lnccg.gif
+    lseccg: &lseccg
+        name: Leeds South and East CCG
+        url: http://www.leedssouthandeastccg.nhs.uk/
+        logo: lseccg.gif
+    lwccg: &lwccg
+        name: Leeds West CCG
+        url: http://www.leedswestccg.nhs.uk/
+        logo: lwccg.svg
+    redder: &redder
+        name: Redder Marketing
+        url: http://www.reddermarketing.co.uk/
+        logo: redder.png
+    hemavault: &hemavault
+        name: Hemavault
+        url: http://www.hemavault.com/
+        logo: hemavault.png
+    collabora: &collabora
+        name: Collabora
+        url: https://www.collabora.com/
+        logo: collabora.png
+    anvil: &anvil
+        name: Anvil
+        url: https://anvil.works/
+        logo: anvil.png
+    enicify: &enticify
+        name: Enticify
+        url: http://www.enticify.com/
+        logo: enticify.png
+    hin: &hin
+        name: Health Innovation Network South London
+        url: http://www.hin-southlondon.org/
+        logo: hin.jpeg
+    davidgreenwood: &davidgreenwood
+        name: David Greenwood
+    apperta: &apperta
+        name: Apperta Foundation
+        url: http://www.apperta.org/
+    freshehr: &freshehr
+        name: Fresh EHR
+        url: http://freshehr.com/
+    healthforge: &healthforge
+        name: Health Forge
+        url: https://healthforge.io/
+    moorhen: &moorhen
+        name: Moorhen Solutions
+        url: http://www.moorhensolutions.co.uk/
+    servercode: &servercode
+        name: Servercode Ltd
+    digitalhealth: &digitalhealth
+        name: DigitalHealth.net
+        url: http://digitalhealth.net
+    acrosshealth: &acrosshealth
+        name: Across Health Ltd
+        url: http://www.acrosshealth.co.uk/

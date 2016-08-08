@@ -1,0 +1,22 @@
+<div class="col-md-5 center">
+	<div class="row">
+		<div class="col-md-10 col-md-push-1 center">
+			{% if project.logo %}
+				<img src="/assets/imgs/projects/{{ project.logo }}" class="project-logo" />
+			{% else %}
+				<h2>{{ project.title }}</h2>
+			{% endif %}
+		</div>
+	</div>
+
+	<div class="row">
+		<div class="col-md-10 col-md-push-1 center"
+			<p>{{ project.summary }}</p>
+			<p>Find out more at <a href="{{ project.website }}">{{ project.website }}</a>
+				{% if project.twitter %}
+				or talk about it <a href="twitter.com/{{ project.twitter }}">@{{ project.twitter }}</a>
+				{% endif %}
+			</p>
+		</div>
+	</div>
+</div>

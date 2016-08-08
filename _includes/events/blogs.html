@@ -1,0 +1,17 @@
+<section class="Media section-spacing">
+  {% if page.blog-posts.size > 0 %}
+  <h2 class="sub-header">Blog posts about the event</h2>
+  <div class="row">
+    <ul>
+      {% for blog in page.blog-posts %}
+      <li>
+        <a href="{{ blog[1] }}" target="_blank">
+	  {{ blog[0] }}
+        </a>
+      </li>
+    {% endfor %}
+    </ul>
+  </div>
+</ul>
+{% endif %}
+</section>

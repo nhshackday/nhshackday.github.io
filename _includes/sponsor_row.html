@@ -1,5 +1,11 @@
 <tr>
-    <td><img src="{{include.org.logo}}" style="max-width:300px;" title="{{include.org.name}}"></td>
+  <td>
+    {% if include.org.logo %}
+    <img src="{{include.org.logo}}" style="max-width:300px;" title="{{include.org.name}}">
+    {% else %}
+    {{ include.org.name }}
+    {% endif %}
+  </td>
     <td>{{include.sponsored}}</td>
-    <td><a href="{{include.org.url}}">{{include.org.name}}</a></td>
+    <td>{% if include.org.url %}<a href="{{include.org.url}}">{{include.org.name}}</a>{% endif %}</td>
 </tr>

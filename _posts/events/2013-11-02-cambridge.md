@@ -1,6 +1,6 @@
 ---
 layout: event
-permalink: /previous/events/2013/11/cambridge
+permalink: /previous/events/2013/11/cambridge/
 title:  "Cambridge"
 summary: "Held at the University Centre, Cambridge, and organised by Kristian Glass."
 date:   2013-11-02 00:00:00
@@ -9,9 +9,12 @@ date_range:
     - 2013-11-03 00:00:00
 categories: events
 label: 2013
+background-image: "/assets/imgs/locations/Cambridge.jpg"
+photo-credit: "Caffeinehit"
+photo-credit-link: https://www.flickr.com/photos/caffeinehit/184019023
 blog-posts:
-    - doismellburning -- NHS Hack Day Cambridge : http://blog.doismellburning.co.uk/2014/02/20/nhs-hack-day-cambridge-2013
-    - Rachel Graves (@didlix) -- NHS Hack Day 5 : http://didlix.net/2013/11/02/nhs-hack-day-5.html
+    doismellburning -- NHS Hack Day Cambridge : http://blog.doismellburning.co.uk/2014/02/20/nhs-hack-day-cambridge-2013
+    Rachel Graves (@didlix) -- NHS Hack Day 5 : http://didlix.net/2013/11/02/nhs-hack-day-5.html
 teams:
     - {project: iPatch, members: "@diamondsparker, @philpursglove", summary: "iPatch is an application for tracking the treatment of lazy eyes in children and adults.", url: "http://ipatch.azurewebsites.net/"}
     - {project: 3D-printed Brachy Moulds, members: "Martin Green", summary: "", url: ""}
@@ -28,5 +31,19 @@ teams:
     - {project: Up and About, members: "Wai Keong Wong @wai2k, Ross Jones @rossjones", summary: "", url: ""}
     - {project: MyHeart, members: "Hans @hanspinckaers, Michele @mattions, Matias @mz2, Tom @tomcallender, @mdogruel", summary: "", url: ""}
     - {project: MedicPic, members: "Vishaal Virani @vishv19, Meredydd Luff @meredydd, Veron Lai @norev517, @PsychOrBust", summary: "", url: ""}
-
+sponsorships:
+    - sponsor: londonlime
+      amount: "Stickers and design work"
+    - sponsor: oreilly
+      amount: "Books"
+    - sponsor: elasticsearch
+      amount: "£600 towards food"
+    - sponsor: laterpay
+      amount: "£250"
+    - sponsor: gocardless
+      amount: "£500"
+    - sponsor: retrosnub
+      amount: "Networking, virtual server credits, and video streaming"
+    - sponsor: tinamous
+      amount: "£600 towards food"
 ---
