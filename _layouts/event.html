@@ -12,19 +12,19 @@ so we have an event page, current event will
 	<p class="event-description">
 		{{ page.summary }}
 	</p>
-
+        {% if page.photo-credit %}
 	<p class="photo-credit">
 		Photo by <a href="{{page.photo-credit-link}}" target="_blank">{{page.photo-credit}}</a> &copy;
 	</p>
-
+        {% endif %}
 	<!--{% include stripes.html %}-->
 </div>
 <div class="row bottom-spacing">
 	<div class="col-md-10 col-md-push-1">
 		{% if page.date_range[1] < site.time %}
+			{% include events/blogs.html %}
 			{% include events/teams.html %}
 			{% include events/sponsors.html %}
-			{% include events/blogs.html %}
 		{% else %}
 			{% include events/on_the_day.html %}
 		{% endif %}

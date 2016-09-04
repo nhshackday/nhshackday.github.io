@@ -1,21 +1,17 @@
 <section class="Media section-spacing">
-	{% if page.blog-posts.size > 0 %}
-		<h2 class="sub-header">Blogs</h2>
-			{% for blog in page.blog-posts %}
-				{% assign mod = forloop.index | modulo:2 %}
-				{% if mod == 1 %}
-				<div class="row">
-				{% endif %}
-				<div class="col-md-6">
-					<a href="{{ blog[1] }}">
-						{{ blog[0] }}
-					</a>
-				</div>
-				{% if mod == 0 or forloop.last %}
-				</div>
-				{% endif %}
-			{% endfor %}
-		</ul>
-
-	{% endif %}
+  {% if page.blog-posts.size > 0 %}
+  <h2 class="sub-header">Blog posts about the event</h2>
+  <div class="row">
+    <ul>
+      {% for blog in page.blog-posts %}
+      <li>
+        <a href="{{ blog[1] }}" target="_blank">
+	  {{ blog[0] }}
+        </a>
+      </li>
+    {% endfor %}
+    </ul>
+  </div>
+</ul>
+{% endif %}
 </section>
