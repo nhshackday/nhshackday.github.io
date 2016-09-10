@@ -195,3 +195,25 @@ sponsors:
         name: Health Innovation Network South London
         url: http://www.hin-southlondon.org/
         logo: hin.jpeg
+    davidgreenwood: &davidgreenwood
+        name: David Greenwood
+    apperta: &apperta
+        name: Apperta Foundation
+        url: http://www.apperta.org/
+    freshehr: &freshehr
+        name: Fresh EHR
+        url: http://freshehr.com/
+    healthforge: &healthforge
+        name: Health Forge
+        url: https://healthforge.io/
+    moorhen: &moorhen
+        name: Moorhen Solutions
+        url: http://www.moorhensolutions.co.uk/
+    servercode: &servercode
+        name: Servercode Ltd
+    digitalhealth: &digitalhealth
+        name: DigitalHealth.net
+        url: http://digitalhealth.net
+    acrosshealth: &acrosshealth
+        name: Across Health Ltd
+        url: http://www.acrosshealth.co.uk/
