@@ -18,7 +18,7 @@ teams:
     - {project: "WETFLAG", members: "Imran, @phreekedelic, @BannyPotter, Gilly, Dom Rowey, @Marcus_Baw", summary: "Paed Resus Webapp to replace whiteboard", url: "tbc"}
     - {project: "Mind Moments", members: "@JamMcllroy, @jakelaurie, @katiecarnie, Jenny Williams, Kev Wentworth, @bannypotter, Martyn Quinlan, Richard Hammond, @tom__gorman", summary: "MindMoments", url: "http://o514r4.axshare.com/#g=1&p=home"}
     - {project: "North Share", members: "@comparesoftware, @NetworkLouise, @blu3id, @TomJohnFoley, Julie Falconer, @geordiemedic, @xavierdrake", summary: "Prototype information sharing permission system", url: "https://blu3id.github.io/gncr-consent/"}
-    - {project: "Random events counter", members: "@y_akopov", summary: "An app to get track of random things happening (or not)", url: "Not yet, but runs locally"
+    - {project: "Random events counter", members: "@y_akopov", summary: "An app to get track of random things happening (or not)", url: "Not yet, but runs locally"}
     - {project: "My Surgery (Paediatric Surgery App)", members: "@Me_Matt_B, @DrTechnophile, Mike Leggate, Andrew Shaw, @fredkingham", summary: "Paediatric Surgery Information App", url: "NA"}
     - {project: "PaLReP", members: "Kathleen Vancleef, Harry Coenen, Sven Fischer, fischer@gmx.co.uk, Lisa McClure, Eve Barabas", summary: "Patient Led Research Platform", url: "none"}
     - {project: "DysBit", members: "@drrajlodh, Dimitar Ivanov, @cycleandwalk, @alistair, @abbott567", summary: "We have produced a prototype programme that will allow a patient or clinician to use any available activity tracker device to monitor dystonic movements.", url: "N/A"}
