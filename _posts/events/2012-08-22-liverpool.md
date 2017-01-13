@@ -14,7 +14,7 @@ photo-credit: Hilts uk
 photo-credit-link: https://www.flickr.com/photos/hilts_uk/8772822732
 blog-posts:
     Katherine Koerner -- Making Sense of Patient Comments : http://www.pickereurope.org/making-sense-of-patient-comments.html
-    Francis Irving -- Hacking the National Health Service : http://blog.scraperwiki.com/2012/09/24/hacking-the-nhs/
+    Francis Irving -- Hacking the National Health Service : https://scraperwiki.com/2012/09/hacking-the-nhs/
     The NHS ePortfolio Revolution starts here : http://nhseportfoliorevolution.wordpress.com/2012/09/24/nhs-hackday-and-the-eportfolio-data-liberation-front
     Nick Tollervey -- A deadly equation of acronyms -- NHS+IT=FUBAR : http://ntoll.org/article/nhsitfubar
 teams:
