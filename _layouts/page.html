@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+  {% include head.html %}
+  <body>
+    {% include header.html %}
+    <div class="main-content">
+      <section class="call_to_action" style="background-color:rgba(255,255,255,1)">
+        <div class="container">
+          <h3>{{ page.title }}</h3>
+        </div>
+      </section>
+      <section class="words">
+        <div class="container">
+          <div class="col-md-8 col-md-offset-2">
+            {{ content }}
+          </div>
+        </div>
+      </section>
+    </div>
+    {% include footer.html %}
+  </body>
+</html>
