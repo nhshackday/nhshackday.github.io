@@ -35,7 +35,10 @@ organisations to actually do the hard work to try and address these problems.
 
 ## What can I do to help?
 
-For now we're looking for submissions that will outline potential projects that could become
+Firstly, make sure you save the date - **July 15-16**.
+
+Next, we're looking for
+submissions that will outline potential projects that could become
 one of our Summer Challenges. We'll be collecting these **until April 21st**, and then
 announcing them on **June 1st**.
 
