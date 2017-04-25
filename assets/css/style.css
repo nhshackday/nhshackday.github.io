@@ -7406,6 +7406,7 @@ section.parallax-window {
 .team_member .team_social a:hover,
 .team_member .team_social a:active {
   color: #428bca;
+  cursor: pointer;
   text-decoration: none;
   background-color: #ffffff;
 }

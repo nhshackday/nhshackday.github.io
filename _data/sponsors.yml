@@ -200,6 +200,7 @@ sponsors:
     apperta: &apperta
         name: Apperta Foundation
         url: http://www.apperta.org/
+        logo: apperta.png
     freshehr: &freshehr
         name: Fresh EHR
         url: http://freshehr.com/
@@ -217,3 +218,23 @@ sponsors:
     acrosshealth: &acrosshealth
         name: Across Health Ltd
         url: http://www.acrosshealth.co.uk/
+    operon: &operon
+        name: Operon Systems
+        url: https://operon.systems/
+        logo: operon.png
+    ahsnne: &ahsnne
+        name: AHSN NE
+        url: http://ahsn-nenc.org.uk/
+        logo: ahshne.jpg
+    chc: &chc
+        name: Connected Health Cities
+        url: https://www.connectedhealthcities.org/
+        logo: chc.jpg
+    newcuni: &newcuni
+        name: Newcastle University
+        logo: newc.svg
+        url: http://newcastle.ac.uk
+    odonto: &odonto
+        name: Odonto
+        logo: odonto.jpg
+        url: http://openodonto.org/
