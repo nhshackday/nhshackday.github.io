@@ -34,11 +34,12 @@
 #lessbad {
   background: #428bca;
 }
-#signups .col-md-4 {
+#signups .big-blue-button {
   background: #428bca;
   box-shadow:0 0 4px rgba(0,0,0,.14),0 4px 8px rgba(0,0,0,.28);
   border: 1px solid white;
   padding: 26px;
+  margin: 20px;
 }
 #signups h4 {
   padding-bottom: 26px;
