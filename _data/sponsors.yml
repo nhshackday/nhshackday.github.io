@@ -238,3 +238,11 @@ sponsors:
         name: Odonto
         logo: odonto.jpg
         url: http://openodonto.org/
+    bcs: &bcs
+        name: BCS, The Chartered Institute for IT
+        logo: bcsLogoTop.png
+        url: http://www.bcs.org/healthandcare
+    mongodb: &mongodb
+        name: MongoDB
+        logo: mongodb-logo-rgb-j6w271g1xn.jpg
+        url: https://www.mongodb.com/
