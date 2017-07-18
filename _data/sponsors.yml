@@ -246,3 +246,7 @@ sponsors:
         name: MongoDB
         logo: mongodb-logo-rgb-j6w271g1xn.jpg
         url: https://www.mongodb.com/
+    coop: &coop
+        name: Co-op Digital
+        logo: coop.jpg
+        url: https://twitter.com/CoopDigital

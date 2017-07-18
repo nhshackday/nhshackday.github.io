@@ -23,16 +23,16 @@
             {% assign handles = team.members | split:',' %}
             {% for handle in handles %}
             {% if handle contains '@' %}
-            <a href="https://twitter.com/{{ handle }}" target="_blank">{{ handle }}</a>
+            <a href="https://twitter.com/{{ handle | strip }}" target="_blank">{{ handle }}</a>
             {% else %}
             {{ handle }}
             {% endif %}
             {% endfor %}
 	  </td>
-          <td>
+          <td width="20%">
             {% if urls_size > 0 %}
 	    {% for url in team.urls %}
-	    <a href="{{ url[1] }}" target="_blank">Project Link {{ forloop.counter }}</a>{% if forloop.last == false %}, {% endif %}
+	    <a href="{{ url[1] }}" target="_blank">{{url[0]}} {{ forloop.counter }}</a>{% if forloop.last == false %}, {% endif %}
 	    {% endfor %}
 	    {% else %}
 	    {% if url_size > 0 %}
