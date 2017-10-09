@@ -115,6 +115,14 @@ sponsors:
         name: Kainos
         url: http://www.kainos.com/
         logo: "kainos.png"
+    evolve: &evolve
+        name: Kainos
+        url: http://www.kainos.com/
+        logo: "evolve_logo_2016.png"
+    gccg: &gccg
+        name: Gloucestershire Clinical Commissioning Group
+        url: https://www.gloucestershireccg.nhs.uk/
+        logo: "gccg-logo.png"
     masty: &masty
         name: Mastodon C
         url: http://www.mastodonc.com/

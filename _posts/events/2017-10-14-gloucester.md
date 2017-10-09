@@ -13,5 +13,7 @@ background-image: "/assets/images/home.jpg"
 
 
 sponsorships:
+    - sponsor: gccg
+    - sponsor: evolve
     - sponsor: ohc
 ---
