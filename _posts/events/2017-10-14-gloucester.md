@@ -14,6 +14,7 @@ background-image: "/assets/images/home.jpg"
 
 sponsorships:
     - sponsor: gccg
+    - sponsor: nhsd
     - sponsor: evolve
     - sponsor: ohc
 ---

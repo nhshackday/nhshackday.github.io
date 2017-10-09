@@ -258,3 +258,7 @@ sponsors:
         name: Co-op Digital
         logo: coop.jpg
         url: https://twitter.com/CoopDigital
+    nhsd: &nhsd
+        name: NHS Digital
+        logo: nhsd.jpg
+        url: https://digital.nhs.uk/
