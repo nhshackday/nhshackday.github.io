@@ -262,3 +262,7 @@ sponsors:
         name: NHS Digital
         logo: nhsd.jpg
         url: https://digital.nhs.uk/
+    doteveryone: &doteveryone
+        name: Doteveryone Grants for Fairer Tech Events
+        logo: doteveryone.png
+        url: https://medium.com/doteveryone/500-grants-for-fairer-tech-events-dc7a3b5f6e78
