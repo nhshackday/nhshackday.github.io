@@ -9,7 +9,7 @@ date_range:
     - 2012-09-23 00:00:00
 categories: events
 label: 2012
-background-image: "/assets/imgs/locations/Liverpool.jpg"
+background-image: "/assets/images/locations/Liverpool.jpg"
 photo-credit: Hilts uk
 photo-credit-link: https://www.flickr.com/photos/hilts_uk/8772822732
 blog-posts:
