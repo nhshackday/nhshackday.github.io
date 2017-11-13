@@ -1,11 +1,13 @@
 # nhshackday.github.io
 
-
-The new NHSHackday website
-
+## Suggested workflow for making changes to this site
+* fork the site to your own GitHub account
+* clone your fork locally
+* make your changes (see guide below, looking at the code for previous events is often very helpful)
+* `git commit` and `git push` to your repo
+* create a Pull Request on GitHub. One of the NHSHD committers will merge it.
 
 ## Adding events
-
 To add an event you should create a new file in the _posts/events/ folder with a filename like: ```YYYY-MM-DD-LOCATION.md```
 
 if an event is in the future it will show up as the next event, if you want to add an special details of this event edit the _includes/events/on_the_day.html. After the event has happened, push to the repo and the event
@@ -52,4 +54,4 @@ please take a look at an example event such as _posts/events/2015-05-16-london.m
 
 ## to add a sponsor
 sponsors are in _data/sponsors.yml, add a sponsor to the bottom of the file, then add the sponsor to the project
-as described above, the project does a look up on the sponsors file based on the sponsor's name
+as described above, the project does a look up on the sponsors file based on the sponsor's name.
