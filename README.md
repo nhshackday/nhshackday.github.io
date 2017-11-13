@@ -27,7 +27,7 @@ categories: events
 label: 2014
 ---
 
-you can add an optional background image, by putting the image in assets/imgs/locations/
+you can add an optional background image, by putting the image in assets/images/locations/
 and adding a field to the yaml like
 
 background-image: "manchester.jpg"
@@ -44,7 +44,7 @@ background-image: "manchester.jpg"
 | date_range  | The start and end date of the event  |
 | categories  | Always 'events'  |
 | label  | If there are two events at the same location in the same year, this will differentiate them. By default should just be the year |
-| background-image  | If wanted, should be a filename (without path) for an image in  assets/imgs/locations/ |
+| background-image  | If wanted, should be a filename (without path) for an image in  assets/images/locations/ |
 | sponsors  | sponsors should be in sponsorship: sponsor: {{ name of sponsor as referenced in _data/sponsors.yml}} value: - what they gave |
 | projects | a teams field should contain the project and any links, if you just use a url: field it will show the url as a link, if you use urls: you can use multiple links of a dictionary form link_name -> link_address, e.g. demo: http://example.com |
 
