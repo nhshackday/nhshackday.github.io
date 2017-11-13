@@ -1,7 +1,7 @@
 ---
 layout: event
-permalink: /events/2017/10/gloucester/
-title:  Gloucester
+permalink: /previous/events/2017/10/gloucester/
+title:  "Gloucester"
 summary: "Hosted by Gloucestershire STP, at Sanger House, Gloucester organised by the NHS Hack Day Team."
 date:   2017-07-14 00:00:00
 date_range:
