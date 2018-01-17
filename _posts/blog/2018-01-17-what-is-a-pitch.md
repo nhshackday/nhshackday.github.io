@@ -1,7 +1,7 @@
 ---
 layout: blog_post
 permalink: /previous/posts/2018/01/17/what-is-a-pitch
-title:  "What is a pitch, and who should do it?"
+title:  "What is a pitch, and who should do one?"
 image: /assets/images/post-1-banner.jpg
 date:   2018-01-17
 categories: blog_posts
