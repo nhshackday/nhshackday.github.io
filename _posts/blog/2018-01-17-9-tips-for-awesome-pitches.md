@@ -1,3 +1,12 @@
+---
+layout: blog_post
+permalink: /previous/posts/2018/01/17/9-tips-for-awesome-pitches
+title:  "9 tips for awesome pitches"
+image: /assets/images/post-2-banner.jpg
+date:   2018-01-17
+categories: blog_posts
+label: 2018
+---
 So - you think you might do a pitch at NHS Hack Day - that's great!
 
 We've collected together some tips that we think can help you make your pitch even more awesome.
@@ -14,11 +23,11 @@ Health tech hackathon projects that capture the imagination have the best potent
 
 Projects tend to fall into three broad categories, described below. There is no ‘best option’ from these, but it is useful to think about which level your problem space falls into.
 
-    Projects requiring revolution: for example an open Electronic Patient Record that brings about the end of global injustice and human suffering in general.
+1. Projects requiring revolution: for example an open Electronic Patient Record that brings about the end of global injustice and human suffering in general.
 
-    Projects requiring someone with local clout: for example setting up a portal for patients at a particular GP practice to help them manage their chronic conditions.
+2. Projects requiring someone with local clout: for example setting up a portal for patients at a particular GP practice to help them manage their chronic conditions.
 
-    Projects that are what we would call ‘workarounds’: those light-touch solutions that can fit in around existing systems that can potentially help lots of people in a small but meaningful way.
+3. Projects that are what we would call ‘workarounds’: those light-touch solutions that can fit in around existing systems that can potentially help lots of people in a small but meaningful way.
 
 ## 3. Make it achievable
 

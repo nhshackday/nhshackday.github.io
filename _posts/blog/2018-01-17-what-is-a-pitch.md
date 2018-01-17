@@ -1,3 +1,12 @@
+---
+layout: blog_post
+permalink: /previous/posts/2018/01/17/what-is-a-pitch
+title:  "What is a pitch, and who should do it?"
+image: /assets/images/post-1-banner.jpg
+date:   2018-01-17
+categories: blog_posts
+label: 2018
+---
 If you're new to NHS Hack Day (and even if you're not), the thought of pitching your idea to an entire room of people is quite daunting.
 
 Let's cover the **What** and **Who** bits first.
