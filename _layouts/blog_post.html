@@ -14,6 +14,25 @@ layout: default
 	</p>
         {% endif %}
 </div>
+<div class="hgroup centered">
+	<div class="container">
+		<h1>{{ page.title }}</h1>
+		{% if page.subtitle %}
+			<h5>{{ page.subtitle }}</h5>
+		{% endif %}
+		<div class="pull-right" align="right">
+			<h4>{{ page.date | date: '%B %d, %Y' }}</h4>
+			<h5>
+			{% for person in page.authors %}
+				{% if forloop.last == true %}
+					and
+				{% endif %}
+				<a href="{{ person.url }}" target="_blank">{{ person.name }}</a>
+			{% endfor %}	
+			</h5>
+		</div>
+	</div>
+</div>
 <div class="row bottom-spacing">
 	<div class="col-md-10 col-md-push-1">
 		{{ content }}

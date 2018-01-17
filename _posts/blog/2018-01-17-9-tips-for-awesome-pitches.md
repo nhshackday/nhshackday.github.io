@@ -2,6 +2,12 @@
 layout: blog_post
 permalink: /previous/posts/2018/01/17/9-tips-for-awesome-pitches
 title:  "9 tips for awesome pitches"
+subtitle: "Make the most of your opportunity to pitch to our smart and interested audience"
+authors:
+ - name: "Helen Jackson"
+   url : "https://twitter.com/deckofpandas"
+ - name: "Matt Stibbs"
+   url : "https://twitter.com/MattStibbs"  
 image: /assets/images/post-2-banner.jpg
 date:   2018-01-17
 categories: blog_posts

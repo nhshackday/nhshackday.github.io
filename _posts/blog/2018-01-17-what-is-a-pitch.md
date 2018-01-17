@@ -2,6 +2,12 @@
 layout: blog_post
 permalink: /previous/posts/2018/01/17/what-is-a-pitch
 title:  "What is a pitch, and who should do one?"
+subtitle: "How to escape imposter syndrome"
+authors:
+ - name: "Helen Jackson"
+   url : "https://twitter.com/deckofpandas"
+ - name: "Matt Stibbs"
+   url : "https://twitter.com/MattStibbs"  
 image: /assets/images/post-1-banner.jpg
 date:   2018-01-17
 categories: blog_posts
