@@ -119,4 +119,4 @@ The same goes for pitching things like “tripadvisor for health tech apps”, �
 
 ------
 
-And lastly, as always, if you have any questions about anything in this post (or indeed about anything else), do get in touch with our team of volunteers at [hello@openhealthcare.org.uk](hello@openhealthcare.org.uk) and we'll be happy to help.
+And lastly, as always, if you have any questions about anything in this post (or indeed about anything else), do get in touch with our team of volunteers on the event Slack, on Twitter, or at [hello@openhealthcare.org.uk](mailto:hello@openhealthcare.org.uk) and we'll be happy to help.
