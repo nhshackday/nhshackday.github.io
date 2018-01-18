@@ -13,6 +13,8 @@ We've collected together some tips that we think can help you make your pitch ev
 
 This is not a requirements list for pitching, but we've found that thinking about these things can really help refine it.
 
+(With thanks to [David Miller](https://twitter.com/thatdavidmiller), who wrote [this blog post](http://openhealthcare.org.uk/blog/2016/03/21/how-to-pitch-at-a-hackday/) that has formed much of the content for this one.
+
 ## 1. Tell a story
 
 People love stories. Pitches with a story in them almost always go down better. So give it colour: explain how your day-to-day life is affected by this problem; explain the frustrations of clinicians’/patients’ lives without the thing you’re pitching.
