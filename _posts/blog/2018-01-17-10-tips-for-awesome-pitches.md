@@ -1,13 +1,14 @@
 ---
 layout: blog_post
+permalink: /blog/posts/2018/01/17/10-tips-for-awesome-pitches
+title:  "10 tips for awesome pitches"
 subtitle: "Make the most of your opportunity to pitch to our smart and interested audience"
 authors:
  - name: "Helen Jackson"
    url : "https://twitter.com/deckofpandas"
  - name: "Matt Stibbs"
    url : "https://twitter.com/MattStibbs"
-permalink: /blog/posts/2018/01/17/10-tips-for-awesome-pitches
-title:  "10 tips for awesome pitches"
+
 image: /assets/images/post-2-banner.jpg
 date:   2018-01-17
 categories: blog_posts
@@ -19,7 +20,7 @@ We've collected together some tips that we think can help you make your pitch ev
 
 This is not a requirements list for pitching, but we've found that thinking about these things can really help refine our ideas.
 
-(With thanks to [David Miller](https://twitter.com/thatdavidmiller), who wrote [this blog post](http://openhealthcare.org.uk/blog/2016/03/21/how-to-pitch-at-a-hackday/) that has formed much of the content for this one.
+(With thanks to [David Miller](https://twitter.com/thatdavidmiller), who wrote [this blog post](http://openhealthcare.org.uk/blog/2016/03/21/how-to-pitch-at-a-hackday/) that has formed much of the content for this one.)
 
 ------
 
