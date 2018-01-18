@@ -1,11 +1,17 @@
 ---
 layout: blog_post
-permalink: /previous/posts/2018/01/17/everything-you-ever-wanted-to-know-about-pitching
+permalink: /blog/posts/2018/01/17/everything-you-ever-wanted-to-know-about-pitching
 title:  "Everything you ever wanted to know about pitching"
+subtitle: "How to escape imposter syndrome"
 image: /assets/images/post-1-banner.jpg
 date:   2018-01-17
 categories: blog_posts
 label: 2018
+authors:
+ - name: "Helen Jackson"
+   url : "https://twitter.com/deckofpandas"
+ - name: "Matt Stibbs"
+   url : "https://twitter.com/MattStibbs"
 ---
 
 If you're new to NHS Hack Day (and even if you're not), the thought of pitching your idea to an entire room of people is quite daunting.
@@ -16,7 +22,7 @@ Let's cover the **what** and **who** bits first.
 
 <br>
 
------- 
+------
 
 ## What is a pitch?
 
@@ -30,7 +36,7 @@ The pitches are short, and so it is not possible to use slides or to show demos 
 
 If you really need to show something (seriously, you probably don't), you could hold up a sheet of flipchart paper (we’ll have lots of this) -- but try not to over-complicate or over-think it :)
 
------- 
+------
 
 ## Who should pitch?
 
@@ -40,7 +46,7 @@ Longer answer: This is an opportunity for anyone with an idea that they'd like t
 
 The weekend will be a great opportunity for you to learn about what other people in your sector are doing, and how they’re addressing the problems they face; but of course this will work best if everyone buys in.
 
------- 
+------
 
 ## I'm still not sure
 
