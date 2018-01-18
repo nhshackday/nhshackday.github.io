@@ -1,18 +1,15 @@
 ---
 layout: blog_post
-permalink: /blog/posts/2018/01/17/10-tips-for-awesome-pitches
+permalink: /blog/posts/2017/11/15/10-tips-for-awesome-pitches
 title:  "10 tips for awesome pitches"
 subtitle: "Make the most of your opportunity to pitch to our smart and interested audience"
 authors:
  - name: "Helen Jackson"
    url : "https://twitter.com/deckofpandas"
- - name: "Matt Stibbs"
-   url : "https://twitter.com/MattStibbs"
-
 image: /assets/images/post-2-banner.jpg
-date:   2018-01-17
+date:   2017-11-15
 categories: blog_posts
-label: 2018
+label: 2017
 ---
 So, you're considering pitching at NHS Hack Day -- that's great!
 
