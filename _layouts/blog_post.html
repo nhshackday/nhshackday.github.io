@@ -2,17 +2,12 @@
 layout: default
 ---
 
-
-<div style="background-image: url({{ page.image }})" class="jumbotron header center">
-	<h1 class="event-title">{{ page.title }}</h1>
-<!-- 	<p class="post-description">
-		{{ page.author }}
-	</p> -->
-        {% if page.photo-credit %}
+<div style="background-image: url({{ page.image }}); height:300px" class="jumbotron header">
+    {% if page.photo-credit %}
 	<p class="photo-credit">
 		Photo by <a href="{{page.photo-credit-link}}" target="_blank">{{page.photo-credit}}</a> &copy;
 	</p>
-        {% endif %}
+    {% endif %}
 </div>
 <div class="hgroup centered">
 	<div class="container">
@@ -33,14 +28,6 @@ layout: default
 		</div>
 	</div>
 </div>
-<div class="row bottom-spacing">
-	<div class="col-md-10 col-md-push-1">
-		{{ content }}
-	</div>
-	<div align="center">
-		<img src="/assets/images/nhshd/with-love.png" width="600px" />
-	</div>
+<div class="container">
+	{{ content }}
 </div>
-
-
-		
