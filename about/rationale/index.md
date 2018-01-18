@@ -1,5 +1,5 @@
 ---
-layout: about
+layout: general
 title: Rationale
 subtitle: "The story of NHS Hack Day"
 id: rationale

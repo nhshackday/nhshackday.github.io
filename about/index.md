@@ -1,5 +1,5 @@
 ---
-layout: about
+layout: general
 title: "About and FAQs"
 subtitle: "Find out more about NHS Hack Day"
 id: about

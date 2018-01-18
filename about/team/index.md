@@ -1,5 +1,5 @@
 ---
-layout: about
+layout: general
 title: Team
 subtitle: "Some of the people behind NHS Hack Day"
 id: team
