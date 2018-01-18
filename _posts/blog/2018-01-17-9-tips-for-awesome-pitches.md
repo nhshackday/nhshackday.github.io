@@ -1,7 +1,7 @@
 ---
 layout: blog_post
-permalink: /previous/posts/2018/01/17/9-tips-for-awesome-pitches
-title:  "9 tips for awesome pitches"
+permalink: /previous/posts/2018/01/17/10-tips-for-awesome-pitches
+title:  "10 tips for awesome pitches"
 image: /assets/images/post-2-banner.jpg
 date:   2018-01-17
 categories: blog_posts
@@ -61,7 +61,15 @@ When you arrive at NHS Hack Day on Saturday morning and are settling in with cof
 
 You are always welcome to get in touch with the NHS Hack Day team for help or advice with your pitch. This is particularly true if you’re feeling nervous about the idea of pitching. We want everyone to feel as welcome and as confident as possible in taking part in the whole event, as this is the only way to ensure that all the best ideas are heard. Get in touch in one of our office-hours slots above for instant attention.
 
-## 7. Don’t make it exploitative
+## 7. Find some collaborators beforehand
+
+We’ve found that as well as helping to polish ideas, sharing your pitch on our event Slack or the google group beforehand can result in teams that start to form before the day. It gives potential collaborators a chance to mull the project over in the weeks and days running up to the event, and come with ideas that are more fully formed.  
+
+These teams often work really well together. They come prepared and already excited, and when the time comes to start working, they often have the most structure, and the clearest understanding of what needs to happen. The process of discussing your idea with them will give you a better idea of what excites people about it and make your pitch better.  
+
+But you don't *have* to arrive with a team at all, and if you do, but after hearing the other pitches decide that you'd like to work on something else, then that's fine too.
+
+## 8. Don’t make it exploitative
 
 NHS Hack Day will be attended by volunteers in their free time, just like you. It will be a great space for creative collaboration, idea generation, skill sharing, and building the health tech community.
 
@@ -73,7 +81,7 @@ Any pre-existing projects that you pitch should be strictly non-commercial, and 
 
 If you'd like to chat about this, please do get in touch with the organising team and we can help you sense-check how appropriate your idea is for a hackathon attended by volunteers.
 
-## 8. You don’t need a mobile app
+## 9. You don’t need a mobile app
 
 Apps are great. But you almost certainly don’t need one. Pitching “an iPhone app for $thing” is a special case of “describe a problem not a solution” from above.
 
@@ -81,7 +89,7 @@ The percentage of problems to which the best answer is a native mobile device ap
 
 Here is an article written by Government Digital Services that explains why you probably don’t need a mobile app: [https://gds.blog.gov.uk/2013/03/12/were-not-appy-not-appy-at-all/]
 
-## 9. Avoid tech/entrepreneur Buzzword Bingo
+## 10. Avoid tech/entrepreneur Buzzword Bingo
 
 You will know what we mean here: innovate, ideate, disrupt, deliverables, utilise, explore the space, blockchain, AI, $insert_javascript_framework_du_jour_here, and so on.
 
