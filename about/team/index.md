@@ -7,14 +7,10 @@ image: /assets/images/about_img.jpg
 
 ---
 
-<div class="main">
-  <div class="container">
-    <div class="row">
-
 <section class="team_members">
 <div class="container">
-     <div class="row">
-
+  
+  <div class="row">
       <div class="col-sm-6 col-md-3">
         <div class="team_member">
            <figure><img src="/assets/images/team/carl.jpg" alt="Carl Reynolds"></figure>
@@ -67,11 +63,6 @@ image: /assets/images/about_img.jpg
        </div>
 
      </div>
-   </div>
- </section>
 
-
-
-  </div>
 </div>
-</div>
+</section>
