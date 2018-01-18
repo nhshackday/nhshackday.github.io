@@ -1,0 +1,21 @@
+---
+layout: general
+title: "NHS Hack Day Events"
+subtitle: Details of our upcoming and previous events, teams and projects</h2>
+image: /assets/images/previous_img.jpg
+---
+
+<ol class="lead" reversed="reversed">
+  {% for event in site.categories.events %}
+  <li>
+    <a href="{{ event.url }}">
+      {{ event.title }}
+    </a>
+    {{ event.summary }}
+  </li>
+{% endfor %}
+
+
+
+</ol>
+

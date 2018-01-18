@@ -1,32 +1,16 @@
 ---
-layout: default
-title: About
-id: rationale
+layout: general
+title: Team
+subtitle: "Some of the people behind NHS Hack Day"
+id: team
+image: /assets/images/about_img.jpg
+
 ---
-
-<section class="hgroup centered">
-   <div class="container">
-     <div class="row">
-       <div class="col-sm-12 col-md-12 col-xs-12 col-lg-12" style="height: 300px; margin-bottom: 0.5cm; float: left; display: block; background-image: url(/assets/images/about_img.jpg); background-size: cover;">
-       </div>
-     </div>
-     <div class="row">
-       <h1>Team</h1>
-       <h2>Some of the people that help organise NHS Hack Days</h2>
-     </div>
-   </div>
- </section>
-
-
-
-<div class="main">
-  <div class="container">
-    <div class="row">
 
 <section class="team_members">
 <div class="container">
-     <div class="row">
-
+  
+  <div class="row">
       <div class="col-sm-6 col-md-3">
         <div class="team_member">
            <figure><img src="/assets/images/team/carl.jpg" alt="Carl Reynolds"></figure>
@@ -79,11 +63,6 @@ id: rationale
        </div>
 
      </div>
-   </div>
- </section>
 
-
-
-  </div>
 </div>
-</div>
+</section>
