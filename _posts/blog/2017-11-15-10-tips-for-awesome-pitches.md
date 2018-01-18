@@ -6,6 +6,8 @@ subtitle: "Make the most of your opportunity to pitch to our smart and intereste
 authors:
  - name: "Helen Jackson"
    url : "https://twitter.com/deckofpandas"
+ - name: "Matt Stibbs"
+   url : "https://twitter.com/mattstibbs"
 image: /assets/images/post-2-banner.jpg
 date:   2017-11-15
 categories: blog_posts

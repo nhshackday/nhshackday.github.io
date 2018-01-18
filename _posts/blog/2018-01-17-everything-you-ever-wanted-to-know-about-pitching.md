@@ -8,10 +8,10 @@ date:   2018-01-17
 categories: blog_posts
 label: 2018
 authors:
- - name: "Helen Jackson"
-   url : "https://twitter.com/deckofpandas"
  - name: "Matt Stibbs"
    url : "https://twitter.com/MattStibbs"
+ - name: "Helen Jackson"
+   url : "https://twitter.com/deckofpandas"   
 ---
 
 If you're new to NHS Hack Day (and even if you're not), the thought of pitching your idea to an entire room of people is quite daunting.
