@@ -1,7 +1,7 @@
 ---
 layout: blog_post
-permalink: /blog/posts/2017/11/15/10-tips-for-awesome-pitches
-title:  "10 tips for awesome pitches"
+permalink: /blog/posts/2017/11/15/top-10-tips-for-awesome-pitches
+title:  "Top 10 tips for awesome pitches"
 subtitle: "Make the most of your opportunity to pitch to our smart and interested audience"
 authors:
  - name: "Helen Jackson"
