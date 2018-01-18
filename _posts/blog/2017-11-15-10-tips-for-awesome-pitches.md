@@ -21,11 +21,15 @@ This is not a requirements list for pitching, but we've found that thinking abou
 
 (With thanks to [David Miller](https://twitter.com/thatdavidmiller), who wrote [this blog post](http://openhealthcare.org.uk/blog/2016/03/21/how-to-pitch-at-a-hackday/) that has formed much of the content for this one.)
 
+<br>
+
 ------
 
 ## 1. Tell a story
 
 People love stories. Pitches with a story in them almost always go down better. So give it colour: explain how your day-to-day life is affected by this problem; explain the frustrations of clinicians’/patients’ lives without the thing you’re pitching.
+
+<br>
 
 ------
 
@@ -41,6 +45,8 @@ Projects tend to fall into three broad categories, described below. There is no 
 
 3. Projects that are what we would call ‘workarounds’: those light-touch solutions that can fit in around existing systems that can potentially help lots of people in a small but meaningful way.
 
+<br>
+
 ------
 
 ## 3. Make it achievable
@@ -49,6 +55,8 @@ You’re coming to a hackathon, and realistically you won’t build an entire be
 
 That said, if your idea is huge and overwhelming, you should probably still talk about it, because hugeness-of-scale might translate to hugeness-of-impact on patients. Perhaps there is some part of your big idea that can be split off to give a good bite-sized weekend project. Make this explicit in your pitch: explain that this is what you want to build today.
 
+<br>
+
 ------
 
 ## 4. Make it clear
@@ -56,6 +64,8 @@ That said, if your idea is huge and overwhelming, you should probably still talk
 It is unlikely that you will have more than 60 seconds to give your pitch. Maybe you’re familiar with the concept of “elevator pitches”? That is, how to express yourself and your plan in approximately 15 seconds when you bump into some important person or potential investor.
 
 The NHS Hack Day team firmly believe that if you cannot explain your problem in 60 seconds then you have not thought it through clearly enough. We’d love to help you with this though, so do get in touch, preferably during one of our office-hours slots if you can as that will be quicker for you.
+
+<br>
 
 ------
 
@@ -66,6 +76,8 @@ The most powerful hackathon experiences come from ideas that are genuinely co-cr
 A common pitfall of hackathon pitches is to skip right over the part with the problem-solving, and to start describing the solution that first occurred to the person giving the pitch. Unsurprisingly this tends not to excite the creative problem-solvers in the room. You’re here because you have a problem that you want to help solve: why would you put constraints on what the solution might look like? Allow the process to work, and allow the talented people in the room with you the space to innovate around what you said.
 
 Two particularly common cases of describing a solution rather than a problem are: “Here is a description of the specific screens my app will have”; and “I have this library/raspberry pi/Google Glass/etc...please make it relevant to someone”
+
+<br>
 
 ------
 
@@ -79,6 +91,8 @@ When you arrive at NHS Hack Day on Saturday morning and are settling in with cof
 
 You are always welcome to get in touch with the NHS Hack Day team for help or advice with your pitch. This is particularly true if you’re feeling nervous about the idea of pitching. We want everyone to feel as welcome and as confident as possible in taking part in the whole event, as this is the only way to ensure that all the best ideas are heard. Get in touch in one of our office-hours slots above for instant attention.
 
+<br>
+
 ------
 
 ## 7. Find some collaborators beforehand
@@ -88,6 +102,8 @@ We’ve found that as well as helping to polish ideas, sharing your pitch on our
 These teams often work really well together. They come prepared and already excited, and when the time comes to start working, they often have the most structure, and the clearest understanding of what needs to happen. The process of discussing your idea with them will give you a better idea of what excites people about it and make your pitch better.
 
 But you don't *have* to arrive with a team at all, and if you do, but after hearing the other pitches decide that you'd like to work on something else, then that's fine too.
+
+<br>
 
 ------
 
@@ -103,6 +119,8 @@ Any pre-existing projects that you pitch should be strictly non-commercial, and 
 
 If you'd like to chat about this, please do get in touch with the organising team and we can help you sense-check how appropriate your idea is for a hackathon attended by volunteers.
 
+<br>
+
 ------
 
 ## 9. You don’t need a mobile app
@@ -112,6 +130,8 @@ Apps are great. But you almost certainly don’t need one. Pitching “an iPhone
 The percentage of problems to which the best answer is a native mobile device app is so close to zero as to be indistinguishable. Starting with the problem a real user has will make your project better.
 
 Here is an article written by Government Digital Services that explains why you probably don’t need a mobile app: [https://gds.blog.gov.uk/2013/03/12/were-not-appy-not-appy-at-all/](https://gds.blog.gov.uk/2013/03/12/were-not-appy-not-appy-at-all/)
+
+<br>
 
 ------
 
@@ -123,6 +143,10 @@ Of course all of these phrases are legitimate ways of expressing things sometime
 
 The same goes for pitching things like “tripadvisor for health tech apps”, “facebook for nurses”, “tinder for hospital patients” and so on. Try and be a bit more creative.
 
+<br>
+
 ------
+
+<br>
 
 And lastly, as always, if you have any questions about anything in this post (or indeed about anything else), do get in touch with our team of volunteers on the event Slack, on Twitter, or at [hello@openhealthcare.org.uk](mailto:hello@openhealthcare.org.uk) and we'll be happy to help.
