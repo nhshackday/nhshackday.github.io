@@ -36,35 +36,39 @@ The pitches are short, and so it is not possible to use slides or to show demos 
 
 If you really need to show something (seriously, you probably don't), you could hold up a sheet of flipchart paper (we’ll have lots of this) -- but try not to over-complicate or over-think it :)
 
+<br>
+
 ------
 
 ## Who should pitch?
 
-Short answer: Anyone who can see a problem with any aspect of the NHS that they think could be helped by a technology project.
+Short answer: Anyone.
 
-Longer answer: This is an opportunity for anyone with an idea that they'd like to explore or a problem they have in their day-to-day work to tell a room full of smart and motivated people about it, with the aim of coming up with a joint solution, or even 'just' some more information about the problem.
+Longer answer: This is an opportunity for anyone with an idea that they'd like to explore, or a problem they have in their day-to-day work, to tell a room full of smart and motivated people about it, with the aim of coming up with a joint solution, or even 'just' some more information about the problem.
 
-The weekend will be a great opportunity for you to learn about what other people in your sector are doing, and how they’re addressing the problems they face; but of course this will work best if everyone buys in.
+The weekend will be a great opportunity for you to learn about what other people in your sector are doing, and how they’re addressing the problems they face; but of course this will work best if everyone buys in.<br>
 
 ------
 
 ## I'm still not sure
 
-Ok, so now you can see that you are *totally* someone who should pitch at NHS Hack Day, but you're still not sure?
+Ok, so now you know why you are *totally* someone who should pitch at NHS Hack Day, but you're still not sure?
 
-Here are some concerns people have had in the past:
+Here are some common concerns about pitching:
 
 <br>
 
 ### 1. I'm not very good at presenting to audiences
 
-Firstly, you are probably a whole load better at it than you think you are; but it's all good anyway.
+Firstly, you are probably a whole load better at it than you think you are.
 
-The NHS Hack Day community does not attract polished speakers with years of presentation experience. It attracts people just like you and I, who have the same apprehensions.
+Secondly, the NHS Hack Day community does not attract polished speakers with years of presentation experience. It attracts people just like you and I, who have the same apprehensions.
 
 The quick-fire pitching style is actually fun. It's so different to a formal presentation that people won't even think about the sort of things you're worried about.
 
-And if you're still not sure: talk to an organiser or hang back down the queue a bit, watch some other people pitch first, and then see how you feel. Every hackathon-style event I've been to has had at least one last minute idea pitched where someone gets inspired by the other pitches. And lastly, no one will even notice if you decide not to go ahead. :)
+And if you're still not sure: talk to an organiser or hang back down the queue a bit, watch some other people pitch first, and then see how you feel. Every hack event we've held has had at least one last minute idea pitched where someone gets inspired by the other pitches. 
+
+Lastly, no one will even notice if you decide not to go ahead. :)
 
 If you think that talking through your pitch with someone might help, do get in touch with our team of volunteers on the event Slack, on Twitter, or at [hello@openhealthcare.org.uk](mailto:hello@openhealthcare.org.uk) and we'll be happy to try and help you.
 
@@ -72,15 +76,21 @@ If you think that talking through your pitch with someone might help, do get in 
 
 ### 2. My idea is not developed enough to be interesting or useful
 
-This is just not A Thing! The best ideas for an NHS Hack Day are those ones that have plenty of room to be developed. And that's why we're at NHS Hack Day in the first place, right?
+This is just not A Thing! 
 
-People come to NHS Hack Day either to work on an idea or problem they have or to get stuck in helping other people develop their ideas. Or just to learn about what's happening and to meet people. In any case, what you have to offer is valuable to the community, we promise.
+The best ideas for an NHS Hack Day are those ones that have plenty of room to be developed. That's why we're at NHS Hack Day in the first place, right?
+
+People come to NHS Hack Day for a number of reasons: to work on an idea or problem they have, to get stuck in helping other people develop their ideas, or just to learn about what's happening and to meet people. 
+
+In any case, what you have to offer is valuable to the community - we promise.
 
 Your pitch might be as simple as describing a problem that you've encountered, and there will be people in the audience for whom that is enough for them to get problem-solving with you.
 
-You might have a clear idea, but feel like you haven't developed the 'how' enough yet -- that's great! Tell everyone this, and ask them to help you work out the 'how'. Again, this will be a really interesting proposition for people.
+You might have a clear idea, but feel like you haven't developed the 'how' enough yet -- that's great! Tell the audience this, and ask them to help you work out the 'how'. Again, this will be a really interesting proposition for some people.
 
-There is no idea too small or too early to pitch, and you'll get a feel for this as soon as you see what other people are pitching.
+Be careful here not to pitch a solution rather than a problem, see Tip 5 in our first blog  (http://nhshackday.com/blog/posts/2017/11/15/top-10-tips-for-awesome-pitches) for more info on this!
+
+There is no idea too small or too early to pitch - you'll get a feel for this as soon as you see what other people are pitching.
 
 <br>
 
@@ -88,20 +98,20 @@ There is no idea too small or too early to pitch, and you'll get a feel for this
 
 "Interesting" is a personal thing. You really can't guess what will or won't be interesting to other people in our community.
 
-NHS Hack Day often ends up with only some of the original pitches actually being worked on; this is entirely normal, and is a result of the self-organising that happens at these events. Think of it like natural selection!
+NHS Hack Day often ends up with only some of the original pitches actually being worked on; this is entirely normal, and is a result of the self-organising that happens at these events. 
 
-It is possible that your pitch won't make it all the way to the end of the weekend, but this is not a reflection of quality, interest, value, or you! You might even decide that you'd rather work on someone else's idea (this happens ALL the time).
-
-------
+It is possible that your pitch won't make it all the way to the end of the weekend, but this is not a reflection of quality, interest, value, or you. You might even decide that you'd rather work on someone else's idea (this happens ALL the time).
 
 <br>
+
+------
 
 ## Go on, give pitching a go
 
 Don’t be shy: do consider having a go at pitching. Your friends at NHS Hack Day are the best people you could do this with for sure.
 
-------
-
 <br>
+
+------
 
 And lastly, as always, if you have any questions about anything in this post (or indeed about anything else), do get in touch with our team of volunteers on the event Slack, on Twitter, or at [hello@openhealthcare.org.uk](mailto:hello@openhealthcare.org.uk) and we'll be happy to help.
