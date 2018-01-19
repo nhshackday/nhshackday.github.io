@@ -22,7 +22,6 @@ This is not a requirements list for pitching, but we've found that thinking abou
 (With thanks to [David Miller](https://twitter.com/thatdavidmiller), who wrote [this blog post](http://openhealthcare.org.uk/blog/2016/03/21/how-to-pitch-at-a-hackday/) that has formed much of the content for this one.)
 
 <br>
-
 ------
 
 ## 1. Tell a story
@@ -30,8 +29,11 @@ This is not a requirements list for pitching, but we've found that thinking abou
 People love stories. Pitches with a story in them almost always go down better. 
 
 1. Give it colour: explain how your day-to-day life is affected by this problem; explain the frustrations of clinicians’/patients’ lives that mean this is a problem worth solving.
+
 2. Bringing the people in the story to life - give them names, or describe their roles - it will give people a hook into your story.
-  <br>
+
+<br>
+
 ------
 
 ## 2. Explain the change you want to see
