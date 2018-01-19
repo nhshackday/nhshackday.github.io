@@ -1,0 +1,30 @@
+.hgroup .container h1{
+	font-size: 3em;
+	font-weight: 500;
+	line-height: 1.5em;
+}
+
+.hgroup .container h2{
+	font-size: 1.5em;
+	font-weight: 300;
+	line-height: 1em;
+}
+
+.hgroup .container h3{
+	font-size: 1.3em;
+	font-weight: 300;
+}
+
+.hgroup .container h4{
+	font-size: 1.1em;
+	font-weight: 500;
+}
+
+.main-content .jam {
+	padding: 5px 30px;
+}
+
+.jam p {
+	width: 95%;
+	text-align: justify;
+}
