@@ -1,14 +1,12 @@
 # Site settings
-title: NHSHackday
-name: NHSHackday
-email: your-email@domain.com
+title: NHS Hack Day
+name: NHS Hack Day | Geeks who love the NHS
+email: hello@openhealthcare.org.uk
 description: > # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+  Making NHS IT better
 baseurl: "" # the subpath of your site, e.g. /blog/
-url: "http://yourdomain.com" # the base hostname & protocol for your site
-twitter_username: jekyllrb
+url: "http://nhshackday.com" # the base hostname & protocol for your site
+twitter_username: NHSHackDay
 markdown: kramdown
 future: true
 sass:
