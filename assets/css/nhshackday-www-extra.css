@@ -1,12 +1,14 @@
 .hgroup .container h1{
+	color: #336633;
 	font-size: 3em;
 	font-weight: 500;
 	line-height: 1.5em;
 }
 
 .hgroup .container h2{
+	color: #666666;
 	font-size: 1.5em;
-	font-weight: 300;
+	font-weight: 400;
 	line-height: 1em;
 }
 
@@ -24,7 +26,32 @@
 	padding: 5px 30px;
 }
 
+.jam a
+{
+	font-weight:600;
+}
+
 .jam p {
+	font-size: 1.3em;
 	width: 95%;
 	text-align: justify;
+}
+
+.jam h2 {
+	font-size: 2em;
+	font-weight: 900;
+	color: #558855;
+	line-height: 2em;
+}
+
+.jam h3 {
+	font-size: 1.3em;
+	font-weight: 700;
+	color: #779977;
+	line-height: 1.5em;
+}
+
+
+.jam blockquote {
+	border-left: 5px solid #bbccbb;
 }
