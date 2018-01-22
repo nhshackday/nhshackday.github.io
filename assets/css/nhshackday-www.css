@@ -54,3 +54,30 @@
   padding-top: 12px;
   padding-bottom: 12px;
 }
+
+.fa {
+  margin: 20px;
+}
+
+.fa:hover {
+    color: #ccccdc;
+  }
+
+.fa-twitter {
+  color: #1DA1F2;
+  &:hover {
+    color:black;
+  }
+}
+
+.fa-facebook-square {
+  color: #3c5a96;
+}
+
+.fa-envelope-o {
+  color: #ff55bb;
+}
+
+.social-bar {
+  margin:50px 10px;
+}

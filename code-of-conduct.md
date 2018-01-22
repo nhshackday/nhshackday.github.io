@@ -53,3 +53,7 @@ Hackathon staff will be happy to help participants contact any local security or
 If a participant engages in harassing behavior, the hackathon organisers may take any action they deem appropriate. This includes warning the offender, expulsion from the hackathon with no refund (if applicable), or reporting their behaviour to local law enforcement.
 
 We expect participants to follow these rules at hackathon and workshop venues and hackathon-related social events.
+
+<br>
+
+{% include social.html %}

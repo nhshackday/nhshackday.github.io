@@ -180,3 +180,5 @@ We'll do you a sandwiches-and-fruit lunch, water, tea and coffee, but if you wan
 As we say above, we're generally not that interested in "winning" or "prizes", but please see the [Judging Criteria](/resources/judging/) for a glimpse into our ethos.
 
 <br>
+
+{% include social.html %}
