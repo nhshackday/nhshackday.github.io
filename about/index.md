@@ -138,6 +138,7 @@ Volunteers include:
 * Ayesha Garrett: [@LondonLime](https://twitter.com/LondonLime)
 * Dr Anne Marie Cunningham: [@amcunningham](https://twitter.com/amcunningham)
 * Dr Jon Hilton: [@jonjhilton](https://twitter.com/jonjhilton)
+* Becki Buddin [@thebeckib](https://twitter.com/thebeckib)
 
 All of us tweet from [@NHSHackDay](https://twitter.com/nhshackday) from time to time, and the hashtag [#nhshd](https://twitter.com/hashtag/nhshd) is pretty active too.
 
