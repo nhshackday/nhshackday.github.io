@@ -1,0 +1,19 @@
+name: UKHealthCamp
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "http://ukhealthcamp.com" # the base hostname & protocol for your site
+markdown: kramdown
+highlighter: null
+sass:
+    style: compressed
+show_alert: true
+compress_html:
+  clippings: all
+  comments: ["<!-- ", " -->"]
+  endings: all
+  ignore:
+    envs: [local]
+  blanklines: false
+  profile: false
+  startings: [html, head, body]
+
+repository: foobar

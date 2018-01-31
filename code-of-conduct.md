@@ -1,12 +1,13 @@
 ---
-layout: general
+layout: default
 title: "Code of Conduct"
 subtitle: 
-image: /assets/images/about_img.jpg
+permalink: /code-of-conduct
+header_image: /images/media_img.jpg
+social_links: true
 ---
 
 NHS Hack Day has signed the [Hack Code of Conduct](https://hackcodeofconduct.org/), and the text of this is reproduced here:
-
 
 ## The Quick Version
 
@@ -53,7 +54,3 @@ Hackathon staff will be happy to help participants contact any local security or
 If a participant engages in harassing behavior, the hackathon organisers may take any action they deem appropriate. This includes warning the offender, expulsion from the hackathon with no refund (if applicable), or reporting their behaviour to local law enforcement.
 
 We expect participants to follow these rules at hackathon and workshop venues and hackathon-related social events.
-
-<br>
-
-{% include social.html %}

@@ -1,11 +1,26 @@
-<!DOCTYPE html>
+---
+layout: compress
+---
+<!doctype html>
 <html>
-  {% include head.html %}
-  <body>
-    {% include header.html %}
-    <div class="main-content">
-        {{ content }}
-    </div>
-    {% include footer.html %}
-  </body>
+{% include head.html %}
+    <body>
+        <!--[if lt IE 10]>
+        <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+        <style>.title::before{background-image: url({{ page.header_image }})}</style>
+        {% include header.html %}
+        <div class="title">
+            <h1>{{ page.title }}</h1>
+            <h2>{{ page.subtitle }}</h2>
+        </div>
+        <div class="content">
+            {{ content }}
+            {% if page.social_links %}
+            {% include social_footer.html %}
+            {% endif %}
+        </div>
+        {% include footer.html %}
+    </body>
+{% include javascript.html %}
 </html>
