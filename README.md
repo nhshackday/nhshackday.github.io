@@ -5,7 +5,28 @@
 * clone your fork locally
 * make your changes (see guide below, looking at the code for previous events is often very helpful)
 * `git commit` and `git push` to your repo
-* create a Pull Request on GitHub. One of the NHSHD committers will merge it.
+* create a Pull Request on GitHub
+* One of the NHSHD committers will merge it when happy
+
+## Suggested way to test Pull Requests on our staging site
+To push the content of a Pull Request to our staging site for testing:
+```
+cd WHEREVER_ON_OUR_LOCAL_MACHINE
+
+git checkout -b TEMP_BRANCH_NAME_TO_HOLD_THIS_PR master
+
+git pull https://github.com/YOUR_GITHUB_USERNAME/nhshackday.github.io.git BRANCH_NAME_IN_THE_PR
+
+git remote add staging git@github.com:newNHSHackdaySite/newNHSHackdaySite.github.io
+
+git checkout -b NEW_BRANCH_NAME_TO_PUSH_TO_STAGING_SITE
+
+rm CNAME
+
+git commit -a -m "Kill CNAME for staging"
+
+git push staging YOUR_GITHUB_USERNAME-NEW_BRANCH_NAME_TO_PUSH_TO_STAGING_SITE:master -f
+```
 
 ## Adding events
 To add an event you should create a new file in the _posts/events/ folder with a filename like: ```YYYY-MM-DD-LOCATION.md```
