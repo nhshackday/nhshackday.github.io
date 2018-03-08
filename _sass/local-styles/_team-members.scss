@@ -3,13 +3,14 @@
 .team-members{
     margin: 10px 0;
     clear: both;
+    text-align: center;
 }
 
 .member {
     text-align: center;
     background-color: #222222;
     position: relative;
-    background: url(/images/wild_oliva.png);
+    background: url(/assets/images/wild_oliva.png);
     color: #cccccc;
     padding: 30px;
     /*border-radius: 6px;*/
@@ -48,6 +49,15 @@
         }
         span {
             display: none;
+        }
+    }
+    .fa {
+        &::before {
+            color: inherit;
+            margin: 0;
+        }
+        &:hover::before {
+            color: inherit !important;
         }
     }
     .name {

@@ -1,9 +1,11 @@
 ---
-layout: default
 title: "Code of Conduct"
-subtitle: 
 permalink: /code-of-conduct
-header_image: /images/media_img.jpg
+header_image: media_img.jpg
+image_credit: 
+  - Credit: "Paul Clark"
+    URL: "http://paulclarke.com"
+    Licence: "CC BY-NC"
 social_links: true
 ---
 
@@ -34,7 +36,8 @@ We do not tolerate harassment of hackathon participants in any form. Sexual lang
 * any parties associated to the hackathon
 * social media
 * any other online media
-* Hackathon participants violating these rules may be sanctioned or expelled from the hackathon without a refund (if applicable) at the discretion of the hackathon organisers.
+
+Hackathon participants violating these rules **may be sanctioned or expelled** from the hackathon **without a refund** (if applicable) at the discretion of the hackathon organisers.
 
 
 ## The Less Quick Version

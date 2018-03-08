@@ -1,0 +1,16 @@
+---
+layout: base
+---
+{% include title.html %}
+    <dl class="metadata">
+        <dt>Published:</dt>
+        <dd><time pubdate datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date_to_long_string }}</time></dd>
+        <dt>Author:</dt>
+        {% for person in page.authors %}
+        <dd class="author"><a rel="author" href="{{ person.url }}" target="_blank">{{ person.name }}</a></dd>
+        {% endfor %}
+    </dl>
+    <div class="content">
+        {{ content }}
+        {% include social_footer.html %}
+    </div>

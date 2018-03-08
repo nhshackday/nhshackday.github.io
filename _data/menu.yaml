@@ -11,10 +11,10 @@
       subhref: "/about/team"
 
 - title: "Blog"
-  href: "/blog"
+  href: "/blog/"
 
 - title: "Events"
-  href: "/events"
+  href: "/events/"
 
 - title: "Resources"
   subcategories:

@@ -1,12 +1,28 @@
 /* Menu */
 .header {
+    .home {
+        @media screen and (max-width: 450px){
+            display: inline-block;
+            overflow: hidden;
+            width: 150px;
+        }
+    }
     ul {
         list-style: none;
-        margin: 30px 0 0 0;
+        margin: 0 0 20px 0;
         padding: 0;
         text-transform: uppercase;
         font-size: 14px;
+        font-weight: bold;
         float: right;
+        @media screen and (max-width: 980px){
+            display: inline-block;
+            float: none;
+            margin-bottom: 5px;
+        }
+        //@media screen and (max-width: 450px){
+        //    margin-top: -25px;
+        //}
         li {
             position: relative;
             float: left;
@@ -29,7 +45,7 @@
                 text-decoration: none;
                 line-height: 20px;
                 padding: 15px;
-                margin: 0 3px;
+                /*margin: 0 3px;*/
                 &:hover {
                     color: #428bca;
                 }
@@ -49,6 +65,7 @@
         ul {
             display: none;
             position: absolute;
+            z-index: 40;
             top: 100%;
             left: 0;
             background:#f6f6f6;
@@ -57,7 +74,6 @@
             white-space: nowrap;
             li {
                 float: none;
-                width: 200px
             }
             a {
                 line-height: 120%;
@@ -67,9 +83,6 @@
     }
     input[type=checkbox]{
         display: none;
-    }
-    input[type=checkbox]:checked ~ ul{
-        display: inline-block;
     }
 }
 
@@ -81,34 +94,34 @@
     padding: 10px 0;
     width: 90px;
     float: right;
-    margin: 34px;
+    margin: 4px 0px 25px 0;
     display: none;
     .fa {
         margin: 0 10px 0 0;
     }
+    @media screen and (max-width: 760px){
+        display: block;
+    }
+    //@media screen and (max-width: 450px){
+    //    display: inline-block;
+    //    float: none;
+    //    width: 100%;
+    //}
 }
 
 /*Responsive Styles*/
-@media screen and (max-width : 760px){
-    .header ul {
-        position: relative;
-        display: none;
-        width: 100%;
-        margin: 0;
-        li {
-            width: 100%;
-            text-align: center;
-            margin-bottom: 1px;
-            a {
-                padding-left: 0px;
-                padding-right: 0px;
-                margin-left: 0px;
-                margin-right: 0px;
-            }
+@media screen and (max-width: 760px){
+    .header {
+        input[type=checkbox]:checked ~ ul{
+            display: inline-block;
+            float: none;
         }
         ul {
-            z-index: 40;
-            /*position: static;*/
+            position: relative;
+            display: none;
+            width: 100%;
+            background: #fff;
+            margin-bottom: 20px;
             li {
                 width: 100%;
                 text-align: center;
@@ -120,9 +133,21 @@
                     margin-right: 0px;
                 }
             }
+            ul {
+                z-index: 40;
+                /*position: static;*/
+                li {
+                    width: 100%;
+                    text-align: center;
+                    margin-bottom: 1px;
+                    a {
+                        padding-left: 0px;
+                        padding-right: 0px;
+                        margin-left: 0px;
+                        margin-right: 0px;
+                    }
+                }
+            }
         }
-    }
-    .menu-burger {
-        display:block;
     }
 }

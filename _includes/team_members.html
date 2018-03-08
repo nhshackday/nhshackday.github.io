@@ -1,7 +1,7 @@
 <div class="team-members">
 {% for member in page.team %}
     <div class="member">
-        <img src="{{ member.photo }}" alt="{{ member.name }}">
+        <img src="/assets/images/team/{{ member.photo }}" alt="{{ member.name }}">
         <span class="name">{{ member.name }}</span>
         <span class="bio">{{ member.bio }}</span>
         <div class="social">

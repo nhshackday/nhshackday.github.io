@@ -1,0 +1,37 @@
+<ul class="projects">
+    {% for project in include.projects limit:include.limit %}
+    <li class="project">
+        <dl>
+            <dt class="name">Name</dt>
+            <dd class="name"><a href="{{ project.url }}">{{ project.title }}</a></dd>
+            {% if project.thumbnail %}
+                <dt class="image">Image</dt>
+                <dd class="image"><img width="270" src="/assets/images/projects/{{ project.hackday }}/{{ project.thumbnail }}"></dd>
+            {% endif %}
+            <dt class="summary">Summary</dt>
+            <dd class="summary">{{ project.summary }}</dd>
+            {% if include.hide_team == true %}
+                <dt class="team"><span>Team</span></dt>
+            {%endif%}
+            {% if project.team.size > 0 and include.hide_team != true %}
+                <dt class="team"><span>Team</span></dt>
+                {% for member in project.team %}
+                    {% if member contains '@' %}
+                    <dd class="team"><a href="https://twitter.com/{{ member | remove_first: "@" }}" target="_blank">{{ member }}</a></dd>
+                    {% else %}
+                    <dd class="team">{{ member }}</dd>
+                    {% endif %}
+                {% endfor %}
+            {% endif %}
+            {% if project.links.size > 0 %}
+                <dt class="links"><span>Links</span></dt>
+                {% if project.links[0].website %}<dd class="links"><a class="fa fa-external-link" href="{{ project.links[0].website }}" title="Website" target="_blank"><span>Website</span></a></dd>{% endif %}
+                {% if project.links[0].presentation %}<dd class="links"><a class="fa fa-tv" href="{{ project.links[0].presentation }}" title="Presentation" target="_blank"><span>Presentation</span></a></dd>{% endif %}
+                {% for link in project.links[0].code %}
+                    <dd class="links"><a class="fa fa-github" href="{{ link }}" title="Code" target="_blank"><span>Code</span></a></dd>
+                {% endfor %}
+            {% endif %}
+        </dl>
+    </li>
+    {% endfor %}
+</ul>

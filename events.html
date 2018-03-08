@@ -1,0 +1,24 @@
+---
+layout: default
+title: "NHS Hack Day Events"
+subtitle: "Details of our upcoming and previous events, teams and projects"
+permalink: /events/
+header_image: previous_img.jpg
+---
+
+{% include upcomming_events.html %}
+
+<h2>Previous Events:</h2>
+<ol class="past-events" reversed="reversed">
+{% assign current_time = site.time | date: "%s" | to_integer%}
+{% assign sorted = site.events | sort: 'date' | reverse %}
+{% for post in sorted %}
+    {% assign start = post.date | date: "%s" | plus: 86400 | to_integer %}
+    {% unless start >= current_time %}
+        <li>
+          <h3><a href="{{ post.url }}">{{ post.title }}</a><time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%-d" }} &mdash; {{ post.date_end | date: "%-d %B %Y" }}</time></h3>
+          <h4>Held at {{ post.venue }}, {{ post.city }} organised by {{ post.organiser | join: ', ' }}</h4>
+        </li>
+    {% endunless %}
+{% endfor %}
+</ol>

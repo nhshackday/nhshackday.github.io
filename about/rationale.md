@@ -1,9 +1,12 @@
 ---
-layout: default
 title: "Rationale"
 subtitle: "The story of NHS Hack Day"
 permalink: /about/rationale
-header_image: /images/about_img.jpg
+header_image: datasets_img.jpg
+image_credit: 
+  - Credit: "Paul Clark"
+    URL: "http://paulclarke.com"
+    Licence: "CC BY-NC"
 social_links: true
 ---
 

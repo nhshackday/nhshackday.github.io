@@ -1,30 +1,31 @@
 <div class="header">
-    <a href="/">
-        <img src="/images/header-logo.png" alt="NHS Hack Day - Geeks who love the NHS" title="NHS Hack Day - Geeks who love the NHS">
-    </a>
-    <label for="menu-burger" class="menu-burger"><span class="fa fa-navicon"></span>Menu</label>
-    <input type="checkbox" id="menu-burger" role="button">
-    <ul>
-        {% for nav in site.data.menu %}
-        {% if nav.subcategories != null %}
-            <li>
-            {% if nav.href %}
-            <a href="{{ nav.href }}" class="subcategory">{{ nav.title }}</a>
-            {% else %}
-            <a class="subcategory">{{ nav.title }}</a>
-            {% endif %} 
-            <ul>
-            {% for subcategory in nav.subcategories %}
-                <li><a href="{{ subcategory.subhref }}">{{ subcategory.subtitle }}</a></li>
+    <div>
+        <a class="home" href="/">
+            <img src="/assets/images/header-logo.png" alt="NHS Hack Day - Geeks who love the NHS" title="NHS Hack Day - Geeks who love the NHS">
+        </a>
+        <label for="menu-burger" class="menu-burger"><span class="fa fa-navicon"></span>Menu</label>
+        <input type="checkbox" id="menu-burger" role="button">
+        <ul>
+            {% for nav in site.data.menu %}
+            {% if nav.subcategories != null %}
+                <li>
+                {% if nav.href %}
+                <a href="{{ nav.href }}" class="subcategory">{{ nav.title }}</a>
+                {% else %}
+                <a class="subcategory">{{ nav.title }}</a>
+                {% endif %} 
+                <ul>
+                {% for subcategory in nav.subcategories %}
+                    <li><a href="{{ subcategory.subhref }}">{{ subcategory.subtitle }}</a></li>
+                {% endfor %}
+                </ul>
+                </li>
+            {% elsif nav.href == page.url %}
+                <li class="active"><a href="{{ nav.href }}">{{ nav.title }}</a></li>
+            {% else %} 
+                <li><a href="{{ nav.href }}">{{ nav.title }}</a></li>
+            {% endif %}
             {% endfor %}
-            </ul>
-            </li>
-        {% elsif nav.href == page.url %}
-            <li class="active"><a href="{{ nav.href }}">{{ nav.title }}</a></li>
-        {% else %} 
-            <li><a href="{{ nav.href }}">{{ nav.title }}</a></li>
-        {% endif %}
-        {% endfor %}
-    </ul>
-    {{page.id}}
+        </ul>
+    </div>
 </div>

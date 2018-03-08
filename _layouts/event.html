@@ -1,0 +1,47 @@
+---
+layout: base
+---
+{% capture title %}{{ page.title }}, {{ page.date | date: "%-d" }} &mdash; {{ page.date_end | date: "%-d %h %Y" }}{% endcapture %}
+{% capture subtitle %}Held at {{ page.venue }}, {{ page.city }} organised by {{ page.organiser | join: ', ' }}{% endcapture %}
+{% include title.html title=title subtitle=subtitle %}
+<div class="content">
+    {% if page.blog_posts.size > 0 %}
+    <h2>Blog posts about this event</h2>
+    <ul>
+        {% for blog in page.blog_posts %}
+        <li>
+            <a href="{{ blog.URL }}" target="_blank">{{ blog.Title }}</a> by {{ blog.Author }}
+        </li>
+        {% endfor %}
+    </ul>
+    {% endif %}
+
+    {% assign projects = site.projects | where: "hackday", page.hackday %}
+    {% if projects.size > 0 %}
+    <h2>Projects</h2>
+    {% include projects.html projects=projects %}
+    {% else %}
+    <h2>Projects</h2>
+    <p>Unfortunatly we don't have any info on the Projects at this event. If you can help us fill in the blanks <a href="/contact">let us know</a>.</p>
+    {% endif %}
+
+    {% assign sponsors = site.sponsors | where: "events", page.hackday %}
+    {% if sponsors.size > 0 %}
+    <h2>Sponsors</h2>
+    <h3>NHS Hack Day would not be possible without the help of our excellent sponsors.</h3>
+    <ul class="sponsors">
+        {% for sponsor in sponsors %}
+        <li>
+            {% if sponsor.link %}<a href="{{ sponsor.link }}" target="_blank">{% endif %}
+                {% if sponsor.logo %}
+                <img width="160" alt="{{ sponsor.title }}" title="{{ sponsor.title }}" src="/assets/images/sponsors/{{ sponsor.logo }}">
+                {% else %}
+                {{ sponsor.title }}
+                {% endif %}
+            {% if sponsor.link %}</a>{% endif %}
+            <span>{{ sponsor[page.hackday] }}</span>
+        </li>
+        {% endfor %}
+    </ul>
+    {% endif %}
+</div>

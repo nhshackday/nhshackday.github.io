@@ -3,27 +3,32 @@
         <div class="left">
                 <h3>About us</h3>
                 <p>
-                    Geeks who love the NHS
-                    <a class="fa fa-envelope-o" href="mailto:hello@openhealthcare.org.uk"><span>hello@openhealthcare.org.uk</span></a>
-                    <a class="fa fa-twitter" href="https://twitter.com/nhshackday"><span>@NHSHackDay</span></a>
+                    Geeks who love the NHS <br>
+                    <a class="fa fa-envelope-o" href="mailto:hello@openhealthcare.org.uk"><span>hello@openhealthcare.org.uk</span></a> <br>
+                    <a class="fa fa-twitter" href="https://twitter.com/nhshackday"><span>@NHSHackDay</span></a> <br>
+                    <a class="fa fa-list-alt"href="https://groups.google.com/forum/#!forum/nhshackday">Google Group</a> <br>
+                    <a class="fa fa-slack" href="https://nhshd.slack.com/"><span>Slack</span></a>
+                    (<a href="https://nhshackday.herokuapp.com">Join Workspace</a>)
                 </p>
             </div>
             <div class="center">
-                <a class="twitter-timeline" data-height="200" data-dnt="true" data-theme="dark" data-link-color="#428bca" href="https://twitter.com/NHSHackDay?ref_src=twsrc%5Etfw">Tweets by NHSHackDay</a>
+                <a class="twitter-timeline" data-height="250" data-dnt="true" data-theme="dark" data-link-color="#428bca" href="https://twitter.com/NHSHackDay?ref_src=twsrc%5Etfw">Tweets by NHSHackDay</a>
             </div>
-        
             <div class="right">
                     <p>
-                        Sign up to our mailing list for news and announcements:
-                        <input type="email" name="EMAIL" id="mce-EMAIL" placeholder="Your email address"> 
-                        <button type="submit" class="btn btn-info" name="subscribe" id="mc-embedded-subscribe">Subscribe</button>
+                        Sign up to our mailing list for news and announcements:<br>
                     </p>
+                    <form class="form" action="https://tinyletter.com/nhshackday" method="post" target="popupwindow" onsubmit="window.open('https://tinyletter.com/nhshackday', 'popupwindow', 'scrollbars=yes,width=800,height=600');return true">
+                        <p>
+                            <input type="hidden" value="1" name="embed"/>
+                            <input type="email" name="email" placeholder="Your email address"/>
+                            <button type="submit" class="btn btn-info" name="subscribe">Subscribe</button>
+                        </p>
+                    </form>
             </div>
     </div>
-
     <div class="copyright">
-            <a href="https://github.com/">View source code</a>.
+            &copy; {{ 'now' | date: "%Y" }} <a href="https://github.com/">View source code</a>.
             Hosted by <a href="https://github.com/">GitHub</a>
     </div>
-
 </div>

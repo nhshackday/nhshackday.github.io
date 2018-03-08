@@ -1,0 +1,16 @@
+.past-events {
+    time {
+        font-size: 0.65em;
+        margin-left: 7px;
+        @media screen and (max-width: 450px){
+            display: block;
+            margin-left: 0;
+        }
+    }
+    h3 {
+        margin-bottom: 0;
+    }
+    h4 {
+        margin-top: 0;
+    }
+}

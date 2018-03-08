@@ -2,10 +2,58 @@ name: UKHealthCamp
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://ukhealthcamp.com" # the base hostname & protocol for your site
 markdown: kramdown
+# kramdown: 
+#  parse_block_html: true
 highlighter: null
 sass:
     style: compressed
-show_alert: true
+plugins:
+  - jekyll-redirect-from
+future: true
+
+collections:
+  blog:
+    output: true
+    permalink: /:collection/:year/:month/:day/:title
+  events:
+    output: true
+    permalink: /:collection/:year/:month/:title
+  projects:
+    output: true
+    permalink: /:collection/:path
+  sponsors:
+    output: false
+
+defaults:
+  -
+    scope:
+      path: ""
+      type: "blog"
+    values:
+      layout: "blog_post"
+  -
+    scope:
+      path: ""
+      type: "events"
+    values:
+      layout: "event"
+      header_image: datasets_img.jpg
+      image_credit: 
+        - Credit: "Paul Clark"
+          URL: "http://paulclarke.com"
+          Licence: "CC BY-NC"
+  -
+    scope:
+      path: ""
+      type: "projects"
+    values:
+      layout: "project"
+      header_image: datasets_img.jpg
+      image_credit: 
+        - Credit: "Paul Clark"
+          URL: "http://paulclarke.com"
+          Licence: "CC BY-NC"
+
 compress_html:
   clippings: all
   comments: ["<!-- ", " -->"]

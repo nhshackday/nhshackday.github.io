@@ -1,9 +1,14 @@
 ---
-layout: default
 title: "About and FAQs"
 subtitle: "Find out more about NHS Hack Day"
 permalink: /about/
-header_image: /images/about_img.jpg
+redirect_from:
+  - /faq
+header_image: organiser_img.jpg
+image_credit: 
+  - Credit: "Paul Clark"
+    URL: "http://paulclarke.com"
+    Licence: "CC BY-NC"
 social_links: true
 ---
 
@@ -53,6 +58,7 @@ As we said before: it's not really about "products" or "winning", but offering p
 ---
 
 ## Who should come to NHS Hack Days?
+
 If you’re from a background which isn’t well-represented in most geeky meetups, come along – we want to make a difference.
 
 If you’re from a background which is well-represented in most geeky meetups, come along – we want your help to make a difference.

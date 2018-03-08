@@ -1,14 +1,16 @@
 ---
-layout: default
 title: "Team"
 subtitle: "Some of the people behind NHS Hack Day"
-header_image: /images/about_img.jpg
-social_links: false
+header_image: graphics_img.jpg
+image_credit: 
+  - Credit: "Paul Clark"
+    URL: "http://paulclarke.com"
+    Licence: "CC BY-NC"
 
 team:
     - {
         name: "Carl Reynolds",
-        photo: "/images/team/carl.jpg",
+        photo: "carl.jpg",
         bio: "Founder of NHS Hack Day, NIHR Academic Clinical Fellow at Imperial College Healthcare NHS Trust",
         social: {
             twitter: "https://twitter.com/drcjar"
@@ -16,7 +18,7 @@ team:
         }
     - {
         name: "David Miller",
-        photo: "/images/team/david.jpg",
+        photo: "david.jpg",
         bio: "Managing Director, Open Healthcare UK",
         social: { 
             twitter: "https://twitter.com/thatdavidmiller"
@@ -24,7 +26,7 @@ team:
         }
     - {
         name: "Anne Marie Cunningham",
-        photo: "/images/team/amc.jpg",
+        photo: "amc.jpg",
         bio: "GP and Primary Care Clinical Director at Aneurin Bevan University Health Board",
         social: {
             twitter: "http://twitter.com/amcunningham"
@@ -32,7 +34,7 @@ team:
         }
     - {
         name: "Helen Jackson",
-        photo: "/images/team/helen.jpg",
+        photo: "helen.jpg",
         bio: "Grad-entry medical student at King's College London, RCPsych Pathfinder Fellow, researcher",
         social: {
             facebook: "https://www.facebook.com/helenmaryjackson", 
