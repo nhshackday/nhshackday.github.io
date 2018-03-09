@@ -11,9 +11,9 @@
 ## Suggested way to test Pull Requests on our staging site
 To push the content of a Pull Request to our staging site for testing:
 ```
-cd WHEREVER_ON_OUR_LOCAL_MACHINE
+cd WHEREVER_ON_LOCAL_MACHINE
 
-git checkout -b TEMP_BRANCH_NAME_TO_HOLD_THIS_PR master
+git checkout -b TEMP_BRANCH_NAME_TO_HOLD_THIS_PR
 
 git pull https://github.com/YOUR_GITHUB_USERNAME/nhshackday.github.io.git BRANCH_NAME_IN_THE_PR
 
