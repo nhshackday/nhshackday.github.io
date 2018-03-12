@@ -1,0 +1,19 @@
+---
+layout: default
+title: "Blog"
+subtitle: "Posts and other things by the NHS Hack Day team"
+permalink: /blog/
+header_image: manc-17-banner.jpg
+---
+
+<ol class="blog-posts">
+{% assign sorted = site.blog | sort: 'date' | reverse %}
+{% for post in sorted %}
+    <li>
+      <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date_to_long_string }}</time>
+      <h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
+      <h4>{{ post.subtitle }}</h4>
+      <p>{{ post.content | truncatewords:50 | strip_html }}</p>
+    </li>
+{% endfor %}
+</ol>

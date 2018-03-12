@@ -1,0 +1,83 @@
+/* Team Members */
+
+.team-members{
+    margin: 10px 0;
+    clear: both;
+    text-align: center;
+}
+
+.member {
+    text-align: center;
+    background-color: #222222;
+    position: relative;
+    background: url(/assets/images/wild_oliva.png);
+    color: #cccccc;
+    padding: 30px;
+    /*border-radius: 6px;*/
+    margin: 10px;
+    width: 160px;
+    height: 350px;
+    display: inline-block;
+    vertical-align: top;
+    img {
+        border-radius: 390px;
+        max-width: 100%;
+        /*-webkit-transition: all 200ms linear;
+        -o-transition: all 200ms linear;
+        transition: all 200ms linear;
+        &:hover {
+          opacity: 0;
+          filter: alpha(opacity=0);
+        }*/
+    }
+    a {
+        text-decoration: none;
+        margin: 0 6px 12px 0;
+        font-size: 18px;
+        background-color: #428bca;
+        color: #ffffff;
+        padding: 6px;
+        width: 22px;
+        height: 22px;
+        line-height: 22px;
+        display: inline-block;
+        border-radius: 50%;
+        &:hover{
+            color: #428bca;
+            cursor: pointer;
+            background-color: #ffffff;
+        }
+        span {
+            display: none;
+        }
+    }
+    .fa {
+        &::before {
+            color: inherit;
+            margin: 0;
+        }
+        &:hover::before {
+            color: inherit !important;
+        }
+    }
+    .name {
+        margin: 15px 0px 6px 0;
+        font-size: 20px;
+        font-weight: 600;
+        display: block;
+        line-height: 1;    
+    }
+    .bio {
+        font-size: 13px;
+        font-weight: 300;
+        display: block;
+    }
+    .social {
+        margin-bottom: 25px;
+        position: absolute;
+        text-align: center;
+        width: 100%;
+        left: 0;
+        bottom: 0;
+    }
+}

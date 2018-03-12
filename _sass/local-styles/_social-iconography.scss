@@ -1,0 +1,62 @@
+/* Social */
+.social-bar {
+    border-top: 1px solid #eeeeee;
+    text-align: center;
+    margin: 35px auto 0 auto;
+    max-width: 500px;
+    a {
+        text-decoration: none;
+        span {
+            display: none;
+        }
+    }
+    h2 {
+        font-size: 1.1em;
+        font-weight: 600;
+        margin: 20px 0 0 0;
+    }
+    .fa::before {
+        margin: 10px 20px;
+    }
+}
+
+/* Contact Page Tweaks */
+h3.fa {
+    padding-left: 2.2em !important;
+    &::before {
+        margin-left: -1.6em;
+    }
+}
+
+/* Font Awesome Colour */
+.fa {
+    &::before {
+        margin: 0 0.5em 0 0.5em;
+    }
+    &:hover::before{
+        color: #ccccdc !important;
+    }
+}
+
+.fa-twitter::before {
+    color: #1DA1F2;
+}
+
+.fa-facebook-square::before {
+    color: #3c5a96;
+}
+
+.fa-envelope-o::before {
+    color: #ff55bb;
+}
+
+.fa-list-alt::before {
+    color: grey;
+}
+
+.fa-slack {
+    margin-right: 10px;
+    &::before {
+        color: green;
+    }
+}

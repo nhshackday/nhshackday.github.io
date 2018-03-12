@@ -55,24 +55,44 @@ and adding a field to the yaml like
 
 background-image: "manchester.jpg"
 
+
+### new events and placeholders
+tickets:
+date_end blank
+date: moth of tbc cleared after date set
+
+### Editing Menu
+_data/menu.yaml
+
+### linking
+[Top 10 tips for awesome pitches]({% link _blog/2017-11-15-10-tips-for-awesome-pitches.md %})
+
+
+{{ "/assets/style.css" | relative_url }}
+
+### sponsors
+
+### adding projects
+
+### adding events
+
+### short links
+
+### common short links
+pitch
+show-and-tell
+
+### To set-up initially after cloning repo:
+
+```
+gem install bundler
+bundle install
 ```
 
-| Key  | Values |
-| ------------- | ------------- |
-| layout  | Always 'event'  |
-| permalink  | Change the year and month values and put the location at the end  |
-| title  | The title of the event, normally the city it was held in  |
-| summary  | A short description of the venue and organiser  |
-| date  | The start date of the event  |
-| date_range  | The start and end date of the event  |
-| categories  | Always 'events'  |
-| label  | If there are two events at the same location in the same year, this will differentiate them. By default should just be the year |
-| background-image  | If wanted, should be a filename (without path) for an image in  assets/images/locations/ |
-| sponsors  | sponsors should be in sponsorship: sponsor: {{ name of sponsor as referenced in _data/sponsors.yml}} value: - what they gave |
-| projects | a teams field should contain the project and any links, if you just use a url: field it will show the url as a link, if you use urls: you can use multiple links of a dictionary form link_name -> link_address, e.g. demo: http://example.com |
+### To compile with Jekyll:
 
-please take a look at an example event such as _posts/events/2015-05-16-london.md
+```
+bundle exec jekyll serve
+```
 
-## to add a sponsor
-sponsors are in _data/sponsors.yml, add a sponsor to the bottom of the file, then add the sponsor to the project
-as described above, the project does a look up on the sponsors file based on the sponsor's name.
+For more info on using Jekyll (GitHub Pages variety) locally see: https://help.github.com/articles/setting-up-your-github-pages-site-locally-with-jekyll/
