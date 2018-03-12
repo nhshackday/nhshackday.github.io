@@ -8,6 +8,8 @@ image: /assets/images/post-2-banner.jpg
 
 The NHS Hack Day model works.
 
+If you're new to NHS Hack Day, welcome to the friendliest and most committed health tech hackathon community we've ever encountered. NHS Hack Day exists to help make NHS IT better for the benefit of patient health and care. We've run 19 incredible events over the last five or so years. The winds of change are in the air, and we're very proud. See [our main site](/) to find out more.
+
 For a long time the organising team have wondered about how to engage more specific parts of the NHS community while still maintaining our commitment to supporting health and care technology in its widest sense.
 
 We have been approached by many groups who have suggested we run themed NHS Hack Days, such as "Mental Health", "Physiotherapy" or "VR". Others want to use our platform to reinvigorate their local teams without leaving the context of their day-to-day professional work behind completely.
