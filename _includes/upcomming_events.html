@@ -1,0 +1,42 @@
+{% assign events = "" | split,"" %}
+{% assign current_time = site.time | date: "%s" | to_integer %}
+{% assign sorted = site.events | sort: 'date' %}
+{% for post in sorted %}
+{% assign end = post.date_end | date: "%s" | plus: 86400 | to_integer %}
+{% assign start = post.date | date: "%s" | plus: 86400 | to_integer %}
+{% if end >= current_time or start >= current_time %}
+{% assign events = events | push:post %}
+{% endif %}
+{% endfor %}
+{% if events.size > 0 %}
+<div class="upcomming-events">
+    <h2>Upcoming NHS Hack Day events:</h2>
+    <ol>
+    {% for post in events %}
+        {% assign end = post.date_end | date: "%s" | plus: 86400 | to_integer %}
+        {% assign start = post.date | date: "%s" | plus: 86400 | to_integer %}
+        {% if end >= current_time %}
+            <li>
+                <h3>{{ post.title }}</h3>
+                <time class="fa fa-calendar" datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%-d" }} &mdash; {{ post.date_end | date: "%-d %B %Y" }}</time>
+                <span>{{ post.venue }}, {{ post.city }}</span>
+                {% if post.tickets %}
+                <a class="btn btn-success" target="_blank" href="{{ post.tickets }}">Sign up</a>
+                {% else %}
+                <a class="btn btn-success disabled" target="_blank" href="#">Sign up</a>
+                {% endif %}
+                <a class="btn btn-grey" href="{{ post.url }}">Details</a>
+            </li>
+        {% elsif end == 86400 and start >= current_time %}
+            <li>
+                <h3>{{ post.title }}</h3>
+                <time class="fa fa-calendar" datetime="{{ post.date | date_to_xmlschema }}">TBC {{ post.date | date: "%B %Y" }}</time>
+                <span>{{ post.venue }}, {{ post.city }}</span>
+                <a class="btn btn-success disabled" target="_blank" href="#">Sign up</a>
+                <a class="btn btn-grey" href="{{ post.url }}">Details</a>
+            </li>
+        {% endif %}
+    {% endfor %}
+    </ol>
+</div>
+{% endif %}

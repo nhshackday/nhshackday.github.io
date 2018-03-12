@@ -1,0 +1,11 @@
+---
+layout: compress
+---
+<!DOCTYPE html>
+<html>
+  <title>Redirecting…</title>
+  <noscript><meta http-equiv="refresh" content="0; url={{ page.redirect_link }}"></noscript>
+  <h3>Redirecting…</h3>
+  <p>Click <a href="{{ page.redirect_link }}">here</a> if you are not redirected.</p>
+  <script>window.opener = null; location.replace('{{ page.redirect_link }}')</script>
+</html>

@@ -1,0 +1,30 @@
+---
+layout: default
+title: "Projects"
+subtitle: "Search through all historic projects from past NHS Hack Days"
+permalink: /projects/
+header_image: datasets_img.jpg
+image_credit: 
+  - Credit: "Paul Clark"
+    URL: "http://paulclarke.com"
+    Licence: "CC BY-NC"
+---
+
+<div class="project-list">
+<input class="search" placeholder="Search" />
+<button class="sort" data-sort="name">
+  Sort by name
+</button>
+
+{% assign projects = site.projects | sort: 'title' %}
+{% include projects.html projects=projects %}
+</div>
+
+<script src="//cdnjs.cloudflare.com/ajax/libs/list.js/1.5.0/list.min.js"></script>
+<script>
+var options = {
+  valueNames: [ 'name-data', 'summary-data' ]
+};
+
+var userList = new List('project-list', options);
+</script>

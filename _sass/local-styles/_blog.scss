@@ -1,0 +1,36 @@
+.metadata {
+    text-align: right;
+    dd, dt {
+        display: inline;
+        margin: 0;
+        float: right;
+        clear: both;
+    }
+    dt {
+        display: none;
+    }
+    dd.author {
+        &::before {
+            content: " ";
+            display: block;
+        }
+    }
+    time {
+        color: #999999;
+    }
+}
+
+.blog-posts {
+    list-style: none;
+    padding: 0 !important;
+    time {
+      float: right;
+      line-height: 2;
+    }
+    h3 {
+        margin-bottom: 0;
+    }
+    h4 {
+        margin-top: 0;
+    }
+}
