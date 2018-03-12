@@ -13,7 +13,7 @@ published: true
 
   <div class="container">
     <div class="row">
-      <div class="col-sm-12 col-md-12 col-xs-12 col-lg-12" style="height: 300px; margin-bottom: 0.5cm; float: left; display: block; background-image: url(/assets/images/graphics_img.jpg); background-size: cover;">
+      <div class="col-sm-12 col-md-12 col-xs-12 col-lg-12" style="height: 300px; margin-bottom: 0.5cm; float: left; display: block; background-image: url(/assets/images/headers/graphics_img.jpg); background-size: cover;">
       </div>
     </div>
     <div class="row">
