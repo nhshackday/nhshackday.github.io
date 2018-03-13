@@ -57,20 +57,20 @@ image: /assets/images/nhshdx-banner.jpg
 <div class="container">
   <div class="row">
     <h4>Sign up now and join the first NHSHDx experiment.</h4>
-      <div class="col-md-6 col-md-offset-3" style="background: #1db8b8; padding: 40px 60px">
+      <div class="col-md-6 col-md-offset-3" style="background: #1db8b8; padding: 20px">
         <h2>NHSHDx Gloucester</h2>
         <h5>
-          <i class="fas fa-calendar-alt"></i> Thursday May 3, 2018
+          <i class="fa fa-calendar"></i> Thursday May 3, 2018
         </h5>
         <h5>
-          <i class="fas fa-map-marker-alt"></i>Gloucester
+          <i class="fa fa-map-marker"></i>Gloucester
         </h5>
-        <h5 style="margin-bottom: 40px">
-          <i class="fa fa-users"></i>Hosted and organised by Gloucester Healthcare Community
+        <h5>
+          <i class="fa fa-user"></i>Hosted and organised by Gloucester Healthcare Community
         </h5>
         <center>
           <p>
-            <a class="btn btn-info btn-lg" style="background: #ec652b" target="_blank" href="https://nhshdxgloucester.eventbrite.co.uk/">
+            <a class="btn btn-info btn-lg" style="background: #ec652b; margin-top: 40px" target="_blank" href="https://nhshdxgloucester.eventbrite.co.uk/">
               Sign up
             </a>
           </p>
