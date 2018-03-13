@@ -85,3 +85,11 @@
 .social-bar {
   margin:50px 10px;
 }
+
+.ul-normal-size {
+  font-size: 1.4em;
+  line-height: 1.5em;
+  li {
+    margin-bottom: 40px;
+  }
+}
