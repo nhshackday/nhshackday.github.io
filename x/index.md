@@ -8,7 +8,7 @@ image: /assets/images/nhshdx-banner.jpg
 <section id="slider_wrapper" class="slider_wrapper full_page_photo">
   <div id="main_flexslider" class="flexslider">
     <ul class="slides">
-      <li class="item" style="background-image: url(/assets/images/nhshdx-banner.jpg)">
+      <li class="item" style="background-image: url(/assets/images/nhshdx-banner-445k.jpg)">
 
         <div class="container">
           <div class="carousel-caption">
