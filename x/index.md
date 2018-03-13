@@ -2,8 +2,8 @@
 layout: blog_post
 permalink: /x
 title:  "NHSHDx Gloucester"
-subtitle: "an NHS Hack Day experiment in going local"
-image: /assets/images/post-2-banner.jpg
+subtitle: "An NHS Hack Day experiment in going local"
+image: /assets/images/nhshdx-banner.jpg
 ---
 
 The NHS Hack Day model works.
@@ -34,14 +34,14 @@ The Gloucester Healthcare Community are organising and hosting the first NHSHDx 
     <h4>Sign up now and join the first NHSHDx experiment.</h4>
       <div class="col-md-6 col-md-offset-3" style="background: #1db8b8; padding: 40px">
         <h2>NHSHDx Gloucester</h2>
-        <h5 style="margin-bottom: -20px">
-          <i class="fa fa-calendar"></i> Friday April 13, 2018, 09:00-17:00
+        <h5 style="margin-bottom: -40px">
+          <i class="fa fa-calendar"></i> Friday April 13, 2018
         </h5>
-        <h5 style="margin-bottom: 40px">
-          <i class="fa fa-map-marker"></i> Redwood Eduction Centre, Gloucester Royal Hospital, GL1 3NN
+        <h5>
+          <i class="fa fa-map-marker"></i>Gloucester
         </h5>
-        <h2 style="margin-bottom: 40px; font-size: 1.2em; line-height: 1.5em">
-          <b>Hosted and organised by Rob Blagden, Becki Buddin and the Gloucester Healthcare Community</b>
+        <h2 style="margin-bottom: 40px; font-size: 1.1em; line-height: 1.5em">
+          Hosted and organised by the Gloucester Healthcare Community
         </h2>
         <center>
           <p>
