@@ -56,6 +56,10 @@
   margin: 5px 0 -20px 0;
 }
 
+.container p {
+  margin: 20px 10% !important;
+  width: 80% !important;
+}
 .fa {
   margin: 20px;
 }
@@ -64,8 +68,8 @@
     color: #ccccdc;
   }
 
-#signups .svg-inline--fa {
-  margin: 0 20px;
+#signups .fa {
+  margin: 10px 20px;
 }
 
 .fa-twitter {
@@ -90,6 +94,7 @@
 .ul-normal-size {
   font-size: 1.4em;
   line-height: 1.5em;
+  margin: 0 15%;
   li {
     margin-bottom: 40px;
   }

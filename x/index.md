@@ -9,7 +9,6 @@ image: /assets/images/nhshdx-banner.jpg
   <div id="main_flexslider" class="flexslider">
     <ul class="slides">
       <li class="item" style="background-image: url(/assets/images/nhshdx-banner-445k.jpg)">
-
         <div class="container">
           <div class="carousel-caption">
             <h1>
@@ -48,10 +47,12 @@ image: /assets/images/nhshdx-banner.jpg
 		</div>
 	</div>
 </div>
+
 <div class="container">
 	<p>The NHS Hack Day model works. Let's take it further.</p>
 
-	<p>NHSHDx is a new local version of the long-standing <a href="/">NHS Hack Day</a> series. NHSHDx Gloucester is a chance for Gloucestershire NHS Healthcare professionals to get together and talk about how we use technology in the NHS and the challenges it presents. You will spend some time thinking about and/or working on small projects both for professional development and for fun.</p>
+	<p>NHSHDx is a new local version of the long-standing <a href="/" target="new">NHS Hack Day</a> series. NHSHDx Gloucester is a chance for Gloucestershire NHS Healthcare professionals to get together and talk about how we use technology in the NHS and the challenges it presents. You will spend some time thinking about and/or working on small projects both for professional development and for fun.</p>
+</div>
 
 <section class="call_to_action" id="signups">
 <div class="container">
@@ -80,30 +81,29 @@ image: /assets/images/nhshdx-banner.jpg
 </div>   <!-- container -->
 </section>
 
-<section class="nhshdx-exp">
-<p>If you're new to NHS Hack Day, welcome to the friendliest and most committed health tech hackathon community we've ever encountered. NHS Hack Day exists to help make NHS IT better for the benefit of patient health and care. We've run 19 incredible events over the last five or so years. The winds of change are in the air, and we're very proud. See [our main site](/) to find out more.</p>
+<section>
+	<div class="container">
+		<p>If you're new to NHS Hack Day, welcome to the friendliest and most committed health tech hackathon community we've ever encountered. NHS Hack Day exists to help make NHS IT better for the benefit of patient health and care. We've run 19 incredible events over the last five or so years. The winds of change are in the air, and we're very proud. See <a href="/" target="new">our main site</a> to find out more.</p>
 
-<p>For a long time the organising team have wondered about how to engage more specific parts of the NHS community while still maintaining our commitment to supporting health and care technology in its widest sense.</p>
+		<p>For a long time the organising team have wondered about how to engage more specific parts of the NHS community while still maintaining our commitment to supporting health and care technology in its widest sense.</p>
 
-<p>We have been approached by many groups who have suggested we run themed NHS Hack Days, such as "Mental Health", "Physiotherapy" or "VR". Others want to use our platform to reinvigorate their local teams without leaving the context of their day-to-day professional work behind completely.</p>
+		<p>We have been approached by many groups who have suggested we run themed NHS Hack Days, such as "Mental Health", "Physiotherapy" or "VR". Others want to use our platform to reinvigorate their local teams without leaving the context of their day-to-day professional work behind completely.</p>
 
-<p>We are thinking about:</p>
+		<p>We are thinking about:</p>
 
-<ul class="ul-normal-size">
-<li>How can <b>local organisations</b> benefit from what we have learned about running hack days?</li>
+		<ul class="ul-normal-size">
+		<li>How can <b>local organisations</b> benefit from what we have learned about running hack days?</li>
 
-<li>How can we support <b>local organisers</b> to run events under our umbrella so our core organising team of volunteers don't have to give up their day jobs to run more than three events per year?</li>
+		<li>How can we support <b>local organisers</b> to run events under our umbrella so our core organising team of volunteers don't have to give up their day jobs to run more than three events per year?</li>
 
-<li>Can we find a way for <b>local events</b> to use our assets outside the official NHS Hack Day programme without compromising our principles?</li>
-</ul>
+		<li>Can we find a way for <b>local events</b> to use our assets outside the official NHS Hack Day programme without compromising our principles?</li>
+		</ul>
 
-<p>We don't have the answer to these things yet, but it's time to take an empirical approach.</p>
+		<p>We don't have the answer to these things yet, but it's time to take an empirical approach.</p>
 
-<h2><strong>Enter NHSHDx Gloucester: an experiment in making big things local.</strong></h2>
-
+		<h2 style="margin: auto 10%"><strong>Enter NHSHDx Gloucester: an experiment in making big things local.</strong></h2>
+	</div>
 </section>
-
-</div>
 
 <div class="container center">
 	<img src="/assets/images/nhshd/with-love.png" height="300px" />
