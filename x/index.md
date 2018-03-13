@@ -9,7 +9,6 @@ image: /assets/images/nhshdx-banner.jpg
   <div id="main_flexslider" class="flexslider">
     <ul class="slides">
       <li class="item" style="background-image: url(/assets/images/nhshdx-banner-445k.jpg)">
-
         <div class="container">
           <div class="carousel-caption">
             <h1>
@@ -48,6 +47,7 @@ image: /assets/images/nhshdx-banner.jpg
 		</div>
 	</div>
 </div>
+
 <div class="container">
 	<p>The NHS Hack Day model works. Let's take it further.</p>
 
@@ -127,19 +127,20 @@ image: /assets/images/nhshdx-banner.jpg
 
 <p>Some of the things that we are thinking and trying to learn about:</p>
 
-<ul class="ul-normal-size">
-<li>How can <b>local organisations</b> benefit from what we have learned about running hack days?</li>
+		<p>We are thinking about:</p>
 
-<li>How can we support <b>local organisers</b> to run events under our umbrella so our core organising team of volunteers don't have to give up their day jobs to run more than three events per year?</li>
+		<ul class="ul-normal-size">
+		<li>How can <b>local organisations</b> benefit from what we have learned about running hack days?</li>
 
-<li>Can we find a way for <b>local events</b> to use our assets outside the official NHS Hack Day programme without compromising our principles?</li>
-</ul>
+		<li>How can we support <b>local organisers</b> to run events under our umbrella so our core organising team of volunteers don't have to give up their day jobs to run more than three events per year?</li>
 
-<h2><strong>NHSHDx Gloucester: an experiment in making big things local.</strong></h2>
+    <li>Can we find a way for <b>local events</b> to use our assets outside the official NHS Hack Day programme without compromising our principles?</li>
+		</ul>
 
+    <h2 style="margin: auto 10%"><strong>NHSHDx Gloucester: an experiment in making big things local.</strong></h2>
+	
+	</div>
 </section>
-
-</div>
 
 <div class="container center">
 	<img src="/assets/images/nhshd/with-love.png" height="300px" />
