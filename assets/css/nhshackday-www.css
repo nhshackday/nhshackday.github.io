@@ -63,6 +63,10 @@
     color: #ccccdc;
   }
 
+#signups .svg-inline--fa {
+  margin: 0 20px;
+}
+
 .fa-twitter {
   color: #1DA1F2;
   &:hover {
