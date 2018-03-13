@@ -60,7 +60,7 @@ image: /assets/images/nhshdx-banner.jpg
       <div class="col-md-6 col-md-offset-3" style="background: #1db8b8; padding: 40px 60px">
         <h2>NHSHDx Gloucester</h2>
         <h5>
-          <i class="fas fa-calendar-alt"></i> Friday May 3, 2018
+          <i class="fas fa-calendar-alt"></i> Thursday May 3, 2018
         </h5>
         <h5>
           <i class="fas fa-map-marker-alt"></i>Gloucester
