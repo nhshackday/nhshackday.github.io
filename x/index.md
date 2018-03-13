@@ -53,7 +53,7 @@ image: /assets/images/nhshdx-banner.jpg
 
 	<p>
 		NHSHD<b>x</b> is a new evolution of the long-standing <a href="/">NHS Hack Day</a> series using the NHS 
-		Hack day model to explore more tightly focussed themes and domains.
+		Hack Day model to explore more tightly focussed themes and domains.
 	</p>
 	<p>
 		NHSHD<b>x</b> Gloucester is the first event in this series. 
@@ -61,8 +61,8 @@ image: /assets/images/nhshdx-banner.jpg
 		technology is used in the NHS, as well as the challenges and opportunities it presents. 
 	</p>	
 	<p>
-		Attendees will spend time in small groups thinking about and working on small projects both for the benefit 
-		of the NHS in Gloucestershire, professional development and for fun.
+		Attendees will spend time in small groups thinking about and working on small projects for the benefit 
+		of the NHS in Gloucestershire, for professional development, and for fun.
 	</p>
 
 <section class="call_to_action" id="signups">
@@ -96,7 +96,7 @@ image: /assets/images/nhshdx-banner.jpg
 	
   <p>
 	If you're new to NHS Hack Day, welcome to a friendly and committed community!
-	NHS Hack Day is a non-profit, community-run event with a goal of helping to make NHS IT better for 
+	NHS Hack Day is a non-profit, community-run event with the goal of helping to make NHS IT better for 
 	the benefit of patient health and care. The last 6 years have seen thousands of people come to 
 	20 NHS Hack Day events, make new friends and start to tackle some of the thorny issues that
 	face the NHS every day.
