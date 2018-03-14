@@ -137,12 +137,12 @@ image: /assets/images/nhshdx-banner.jpg
     <li>Can we find a way for <b>local events</b> to use our assets outside the official NHS Hack Day programme without compromising our principles?</li>
 		</ul>
 
-    <h2 style="margin: auto 10%"><strong>NHSHDx Gloucester: an experiment in making big things local.</strong></h2>
-	
-	</div>
+    <h2 style="margin: 20px 10% auto 10%"><strong>NHSHDx Gloucester: an experiment in making big things local.</strong></h2>
 </section>
 
 <div class="container center">
 	<img src="/assets/images/nhshd/with-love.png" height="300px" />
     {% include social.html %}
+</div>
+
 </div>
