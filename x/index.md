@@ -52,7 +52,7 @@ image: /assets/images/nhshdx-banner.jpg
 	<p>The NHS Hack Day model works. Let's take it further.</p>
 
 	<p>
-		NHSHD<b>x</b> is a new evolution of the long-standing <a href="/">NHS Hack Day</a> series using the NHS 
+		NHSHD<b>x</b> is an evolution of the long-standing <a href="/">NHS Hack Day</a> series using the NHS 
 		Hack Day model to explore more tightly focussed themes and domains.
 	</p>
 	<p>
@@ -114,7 +114,7 @@ image: /assets/images/nhshdx-banner.jpg
 	their local teams without leaving the context of their day-to-day professional work behind completely.
 </p>
 <p>
-	To try and explore how the NHS Hack Day model might work for more tightly focussed domains,
+	To try and explore how the NHS Hack Day model might work for more focussed domains,
 	NHSHD<b>x</b> is an experimental event - this time with a local theme. The best way to build
 	<span style="text-decoration: line-through;"> effective services</span> compelling events is to 
 	<a href="https://web.archive.org/web/20140628221103/https://www.gov.uk/design-principles#fifth">
@@ -127,7 +127,7 @@ image: /assets/images/nhshdx-banner.jpg
 
 <p>Some of the things that we are thinking and trying to learn about:</p>
 
-		<p>We are thinking about:</p>
+	
 
 		<ul class="ul-normal-size">
 		<li>How can <b>local organisations</b> benefit from what we have learned about running hack days?</li>
