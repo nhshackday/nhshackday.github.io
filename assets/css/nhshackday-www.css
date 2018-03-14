@@ -53,8 +53,13 @@
   font-size: 26px;
   padding-top: 12px;
   padding-bottom: 12px;
+  margin: 5px 0 -20px 0;
 }
 
+.container p {
+  margin: 20px 10% !important;
+  width: 80% !important;
+}
 .fa {
   margin: 20px;
 }
@@ -62,6 +67,10 @@
 .fa:hover {
     color: #ccccdc;
   }
+
+#signups .fa {
+  margin: 10px 20px;
+}
 
 .fa-twitter {
   color: #1DA1F2;
@@ -80,4 +89,13 @@
 
 .social-bar {
   margin:50px 10px;
+}
+
+.ul-normal-size {
+  font-size: 1.4em;
+  line-height: 1.5em;
+  margin: 0 15%;
+  li {
+    margin-bottom: 40px;
+  }
 }
