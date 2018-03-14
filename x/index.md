@@ -51,13 +51,24 @@ image: /assets/images/nhshdx-banner.jpg
 <div class="container">
 	<p>The NHS Hack Day model works. Let's take it further.</p>
 
-	<p>NHSHDx is a new local version of the long-standing <a href="/" target="new">NHS Hack Day</a> series. NHSHDx Gloucester is a chance for Gloucestershire NHS Healthcare professionals to get together and talk about how we use technology in the NHS and the challenges it presents. You will spend some time thinking about and/or working on small projects both for professional development and for fun.</p>
-</div>
+	<p>
+		NHSHD<b>x</b> is an evolution of the long-standing <a href="/">NHS Hack Day</a> series using the NHS 
+		Hack Day model to explore more tightly focussed themes and domains.
+	</p>
+	<p>
+		NHSHD<b>x</b> Gloucester is the first event in this series. 
+		It gives a chance for Gloucestershire NHS Healthcare professionals to get together and talk about how 
+		technology is used in the NHS, as well as the challenges and opportunities it presents. 
+	</p>	
+	<p>
+		Attendees will spend time in small groups thinking about and working on small projects for the benefit 
+		of the NHS in Gloucestershire, for professional development, and for fun.
+	</p>
 
 <section class="call_to_action" id="signups">
 <div class="container">
   <div class="row">
-    <h4>Sign up now and join the first NHSHDx experiment.</h4>
+      <h4>Sign up now and join the first NHSHD<b>x</b> experiment.</h4>
       <div class="col-md-6 col-md-offset-3" style="background: #1db8b8; padding: 20px">
         <h2>NHSHDx Gloucester</h2>
         <h5>
@@ -81,27 +92,53 @@ image: /assets/images/nhshdx-banner.jpg
 </div>   <!-- container -->
 </section>
 
-<section>
-	<div class="container">
-		<p>If you're new to NHS Hack Day, welcome to the friendliest and most committed health tech hackathon community we've ever encountered. NHS Hack Day exists to help make NHS IT better for the benefit of patient health and care. We've run 19 incredible events over the last five or so years. The winds of change are in the air, and we're very proud. See <a href="/" target="new">our main site</a> to find out more.</p>
+<section class="nhshdx-exp">
+	
+  <p>
+	If you're new to NHS Hack Day, welcome to a friendly and committed community!
+	NHS Hack Day is a non-profit, community-run event with the goal of helping to make NHS IT better for 
+	the benefit of patient health and care. The last 6 years have seen thousands of people come to 
+	20 NHS Hack Day events, make new friends and start to tackle some of the thorny issues that
+	face the NHS every day.
+</p>
 
-		<p>For a long time the organising team have wondered about how to engage more specific parts of the NHS community while still maintaining our commitment to supporting health and care technology in its widest sense.</p>
+<p>
+	For a long time the organising team have wondered about how to do more to engage more specific 
+	parts of the NHS community while still maintaining our core principles and our commitment to 
+	supporting health and care technology in the widest sense.
+</p>
 
-		<p>We have been approached by many groups who have suggested we run themed NHS Hack Days, such as "Mental Health", "Physiotherapy" or "VR". Others want to use our platform to reinvigorate their local teams without leaving the context of their day-to-day professional work behind completely.</p>
+<p>
+	Many groups have approached the NHS Hack Day team suggesting themed NHS Hack Days, focussing on areas 
+	such as "Mental Health", "Physiotherapy" or "VR". Others want to use our platform to reinvigorate 
+	their local teams without leaving the context of their day-to-day professional work behind completely.
+</p>
+<p>
+	To try and explore how the NHS Hack Day model might work for more focussed domains,
+	NHSHD<b>x</b> is an experimental event - this time with a local theme. The best way to build
+	<span style="text-decoration: line-through;"> effective services</span> compelling events is to 
+	<a href="https://web.archive.org/web/20140628221103/https://www.gov.uk/design-principles#fifth">
+		start small and iterate wildly
+	</a>. 
+</p>
+<p>
+	This is iteration 1.
+</p>
 
-		<p>We are thinking about:</p>
+<p>Some of the things that we are thinking and trying to learn about:</p>
+
+	
 
 		<ul class="ul-normal-size">
 		<li>How can <b>local organisations</b> benefit from what we have learned about running hack days?</li>
 
 		<li>How can we support <b>local organisers</b> to run events under our umbrella so our core organising team of volunteers don't have to give up their day jobs to run more than three events per year?</li>
 
-		<li>Can we find a way for <b>local events</b> to use our assets outside the official NHS Hack Day programme without compromising our principles?</li>
+    <li>Can we find a way for <b>local events</b> to use our assets outside the official NHS Hack Day programme without compromising our principles?</li>
 		</ul>
 
-		<p>We don't have the answer to these things yet, but it's time to take an empirical approach.</p>
-
-		<h2 style="margin: auto 10%"><strong>Enter NHSHDx Gloucester: an experiment in making big things local.</strong></h2>
+    <h2 style="margin: auto 10%"><strong>NHSHDx Gloucester: an experiment in making big things local.</strong></h2>
+	
 	</div>
 </section>
 
