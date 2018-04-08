@@ -1,5 +1,6 @@
 ---
 hackday: 01-london
+redirect_from: /featured/openbnf/ # Legacy "URLs are for life not just for Christmas"
 links:
   website: http://www.openbnf.org/ #http://formulary.herokuapp.com
   code: 
