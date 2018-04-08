@@ -23,16 +23,16 @@
                 {% if post.tickets %}
                 <a class="btn btn-success" target="_blank" href="{{ post.tickets }}">Sign up</a>
                 {% else %}
-                <a class="btn btn-success disabled" target="_blank" href="#">Sign up</a>
+                <a class="btn btn-success disabled" target="_blank" href="#" title="Comming Soon">Sign up</a>
                 {% endif %}
                 <a class="btn btn-grey" href="{{ post.url }}">Details</a>
             </li>
         {% elsif end == 86400 and start >= current_time %}
             <li>
                 <h3>{{ post.title }}</h3>
-                <time class="fa fa-calendar" datetime="{{ post.date | date_to_xmlschema }}">TBC {{ post.date | date: "%B %Y" }}</time>
+                <time class="fa fa-calendar">{{ post.date_end }}</time>
                 <span>{{ post.venue }}, {{ post.city }}</span>
-                <a class="btn btn-success disabled" target="_blank" href="#">Sign up</a>
+                <a class="btn btn-success disabled" href="#" title="Comming Soon" disabled>Sign up</a>
                 <a class="btn btn-grey" href="{{ post.url }}">Details</a>
             </li>
         {% endif %}

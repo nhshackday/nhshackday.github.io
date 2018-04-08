@@ -3,7 +3,7 @@ title: "Code of Conduct"
 permalink: /code-of-conduct
 header_image: media_img.jpg
 image_credit: 
-  - Credit: "Paul Clark"
+  - Credit: "Paul Clarke"
     URL: "http://paulclarke.com"
     Licence: "CC BY-NC"
 social_links: true

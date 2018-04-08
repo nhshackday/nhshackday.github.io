@@ -3,7 +3,7 @@ title: "Contact Us"
 permalink: /contact
 header_image: contact_img.jpg
 image_credit: 
-  - Credit: "Paul Clark"
+  - Credit: "Paul Clarke"
     URL: "http://paulclarke.com"
     Licence: "CC BY-NC"
 ---
@@ -33,9 +33,3 @@ Please email: [hello@openhealthcare.org.uk](hello@openhealthcare.org.uk)
 {:class="indent"}
 [Workspace](https://nhshd.slack.com/)  
 [Join Workspace](https://nhshackday.herokuapp.com)
-
----
-
-![NHS Hack Day](images/header-logo.png){:class="logo"}
-#### Helping make NHS IT less bad
-##### Promoting good health, good practice and good science

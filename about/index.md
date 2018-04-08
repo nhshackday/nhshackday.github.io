@@ -6,7 +6,7 @@ redirect_from:
   - /faq
 header_image: organiser_img.jpg
 image_credit: 
-  - Credit: "Paul Clark"
+  - Credit: "Paul Clarke"
     URL: "http://paulclarke.com"
     Licence: "CC BY-NC"
 social_links: true
@@ -127,6 +127,7 @@ Volunteers include:
 * Ayesha Garrett: [@LondonLime](https://twitter.com/LondonLime)
 * Dr Anne Marie Cunningham: [@amcunningham](https://twitter.com/amcunningham)
 * Dr Jon Hilton: [@jonjhilton](https://twitter.com/jonjhilton)
+* Becki Buddin [@thebeckib](https://twitter.com/thebeckib)
 
 All of us tweet from [@NHSHackDay](https://twitter.com/nhshackday) from time to time, and the hashtag [#nhshd](https://twitter.com/hashtag/nhshd) is pretty active too.
 
@@ -142,7 +143,7 @@ We try to hold our events in a variety of places so as many people as possible c
 
 Take a look at [Open Healthcare UK’s YouTube channel](http://www.youtube.com/channel/UCe9PO1ltglEvrz-iUlJ1qVg) for videos of some of the pitches and presentations from other NHS Hack Days.
 
-Check out our [media](/resources/media/) page to see more videos as well as some photos from previous events.
+Check out our [media](/resources/media) page to see more videos as well as some photos from previous events.
 
 ---
 
@@ -160,4 +161,4 @@ We'll do you a sandwiches-and-fruit lunch, water, tea and coffee, but if you wan
 
 ## What are the judging criteria?
 
-As we say above, we're generally not that interested in "winning" or "prizes", but please see the [Judging Criteria](/resources/judging/) for a glimpse into our ethos.
+As we say above, we're generally not that interested in "winning" or "prizes", but please see the [Judging Criteria](/resources/judging) for a glimpse into our ethos.

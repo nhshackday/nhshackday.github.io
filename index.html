@@ -1,65 +1,60 @@
 ---
-layout: base
+layout: title_card
+title-card1: NHS Hack Day
+title-card2: Geeks who love the NHS
+title-card3: Making NHS IT less bad
 permalink: /
+header_image: home_img.jpg
+image_credit: 
+  - Credit: Paul Clarke
+    URL: http://paulclarke.com
+    Licence: "CC BY-NC"
 ---
-<div class="title-card">
+{% include upcomming_events.html %}
+
+<div class="info">
     <div>
-        <h1>
-            <strong>NHS Hack Day</strong><br>
-            Geeks who love the NHS
-        </h1>
-        <h2>Making NHS IT less bad</h2>
+        <h3 class="cog">Free to Attend</h3>
+        <p>Tickets are and always will be <strong>free</strong> and we’ll lay on <strong>free lunch</strong> and drinks all day.</p>
     </div>
-    <span>CC BY-NC <a href="http://paulclarke.com">Paul Clark</a></span>
+    <div>
+        <h3 class="heart">A Weekend Hack Day</h3>
+        <p>Not an overnight event, but all day Saturday and Sunday with a <strong>fun social</strong> event in between.</p>
+    </div>
+    <div>
+        <h3 class="cross">Judges and Prizes</h3>
+        <p>We’ll invite <strong>credible judges</strong> from across health, tech and patient sectors to award <strong>prizes</strong>.</p>
+    </div>
 </div>
 
-<div class="content">
-    {% include upcomming_events.html %}
-    
-    <div class="info">
-        <div>
-            <h3 class="cog">Free to Attend</h3>
-            <p>Tickets are and always will be <strong>free</strong> and we’ll lay on <strong>free lunch</strong> and drinks all day.</p>
-        </div>
-        <div>
-            <h3 class="heart">A Weekend Hack Day</h3>
-            <p>Not an overnight event, but all day Saturday and Sunday with a <strong>fun social</strong> event in between.</p>
-        </div>
-        <div>
-            <h3 class="cross">Judges and Prizes</h3>
-            <p>We’ll invite <strong>credible judges</strong> from across health, tech and patient sectors to award <strong>prizes</strong>.</p>
-        </div>
-    </div>
+<div class="featured">
+    <h2>Featured projects from previous NHS Hack Days</h2>
+    <h3>Just some of our success stories</h3>
+    {% assign projects = site.projects | where:"featured","true" %}
+    {% include projects.html projects=projects limit=3 hide_team=true %}
+</div>
 
-    <div class="featured">
-        <h2>Featured projects from previous NHS Hack Days</h2>
-        <h3>Just some of our success stories</h3>
-        {% assign projects = site.projects | where:"featured","true" %}
-        {% include projects.html projects=projects limit=3 hide_team=true %}
-    </div>
-
-    <div class="support">
-        <h2>Our Supporters</h2>
-        <h3></h3>
-        <ul>
-            <li>NHS England</li>
-            <li>NHS QIPP</li>
-            <li>Right Care</li>
-            <li>Open Labs LJMU</li>
-            <li>O’Reilly Media</li>
-            <li>UKGovCamp</li>
-            <li>Open Health Care UK</li>
-            
-            <li>Sir Muir Gray</li>
-            <li>Sir Liam Donaldson</li>
-            <li>Dame Sally Davies</li>
-            <li>Mr Peter Lees</li>
-            <li>Ben Goldacre</li>
-            <li>Francis Irving</li>
-            <li>Clare Gerada</li>
-            <li>Geraint Lewis</li>
-            <li>Emma Doyle</li>
-            <li>Sam Smith</li>
-        </ul>
-    </div>
+<div class="support">
+    <h2>Our Supporters</h2>
+    <h3></h3>
+    <ul>
+        <li>NHS England</li>
+        <li>NHS QIPP</li>
+        <li>Right Care</li>
+        <li>Open Labs LJMU</li>
+        <li>O’Reilly Media</li>
+        <li>UKGovCamp</li>
+        <li>Open Health Care UK</li>
+        
+        <li>Sir Muir Gray</li>
+        <li>Sir Liam Donaldson</li>
+        <li>Dame Sally Davies</li>
+        <li>Mr Peter Lees</li>
+        <li>Ben Goldacre</li>
+        <li>Francis Irving</li>
+        <li>Clare Gerada</li>
+        <li>Geraint Lewis</li>
+        <li>Emma Doyle</li>
+        <li>Sam Smith</li>
+    </ul>
 </div>

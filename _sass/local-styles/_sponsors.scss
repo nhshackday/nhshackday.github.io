@@ -3,6 +3,7 @@
     text-align: center;
     margin: 0 auto;
     padding: 0;
+    width: auto !important;
     li {
         display: inline-block;
         vertical-align: middle;
@@ -11,7 +12,6 @@
         width: 160px;
         span {
             display: block;
-            
             font-size: 0.8em;
         }
     }

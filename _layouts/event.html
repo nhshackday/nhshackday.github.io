@@ -1,10 +1,21 @@
 ---
 layout: base
 ---
-{% capture title %}{{ page.title }}, {{ page.date | date: "%-d" }} &mdash; {{ page.date_end | date: "%-d %h %Y" }}{% endcapture %}
+{% assign current_time = site.time | date: "%s" | to_integer %}
+{% assign end = page.date_end | date: "%s" | plus: 86400 | to_integer %}
+{% if end == 86400 %}
+    {% capture title %}{{ page.title }}, {{ page.date_end }}{% endcapture %}
+{% else %}
+    {% capture title %}{{ page.title }}, {{ page.date | date: "%-d" }} &mdash; {{ page.date_end | date: "%-d %h %Y" }}{% endcapture %}
+{% endif %}
 {% capture subtitle %}Held at {{ page.venue }}, {{ page.city }} organised by {{ page.organiser | join: ', ' }}{% endcapture %}
 {% include title.html title=title subtitle=subtitle %}
 <div class="content">
+    {% if end >= current_time or end == 86400 %}
+        {% capture on-the-day %}{% include on-the-day.md %}{% endcapture %}
+        {{ on-the-day | markdownify }}
+    {% endif %}
+
     {% if page.blog_posts.size > 0 %}
     <h2>Blog posts about this event</h2>
     <ul>
@@ -20,12 +31,12 @@ layout: base
     {% if projects.size > 0 %}
     <h2>Projects</h2>
     {% include projects.html projects=projects %}
-    {% else %}
+    {% elsif end <= current_time and end > 86400 %}
     <h2>Projects</h2>
-    <p>Unfortunatly we don't have any info on the Projects at this event. If you can help us fill in the blanks <a href="/contact">let us know</a>.</p>
+    <p>Unfortunatly we don't have any info on the Projects at this event. If you can help us fill in the blanks <a href="/contact">let us know</a> or submit a <a href="https://github.com/nhshackday/nhshackday.github.io/">pull request</a>.</p>
     {% endif %}
 
-    {% assign sponsors = site.sponsors | where: "events", page.hackday %}
+    {% assign sponsors = site.sponsors | where_exp:"item", "item.events[page.hackday]" %}
     {% if sponsors.size > 0 %}
     <h2>Sponsors</h2>
     <h3>NHS Hack Day would not be possible without the help of our excellent sponsors.</h3>
@@ -39,7 +50,7 @@ layout: base
                 {{ sponsor.title }}
                 {% endif %}
             {% if sponsor.link %}</a>{% endif %}
-            <span>{{ sponsor[page.hackday] }}</span>
+            <span>{{ sponsor.events[page.hackday] }}</span>
         </li>
         {% endfor %}
     </ul>

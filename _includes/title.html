@@ -1,8 +1,10 @@
 <style>
     {% if include.header_image %}
     .title::before{background-image: url("{{ include.header_image }}")}
-    {% else %}
+    {% elsif page.header_image %}
     .title::before{background-image: url("/assets/images/headers/{{ page.header_image }}")}
+    {% else %}
+    .title::before{display:none;}
     {% endif %}
 </style>
 <div class="title">

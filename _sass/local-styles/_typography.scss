@@ -7,7 +7,7 @@ body {
 
 .content {
     h1, h2, h3, h4 {
-        color: #111111;
+        color: #000;
         font-weight: 300;
     }
     h1, h2, h3, h4, h5, p {
@@ -28,10 +28,14 @@ body {
         }
     }
     h4 {
-        font-size: 1em;
+        font-size: 1.2em;
+        //text-transform: uppercase;
+        //text-decoration: underline;
+        margin-bottom: 0.5em;
     }
     h5 {
         font-size: 1em;
+        margin-bottom: 0.5em;
     }
 
     a, a:visited {
@@ -49,8 +53,17 @@ body {
         font-size: 1.2em;
         width: 80%;
         color: #444444;
+        @media screen and (max-width: 980px){
+            width: 90%;
+        }
         @media screen and (max-width: 760px){
             width: auto;
+        }
+        ul {
+            font-size: 1em;
+            ul {
+                font-size: 1em;
+            }
         }
     }
 
@@ -78,6 +91,34 @@ body {
             font-weight: 400;
             font-style: italic;
             margin: 5px;
+        }
+    }
+
+    table {
+        border-collapse: collapse;
+        border: 1px solid #dddddd;
+        width: 100%;
+        thead {
+            font-size: 1.2em;
+            th {
+                padding: 10px;
+                border: 1px solid #dddddd;
+            }
+        }
+        tbody {
+            tr:nth-of-type(odd) {
+                background-color: #f9f9f9;
+            }
+            td {
+                border: 1px solid #dddddd;
+                padding: 10px;
+                &:first-child {
+                    text-align: center;
+                }
+                img {
+                    max-width: 100%;
+                }
+            }
         }
     }
 }

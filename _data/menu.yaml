@@ -4,7 +4,7 @@
 - title: "About"
   subcategories:
     - subtitle: "About and FAQs"
-      subhref: "/about"
+      subhref: "/about/"
     - subtitle: "Rationale"
       subhref: "/about/rationale"
     - subtitle: "Team"
@@ -19,7 +19,7 @@
 - title: "Resources"
   subcategories:
     - subtitle: "Datasets and APIs"
-      subhref: "/resources/datasetsandapis"
+      subhref: "/resources/datasets-and-apis"
     - subtitle: "NHS Hack Day Graphics"
       subhref: "/resources/graphics"
     - subtitle: "Organiser Notes"

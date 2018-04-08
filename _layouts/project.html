@@ -21,23 +21,23 @@ layout: base
     {{ page.about | markdownify }}
 
     {% if page.links.size > 0 %}
-        {% if page.links[0].website %}
+        {% if page.links.website %}
             <hr>
             <h2>Website</h2>
             <p>
-                <a href="{{ page.links[0].website }}" title="Website" target="_blank">{{ page.links[0].website }}</a>
-                {% if page.links[0].presentation %}
+                <a href="{{ page.links.website }}" title="Website" target="_blank">{{ page.links.website }}</a>
+                {% if page.links.presentation %}
                     <br>
-                    <a href="{{ page.links[0].presentation }}" title="Presentation" target="_blank">Presentation</a>
+                    <a href="{{ page.links.presentation }}" title="Presentation" target="_blank">Presentation</a>
                 {% endif %}
             </p>
         {% endif %}    
-        {% if page.links[0].code %}
+        {% if page.links.code %}
             <hr>    
             <h2>Code and Licence</h2>
             <p>
                 Source code:
-                {% for link in page.links[0].code %}
+                {% for link in page.links.code %}
                 <a href="{{ link }}" title="Code" target="_blank">{{ link }}</a>
                 {% endfor %}
                 {% if page.licence %}

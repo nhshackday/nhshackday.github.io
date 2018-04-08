@@ -1,21 +1,31 @@
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 <script src="/assets/js/minigrid.min.js"></script>
 <script>
-(function(){
-  var grid;
-  function init() {
-    grid = new Minigrid({
-      container: '.projects',
-      item: '.project',
-      gutter: 15
-    });
-    grid.mount();
-  }
-  function update() {
-    grid.mount();
-  }
-  document.addEventListener('DOMContentLoaded', init);
-  window.addEventListener('load', update);
-  window.addEventListener('resize', update);
-})();
+  (function(){
+    var grid;
+    function init() {
+      if (document.querySelector('.projects') !== null) {
+        grid = new Minigrid({
+          container: '.projects',
+          item: '.project',
+          gutter: 15
+        });
+        grid.mount();
+        window.addEventListener('load', update);
+        window.addEventListener('resize', update);
+      }
+    }
+    function update() {
+      grid.mount();
+    }
+    document.addEventListener('DOMContentLoaded', init);
+  })();
 </script>
-<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+  ga('create', 'UA-35112560-9', 'auto');
+  ga('send', 'pageview');
+</script>

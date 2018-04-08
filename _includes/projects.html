@@ -25,9 +25,9 @@
             {% endif %}
             {% if project.links.size > 0 %}
                 <dt class="links"><span>Links</span></dt>
-                {% if project.links[0].website %}<dd class="links"><a class="fa fa-external-link" href="{{ project.links[0].website }}" title="Website" target="_blank"><span>Website</span></a></dd>{% endif %}
-                {% if project.links[0].presentation %}<dd class="links"><a class="fa fa-tv" href="{{ project.links[0].presentation }}" title="Presentation" target="_blank"><span>Presentation</span></a></dd>{% endif %}
-                {% for link in project.links[0].code %}
+                {% if project.links.website %}<dd class="links"><a class="fa fa-external-link" href="{{ project.links.website }}" title="Website" target="_blank"><span>Website</span></a></dd>{% endif %}
+                {% if project.links.presentation %}<dd class="links"><a class="fa fa-tv" href="{{ project.links.presentation }}" title="Presentation" target="_blank"><span>Presentation</span></a></dd>{% endif %}
+                {% for link in project.links.code %}
                     <dd class="links"><a class="fa fa-github" href="{{ link }}" title="Code" target="_blank"><span>Code</span></a></dd>
                 {% endfor %}
             {% endif %}

@@ -87,7 +87,7 @@ fieldset[disabled] .btn {
 }
 
 .btn-danger {
-  color: #fff;
+  color: #fff !important;
   background-color: #d9534f;
   border-color: #d43f3a;
 }
@@ -96,7 +96,7 @@ fieldset[disabled] .btn {
 .btn-danger:active,
 .btn-danger.active,
 .open .dropdown-toggle.btn-danger {
-  color: #fff;
+  color: #fff !important;
   background-color: #d2322d;
   border-color: #ac2925;
 }
@@ -107,7 +107,7 @@ fieldset[disabled] .btn {
 }
 
 .btn-primary {
-  color: #fff;
+  color: #fff !important;
   background-color: #428bca;
   border-color: #357ebd;
 }

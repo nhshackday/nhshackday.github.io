@@ -4,7 +4,7 @@ subtitle: "The story of NHS Hack Day"
 permalink: /about/rationale
 header_image: datasets_img.jpg
 image_credit: 
-  - Credit: "Paul Clark"
+  - Credit: "Paul Clarke"
     URL: "http://paulclarke.com"
     Licence: "CC BY-NC"
 social_links: true
@@ -30,8 +30,7 @@ Taking a simple view, being open -- open governance and open source -- allows ef
 
 Cory Doctorow explains it all in this short [video](https://youtu.be/zS4H8XDB1bw?t=1h15m), which is well worth watching.
 
-Also take a look at the [Government Digital Services Presentation](/assets/docs/DevelopingNHSDigitalServices.pdf) (pdf)
-
+Also take a look at the [Government Digital Services Presentation]({% link /assets/uploads/DevelopingNHSDigitalServices.pdf %}) (pdf)
 
 ## Meeting the challenge
 
