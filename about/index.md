@@ -115,7 +115,7 @@ This is the approach taken by the vast majority of projects and teams at NHS Hac
 
 ## Who is behind NHS Hack Day?
 
-NHS Hack Day was originally the brainchild of Dr Carl Reynolds, an academic clinical fellow in respiratory medicine and CEO of Open Healthcare UK.
+NHS Hack Day was originally the brainchild of Dr Carl Reynolds, an academic clinical fellow in respiratory medicine and Co-founder of Open Healthcare UK.
 
 Now the events are run by a team of volunteers who are passionate about improving NHS technology for everyone’s benefit. We want to help healthcare professionals do their jobs, to improve access to services and information for patients, to improve the communication/dissemination of public health data, and generally to support any ideas that could improve everyone’s experiences of the healthcare system.
 
