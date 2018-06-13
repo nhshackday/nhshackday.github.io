@@ -1,0 +1,102 @@
+.navbar a.navbar-brand span.logo_title {
+  font-size: 18px;
+  font-weight: 300;
+  display: block;
+  padding: 10px 0 0px 0;
+  line-height: 42px;
+  text-shadow: 1px 1px 0px #ffffff;
+}
+
+.navbar a.navbar-brand span.logo_subtitle {
+  font-size: 13px;
+  font-weight: 300;
+  display: block;
+  text-shadow: 1px 1px 0px #ffffff;
+}
+
+.panel-body p {
+  font-size: 1em;
+}
+
+.section_header.elegant{
+  font-size: 18px;
+  line-height: 24px;
+  text-align: left;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  padding: 36px 0 16px 0;
+  margin: 0 0 26px 0;
+  font-weight: 300;
+  border-bottom: solid 1px #cccccc;
+}
+
+
+#lessbad {
+  background: #428bca;
+}
+#signups .col-md-4 {
+  background: #428bca;
+  box-shadow:0 0 4px rgba(0,0,0,.14),0 4px 8px rgba(0,0,0,.28);
+  border: 1px solid white;
+  padding: 26px;
+  min-height: 387px;
+}
+#signups h4 {
+  padding-bottom: 26px;
+}
+#signups h2 {
+  color: white;
+  font-size: 48px;
+  line-height: 56px;
+}
+#signups h5 {
+  color: #eee;
+  font-size: 26px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  margin: 5px 0 -20px 0;
+}
+
+.container p {
+  margin: 20px 10% !important;
+  width: 80% !important;
+}
+.fa {
+  margin: 20px;
+}
+
+.fa:hover {
+    color: #ccccdc;
+  }
+
+#signups .fa {
+  margin: 10px 20px;
+}
+
+.fa-twitter {
+  color: #1DA1F2;
+  &:hover {
+    color:black;
+  }
+}
+
+.fa-facebook-square {
+  color: #3c5a96;
+}
+
+.fa-envelope-o {
+  color: #ff55bb;
+}
+
+.social-bar {
+  margin:50px 10px;
+}
+
+.ul-normal-size {
+  font-size: 1.4em;
+  line-height: 1.5em;
+  margin: 0 15%;
+  li {
+    margin-bottom: 40px;
+  }
+}
