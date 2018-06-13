@@ -3,10 +3,16 @@ layout: base
 ---
 {% assign current_time = site.time | date: "%s" | to_integer %}
 {% assign end = page.date_end | date: "%s" | plus: 86400 | to_integer %}
+{% assign month = page.date | date: "%B" %}
+{% assign month_end = page.date_end | date: "%B" %}
 {% if end == 86400 %}
     {% capture title %}{{ page.title }}, {{ page.date_end }}{% endcapture %}
 {% else %}
-    {% capture title %}{{ page.title }}, {{ page.date | date: "%-d" }} &mdash; {{ page.date_end | date: "%-d %h %Y" }}{% endcapture %}
+    {% if month == month_end %}
+        {% capture title %}{{ page.title }}, {{ page.date | date: "%-d" }} &mdash; {{ page.date_end | date: "%-d %h %Y" }}{% endcapture %}
+    {% else %}
+        {% capture title %}{{ page.title }}, {{ page.date | date: "%-d %h" }} &mdash; {{ page.date_end | date: "%-d %h %Y" }}{% endcapture %}
+    {% endif %}
 {% endif %}
 {% capture subtitle %}Held at {{ page.venue }}, {{ page.city }} organised by {{ page.organiser | join: ', ' }}{% endcapture %}
 {% include title.html title=title subtitle=subtitle %}

@@ -15,10 +15,18 @@
     {% for post in events %}
         {% assign end = post.date_end | date: "%s" | plus: 86400 | to_integer %}
         {% assign start = post.date | date: "%s" | plus: 86400 | to_integer %}
+        {% assign month = post.date | date: "%B" %}
+        {% assign month_end = post.date_end | date: "%B" %}
         {% if end >= current_time %}
             <li>
                 <h3>{{ post.title }}</h3>
-                <time class="fa fa-calendar" datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%-d" }} &mdash; {{ post.date_end | date: "%-d %B %Y" }}</time>
+                <time class="fa fa-calendar" datetime="{{ post.date | date_to_xmlschema }}">
+                    {% if month == month_end %}
+                    {{ post.date | date: "%-d" }} &mdash; {{ post.date_end | date: "%-d %B %Y" }}
+                    {% else %}
+                    {{ post.date | date: "%-d %B" }} &mdash; {{ post.date_end | date: "%-d %B %Y" }}
+                    {% endif %}
+                </time>
                 <span>{{ post.venue }}, {{ post.city }}</span>
                 {% if post.tickets %}
                 <a class="btn btn-success" target="_blank" href="{{ post.tickets }}">Sign up</a>
