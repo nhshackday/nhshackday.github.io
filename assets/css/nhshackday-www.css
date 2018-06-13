@@ -39,6 +39,7 @@
   box-shadow:0 0 4px rgba(0,0,0,.14),0 4px 8px rgba(0,0,0,.28);
   border: 1px solid white;
   padding: 26px;
+  min-height: 387px;
 }
 #signups h4 {
   padding-bottom: 26px;
