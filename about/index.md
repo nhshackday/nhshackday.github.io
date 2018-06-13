@@ -141,7 +141,7 @@ We try to hold our events in a variety of places so as many people as possible c
 
 [Here](http://www.youtube.com/watch?v=3NnfMmKKvBk) is a video we made at NHS Hack Day 2 in Liverpool.
 
-Take a look at [Open Healthcare UK’s YouTube channel](http://www.youtube.com/channel/UCe9PO1ltglEvrz-iUlJ1qVg) for videos of some of the pitches and presentations from other NHS Hack Days.
+Take a look at [NHS Hack Day’s YouTube channel](https://www.youtube.com/channel/UCax1fGZF55D6hpBqhmutfaA) for videos of some of the pitches and presentations from other NHS Hack Days.
 
 Check out our [media](/resources/media) page to see more videos as well as some photos from previous events.
 
