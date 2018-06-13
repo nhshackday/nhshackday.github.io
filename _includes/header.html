@@ -16,7 +16,7 @@
                 {% endif %} 
                 <ul>
                 {% for subcategory in nav.subcategories %}
-                    <li><a href="{{ subcategory.subhref }}">{{ subcategory.subtitle }}</a></li>
+                    <li><a href="{{ subcategory.href }}">{{ subcategory.title }}</a></li>
                 {% endfor %}
                 </ul>
                 </li>

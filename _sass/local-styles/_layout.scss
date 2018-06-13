@@ -80,7 +80,7 @@ hr {
 }
 
 .header {
-    background: #d6dc3b;
+    //background: #d6dc3b;
     padding-top: 30px;
     //border-bottom: 1px solid #ccc;
     img {
@@ -267,5 +267,13 @@ hr {
         color: #999999;
         font-size: 13px;
         text-align: center;
+        a {
+            &:hover {
+                color: #ccccdc !important;
+            }
+            &.fa::before {
+                margin: 0 0.3em 0 0.1em !important;
+            }
+        }
     }
 }

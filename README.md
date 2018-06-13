@@ -85,10 +85,10 @@ team:                           # List of (preferably) twitter handles but can i
   - "@nhshackday"
 email:                          # Email to list on project page for contact
 links:
-  - presentation:               # Link to presentation used on day 2
-    website:                    # Link to live project demo/app/appstore link/etc.
-    code:                       # List of links to project source code e.g GitHub 
-      - https://github.com/
+  presentation:                 # Link to presentation used on day 2
+  website:                      # Link to live project demo/app/appstore link/etc.
+  code:                         # List of links to project source code e.g GitHub 
+    - https://github.com/
 licence:                        # Licence code/project is released under e.g MIT, GPL etc.
 about: "Longer description"     # Longer description 150-200 words can contain Kramdown/Markdown
 featured: false                 # If project is featured
@@ -226,8 +226,7 @@ bundle exec jekyll serve
 ### Travis CI (automatic staging of Pull Requests)
 _Note: automatic deployment only works if you have write permissions on the `nhshackday/nhshackday.github.io` repository and create Pull Requests from branches on the repository. This is due to the way [security restrictions](https://docs.travis-ci.com/user/pull-requests/#Pull-Requests-and-Security-Restrictions) on Travis CI works._
 
-To aid the usability of the Jekyll site and inspired by and adapted from [these](https://zonca.github.io/2013/09/automatically-build-pelican-and-publish-to-github-pages.html
-) [blogs](https://medium.com/onfido-tech/travis-surge-github-auto-deploy-every-pr-branch-and-tag-a6c8c790831f) [Travis CI](https://travis-ci.org/) is used to create and deploy automatic staging builds to [Surge.sh](http://surge.sh).
+To aid the usability of the Jekyll site and inspired by and adapted from [these](https://zonca.github.io/2013/09/automatically-build-pelican-and-publish-to-github-pages.html) [blogs](https://medium.com/onfido-tech/travis-surge-github-auto-deploy-every-pr-branch-and-tag-a6c8c790831f) [Travis CI](https://travis-ci.org/) is used to create and deploy automatic staging builds to [Surge.sh](http://surge.sh).
 
 The magic happens in `.travis.yml` and `_scripts/deploy.sh` for these to work Travis CI needs to be enabled and on the Travis CI [dashboard](https://travis-ci.org/nhshackday/nhshackday.github.io/settings) for the repository under `Settings` and `Environment Variables` the following need to be created:
 - `GITHUB_API_TOKEN` set this to the value of a `Personal Access Token` you have [generated](https://github.com/settings/tokens) with appropriately limited scopes e.g. `public_repo` this is used to post a comment to open Pull Requests using the GitHub API with the staging URL.

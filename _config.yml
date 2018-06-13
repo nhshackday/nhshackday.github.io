@@ -2,6 +2,7 @@ title: NHS Hack Day
 name: NHS Hack Day | Geeks who love the NHS
 baseurl: ""
 url: "http://nhshackday.com"
+repository: nhshackday/nhshackday.github.io
 future: true
 markdown: kramdown
 # kramdown: 

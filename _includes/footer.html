@@ -28,7 +28,8 @@
             </div>
     </div>
     <div class="copyright">
-            &copy; {{ 'now' | date: "%Y" }} <a href="https://github.com/nhshackday/nhshackday.github.io/">View source code</a>.
-            Hosted by <a href="https://github.com/nhshackday/nhshackday.github.io/">GitHub</a>
+            &copy; {{ 'now' | date: "%Y" }} <a href="https://github.com/nhshackday/nhshackday.github.io/">View source code</a>
+            <a class="fa fa-code-fork" href="https://github.com/nhshackday/nhshackday.github.io/tree/{{ site.github.build_revision }}">{{ site.github.build_revision | truncate: 7, "" }}</a>
+            Hosted by: <a class="fa fa-github" href="https://github.com/nhshackday/nhshackday.github.io/">GitHub</a>
     </div>
 </div>
