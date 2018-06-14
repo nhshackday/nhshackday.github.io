@@ -31,7 +31,7 @@ Events are stored in the `content/_events` directory with a file naming
 convention as follows: `YYYY-MM-DD-city.md` The site responds dynamically
 (when it is built) to the dates used automatically listing an event as
 upcoming or past, for upcoming events without a set date see below on how
-  * to use `date_end`.
+to use `date_end`.
 
 New event files should contain at a minimum the following YAML
 [Front Matter](https://jekyllrb.com/docs/frontmatter/) with appropriate substitutions:
@@ -90,7 +90,9 @@ Create the appropriate subdirectory if it doesn't exist, and then create a
 separate file for each project with the following YAML
 [Front Matter](https://jekyllrb.com/docs/frontmatter/) with appropriate substitutions:
 
-**NB. There are various scripts and scrappers that can be used to automatically generate these file from spreadsheets or the older formats used in previous versions of the NHS Hack Day website**
+**NB. There are various scripts and scrappers that can be used to automatically 
+generate these file from spreadsheets or the older formats used in previous 
+versions of the NHS Hack Day website**
 
 ```yaml
 ---
@@ -166,7 +168,8 @@ redirect_to: "http://redirect-to-here.com/" # The location to redirect to
 The majority of page on the site are written in
 [Kramdown](https://kramdown.gettalong.org/) (templates a specific pages are written in HTML).
 Kramdown is a superset of Markdown which is a lightweight markup language with plain text
-formatting syntax. For a basic guide see the [GitHub Guide](https://guides.github.com/features/mastering-markdown/).
+formatting syntax. For a basic guide see the 
+[GitHub Guide](https://guides.github.com/features/mastering-markdown/).
 
 In-order to aid maintainability and prevent broken links is is important to use the following
 Jekyll syntax when linking internally e.g to a blog post:
@@ -290,7 +293,6 @@ repository under `Settings` and `Environment Variables` the following need to be
 - `GITHUB_API_TOKEN` set this to the value of a `Personal Access Token` you have
 [generated](https://github.com/settings/tokens) with appropriately limited scopes e.g. `public_repo` this
 is used to post a comment to open Pull Requests using the GitHub API with the staging URL.
-
 - `SURGE_LOGIN` set this to the email address of the [Surge.sh](http://surge.sh) account to be used.
 - `SURGE_TOKEN` set this to the token issued by `surge token` for the account set in `SURGE_LOGIN`.
 
