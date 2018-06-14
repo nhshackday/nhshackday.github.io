@@ -25,6 +25,7 @@ h3.fa {
     padding-left: 2.2em !important;
     &::before {
         margin-left: -1.6em;
+        color: inherit !important;
     }
 }
 
@@ -46,6 +47,17 @@ h3.fa {
     color: #3c5a96;
 }
 
+.fa-envelope-o::before {
+    color: #ff55bb;
+}
+
+.fa-list-alt::before {
+    color: grey;
+}
+
 .fa-slack {
     margin-right: 10px;
+    &::before {
+        color: green;
+    }
 }
