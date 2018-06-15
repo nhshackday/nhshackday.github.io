@@ -2,7 +2,7 @@
 title: "Contact Us"
 permalink: /contact
 header_image: contact_img.jpg
-image_credit: 
+image_credit:
   - Credit: "Paul Clarke"
     URL: "http://paulclarke.com"
     Licence: "CC BY-NC"
@@ -15,7 +15,7 @@ image_credit:
 Please email: [hello@openhealthcare.org.uk](hello@openhealthcare.org.uk)
 
 {:class="fa fa-twitter"}
-### Twitter <small>Follow us and join the community</small>
+### Twitter <small>Follow us and say hello !</small>
 
 {:class="indent"}
 [@NHSHackDay](https://twitter.com/nhshackday)  

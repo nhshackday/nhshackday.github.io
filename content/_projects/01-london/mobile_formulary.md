@@ -2,8 +2,8 @@
 hackday: 01-london
 redirect_from: /featured/openbnf/ # Legacy "URLs are for life not just for Christmas"
 links:
-  website: http://www.openbnf.org/ #http://formulary.herokuapp.com
-  code: 
+#  website: http://www.openbnf.org/ #http://formulary.herokuapp.com
+  code:
    - https://github.com/nhshackday/mobileformulary
 summary: Open BNF provides an online version of the BNF that can be accessed via any device.
 thumbnail: openbnf.png

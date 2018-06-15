@@ -25,6 +25,7 @@ h3.fa {
     padding-left: 2.2em !important;
     &::before {
         margin-left: -1.6em;
+        color: inherit !important;
     }
 }
 
