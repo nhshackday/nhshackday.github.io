@@ -17,7 +17,7 @@ image_credit:
 {% assign current_time = site.time | date: "%s" | to_integer%}
 {% assign sorted = site.events | sort: 'date' | reverse %}
 {% for post in sorted %}
-    {% assign start = post.date | date: "%s" | plus: 86400 | to_integer %}
+    {% assign start = post.date | date: "%s" | to_integer %}
     {% assign month = post.date | date: "%B" %}
     {% assign month_end = post.date_end | date: "%B" %}
     {% unless start >= current_time %}
