@@ -1,0 +1,68 @@
+---
+layout: base
+---
+{% assign hackday = site.events | where: "hackday", page.hackday %}
+{% capture hackday_title %}Developed at: <a href="{{ hackday[0].url }}">{{ hackday[0].title }}, {{ hackday[0].date | date: "%-d" }} &mdash; {{ hackday[0].date_end | date: "%-d %h %Y" }}</a>{% endcapture %}
+{% capture header_image %}/assets/images/projects/{{ page.hackday }}/{{ page.header_image }}{% endcapture %}
+{% assign exists = site.static_files | where: "path", header_image %}
+{% if page.header_image and exists.size > 0 %}
+    {% include title.html title=page.title subtitle=hackday_title header_image=header_image %}
+{% else %}
+    {% include title.html title=page.title subtitle=hackday_title %}
+{% endif %}
+<div class="content">
+    <h2>About</h2>
+    <p>
+        {% if page.thumbnail %}
+        <img class="project-tumbnail" width="270" src="/assets/images/projects/{{ page.hackday }}/{{ page.thumbnail }}">
+        {% endif %}
+        {{ page.summary}}
+    </p>
+    {{ page.about | markdownify }}
+
+    {% if page.links.size > 0 %}
+        {% if page.links.website %}
+            <hr>
+            <h2>Website</h2>
+            <p>
+                <a href="{{ page.links.website }}" title="Website" target="_blank">{{ page.links.website }}</a>
+                {% if page.links.presentation %}
+                    <br>
+                    <a href="{{ page.links.presentation }}" title="Presentation" target="_blank">Presentation</a>
+                {% endif %}
+            </p>
+        {% endif %}    
+        {% if page.links.code %}
+            <hr>    
+            <h2>Code and Licence</h2>
+            <p>
+                Source code:
+                {% for link in page.links.code %}
+                <a href="{{ link }}" title="Code" target="_blank">{{ link }}</a>
+                {% endfor %}
+                {% if page.licence %}
+                <br>
+                Licence: {{ page.licence }}
+                {% endif%}
+            </p>
+        {% endif %}
+
+        {% if page.team.size > 0 %}
+            <hr>
+            <h2>Contact</h2>
+            <p>
+                Twitter: 
+                {% for member in page.team %}
+                {% if member contains '@' %}
+                <a href="https://twitter.com/{{ member | remove_first: "@" }}" target="_blank">{{ member }}</a>
+                {% else %}
+                {% endif %}
+                {% endfor %}
+                {% if page.email %}
+                <br>
+                Email: <a href="mailto:{{ page.email }}">{{ page.email }}</a>
+                {% endif%}
+            </p>
+        {% endif %}
+    {% endif%}
+</div>

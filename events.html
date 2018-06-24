@@ -1,21 +1,38 @@
 ---
-layout: general
+layout: default
 title: "NHS Hack Day Events"
-subtitle: Details of our upcoming and previous events, teams and projects</h2>
-image: /assets/images/previous_img.jpg
+subtitle: "Details of our upcoming and previous events, teams and projects"
+permalink: /events/
+header_image: previous_img.jpg
+image_credit: 
+  - Credit: "David Rawaf"
+    URL: "https://secure.flickr.com/photos/124883688@N03/14080609070/in/album-72157644826703282/"
+    Licence: "CC BY-NC-SA"
 ---
 
-<ol class="lead" reversed="reversed">
-  {% for event in site.categories.events %}
-  <li>
-    <a href="{{ event.url }}">
-      {{ event.title }}
-    </a>
-    {{ event.summary }}
-  </li>
+{% include upcomming_events.html %}
+
+<h2>Previous Events:</h2>
+<ol class="past-events" reversed="reversed">
+{% assign current_time = site.time | date: "%s" | to_integer%}
+{% assign sorted = site.events | sort: 'date' | reverse %}
+{% for post in sorted %}
+    {% assign start = post.date | date: "%s" | to_integer %}
+    {% assign month = post.date | date: "%B" %}
+    {% assign month_end = post.date_end | date: "%B" %}
+    {% unless start >= current_time %}
+        <li>
+          <h3><a href="{{ post.url }}">{{ post.title }}</a>
+            <time datetime="{{ post.date | date_to_xmlschema }}">
+                {% if month == month_end %}
+                {{ post.date | date: "%-d" }} &mdash; {{ post.date_end | date: "%-d %B %Y" }}
+                {% else %}
+                {{ post.date | date: "%-d %B" }} &mdash; {{ post.date_end | date: "%-d %B %Y" }}
+                {% endif %}
+            </time>
+          </h3>
+          <h4>Held at {{ post.venue }}, {{ post.city }} organised by {{ post.organiser | join: ', ' }}</h4>
+        </li>
+    {% endunless %}
 {% endfor %}
-
-
-
 </ol>
-

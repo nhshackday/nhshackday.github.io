@@ -1,11 +1,10 @@
-<!DOCTYPE html>
-<html>
-  {% include head.html %}
-  <body>
-    {% include header.html %}
-    <div class="main-content">
+---
+layout: base
+---
+{% include title.html %}
+    <div class="content">
         {{ content }}
+        {% if page.social_links %}
+        {% include social_footer.html %}
+        {% endif %}
     </div>
-    {% include footer.html %}
-  </body>
-</html>

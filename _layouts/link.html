@@ -1,0 +1,15 @@
+---
+layout: compress
+---
+<!DOCTYPE html>
+<html>
+  {% capture link %}{{ content | strip_newlines | strip_html | strip }}{% endcapture %}
+  {% if link == "" %}
+    {% assign link = page.redirect_link %}
+  {% endif %}
+  <title>Redirecting…</title>
+  <noscript><meta http-equiv="refresh" content="0; url={{ link }}"></noscript>
+  <h3>Redirecting…</h3>
+  <p>Click <a href="{{ link }}">here</a> if you are not redirected.</p>
+  <script>window.opener = null; location.replace('{{ link }}')</script>
+</html>

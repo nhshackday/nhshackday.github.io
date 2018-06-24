@@ -1,0 +1,95 @@
+/* Project Summaries */
+
+.project-tumbnail {
+    float: right;
+    margin-bottom: 20px;
+    margin-left: 10px;
+    @media screen and (max-width: 450px){
+        float: none;
+        display: block;
+        margin: -1em auto 10px auto;
+    }
+}
+
+ul.projects {
+    width: auto;
+}
+
+.projects {
+    list-style: none;
+    margin: 0 auto;
+    padding: 0;
+    text-align: center;
+    li {
+        text-align: left;
+        display: block; //inline-block breaks minigrid
+        vertical-align: top;
+        padding: 0;
+        margin: -1em 15px 15px 0px;
+        width: 300px;
+        //border: 1px solid lightgrey;
+        box-shadow: 0 1px 3px 0 #d4d4d5, 0 0 0 1px #d4d4d5;
+    }
+    dl {
+        padding: 0 15px;
+        margin-bottom: 10px;
+        text-align: center;
+    }
+    dt, dd {
+        margin-left: 0;
+    }
+    dt.image, dt.name, dt.summary {
+        display: none;
+    }
+    dd.image {
+        margin-top: 5px;
+    }
+    dd.name {
+        font-size: 1.3em;
+        font-weight: 300;
+        margin-top: 0.5em;
+    }
+    dd.summary {
+        text-align: left;
+        font-size: 0.85em; 
+    }
+    dt.team {
+        &::before {
+            content: " ";
+            display: block;
+            border-top: 1px solid lightgrey;
+            margin-top: 10px;
+            padding-top: 5px;
+        }
+        span {
+            display: none;
+        }
+    }
+    dd.team {
+        display: inline;
+        font-size: 0.85em;
+        &::before {
+            content: ", ";
+        }
+    }
+    dt.team + dd.team::before {
+        content: " ";
+    }
+    dt.links {
+        &::before {
+            content: " ";
+            display: block;
+        }
+        span {
+            display: none;
+        }
+    }
+    dd.links {
+        display: inline-block;
+        font-size: 1.3em;
+        margin-top: 5px;
+        a span {
+            display: none;
+        }
+    }
+}

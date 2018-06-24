@@ -1,0 +1,34 @@
+#- title: "Home"
+#  href: "/"
+
+- title: "About"
+  subcategories:
+    - title: "About and FAQs"
+      href: "/about/"
+    - title: "Rationale"
+      href: "/about/rationale"
+    - title: "Team"
+      href: "/about/team"
+
+#- title: "Blog"
+#  href: "/blog/"
+
+- title: "Events"
+  href: "/events/"
+
+- title: "Resources"
+  subcategories:
+    - title: "Datasets and APIs"
+      href: "/resources/datasets-and-apis"
+    - title: "NHS Hack Day Graphics"
+      href: "/resources/graphics"
+    - title: "Organiser Notes"
+      href: "/resources/organiser"
+    - title: "Media and Photos"
+      href: "/resources/media"
+
+- title: "Contact"
+  href: "/contact"
+
+- title: "Code of Conduct"
+  href: "/code-of-conduct"

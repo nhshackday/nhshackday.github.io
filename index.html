@@ -1,179 +1,60 @@
 ---
-layout: default
+layout: title_card
+title-card1: NHS Hack Day
+title-card2: Geeks who love the NHS
+title-card3: Making NHS IT less bad
+permalink: /
+header_image: home_img.jpg
+image_credit:
+  - Credit: Paul Clarke
+    URL: http://paulclarke.com
+    Licence: "CC BY-NC"
 ---
-<section id="slider_wrapper" class="slider_wrapper full_page_photo">
-  <div id="main_flexslider" class="flexslider">
-    <ul class="slides">
-      <li class="item" style="background-image: url(/assets/images/NHSHD_30Jan_119.jpg)">
+{% include upcomming_events.html %}
 
-        <div class="container">
-          <div class="carousel-caption">
-            <h1>
-              <strong>NHS Hack Day</strong>
-              <br />
-              Geeks who love the NHS
-              <br />
-            </h1>
-            <h1 id="lessbad">
-              Making NHS IT less bad
-            </h1>
-            <!-- Promoting <strong>good health</strong>, <strong>good practice</strong> and <strong>good science</strong> -->
-          </div>
-        </div>
-      </li> <!-- no more sliders or Helen will get murderous -->
+<div class="info">
+    <div>
+        <h3 class="heart">A Weekend Hack Day</h3>
+        <p>Not an overnight event, but all day Saturday and Sunday with a <strong>fun social</strong> event in between.</p>
+    </div>
+    <div>
+        <h3 class="cog">Free to Attend</h3>
+        <p>Tickets are and always will be <strong>free</strong> and we’ll lay on <strong>free lunch</strong> and refreshments during the day.</p>
+    </div>
+    <div>
+        <h3 class="cross">Judges and Prizes</h3>
+        <p>We’ll invite <strong>credible judges</strong> from a range of backgrounds to award <strong>prizes</strong>.</p>
+    </div>
+</div>
+
+<div class="featured">
+    <h2>Featured projects from previous NHS Hack Days</h2>
+    <h3>Just some of our success stories</h3>
+    {% assign projects = site.projects | where:"featured","true" %}
+    {% include projects.html projects=projects limit=3 hide_team=true %}
+</div>
+
+<div class="support">
+    <h2>Our Supporters</h2>
+    <h3></h3>
+    <ul>
+        <li>NHS England</li>
+        <li>NHS QIPP</li>
+        <li>Right Care</li>
+        <li>Open Labs LJMU</li>
+        <li>O’Reilly Media</li>
+        <li>UKGovCamp</li>
+        <li>Open Health Care UK</li>
+
+        <li>Sir Muir Gray</li>
+        <li>Sir Liam Donaldson</li>
+        <li>Dame Sally Davies</li>
+        <li>Mr Peter Lees</li>
+        <li>Ben Goldacre</li>
+        <li>Francis Irving</li>
+        <li>Clare Gerada</li>
+        <li>Geraint Lewis</li>
+        <li>Emma Doyle</li>
+        <li>Sam Smith</li>
     </ul>
-  </div>
-</section>
-
-<div class="main">
-  <section class="call_to_action" id="signups">
-    <div class="container">
-      <div class="row">
-        <h4>Upcoming NHS Hack Day events:</h4>
-
-          <div class="col-md-4 col-md-offset-1">
-            <h2>London</h2>
-            <h5>
-              <i class="fa fa-calendar"></i>
-              30th June - 1st July
-              <br /> 09:00 - 17:00
-            </h5>
-            <h5>
-              <i class="fa fa-map-marker"></i>
-              The Royal College of Anaesthetists
-            </h5>
-            <center>
-              <p>
-                <a class="btn btn-info btn-lg" target="_blank" href="https://ti.to/nhshackday/20-London">
-                  Sign up
-                </a>
-              </p>
-            </center>
-          </div>
-
-          <div class="col-md-4 col-md-offset-2">
-            <h2>Birmingham</h2>
-            <h5>
-              <i class="fa fa-calendar"></i>
-              18th - 19th July
-              <br /> 09:00 - 17:00
-            </h5>
-            <h5>
-              <i class="fa fa-map-marker"></i>
-              Birmingham Uni
-            </h5>
-            <center>
-              <p>
-                <a class="btn btn-info btn-lg" target="_blank" href="https://ti.to/nhshackday/summerschool-2018">
-                  Sign up
-                </a>
-              </p>
-            </center>
-          </div>
-
-      </div> <!-- row -->
-    </div>   <!-- container -->
-  </section>
-
-  <section class="features_teasers_wrapper">
-    <div class="container">
-      <div class="row">
-        <div class="feature_teaser col-sm-4 col-md-4"> <img alt="responsive" src="assets/images/cog-black.png" height="120px" width="130px">
-          <h3>Free to attend</h3>
-          <p class="fred">Tickets are and always will be <strong>free</strong> and we'll lay on <strong>free lunch</strong> and drinks all day.</p>
-        </div>
-        <div class="feature_teaser col-sm-4 col-md-4"> <img alt="responsive" src="assets/images/heart-black.png" height="120px" width="130px">
-          <h3>A weekend hack day</h3>
-          <p class="fred">Not an overnight event, but all day Saturday and Sunday with a <strong>fun social</strong> event in between.</p>
-        </div>
-        <div class="feature_teaser col-sm-4 col-md-4"> <img alt="responsive" src="assets/images/cross-black.png" height="120px" width="130px">
-          <h3>Judges and prizes</h3>
-          <p class="fred">We'll invite <strong>credible judges</strong> from across health, tech and patient sectors to award <strong>prizes</strong>.</p>
-        </div>
-      </div>
-    </div>
-  </section>
-
-
-  <section class="portfolio_teasers_wrapper">
-    <div class="container">
-      <h2 class="section_header fancy centered">Featured projects from previous NHS Hack Days<small>Just some of our success stories</small></h2>
-      <div class="portfolio_strict row">
-
-        <div class="col-sm-4 col-md-4">
-          <div class="portfolio_item wow animated flipInX">
-            <a href="/featured/takeyourmeds" data-path-hover="M 180,190 0,158 0,0 180,0 z">
-              <figure style="background-image:url(assets/images/featured/takeyourmeds.png)">
-                <svg viewBox="0 0 180 320" preserveAspectRatio="none">
-                  <path d="M 180,0 0,0 0,0 180,0 z"/>
-                </svg>
-                <figcaption>
-                  <p>A low-tech telephone reminder service to help you remember to take your medication.</p>
-                  <div class="view_button">More</div>
-                </figcaption>
-              </figure>
-            </a>
-          </div>
-        </div>
-
-        <div class="col-sm-4 col-md-4">
-          <div class="portfolio_item wow animated flipInX">
-            <a href="/featured/cellcountr" data-path-hover="M 180,190 0,158 0,0 180,0 z">
-              <figure style="background-image:url(assets/images/featured/cellcountr.png)">
-                <svg viewBox="0 0 180 320" preserveAspectRatio="none">
-                  <path d="M 180,0 0,0 0,0 180,0 z"/>
-                </svg>
-                <figcaption>
-                  <p>A simple way to perform cell differentials on a peripheral blood or bone marrow aspirate.</p>
-                  <div class="view_button">More</div>
-                </figcaption>
-              </figure>
-            </a>
-          </div>
-        </div>
-
-        <div class="col-sm-4 col-md-4">
-          <div class="portfolio_item wow animated flipInX">
-            <a href="/featured/openbnf" data-path-hover="M 180,190 0,158 0,0 180,0 z">
-              <figure style="background-image:url(assets/images/featured/openbnf.png)">
-                <svg viewBox="0 0 180 320" preserveAspectRatio="none">
-                  <path d="M 180,0 0,0 0,0 180,0 z"/>
-                </svg>
-                <figcaption>
-                  <p>An online version of the BNF that can be accessed on any device.</p>
-                  <div class="view_button">More</div>
-                </figcaption>
-              </figure>
-            </a>
-          </div>
-        </div>
-
-      </div>
-    </div>
-  </section>
-
-
-  <section class="portfolio_teasers_wrapper">
-    <div class="container">
-      <h2 class="section_header fancy centered">Our Supporters</h2>
-      <div class=" row">
-
-        <div class="col-md-12">
-          <p class="lead full-width">
-            <a href="NHS ENGLAND">NHS ENGLAND</a>, NHS QIPP, <a href="http://www.rightcare.nhs.uk/">RIGHT CARE</a>,
-            <a href="https://www.ljmu.ac.uk/business/open-labs">OPEN LABS LJMU</a>,
-            <a href="http://www.oreilly.com/">O'REILLY MEDIA</a>,
-            <a href="http://www.ukgovcamp.com/">UKGOVCAMP</a>,
-            <a href="http://openhealthcare.org.uk">OPEN HEALTH CARE UK</a>
-          </p>
-          <p class="lead full-width">
-            SIR MUIR GRAY, SIR LIAM DONALDSON, DAME SALLY DAVIES, MR PETER LEES, BEN GOLDACRE, FRANCIS IRVING, CLARE GERADA, GERAINT LEWIS, EMMA DOYLE, SAM SMITH
-          </p>
-        </div>
-
-      </div>
-    </div>
-  </section>
-
-
-  <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+</div>

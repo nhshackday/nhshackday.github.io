@@ -1,15 +1,74 @@
-# Site settings
 title: NHS Hack Day
 name: NHS Hack Day | Geeks who love the NHS
-email: hello@openhealthcare.org.uk
-description: > # this means to ignore newlines until "baseurl:"
-  Making NHS IT better
-baseurl: "" # the subpath of your site, e.g. /blog/
-url: "http://nhshackday.com" # the base hostname & protocol for your site
-twitter_username: NHSHackDay
-markdown: kramdown
+baseurl: ""
+url: "http://nhshackday.com"
+repository: nhshackday/nhshackday.github.io
 future: true
+markdown: kramdown
+# kramdown: 
+#   parse_block_html: true
+highlighter: rouge
 sass:
-  sourceMap: true
   style: compressed
-  sass_dir: _sass
+plugins:
+  - jekyll-redirect-from
+  - jekyll-compress-images
+
+compress_images:
+  images_path: "assets/images/**/*.{gif,png,jpg,jpeg,svg}"
+exclude:
+  - "_compress_images_cache.yml"
+
+collections_dir: content
+collections:
+  blog:
+    output: true
+    permalink: /:collection/:year/:month/:day/:title
+  events:
+    output: true
+    permalink: /:collection/:year/:month/:title
+  projects:
+    output: true
+    permalink: /:collection/:path
+  sponsors:
+    output: false
+
+defaults:
+  -
+    scope:
+      path: ""
+      type: "blog"
+    values:
+      layout: "blog_post"
+  -
+    scope:
+      path: ""
+      type: "events"
+    values:
+      layout: "event"
+      header_image: datasets_img.jpg
+      image_credit: 
+        - Credit: "Paul Clarke"
+          URL: "http://paulclarke.com"
+          Licence: "CC BY-NC"
+  -
+    scope:
+      path: ""
+      type: "projects"
+    values:
+      layout: "project"
+      header_image: datasets_img.jpg
+      image_credit: 
+        - Credit: "Paul Clarke"
+          URL: "http://paulclarke.com"
+          Licence: "CC BY-NC"
+
+compress_html:
+  clippings: all
+  comments: ["<!-- ", " -->"]
+  endings: all
+  ignore:
+    envs: [local]
+  blanklines: false
+  profile: false
+  startings: [html, head, body]

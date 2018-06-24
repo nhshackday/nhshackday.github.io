@@ -1,0 +1,30 @@
+---
+layout: base
+---
+    <style>
+        .title-card{background-image: url("/assets/images/headers/{{ page.header_image }}")}
+    </style>
+    <div class="title-card">
+        <div>
+            <h1>
+                <strong>{{ page.title-card1 }}</strong><br>
+                {{ page.title-card2 }}
+            </h1>
+            <h2>{{ page.title-card3 }}</h2>
+        </div>
+        {% if page.image_credit.size > 0 %}
+        <span>{{ page.image_credit[0].Licence }} <a href="{{ page.image_credit[0].URL }}" >{{ page.image_credit[0].Credit }}</a></span>
+        {% endif %}
+    </div>
+    <div class="content full-width">
+        {% if page.title %}
+        <div class="title">
+            <h1>{{ page.title }}</h1>
+            <h2>{{ page.subtitle }}</h2>
+        </div>
+        {% endif %}
+        {{ content }}
+        {% if page.social_links %}
+        {% include social_footer.html %}
+        {% endif %}
+    </div>
