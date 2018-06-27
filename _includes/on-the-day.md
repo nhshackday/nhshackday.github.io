@@ -3,7 +3,7 @@
 {::options parse_block_html="true" /}
 <div class="columns"><div>
 
-#### Saturday
+#### Day 1
 - _08:30 - 09:30_ Registration, pitch submissions and coffee
 - _09:30 - 10:30_ Introductions and pitches
 - _10:30 - 13:00_ Form groups and start work!
@@ -12,7 +12,7 @@
 
 </div><div>
 
-#### Sunday
+#### Day 2
 - _08:30 - 13:00_ Get back in action
 - _13:00_         Lunch
 - _14:30_         Hard deadline for presentation submissions
