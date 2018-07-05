@@ -1,7 +1,7 @@
 ---
-title: "Cortirio"           # Sponsor Name
-link: https://cortirio.com/     # Sponsor URL
-logo: "cortirio.png"    # Sponsor Logo stored in `/assets/images/sponsors/<logo>`
+title: "Cortirio"
+link: https://cortirio.com/
+logo: "cortirio.png"
 
 # Events sponsored denoted by `<hackday>` and sponsorship amount/resource
 events:
