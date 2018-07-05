@@ -9,4 +9,5 @@ events:
   14-newcastle: "£2,500"
   16-london: ""
   17-manchester: ""
+  20-london: ""
 ---

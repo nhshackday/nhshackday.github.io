@@ -5,5 +5,5 @@ logo: "asponsor_logo.png"    # Sponsor Logo stored in `/assets/images/sponsors/<
 
 # Events sponsored denoted by `<hackday>` and sponsorship amount/resource
 events:
-  01-london: "£100, Venue"
+  20-london: "£1000"
 ---

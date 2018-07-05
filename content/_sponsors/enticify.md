@@ -6,4 +6,5 @@ logo: enticify.png
 # Events sponsored denoted by `<hackday>` and sponsorship amount/resource
 events:
   10-london: "£160 towards infrastructure"
+  20-london: "£50"
 ---
