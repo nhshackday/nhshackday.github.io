@@ -15,7 +15,7 @@ team:
 - Oliver
 - '@willtube4food'
 - '@rfinean'
-- Mohamad
+- '@moby3kenobi'
 title: Self-triage for chemo patients
 thumbnail: chemo-triage.png
 ---
