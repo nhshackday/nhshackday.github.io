@@ -13,4 +13,9 @@ redirect_from:
 tickets: https://ti.to/nhshackday/summerschool-2018
 pitches:
 presentations:
+
+blog_posts:
+  - Title: "Winners of Summer Schools NHS Hack Day aim to replace MIG"
+    Author: Jon Hoeksma
+    URL: https://www.digitalhealth.net/2018/07/winners-of-summer-schools-nhs-hack-day-aim-to-replace-mig/
 ---
