@@ -12,7 +12,7 @@ image_credit:
 ### General / Sponsorship enquiries <small>Or just to say hello</small>
 
 {:class="indent"}
-Please email: [hello@openhealthcare.org.uk](hello@openhealthcare.org.uk)
+Please email: <hello@nhshackday.com>
 
 {:class="fa fa-twitter"}
 ### Twitter <small>Follow us and say hello !</small>
