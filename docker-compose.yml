@@ -1,13 +1,9 @@
 version: '3'
-
 services:
-  jekyll: 
-    image: jekyll/jekyll
-    container_name: nhshd
-    environment:
-        - JEKYLL_ENV=docker
-    entrypoint: './run.sh'
+  jekyll:
+    build: .
+    container_name: nhshd-gh-pages
     ports:
-        - 4008:4000
+     - "4000:4000"
     volumes:
-        - .:/srv/jekyll
+     - .:/src/nhshackday.github.io
