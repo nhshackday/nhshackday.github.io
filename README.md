@@ -228,6 +228,7 @@ defaults
 
 - [How to contribute changes](#how-to-contribute-changes)
 - [How to set-up and run locally](#how-to-set-up-and-run-locally)
+- [How to use Docker and/or Docker Compose to run locally](#how-to-use-docker-andor-docker-compose-to-run-locally)
 - [Travis CI (automatic staging of Pull Requests)](#travis-ci-automatic-staging-of-pull-requests)
 - [Testing on `newNHSHackdaySite.github.io`](#testing-on-newnhshackdaysitegithubio)
 
@@ -272,6 +273,50 @@ bundle install
 
 # To lanuch local development server
 bundle exec jekyll serve
+```
+
+### How to use Docker and/or Docker Compose to run locally
+
+If you want to avoid installing Ruby and managing dependencies with `bundle` you
+can instead use Docker to build an image from the `Dockerfile` in this
+repository to run GitHub Pages Jekyll locally.
+
+Ensure you have [Docker](https://docs.docker.com/install/overview/) (and
+optionally [Docker Compose](https://docs.docker.com/compose/overview/))
+installed then:
+
+```bash
+# Substitute with the address of your fork if needed
+git clone https://github.com/nhshackday/nhshackday.github.io.git
+cd nhshackday.github.io.git
+
+# Run Docker Compose
+docker-compose up
+```
+
+Or you can manually build and run the docker image if you want more control:
+
+```bash
+# Clone and/or change into the directory containing this repository as above
+cd nhshackday.github.io.git
+
+# Build docker image
+docker build -t nhshd-gh-pages .
+
+# Run Jekyll in the docker image (on unix)
+docker run --rm -it -p 4000:4000 -v `pwd`:/src/nhshackday.github.io nhshd-gh-pages
+
+# Run Jekyll in the docker image (on Windows in cmd.exe)
+docker run --rm -it -p 4000:4000 -v %CD%:/src/nhshackday.github.io nhshd-gh-pages
+
+# Explained: Run interactively and automatically remove the container when it exits
+docker run --rm -it
+    # Map port 4004 on the host to 4000 on the container
+    -p 4004:4000
+    # Map the fully specified path <nhshd-dir> to /src/nhshackday.github.io in the image
+    -v `pwd`:/src/nhshackday.github.io
+    # Run the `nhshd-gh-pages` iamge
+    nhshd-gh-pages
 ```
 
 ### Travis CI (automatic staging of Pull Requests)
