@@ -31,7 +31,8 @@ Events are stored in the `content/_events` directory with a file naming
 convention as follows: `YYYY-MM-DD-city.md` The site responds dynamically
 (when it is built) to the dates used automatically listing an event as
 upcoming or past, for upcoming events without a set date see below on how
-to use `date_end`.
+to use `date_end`. To hide an event from the upcoming section on the homepage
+set `hide_upcoming` to `true`.
 
 New event files should contain at a minimum the following YAML
 [Front Matter](https://jekyllrb.com/docs/frontmatter/) with appropriate substitutions:
@@ -52,6 +53,8 @@ redirect_from:              # List of alternative urls always caontains `/projec
 tickets: http://tickets.com/event       # Link to event managment site, used for `Sign Up` link
 pitches: http://forms.com/form          # Destination for the `short-link` at `/pitch`
 presentations: http://forms.com/form    # Destination for the `short-link` at `/present`
+
+hide_upcoming: true        # If set hides event from the upcoming list on homepage
 ---
 ```
 
