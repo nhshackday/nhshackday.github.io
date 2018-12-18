@@ -8,6 +8,9 @@ layout: compress
         <!--[if lt IE 10]>
         <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
+        {% if jekyll.environment == "travis" %}
+        <p class="stagingheader">You are viewing a <strong>staging build</strong> of the NHS Hackday website. Please visit <a href="https://nhshackday.com/">https://nhshackday.com/</a> instead.</p>
+        {% endif %}
         {% include header.html %}
         {{ content }}
         {% include footer.html %}

@@ -4,12 +4,15 @@
 {% for post in sorted %}
 {% assign end = post.date_end | date: "%s" | plus: 86400 | to_integer %}
 {% assign start = post.date | date: "%s" | plus: 86400 | to_integer %}
+{% if post.hide_upcoming and include.front_page == true %}
+{% else %}
 {% if end >= current_time or start >= current_time %}
 {% assign events = events | push:post %}
 {% endif %}
+{% endif %}
 {% endfor %}
 {% if events.size > 0 %}
-<div class="upcomming-events">
+<div class="upcoming-events">
     <h2>Upcoming NHS Hack Day events:</h2>
     <ol>
     {% for post in events %}
@@ -31,7 +34,7 @@
                 {% if post.tickets %}
                 <a class="btn btn-success" target="_blank" href="{{ post.tickets }}">Sign up</a>
                 {% else %}
-                <a class="btn btn-success disabled" target="_blank" href="#" title="Comming Soon">Sign up</a>
+                <a class="btn btn-success disabled" href="#" title="Comming Soon" disabled>Sign up</a>
                 {% endif %}
                 <a class="btn btn-grey" href="{{ post.url }}">Details</a>
             </li>
