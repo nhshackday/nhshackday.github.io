@@ -5,5 +5,4 @@ logo: "icsm_coding.png"    # Sponsor Logo stored in `/assets/images/sponsors/<lo
 
 # Events sponsored denoted by `<hackday>` and sponsorship amount/resource
 events:
-  22-london: "Organiser, Venue"
 ---
