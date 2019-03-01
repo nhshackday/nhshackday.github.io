@@ -2,7 +2,7 @@
 title: Applyng for a place at NHS Hack Day June 2019
 subtitle: Why we're trialling a lottery application process
 redirect_from: # Legacy "URLs are for life not just for Christmas"
-  - /blog/posts/2019/03/01/applying-for-nhs-hack-day-june-2019
+  - /blog/posts/2019/03/01/2019-03-01-applying-for-nhs-hack-day-june-2019
 date: 2019-03-01
 authors:
   - name: Matt Stibbs
