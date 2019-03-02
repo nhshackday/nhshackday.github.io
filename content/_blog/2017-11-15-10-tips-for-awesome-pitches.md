@@ -63,7 +63,7 @@ Perhaps there is some part of your big idea that can be split off to give a good
 
 It is unlikely that you will have more than 60 seconds to give your pitch. Maybe you’re familiar with the concept of “elevator pitches”? That is, how to express yourself and your plan in approximately 15 seconds when you bump into some important person or potential investor.
 
-The NHS Hack Day team firmly believe that if you cannot explain your problem in 60 seconds then you have not thought it through clearly enough. We’d love to help you with this though, so do get in touch with us on our twitter, facebook or at hello@nhshackday.com.
+The NHS Hack Day team firmly believe that if you cannot explain your problem in 60 seconds then you have not thought it through clearly enough. We’d love to help you with this though, so do get in touch with us on our twitter, facebook or at <hello@nhshackday.com>.
 
 ------
 
