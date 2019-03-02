@@ -62,7 +62,7 @@ Here are some common concerns about pitching:
 
    Lastly, no one will even notice if you decide not to go ahead. :)
 
-   If you think that talking through your pitch with someone might help, do get in touch with our team of volunteers on the event Slack, on Twitter, or at [hello@openhealthcare.org.uk](mailto:hello@openhealthcare.org.uk) and we'll be happy to try and help you.
+   If you think that talking through your pitch with someone might help, do get in touch with our team of volunteers on the event Slack, on Twitter, or at <hello@nhshackday.com> and we'll be happy to try and help you.
 
 2. **"My idea is not developed enough to be interesting or useful"**
 
@@ -98,4 +98,4 @@ Don’t be shy: do consider having a go at pitching. Your friends at NHS Hack Da
 
 ------
 
-And lastly, as always, if you have any questions about anything in this post (or indeed about anything else), do get in touch with our team of volunteers on the event Slack, on Twitter, or at [hello@openhealthcare.org.uk](mailto:hello@openhealthcare.org.uk) and we'll be happy to help.
+And lastly, as always, if you have any questions about anything in this post (or indeed about anything else), do get in touch with our team of volunteers on the event Slack, on Twitter, or at <hello@nhshackday.com> and we'll be happy to help.
