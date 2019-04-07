@@ -22,7 +22,9 @@ Because of such high demand for tickets, any **unclaimed tickets** will be given
 We ask that when you accept a ticket you commit to attending the whole event on both Saturday and Sunday. Making actual “products” isn’t necessarily the aim of an NHS Hackday. It is about having a great time, learning something and meeting some brilliant people.
 
 ## No-shows
-We have taken the difficult decision to adopt an approach similar to UK Gov Camp and other events: there is a zero tolerance policy on attendance. If you accept a ticket and don't attend the NHS Hack Day you will not be allowed to attend future events. This is to be as fair as possible to those who applied but did not get offered tickets in the lottery process.
+We have taken the difficult decision to adopt an approach similar to UK Gov Camp and other events: there is a zero tolerance policy on attendance. If you accept a ticket but find you are unable to attend, please cancel your ticket or let us know as early as possible so that we can re-allocate your ticket.
+
+**If you do not attend without cancelling or speaking with us, you won't be able to attend future events.**
 
 ## Help us experiment
 This is something new for how we run events so there may well be glitches and things that can be done better we are always looking to improve. If you have an feedback or questions email us at <hello@nhshackdays.com>
