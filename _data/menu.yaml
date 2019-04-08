@@ -10,8 +10,8 @@
     - title: "Team"
       href: "/about/team"
 
-#- title: "Blog"
-#  href: "/blog/"
+- title: "Blog"
+  href: "/blog/"
 
 - title: "Events"
   href: "/events/"
