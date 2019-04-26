@@ -24,6 +24,7 @@ We're using [The Open Definition](http://opendefinition.org/) which can be summa
 ## Proprietary Data
 While it may be easy to get access to this data, it's subject to various terms and conditions that make it not [open](http://opendefinition.org/).
 
+- 
 - [NHS Choices -- limited range of datasets](http://www.nhs.uk/aboutNHSChoices/professionals/developments/Pages/NHSChoicesdatasets.aspx) (apply to [NHS](http://www.nhs.uk/aboutNHSChoices/professionals/syndication/Pages/Webservices.aspx) for API)
 - [API for Food, Ingredients and Nutrition with Diet Restrictions. 130,000 packaged Products and 500,000 recipes](https://www.sensum.io/)
 - [NHS Safety Thermometer](http://www.ic.nhs.uk/webfiles/Services/Safety%20Thermometer/SafetyThermometer_Data_TermsOfUse_0512.pdf) - restrictions on use include "It must not be used to make public statements or pronouncements, or cause, or allow it to appear in public either directly or indirectly"
@@ -32,6 +33,13 @@ While it may be easy to get access to this data, it's subject to various terms a
 - [Patient Opinion](http://www.patientopinion.org.uk/info/api) - [CC BY-NC-ND 3.0 ](https://creativecommons.org/licenses/by-nc-nd/3.0/deed.en) so no distributing derivative works
 
 ## Unknown Data
+---
+- [PHE Fingertips](https://fingertips.phe.org.uk)
+- [PHE Fingertips API](https://fingertipsps.phe.org.uk/api)
+- [PHE Fingertips R package](https://cran.r-project.org/web/packages/fingertipsR/index.html)
+- [PHE Fingertips Python package](https://github.com/PublicHealthEngland/PHDS_fingertips_py)
+
+---
 - [A comprehensive health database with APIs](http://www.freebase.com/view/medicine)
 - [Assortment of APIs and other resources, mainly clinical knowledge](http://www.openclinical.org/dld_asbruInterpreter.html)
 - [NHS Choices API application](http://www.nhs.uk/aboutNHSChoices/professionals/syndication/Pages/Webservices.aspx)
