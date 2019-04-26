@@ -24,7 +24,6 @@ We're using [The Open Definition](http://opendefinition.org/) which can be summa
 ## Proprietary Data
 While it may be easy to get access to this data, it's subject to various terms and conditions that make it not [open](http://opendefinition.org/).
 
-- 
 - [NHS Choices -- limited range of datasets](http://www.nhs.uk/aboutNHSChoices/professionals/developments/Pages/NHSChoicesdatasets.aspx) (apply to [NHS](http://www.nhs.uk/aboutNHSChoices/professionals/syndication/Pages/Webservices.aspx) for API)
 - [API for Food, Ingredients and Nutrition with Diet Restrictions. 130,000 packaged Products and 500,000 recipes](https://www.sensum.io/)
 - [NHS Safety Thermometer](http://www.ic.nhs.uk/webfiles/Services/Safety%20Thermometer/SafetyThermometer_Data_TermsOfUse_0512.pdf) - restrictions on use include "It must not be used to make public statements or pronouncements, or cause, or allow it to appear in public either directly or indirectly"
