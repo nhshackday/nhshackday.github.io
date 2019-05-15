@@ -56,7 +56,7 @@ While it may be easy to get access to this data, it's subject to various terms a
 - [APIs for SNOFyre](https://code.google.com/p/snofyre), a demonstrator tool for use with SNOMED CT clinical records for aggregation and analysis, giving a range of functions such as browsing the terminology
 - [SNOB](http://snob.eggbird.eu), a server for the 300,000 clinical terms found in SNOMED CT
 - [BioPortal](http://bioportal.bioontology.org), a quick way to support autocomplete on a problem list
-- [ALISS (Access to Local Information to Support Self-management - Scottish info)](http://aliss-engineclub.readthedocs.org) - community assets of all sorts to help people live well with a long-term condition.
+- [ALISS (Access to Local Information to Support Self-management - Scottish info)](https://docs.aliss.org/) - community assets of all sorts to help people live well with a long-term condition.
 - [Commissioning data packs](http://www.ic.nhs.uk/services/commissioning-data-packs)
 
 ---
