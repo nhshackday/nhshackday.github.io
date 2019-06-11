@@ -4,16 +4,18 @@
 <div class="columns"><div>
 
 #### Day 1
-- _08:30 - 09:30_ Registration, pitch submissions and coffee
-- _09:30 - 10:30_ Introductions and pitches
-- _10:30 - 13:00_ Form groups and start work!
+- _09:00 - 09:40_ Registration, pitch submissions and coffee
+- _09:40 - 10:45_ Introductions and pitches
+- _10:45 - 13:00_ Form groups and start work!
 - _13:00_         Lunch
 - _18:00_         Exhausted Social/dinner/sleeps
+
+** Note there is no accomodation at the venue overnight
 
 </div><div>
 
 #### Day 2
-- _08:30 - 13:00_ Get back in action
+- _09:00 - 13:00_ Get back in action
 - _13:00_         Lunch
 - _14:30_         Hard deadline for presentation submissions
 - _15:00 - 17:30_ Presentations, judging and prizes (including highly sought-after NHS Hack Day t-shirts) and closing
