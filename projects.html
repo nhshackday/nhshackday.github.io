@@ -9,22 +9,24 @@ image_credit:
     URL: "http://paulclarke.com"
     Licence: "CC BY-NC"
 ---
-
-<div class="project-list">
-<input class="search" placeholder="Search" />
-<button class="sort" data-sort="name">
-  Sort by name
-</button>
-
+<div id="project-list">
+<input type="search" class="fuzzy-search" placeholder="Search" />
 {% assign projects = site.projects | sort: 'title' %}
 {% include projects.html projects=projects %}
 </div>
 
-<script src="//cdnjs.cloudflare.com/ajax/libs/list.js/1.5.0/list.min.js"></script>
+<script src="/assets/js/list.min.js"></script>
 <script>
 var options = {
-  valueNames: [ 'name-data', 'summary-data' ]
+  valueNames: [ 'name-data', 'summary-data', { name: 'team-data', attr: 'members' } ],
+  listClass: "projects"
 };
-
 var userList = new List('project-list', options);
+/*userList.on("searchComplete", function(){
+  if (userList.visibleItems.length <= 3) {
+    userList.list.setAttribute("class", "projects three");
+  } else {
+    userList.list.setAttribute("class", "projects");
+  }
+});*/
 </script>

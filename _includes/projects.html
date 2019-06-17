@@ -1,20 +1,20 @@
-<ul class="projects">
+<ul class="projects{%if include.limit <= 3 or include.projects.size <= 3 %} three{% endif %}">
     {% for project in include.projects limit:include.limit %}
     <li class="project">
         <dl>
             <dt class="name">Name</dt>
-            <dd class="name"><a href="{{ project.url }}">{{ project.title }}</a></dd>
+            <dd class="name"><a class="name-data" href="{{ project.url }}">{{ project.title }}</a></dd>
             {% if project.thumbnail %}
                 <dt class="image">Image</dt>
                 <dd class="image"><img width="270" src="/assets/images/projects/{{ project.hackday }}/{{ project.thumbnail }}"></dd>
             {% endif %}
             <dt class="summary">Summary</dt>
-            <dd class="summary">{{ project.summary }}</dd>
+            <dd class="summary summary-data">{{ project.summary }}</dd>
             {% if include.hide_team == true %}
                 <dt class="team"><span>Team</span></dt>
             {%endif%}
             {% if project.team.size > 0 and include.hide_team != true %}
-                <dt class="team"><span>Team</span></dt>
+                <dt class="team team-data" members="{{ project.team | join: ' ' }}"><span>Team</span></dt>
                 {% for member in project.team %}
                     {% if member contains '@' %}
                     <dd class="team"><a href="https://twitter.com/{{ member | remove_first: "@" }}" target="_blank">{{ member }}</a></dd>
