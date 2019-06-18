@@ -64,7 +64,7 @@ Please credit Ayesha Garrett of [LondonLime](http://www.londonlime.net) where ap
             </td>
             <td>
                 Grey on white <a href="/assets/branding/sticker_rectangular_grey_white.png">.png</a> (225 kB)<br>
-                Grey on transparent <a href="/assets/branding/ticker_rectangular_grey_transparent.pdf">.pdf</a> (117 kB)<br>
+                Grey on transparent <a href="/assets/branding/sticker_rectangular_grey_transparent.pdf">.pdf</a> (117 kB)<br>
                 White on transparent <a href="/assets/branding/sticker_rectangular_white_transparent.pdf">.pdf</a> (113 kB)
             </td>
         </tr>
