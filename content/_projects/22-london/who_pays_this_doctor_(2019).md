@@ -5,6 +5,7 @@ links:
   - https://github.com/who-pays-your-doctor/whopaysthisdoctor.org
   presentation: http://wptd.herokuapp.com/
   website: https://whopaysthatdoctor.herokuapp.com
+  video: https://youtu.be/hi8RpT3Eh50
 summary: improvements to a voluntary register of doctors interests (www.whopaysthisdoctor.org)
 team:
 - David Pratt

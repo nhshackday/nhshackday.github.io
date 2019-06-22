@@ -93,3 +93,13 @@ ul.projects {
         }
     }
 }
+
+.yt-embed {
+    text-align: center;
+    iframe {
+        @media screen and (min-width: 760px) {
+            width: 560px;
+            height: 315px;
+        }
+    }
+}

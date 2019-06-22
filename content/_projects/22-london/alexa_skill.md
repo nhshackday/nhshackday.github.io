@@ -4,6 +4,7 @@ links:
   code:
   - https://github.com/pluraliseseverythings/nhsalexahack/
   presentation: https://docs.google.com/presentation/d/10s1BojaPuFszothOOQX_94FLoGF_XhIoFE23cmfYHiE/edit?usp=sharing
+  video: https://youtu.be/6T23qQwvxvY
 summary: Voice Assistants and NHS APIs
 team:
 - '@nikki_kahllon'
