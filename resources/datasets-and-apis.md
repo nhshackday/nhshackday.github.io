@@ -21,6 +21,13 @@ We're using [The Open Definition](http://opendefinition.org/) which can be summa
 - [SGUL's Linked Open Data repository. Academic API, SPARQL endpoint](http://data.sgul.ac.uk/)
 - [OpenODS - NHS Organisation API](http://www.openods.co.uk/) - API serving NHS organisational data under the Open Government Licence
 
+---
+- [PHE Fingertips](https://fingertips.phe.org.uk)
+- [PHE Fingertips API](https://fingertips.phe.org.uk/api)
+- [PHE Fingertips R package](https://cran.r-project.org/web/packages/fingertipsR/index.html)
+- [PHE Fingertips Python package](https://github.com/PublicHealthEngland/PHDS_fingertips_py)
+
+
 ## Proprietary Data
 While it may be easy to get access to this data, it's subject to various terms and conditions that make it not [open](http://opendefinition.org/).
 
@@ -32,12 +39,6 @@ While it may be easy to get access to this data, it's subject to various terms a
 - [Patient Opinion](http://www.patientopinion.org.uk/info/api) - [CC BY-NC-ND 3.0 ](https://creativecommons.org/licenses/by-nc-nd/3.0/deed.en) so no distributing derivative works
 
 ## Unknown Data
----
-- [PHE Fingertips](https://fingertips.phe.org.uk)
-- [PHE Fingertips API](https://fingertips.phe.org.uk/api)
-- [PHE Fingertips R package](https://cran.r-project.org/web/packages/fingertipsR/index.html)
-- [PHE Fingertips Python package](https://github.com/PublicHealthEngland/PHDS_fingertips_py)
-
 ---
 - [A comprehensive health database with APIs](http://www.freebase.com/view/medicine)
 - [Assortment of APIs and other resources, mainly clinical knowledge](http://www.openclinical.org/dld_asbruInterpreter.html)
