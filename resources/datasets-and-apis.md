@@ -34,7 +34,7 @@ While it may be easy to get access to this data, it's subject to various terms a
 ## Unknown Data
 ---
 - [PHE Fingertips](https://fingertips.phe.org.uk)
-- [PHE Fingertips API](https://fingertipsps.phe.org.uk/api)
+- [PHE Fingertips API](https://fingertips.phe.org.uk/api)
 - [PHE Fingertips R package](https://cran.r-project.org/web/packages/fingertipsR/index.html)
 - [PHE Fingertips Python package](https://github.com/PublicHealthEngland/PHDS_fingertips_py)
 
