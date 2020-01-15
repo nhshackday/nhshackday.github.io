@@ -1,12 +1,12 @@
 ---
-title: "Why we're having free childcare at NHS Hack Day #23"
-subtitle: Why we're having free childcare at NHS Hack Day #23
+title: "Free childcare at NHS Hack Day #23"
+subtitle: Why we're providing free childcare at our next hack day in Cardiff
 date: 2020-01-14
 header_image: post-1-banner.jpg
 ---
 
 At NHS Hack Day inclusivity is important to us. In 2018 (our last NHS Hack Day in Cardiff) we had a[Fairer Tech Event](https://fundraising.co.uk/2018/04/20/fairer-tech-events-grants-back) grant from [doteveryone](https://www.doteveryone.org.uk/) which we used to work with Barod to bring a group from [Carmarthenshire People First](https://www.carmarthenshirepeoplefirst.co.uk/), an organisation which supports adults with learning disabilities, to NHS Hack Day. You can watch Angie and I talking about what they got out of the event, and what we learned below.
-
+  
 <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/dPXk-awPCAQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 We run NHS Hack Days at weekends and this has definite pros and cons. Our events our volunteer-run, on tight budgets. At the weekends we can use spaces that might be used during the week, and have people attend who might not be able to get permission to participate from employers during the week. But the downside is that many people have caring responsibilities at the weekend. We have always been happy for attendees to bring along their children – and sometimes they have joined in the hacking (though Ada, below, was a little to young for this in 2015).
