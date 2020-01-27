@@ -5,5 +5,5 @@ logo: "equal_experts.svg"
 
 # Events sponsored denoted by `<hackday>` and sponsorship amount/resource
 events:
-  23-cardiff: ""
+  23-cardiff: "For the Food on Saturday evening"
 ---

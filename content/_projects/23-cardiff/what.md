@@ -6,6 +6,7 @@ links:
   - https://github.com/dokato/healthcareonlinesources
   presentation: https://docs.google.com/presentation/d/1JO-dWONyzK7fxKqteFwmtCAanxjUS-bGJVLKOJFEYYY/view
   website: https://dokato.shinyapps.io/WHAT/
+  video: https://youtu.be/SAhK0mGpFoU
 summary: Chrome plugin that assesses credibility of medical online sources. We created
   also website for classification of sources by medical experts.
 team:

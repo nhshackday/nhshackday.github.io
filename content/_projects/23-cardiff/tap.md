@@ -5,6 +5,7 @@ about: We looked at our hypothesis and mapped patient journeys, visualised our e
 hackday: 23-cardiff
 links:
   presentation: https://drive.google.com/file/d/1PHLqmYL3MU9hejH2_PnuNq9BZcw378D8/view
+  video: https://youtu.be/EnxnqfiVSY4
 summary: Our project looks at reducing delayed transfer of care through removing delays
   and waste due to communication/collaboration and used lego!
 team:

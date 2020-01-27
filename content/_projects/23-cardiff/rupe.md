@@ -4,6 +4,7 @@ about: We plan to open-source the system whilst continuing to work on it, adding
 hackday: 23-cardiff
 links:
   presentation: https://docs.google.com/presentation/d/1iBjssTBg19YGJjhRoXilSxHHmErAgCxk-Rlw14j7pRg/view
+  video: https://youtu.be/T2tniUytE4k
 summary: An application to warn a parent or carer that a smart watch user may be having
   an epileptic seizure
 team:

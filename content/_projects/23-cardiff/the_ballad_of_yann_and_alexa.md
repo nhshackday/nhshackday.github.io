@@ -7,6 +7,7 @@ links:
   code:
   - https://github.com/allycallow/boy-yah
   presentation: https://docs.google.com/presentation/d/1UuMKGrNzQcP8lGNnoScfmqgKdwvApQ8HM-rahDbP6Ec/view
+  video: https://youtu.be/5Kb_Mgm-7zA
 summary: Using Alexa to populate a vendor neutral openEHR based digital health and
   care platform
 team:

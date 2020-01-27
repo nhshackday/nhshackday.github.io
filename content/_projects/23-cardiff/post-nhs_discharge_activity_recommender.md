@@ -5,6 +5,7 @@ links:
   - https://github.com/madetech/nhs-hack-day-23
   presentation: https://nhs-hack-day-23.herokuapp.com/
   website: https://nhs-hack-day-23.herokuapp.com/
+  video: https://youtu.be/XoZKZQ5ri7s
 summary: 'findOR: a tool to help NHS staff make tailor-made activity recommendations
   to patients after discharge '
 team:
