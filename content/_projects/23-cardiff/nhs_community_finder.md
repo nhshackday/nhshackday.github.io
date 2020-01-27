@@ -1,0 +1,13 @@
+---
+hackday: 23-cardiff
+links:
+  presentation: https://docs.google.com/presentation/d/1odKs2xjnyAdlq6bVGybvdFrrjmpwVzScetwWAm6zq-0/view
+summary: Finding communities within the NHS Twittershere using @gephi
+team:
+- '@KevinMonk'
+- '@owennewo99'
+- '@josephredfern'
+- '@davehodge'
+thumbnail: nhs_community_finder.png
+title: NHS Community Finder
+---

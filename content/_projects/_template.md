@@ -13,6 +13,7 @@ team:                           # List of (preferably) twitter handles but can i
 email:                          # Email to list on project page for contact
 links:
   presentation:               # Link to presentation used on day 2
+  video:                      # Link to video of presentation on day 2
   website:                    # Link to live project demo/app/appstore link/etc.
   code:                       # List of links to project source code e.g GitHub 
     - "https://github.com/"
