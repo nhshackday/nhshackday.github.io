@@ -8,7 +8,7 @@ team:
 - '@KevinMonk'
 - '@owennewo99'
 - '@josephredfern'
-- '@davehodge'
+- '@davehodg'
 thumbnail: nhs_community_finder.png
 title: NHS Community Finder
 ---
