@@ -7,4 +7,5 @@ logo: "fresh_ehr.jpg"
 events:
   11-manchester: "£300 towards event costs"
   13-london: "£300"
+  23-cardiff: ""
 ---

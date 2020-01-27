@@ -8,4 +8,5 @@ events:
   06-cardiff: "£1500"
   09-cardiff: "£2000"
   19-cardiff: ""
+  23-cardiff: ""
 ---
