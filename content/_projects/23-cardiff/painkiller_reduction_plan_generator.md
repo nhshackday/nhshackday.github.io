@@ -5,6 +5,7 @@ links:
   - https://github.com/samknight/painkillerreduction
   presentation: https://drive.google.com/file/d/0Bxv9aV_Fd9yeTVgwbmIxQnQ0Q2dVSm4tSGFzRkhhUllpYVZn/view
   website: http://painkillerreduction.herokuapp.com/
+  video: https://youtu.be/lritwVcbH3c
 summary: An easy, safe way to generate a painkiller reduction plan for a patient,
   based on the dosage  and duration preference
 team:

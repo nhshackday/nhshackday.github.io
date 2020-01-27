@@ -8,6 +8,7 @@ links:
   - https://github.com/ammarhaider7/nhs-hack-pwa
   presentation: https://docs.google.com/presentation/d/1GA-Xw-7bpEKqi5r4_2mM3HwwSDpzRYAjsEmRJBZeB04/view
   website: https://ammarhaider7.github.io/nhs-hack-pwa/
+  video: https://youtu.be/9BdrSaTKp54
 summary: A simple digital tool with goniometry to allow clinicians to prescribe rehab
   exercises and patients to self-perform and monitor recovery.
 team:

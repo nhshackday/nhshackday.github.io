@@ -2,6 +2,7 @@
 hackday: 23-cardiff
 links:
   presentation: https://1drv.ms/p/s!Ar8LFpzS380fvFojtbeKyTqSAnmK?e=E1OpIG
+  video: https://youtu.be/7Oy_FOQnt2w
 summary: 'A reverse image search to be used in multiple industries including missing
   persons, medical investigations and allergen identification. '
 team:
