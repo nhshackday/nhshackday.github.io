@@ -35,7 +35,7 @@ While it may be easy to get access to this data, it's subject to various terms a
 - [API for Food, Ingredients and Nutrition with Diet Restrictions. 130,000 packaged Products and 500,000 recipes](https://www.sensum.io/)
 - [NHS Safety Thermometer](http://www.ic.nhs.uk/webfiles/Services/Safety%20Thermometer/SafetyThermometer_Data_TermsOfUse_0512.pdf) - restrictions on use include "It must not be used to make public statements or pronouncements, or cause, or allow it to appear in public either directly or indirectly"
 - [NHS Comparators](http://www.ic.nhs.uk/nhscomparators) - only people with NHS or DH email address can sign up for an account
-- [NHS iView](http://www.ic.nhs.uk/services/nhs-iview) - lots of information, and some data is restricted
+- [NHS iView](https://digital.nhs.uk/services/iview-and-iviewplus) - lots of information, and some data is restricted
 - [Patient Opinion](http://www.patientopinion.org.uk/info/api) - [CC BY-NC-ND 3.0 ](https://creativecommons.org/licenses/by-nc-nd/3.0/deed.en) so no distributing derivative works
 
 ## Unknown Data
