@@ -5,5 +5,5 @@ logo: federation.png
 
 # Events sponsored denoted by `<hackday>` and sponsorship amount/resource
 events:
-  24-manchester: "Provided the venue"
+  24-manchester: "Kindly providing the venue"
 ---
