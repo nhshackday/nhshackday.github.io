@@ -88,7 +88,7 @@ The main answer to this is: come along to the next event and say hello.
 In the meantime:
 * We have an active [google group](https://groups.google.com/forum/#!forum/nhshackday)
 * Play with us on Twitter: [@NHSHackDay](https://twitter.com/NHSHackDay), [#nhshd](https://twitter.com/hashtag/nhshd)
-* Email us: [hello@openhealthcare.org.uk](mailto:hello@openhealthcare.org.uk)
+* Email us: <hello@nhshackday.com>
 
 {::comment}
 <a href="https://twitter.com/NHSHackDay" class="twitter-follow-button" data-show-count="false">@NHSHackDay</a>
