@@ -13,8 +13,8 @@ summary: A simple digital tool with goniometry to allow clinicians to prescribe 
   exercises and patients to self-perform and monitor recovery.
 team:
 - Ammar Haider
-- Javvad Haider
-- Sarah Wilkins
+- @javvad_haider
+- @sarahwilkins
 thumbnail: rehabify.png
 title: Rehabify
 ---
