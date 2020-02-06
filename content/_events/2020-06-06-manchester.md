@@ -10,7 +10,7 @@ hackday: "24-manchester"
 redirect_from:
   - /projects/24-manchester/
 
-tickets: 
+tickets: https://ti.to/nhshackday/24-manchester/
 pitches: 
 presentations: 
 ---
