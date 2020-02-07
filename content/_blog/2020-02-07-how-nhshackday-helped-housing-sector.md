@@ -1,5 +1,5 @@
 ---
-title: "How NHS HACKDAY helped the housing sector"
+title: "How NHS Hack Day helped the housing sector"
 subtitle: "A guest post by Scott Tandy"
 date: 2020-02-07
 header_image: post-1-banner.jpg
