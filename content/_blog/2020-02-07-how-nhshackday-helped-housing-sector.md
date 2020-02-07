@@ -1,6 +1,6 @@
 ---
-title: "My NHS Hack Day experience"
-subtitle: A guest blog post by Scott Tandy
+title: "How NHS HACKDAY helped the housing sector"
+subtitle: "Diary of a housing digital officer"
 date: 2020-02-07
 header_image: post-1-banner.jpg
 ---
