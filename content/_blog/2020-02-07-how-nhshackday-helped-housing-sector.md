@@ -19,7 +19,7 @@ My pitch – There are a lot of older people schemes and I would like to look at
 The team made up of Owen, Ashley, Tayo and me explored everything from size requirements of video display, screen mirroring from a tablet or Alexa, best way of promoting activities and keeping service users informed, to ease of use of setting up and using system.
   
   
-<a data-flickr-embed="true" href="https://www.flickr.com/photos/paul_clarke/49439269901/in/photostream" title="NHSHD_25Jan_084"><img src="https://live.staticflickr.com/65535/49439269901_4ca7f93186.jpg" width="500" height="333" alt="NHSHD_25Jan_084"></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
+<a data-flickr-embed="true" data-header="true" href="https://www.flickr.com/photos/paul_clarke/49439269901/in/photostream" title="NHSHD_25Jan_084"><img src="https://live.staticflickr.com/65535/49439269901_4ca7f93186.jpg" width="500" height="333" alt="NHSHD_25Jan_084"></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
   
   
 Having carried out a details analysis of current systems we agreed upon connecting a Portal TV from Facebook onto the free internet provided and into a TV set up in the communal lounges of the Independent Living Schemes. Setting up each of the schemes with a Facebook account and befriending each other would allow the Portal by Facebook to transform their TV into Video Conferencing.
