@@ -1,6 +1,6 @@
 ---
 title: "Organiser Notes"
-subtitle: "Each NHS Hackday is unique, but these guidelines might help you run your event. This is a living document."
+subtitle: "Each NHS Hack Day is unique, but these guidelines might help you run your event. This is a living document."
 permalink: /resources/organiser
 header_image: organiser_img.jpg
 image_credit: 
@@ -49,11 +49,13 @@ Try to make sure that there are no clashes with other events that will/should ha
 
 A non-exhaustive list of such events is:
 
-* UK Gov Camp
+* UKGovcamp
+* UK Health Camp
 * PyCon (UK/US)
 * Djangocon EU
 * Open Data Day
 * OpenTech
+* Rewired Conference
 
 Experience tells us that bank holiday w/ends are bad && reduce attendance thanks to people having family fun times planned. Do avoid these wherever possible.
 
@@ -128,7 +130,7 @@ We have also in the past actively refused sponsorship from organisations whose v
 
 What this tends to mean is that the best sponsors tend to be NHS organisations and small to medium tech companies who work with open source. They tend to be very light-handed on the publicity desires, while being exactly the kinds of things we'd like to publicise through NHS Hack Day.
 
-It is probably wise to check with Open Healthcare UK before approaching / accepting sponsors.
+It is a good idea to discuss potential sponsors with the NHS Hack Day organising committee before accepting sponsorship.
 
 [1] Within reason. It is not the Coca Cola NHS Hack Day.
 
@@ -266,5 +268,6 @@ Thank people. A list of potential thankees to consider:
 * The caterers
 * The sponsors
 * Whoever first discovered coffee
+* The people who helped make the event happen
 
 Direct people to any kind of post-event gathering, then grab your stuff, do as much/little tidying as required for the venue, encourage people to leave, then go have a well-deserved chill-out!
