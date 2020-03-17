@@ -4,7 +4,7 @@ city: "Manchester"
 organiser:
   - "NHS Hack Day Team"
 date: 2020-06-06
-date_end: 2020-06-07
+date_end: TBC
 hackday: "24-manchester"
 
 redirect_from:
