@@ -13,4 +13,6 @@ redirect_from:
 tickets: https://ti.to/nhshackday/24-manchester/
 pitches: 
 presentations: 
+
+hide_upcoming: true
 ---
