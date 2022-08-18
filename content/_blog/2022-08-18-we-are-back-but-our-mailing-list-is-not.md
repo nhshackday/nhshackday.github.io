@@ -7,7 +7,7 @@ header_image: post-1-banner.jpg
 
 > Tldr; Mailchimp deleted our mailing list without warning. [Subscribe](https://dashboard.mailerlite.com/forms/124997/63445041948918915/share) to our new mailing list to get notified about upcoming events. This post might help get our mailing list back.
 
-We are back! Sorry for the unplanned hiatus but wheels are turning and we should have something to announce soon about the next NHS Hack Day. However…
+We are back! After an unplanned hiatus the wheels are turning and we should have something to announce soon about the next NHS Hack Day. However…
 
 In the last ~8 months our mailing list provider Mailchimp deleted our account without notice or warning what follows is the 2022 edition of a series of posts from [2018](https://blog.rongarret.info/2018/12/mailchimp-deleted-my-account-with-no.html), [2019](http://danielpuglisi.com/articles/2019/05/mailchimp-deleted-my-account-with-no-warning-or-notification-2019-edition) and [2020](https://www.nrmitchi.com/2020/12/mailchimp-deleted-my-account-with-no-warning-or-notification-2020-edition/) that have catalogued Mailchimp deleting accounts because they aren’t sending enough emails.
 
