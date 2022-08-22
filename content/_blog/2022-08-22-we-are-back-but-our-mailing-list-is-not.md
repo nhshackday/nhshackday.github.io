@@ -13,7 +13,7 @@ In the last ~8 months our mailing list provider Mailchimp deleted our account wi
 
 Writing public posts seems to be the [only thing](https://blog.rongarret.info/2018/12/mailchimp-deleted-my-account-with-no.html) that has ever managed to make Mailchimp restore accounts that have been “permanently” deleted 🤞🏼. This is unlikely to happen for us so we have a new mailing list:
 
-{:class="centre"}
+{:style="text-align:centre"}
 <a href="https://dashboard.mailerlite.com/forms/124997/63445041948918915/share" class="btn btn-success">Join Mailing List</a>
 
 You should register on our mailing list if you are interested in the occasional (~3-4 per/year) news and announcement message about upcoming events and ticket releases.
