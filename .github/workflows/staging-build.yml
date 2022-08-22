@@ -1,0 +1,50 @@
+name: staging build of pull request (surge.sh)
+
+on:
+  pull_request:
+    branches: [ "main" ]
+
+jobs:
+  run:
+    name: Build & Deploy
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v3
+    
+    - name: Build using jekyll/builder container
+      run: |
+        docker run \
+        -v ${{ github.workspace }}:/srv/jekyll -v ${{ github.workspace }}/_site:/srv/jekyll/_site \
+        -e JEKYLL_ENV=travis -e NOKOGIRI_USE_SYSTEM_LIBRARIES=true \
+        jekyll/builder:latest /bin/bash -c "chmod -R 777 /srv/jekyll && jekyll build --future"
+    
+    - name: Install surge.sh client
+      run: npm install --global surge
+
+    - name: Set variables
+      run: |
+        # Split on "/", ref: http://stackoverflow.com/a/5257398/689223
+        GH_REPO_ARRAY=(${GITHUB_REPOSITORY//\// })
+        
+        # replaces "/" or "." with "-"
+        # sed -r is only supported in linux, ref http://stackoverflow.com/a/2871217/689223
+        # Domain names follow the RFC1123 spec [a-Z] [0-9] [-]
+        # The length is limited to 253 characters
+        # https://en.wikipedia.org/wiki/Domain_Name_System#Domain_name_syntax
+        REPO_NAME=`echo "${GH_REPO_ARRAY[1]}" | sed -r 's/[\/|\.]+/\-/g'`
+        
+        DEPLOY_DOMAIN=https://${{github.event.number}}-pr-${REPO_NAME}-${GITHUB_REPOSITORY_OWNER}.surge.sh
+        echo "DEPLOY_DOMAIN=${DEPLOY_DOMAIN}" >> $GITHUB_ENV
+      
+    - name: Deploy to surge.sh
+      env:
+        SURGE_LOGIN: ${{secrets.surge_login}}
+        SURGE_TOKEN: ${{secrets.surge_token}}
+      run: surge --project ${{ github.workspace }}/_site --domain $DEPLOY_DOMAIN
+    
+    - name: Comment on PR with link to build
+      env:
+        GH_TOKEN: ${{secrets.GITHUB_TOKEN}}
+        PR_URL: https://github.com/${{github.repository}}/pull/${{github.event.number}}
+      run: |
+        gh pr comment ${PR_URL} --body "Latest GitHub Actions automatic staging build of this PR: ${DEPLOY_DOMAIN}"

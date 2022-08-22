@@ -232,7 +232,7 @@ defaults
 - [How to contribute changes](#how-to-contribute-changes)
 - [How to set-up and run locally](#how-to-set-up-and-run-locally)
 - [How to use Docker and/or Docker Compose to run locally](#how-to-use-docker-andor-docker-compose-to-run-locally)
-- [Travis CI (automatic staging of Pull Requests)](#travis-ci-automatic-staging-of-pull-requests)
+- [GitHub Actions (automatic staging of Pull Requests)](#github-actions-automatic-staging-of-pull-requests)
 - [Testing on `newNHSHackdaySite.github.io`](#testing-on-newnhshackdaysitegithubio)
 
 ### How to contribute changes
@@ -322,32 +322,20 @@ docker run --rm -it
     nhshd-gh-pages
 ```
 
-### Travis CI (automatic staging of Pull Requests)
+### GitHub Actions (automatic staging of Pull Requests)
 
-_Note: automatic deployment only works if you have write permissions on the
-`nhshackday/nhshackday.github.io` repository and create Pull Requests from branches on
-the repository. This is due to the way
-[security restrictions](https://docs.travis-ci.com/user/pull-requests/#Pull-Requests-and-Security-Restrictions)
-on Travis CI works._
+_Note: automatic deployment only works if you have write permissions on the `nhshackday/nhshackday.github.io` repository and create Pull Requests from branches on the repository. This is due to the way [security restrictions](https://docs.github.com/en/actions/security-guides/encrypted-secrets#using-encrypted-secrets-in-a-workflow) on GitHub Actions works._
 
-To aid the usability of the Jekyll site and inspired by and adapted from
-[these](https://zonca.github.io/2013/09/automatically-build-pelican-and-publish-to-github-pages.html)
-[blogs](https://medium.com/onfido-tech/travis-surge-github-auto-deploy-every-pr-branch-and-tag-a6c8c790831f)
-[Travis CI](https://travis-ci.org/) is used to create and deploy automatic staging builds to [Surge.sh](http://surge.sh).
+To aid the usability of the Jekyll site and replacing the broken original [Travis CI](https://travis-ci.org/) implementation [GitHub Actions](https://docs.github.com/en/actions) are used to create and deploy automatic staging builds to [surge.sh](http://surge.sh). The [original](https://github.com/nhshackday/nhshackday.github.io/blob/ac32954ddf637b90d50fe636d711ec5691ba1904/README.md#travis-ci-automatic-staging-of-pull-requests) Travis CI implementation was  inspired by and adapted from [these](https://zonca.github.io/2013/09/automatically-build-pelican-and-publish-to-github-pages.html) [blogs](https://medium.com/onfido-tech/travis-surge-github-auto-deploy-every-pr-branch-and-tag-a6c8c790831f).
 
-The magic happens in `.travis.yml` and `_scripts/deploy.sh` for these to work Travis CI needs to be enabled
-and on the Travis CI [dashboard](https://travis-ci.org/nhshackday/nhshackday.github.io/settings) for the
-repository under `Settings` and `Environment Variables` the following need to be created:
-- `GITHUB_API_TOKEN` set this to the value of a `Personal Access Token` you have
-[generated](https://github.com/settings/tokens) with appropriately limited scopes e.g. `public_repo` this
-is used to post a comment to open Pull Requests using the GitHub API with the staging URL.
-- `SURGE_LOGIN` set this to the email address of the [Surge.sh](http://surge.sh) account to be used.
+The magic happens in `.github\workflows\staging-build.yml` for this to work the following `Environment Variables` need to be created for the repository under [`Settings > Secrets > Actions`](https://github.com/nhshackday/nhshackday.github.io/settings/secrets/actions):
+- `SURGE_LOGIN` set this to the email address of the [surge.sh](http://surge.sh) account to be used.
 - `SURGE_TOKEN` set this to the token issued by `surge token` for the account set in `SURGE_LOGIN`.
 
 ### Testing on `newNHSHackdaySite.github.io`
 
-**This is has been superseded by the automatic deployment of Pull Requests to [Surge.sh](http://surge.sh) using
-[Travis CI](https://travis-ci.org/) see [above](#travis-ci-automatic-staging-of-pull-requests)**
+**This is has been superseded by the automatic deployment of Pull Requests to [surge.sh](http://surge.sh) using
+[GitHub Actions](https://docs.github.com/en/actions) see [above](#github-actions-automatic-staging-of-pull-requests)**
 
 ```bash
 cd WHEREVER_ON_OUR_LOCAL_MACHINE
