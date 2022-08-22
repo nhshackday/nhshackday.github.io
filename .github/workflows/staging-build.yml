@@ -2,7 +2,7 @@ name: staging build of pull request (surge.sh)
 
 on:
   pull_request:
-    branches: [ "main" ]
+    branches: [ "master" ]
 
 jobs:
   run:
