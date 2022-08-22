@@ -1,7 +1,7 @@
 ---
 title: "We are back but our mailing list is not..."
 subtitle: "Subscribe to our new mailinglist"
-date: 2022-08-18
+date: 2022-08-22
 header_image: graphics_img.jpg
 ---
 
