@@ -10,7 +10,7 @@
 - _13:00_         Lunch
 - _18:00_         Exhausted Social/dinner/sleeps
 
-** Note there is no accomodation at the venue overnight
+**Note there is no accommodation at the venue overnight**
 
 </div><div>
 
