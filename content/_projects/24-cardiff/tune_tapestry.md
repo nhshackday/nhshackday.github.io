@@ -5,6 +5,7 @@ hackday: 24-cardiff
 links:
   presentation: https://docs.google.com/presentation/d/1alKukzKDTpZqZc4neLBSiGMDtawOwwrMlpgnKygsXxA/edit?usp=sharing
   website: https://devsind.com/music/
+  video: https://youtu.be/0deEpBzVT2s
 summary: A digital tool that crafts a personalised Spotify playlist based on your
   genre preference, and birthdate. Powered by music interest research
 team:

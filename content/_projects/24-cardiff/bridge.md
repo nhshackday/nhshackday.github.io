@@ -4,6 +4,7 @@ hackday: 24-cardiff
 links:
   presentation: https://www.beautiful.ai/player/-NVy48Ru1Ys08VtyY0ZS
   website: https://nhshackathon23-bridge.stackblitz.io
+  video: https://youtu.be/xGayhiakxBY
 summary: An app to allow family members to receive updates on their relative's inpatient
   care and location, cutting down phone calls to wards
 team:
