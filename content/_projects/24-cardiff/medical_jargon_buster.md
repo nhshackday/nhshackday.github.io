@@ -6,7 +6,7 @@ links:
   code:
   - https://landbot.io/
   presentation: https://docs.google.com/presentation/d/1PnGbKaxTtOWZkARysr4WVcE94lHzR1N54qMmJZjpwcE/edit?usp=sharing
-  website: mjb.softr.app
+  website: https://mjb.softr.app
 summary: Helping patients decipher medical jargon in clinical letters. Easier comprehension,
   peace of mind, and better treatment compliance.
 team:
