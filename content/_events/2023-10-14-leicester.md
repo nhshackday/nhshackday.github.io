@@ -8,6 +8,7 @@ date_end: 2023-10-15
 hackday: "25-leicester"
 
 header_image: post-2-banner.jpg
+image_credit: 
 
 redirect_from:
   - /projects/25-leicester/
