@@ -1,5 +1,5 @@
 ---
-venue: "Clinical Education Centre, Leicester Royal Infirmary"
+venue: "Hotel Brooklyn, 101 Welford Road, Leicester, LE2 7QS"
 city: "Leicester"
 organiser:
   - "NHS Hack Day Team"
