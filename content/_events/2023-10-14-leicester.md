@@ -15,6 +15,6 @@ redirect_from:
 
 tickets: https://ti.to/nhshackday/25-leicester/
 pitches: 
-presentations:
+presentations: https://forms.gle/tiQ3xtDsmKcdSbZh9
 
 ---
