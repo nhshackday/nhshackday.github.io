@@ -35,7 +35,11 @@ While it may be easy to get access to this data, it's subject to various terms a
 - [NHS iView](https://digital.nhs.uk/services/iview-and-iviewplus) - lots of information, and some data is restricted
 - [Patient Opinion](http://www.patientopinion.org.uk/info/api) - [CC BY-NC-ND 3.0 ](https://creativecommons.org/licenses/by-nc-nd/3.0/deed.en) so no distributing derivative works
 
+
+## Other APIs
 ---
+- [NHS website developer portal](https://developer.api.nhs.uk)
+- [TRUD - Technology reference update distribution](https://isd.digital.nhs.uk/trud/user/guest/group/0/home) - including [HTTP API](https://isd.digital.nhs.uk/trud/users/guest/filters/0/api)
 
 ---
 
@@ -78,6 +82,24 @@ While it may be easy to get access to this data, it's subject to various terms a
 - [CfH](http://www.connectingforhealth.nhs.uk/systemsandservices/data/clinicalcoding) - major classification schemes for disease and intervention (more for bean counting than clinicians or patients)
 - [NHS Data Hub](http://datahub.io/group/nhs)
 - [Government economic costing](http://data.gov.uk/sib_knowledge_box/toolkit) for various sectors, including healthcare, for example cost per GP visit
+
+## Open source healthcare software
+
+These open source code repositories provide APIs and access to health and care relevant datasets:
+
+- [clods](https://github.com/wardle/clods) - open source UK organisational data HTTP server and library 
+- [hermes](https://github.com/wardle/hermes) - open source SNOMED CT terminology server 
+- [hades](https://github.com/wardle/hades) - open source FHIR terminology server 
+- [deprivare](https://github.com/wardle/deprivare) - open source HTTP server for deprivation data in UK 
+- [dmd](https://github.com/wardle/dmd) - open source library and server to UK dm+d (dictionary of medicines and devices) data 
+- [codelists](https://github.com/wardle/codelists) - declarative code lists using SNOMED CT, ATC, ICD-10 and ECL 
+- [nhspd](https://github.com/wardle/nhspd) - Library and HTTP server for NHS/UK postal code data 
+- [ods-weekly](https://github.com/wardle/ods-weekly) - open source http server for GP data in each GP practice 
+- [nhs-number](https://github.com/wardle/nhs-number) - Clojure open source nhs number validation and generation library 
+- [nhs-number](https://github.com/uk-fci/nhs-number) - Python open source NHS number validation and generation library
+- [trud](https://github.com/wardle/trud) - Clojure library to simplify use of NHS's reference data TRUD 
+
+- [Royal College of Paediatrics and Child Health open source software repositories](https://github.com/rcpch) - including digital growth charts
 
 ## Wish list
 Things we'd love to have!
