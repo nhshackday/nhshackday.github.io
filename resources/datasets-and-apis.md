@@ -19,7 +19,6 @@ We're using [The Open Definition](http://opendefinition.org/) which can be summa
 - [NHS England Data Catalogue](https://data.england.nhs.uk/)
 - [Pubmed Central Open Access Subset](http://pmc.jensenlab.org/)
 - [SGUL's Linked Open Data repository. Academic API, SPARQL endpoint](http://data.sgul.ac.uk/)
-- [OpenODS - NHS Organisation API](http://www.openods.co.uk/) - API serving NHS organisational data under the Open Government Licence
 
 ---
 - [PHE Fingertips](https://fingertips.phe.org.uk)
@@ -32,30 +31,24 @@ We're using [The Open Definition](http://opendefinition.org/) which can be summa
 While it may be easy to get access to this data, it's subject to various terms and conditions that make it not [open](http://opendefinition.org/).
 
 - [NHS Choices -- limited range of datasets](http://www.nhs.uk/aboutNHSChoices/professionals/developments/Pages/NHSChoicesdatasets.aspx) (apply to [NHS](http://www.nhs.uk/aboutNHSChoices/professionals/syndication/Pages/Webservices.aspx) for API)
-- [API for Food, Ingredients and Nutrition with Diet Restrictions. 130,000 packaged Products and 500,000 recipes](https://www.sensum.io/)
 - [NHS Safety Thermometer](http://www.ic.nhs.uk/webfiles/Services/Safety%20Thermometer/SafetyThermometer_Data_TermsOfUse_0512.pdf) - restrictions on use include "It must not be used to make public statements or pronouncements, or cause, or allow it to appear in public either directly or indirectly"
-- [NHS Comparators](http://www.ic.nhs.uk/nhscomparators) - only people with NHS or DH email address can sign up for an account
 - [NHS iView](https://digital.nhs.uk/services/iview-and-iviewplus) - lots of information, and some data is restricted
 - [Patient Opinion](http://www.patientopinion.org.uk/info/api) - [CC BY-NC-ND 3.0 ](https://creativecommons.org/licenses/by-nc-nd/3.0/deed.en) so no distributing derivative works
 
-## Unknown Data
+
+## Other APIs
 ---
-- [A comprehensive health database with APIs](http://www.freebase.com/view/medicine)
-- [Assortment of APIs and other resources, mainly clinical knowledge](http://www.openclinical.org/dld_asbruInterpreter.html)
-- [NHS Choices API application](http://www.nhs.uk/aboutNHSChoices/professionals/syndication/Pages/Webservices.aspx)
+- [NHS website developer portal](https://developer.api.nhs.uk)
+- [TRUD - Technology reference update distribution](https://isd.digital.nhs.uk/trud/user/guest/group/0/home) - including [HTTP API](https://isd.digital.nhs.uk/trud/users/guest/filters/0/api)
 
 ---
 
 - [Infectious diseases - CDC](http://wwwnc.cdc.gov/travel)
-- [Infectious diseases - WHO](http://www.who.int/csr/don/en/index.html)
-- [Infectious diseases - HPA](http://www.hpa.org.uk/NewsCentre/%20MDTravel)
 - [Infectious diseases - MDTravel](http://mdtravelhealth.com/recent_health_alerts.php)
 - [Infectious diseases - Health Map](http://healthmap.org/en)
 
 ---
-
 - [APIs for SNOFyre](https://code.google.com/p/snofyre), a demonstrator tool for use with SNOMED CT clinical records for aggregation and analysis, giving a range of functions such as browsing the terminology
-- [SNOB](http://snob.eggbird.eu), a server for the 300,000 clinical terms found in SNOMED CT
 - [BioPortal](http://bioportal.bioontology.org), a quick way to support autocomplete on a problem list
 - [ALISS (Access to Local Information to Support Self-management - Scottish info)](https://docs.aliss.org/) - community assets of all sorts to help people live well with a long-term condition.
 - [Commissioning data packs](http://www.ic.nhs.uk/services/commissioning-data-packs)
@@ -89,6 +82,24 @@ While it may be easy to get access to this data, it's subject to various terms a
 - [CfH](http://www.connectingforhealth.nhs.uk/systemsandservices/data/clinicalcoding) - major classification schemes for disease and intervention (more for bean counting than clinicians or patients)
 - [NHS Data Hub](http://datahub.io/group/nhs)
 - [Government economic costing](http://data.gov.uk/sib_knowledge_box/toolkit) for various sectors, including healthcare, for example cost per GP visit
+
+## Open source healthcare software
+
+These open source code repositories provide APIs and access to health and care relevant datasets:
+
+- [clods](https://github.com/wardle/clods) - open source UK organisational data HTTP server and library 
+- [hermes](https://github.com/wardle/hermes) - open source SNOMED CT terminology server 
+- [hades](https://github.com/wardle/hades) - open source FHIR terminology server 
+- [deprivare](https://github.com/wardle/deprivare) - open source HTTP server for deprivation data in UK 
+- [dmd](https://github.com/wardle/dmd) - open source library and server to UK dm+d (dictionary of medicines and devices) data 
+- [codelists](https://github.com/wardle/codelists) - declarative code lists using SNOMED CT, ATC, ICD-10 and ECL 
+- [nhspd](https://github.com/wardle/nhspd) - Library and HTTP server for NHS/UK postal code data 
+- [ods-weekly](https://github.com/wardle/ods-weekly) - open source http server for GP data in each GP practice 
+- [nhs-number](https://github.com/wardle/nhs-number) - Clojure open source nhs number validation and generation library 
+- [nhs-number](https://github.com/uk-fci/nhs-number) - Python open source NHS number validation and generation library
+- [trud](https://github.com/wardle/trud) - Clojure library to simplify use of NHS's reference data TRUD 
+
+- [Royal College of Paediatrics and Child Health open source software repositories](https://github.com/rcpch) - including digital growth charts
 
 ## Wish list
 Things we'd love to have!
