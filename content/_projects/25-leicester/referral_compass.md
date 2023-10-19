@@ -9,7 +9,7 @@ team:
   - "Vaish Khullar"
 links:
   presentation: https://docs.google.com/presentation/d/1x1wH4-S3qwMWxt7wemxbjwpMLG7yabp0ClM7dr_bnjQ/edit?usp=sharing
-  video:
+  video: https://youtu.be/bgd2v7eWkTI
   code:
     - "https://jc-organization.gitbook.io/rc/"
     - "https://docs.google.com/spreadsheets/d/15DHaefWMAhT0skr-KBIRLb-QS8ctFdPeqq54JnrhjcQ"
