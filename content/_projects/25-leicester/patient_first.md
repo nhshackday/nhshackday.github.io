@@ -11,7 +11,7 @@ team:
   - "Tim Wisniewski"
   - "Shakthi Nandakumar"
 links:
-  video:
+  video: https://youtu.be/AfyhFZ5c8KA
   website: https://wn0znautvmp.typeform.com/to/aVclrNfR
   code:
     - "https://github.com/timwis/patient_first"

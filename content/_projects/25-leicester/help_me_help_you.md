@@ -10,5 +10,5 @@ team:
   - "Sarah Forster"
 links:
   presentation: https://docs.google.com/presentation/d/1XS4Xv8X4Pxe1uxuplsdX3Z4-4WZJV0ovX_NXj3VEp08/edit?usp=sharing
-  video:
+  video: https://youtu.be/U95BqmpK5_0
 ---

@@ -10,7 +10,7 @@ team:
   - "@blu3id"
 links:
   presentation: https://docs.google.com/presentation/d/1sA35sm8zodzAoyAfPADubwdhEH0n6qMC/edit
-  video:
+  video: https://youtu.be/cnUu_cD-yJk
   code:
     - "https://github.com/alanmeeson/rota_planning"
 ---
