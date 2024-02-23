@@ -18,7 +18,7 @@ team:
         }
     - {
       name: "Matt Stibbs",
-      photo: "matts.png",
+      photo: "matts.jpg",
       bio: "Digital health tech and product person, and long-standing geek :)",
       social: {
           twitter: "http://twitter.com/mattstibbs"
