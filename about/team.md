@@ -9,6 +9,22 @@ image_credit:
 
 team:
     - {
+      name: "Anne Marie Cunningham",
+      photo: "amc.jpg",
+      bio: "GP and Primary Care Clinical Director at Aneurin Bevan University Health Board",
+      social: {
+          twitter: "http://twitter.com/amcunningham"
+          }
+        }
+    - {
+      name: "Matt Stibbs",
+      photo: "matts.jpg",
+      bio: "Digital health tech and product person, and long-standing geek :)",
+      social: {
+          twitter: "http://twitter.com/mattstibbs"
+          }
+        }  
+    - {
         name: "Carl Reynolds",
         photo: "carl.jpg",
         bio: "Founder of NHS Hack Day, NIHR Academic Clinical Fellow at Imperial College Healthcare NHS Trust",
@@ -22,14 +38,6 @@ team:
         bio: "Managing Director, Open Healthcare UK",
         social: { 
             twitter: "https://twitter.com/thatdavidmiller"
-            }
-        }
-    - {
-        name: "Anne Marie Cunningham",
-        photo: "amc.jpg",
-        bio: "GP and Primary Care Clinical Director at Aneurin Bevan University Health Board",
-        social: {
-            twitter: "http://twitter.com/amcunningham"
             }
         }
     - {
