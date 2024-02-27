@@ -9,4 +9,5 @@ events:
   13-london: "£300"
   23-cardiff: ""
   25-leicester: ""
+  26-london: "£300"
 ---
