@@ -4,5 +4,5 @@ link: https://ufonia.com/
 
 # Events sponsored denoted by `<hackday>` and sponsorship amount/resource
 events:
-  26-london: "For the refreshments"
+  26-london: ""
 ---
