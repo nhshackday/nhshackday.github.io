@@ -2,7 +2,7 @@
 hackday: "26-london"
 title: "ScheDoula"
 summary: "Revolutionising healthcare by automating surgical workflows, optimising theatre lists, and enhancing patient experiences with real-time data."
-thumbnail: gaitmed.png
+thumbnail: schedoula.png
 team:
   - "George Harris"
   - "Jakob Mathiszig-Lee"
