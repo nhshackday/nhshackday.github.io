@@ -11,7 +11,7 @@ team:
   - "Shaunak Sahu"
   - "Roomi Chowdhury"
 links:
-  presentation: [https://docs.google.com/presentation/d/1GFhFnLsk7mLCfcDVO-UUQw1_Pl9AU_eb41xRc5u132E/edit](https://docs.google.com/presentation/d/13ZBCWC45UNULkRqLsMuxEAOj7kOkU_6hnL3ypHEV64s/edit?pli=1#slide=id.g2bc44259bdf_6_58)
+  presentation: https://docs.google.com/presentation/d/13ZBCWC45UNULkRqLsMuxEAOj7kOkU_6hnL3ypHEV64s
   video: https://youtu.be/or1zPvGq1Ow
 about: "Introducing ScheDoula, a revolutionary application poised to revolutionize theater scheduling within healthcare settings. ScheDoula leverages cutting-edge automation to address the inefficiencies commonly encountered in healthcare facility operations, particularly in theater scheduling.
 
