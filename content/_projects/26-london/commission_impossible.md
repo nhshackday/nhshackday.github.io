@@ -18,4 +18,5 @@ team:
 links:
   website: https://nhscommissionimpossible.streamlit.app
   presentation: https://docs.google.com/presentation/d/1P15N6yDPPqMnaB-FhJZAfVeicXM56vFzYk2X6u7Lvh0/edit?usp=sharing
+  video: https://youtu.be/XPQe3WuAMEg
 ---

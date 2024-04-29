@@ -12,4 +12,5 @@ team:
 - Faris Nadeem
 links:
   presentation: https://docs.google.com/presentation/d/1QT8iRI9HofFJD9rkbOMdmSho03TWyPQLHUieKk-7C0c/edit
+  video: https://youtu.be/EQiOc3JJjfE
 ---

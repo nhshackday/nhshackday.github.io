@@ -10,4 +10,5 @@ team:
 - Josephine Bates
 links:
   presentation: https://docs.google.com/presentation/d/1QgsmBa9V5S5mqVXh2rK1srGj7JkbVcq77Kg8NFuVG6A/edit
+  video: https://youtu.be/wBc3TtNexLM
 ---

@@ -10,6 +10,7 @@ team:
 - Tim Wisniewski
 links:
   presentation: https://docs.google.com/presentation/d/1-Az7LLsmaDxNWQGBuDGfOPMT_L5JMRWSeSSXjkW5dHo/edit
+  video: https://youtu.be/LVAcjzKLw74
   code:
   - https://github.com/timwis/rare-together
 about: "Our app helps patients and clinicians. For patients it helps to build a strong

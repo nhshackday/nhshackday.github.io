@@ -13,4 +13,5 @@ team:
 links:
   website: https://potential-one-255396.framer.app
   presentation: https://docs.google.com/presentation/d/1I1O_ELGX4R363mOdkW0k0yDasgX3MxAPilfiXCJfaF0/edit
+  video: https://youtu.be/-t5o8aVRmo4
 ---

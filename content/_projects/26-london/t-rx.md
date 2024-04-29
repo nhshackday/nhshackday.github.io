@@ -21,4 +21,5 @@ team:
 - Vivian Leong
 links:
   presentation: https://docs.google.com/presentation/d/10UhHT3FJiU1hTQo6I5nztUEsg6EKXinnH3bTrRrwVk0/edit
+  video: https://youtu.be/6k8wO4SlVDA
 ---

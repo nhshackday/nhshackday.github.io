@@ -11,4 +11,5 @@ team:
 - Ann Augustin
 links:
   presentation: https://docs.google.com/presentation/d/1aDKSrPUkc1i-VhrM6IZrD1bsF5UjcvOhO8l1ZmcpP_Y/edit#slide=id.g2bc4d75049c_1_488
+  video: https://youtu.be/exjeO6C6GcU
 ---
