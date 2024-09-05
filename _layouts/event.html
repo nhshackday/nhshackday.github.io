@@ -16,7 +16,29 @@ layout: base
 {% endif %}
 {% capture subtitle %}Held at {{ page.venue }}, {{ page.city }} organised by {{ page.organiser | join: ', ' }}{% endcapture %}
 {% include title.html title=title subtitle=subtitle %}
+
 <div class="content">
+    
+    {% assign sponsors = site.sponsors | where_exp:"item", "item.events[page.hackday]" %}
+    {% if sponsors.size > 0 %}
+    <h2>Supporters</h2>
+    <h3>NHS Hack Day would not be possible without the help of our excellent supporters.</h3>
+    <ul class="sponsors">
+        {% for sponsor in sponsors %}
+        <li>
+            {% if sponsor.link %}<a href="{{ sponsor.link }}" target="_blank">{% endif %}
+                {% if sponsor.logo %}
+                <img width="160" alt="{{ sponsor.title }}" title="{{ sponsor.title }}" src="/assets/images/sponsors/{{ sponsor.logo }}">
+                {% else %}
+                {{ sponsor.title }}
+                {% endif %}
+            {% if sponsor.link %}</a>{% endif %}
+            <span>{{ sponsor.events[page.hackday] }}</span>
+        </li>
+        {% endfor %}
+    </ul>
+    {% endif %}
+
     {% if end >= current_time or end == 86400 %}
         {% capture on-the-day %}{% include on-the-day.md %}{% endcapture %}
         {{ on-the-day | markdownify }}
@@ -42,23 +64,4 @@ layout: base
     <p>Unfortunatly we don't have any info on the Projects at this event. If you can help us fill in the blanks <a href="/contact">let us know</a> or submit a <a href="https://github.com/nhshackday/nhshackday.github.io/">pull request</a>.</p>
     {% endif %}
 
-    {% assign sponsors = site.sponsors | where_exp:"item", "item.events[page.hackday]" %}
-    {% if sponsors.size > 0 %}
-    <h2>Supporters</h2>
-    <h3>NHS Hack Day would not be possible without the help of our excellent supporters.</h3>
-    <ul class="sponsors">
-        {% for sponsor in sponsors %}
-        <li>
-            {% if sponsor.link %}<a href="{{ sponsor.link }}" target="_blank">{% endif %}
-                {% if sponsor.logo %}
-                <img width="160" alt="{{ sponsor.title }}" title="{{ sponsor.title }}" src="/assets/images/sponsors/{{ sponsor.logo }}">
-                {% else %}
-                {{ sponsor.title }}
-                {% endif %}
-            {% if sponsor.link %}</a>{% endif %}
-            <span>{{ sponsor.events[page.hackday] }}</span>
-        </li>
-        {% endfor %}
-    </ul>
-    {% endif %}
 </div>
