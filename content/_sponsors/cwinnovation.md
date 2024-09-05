@@ -1,7 +1,7 @@
 ---
 title: "CW Innovation"
 link: https://www.cwplus.org.uk/our-work-category/cw-innovation/
-logo: "cwinnovation.png"
+logo: "cwinnovation.jpg"
 
 # Events sponsored denoted by `<hackday>` and sponsorship amount/resource
 events:
