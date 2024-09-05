@@ -44,7 +44,7 @@ layout: base
 
     {% assign sponsors = site.sponsors | where_exp:"item", "item.events[page.hackday]" %}
     {% if sponsors.size > 0 %}
-    <h2>Sponsors</h2>
+    <h2>Supporters</h2>
     <h3>NHS Hack Day would not be possible without the help of our excellent supporters.</h3>
     <ul class="sponsors">
         {% for sponsor in sponsors %}
