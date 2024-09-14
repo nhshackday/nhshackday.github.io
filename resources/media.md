@@ -11,9 +11,11 @@ social_links: true
 ---
 
 ## Photo collections
-- [Paul Clarke's Flickr](https://flickr.com/photos/paul_clarke): NHS Hack Day 23, Cardiff - [Photos from Day One](https://flickr.com/photos/paul_clarke/albums/72157712828771766) and [Photos from Day Two](https://flickr.com/photos/paul_clarke/albums/72157712841427697)
+- Paul Clarke's Flickr: NHS Hack Day 23, Cardiff: [Photos from Day 1 (25th January 2020)](https://www.flickr.com/photos/paul_clarke/albums/72157712828771766/) and [Photos from Day 2 (26th January 2020)](https://www.flickr.com/photos/paul_clarke/albums/72157712841427697/)
+- Paul Clarke's Flickr: NHS Hack Day 12, Cardiff: [Photos from Day 1 (30th January 2016)](https://www.flickr.com/photos/paul_clarke/albums/72157663924567942/) and [Photos from Day 2 (31st January 2016)](https://www.flickr.com/photos/paul_clarke/albums/72157663989782441/)
+- Paul Clarke's Flickr: NHS Hack Day 9, Cardiff: [Photos from Day 1 (24th January 2015)](https://www.flickr.com/photos/paul_clarke/albums/72157650042039338/) and [Photos from Day 2 (25th January 2015)](https://www.flickr.com/photos/paul_clarke/albums/72157650456182132/)
 - [Laith David Rawaf's Flickr: NHS Hack Day 7, London](https://secure.flickr.com/photos/124883688@N03/sets/72157644826703282/)
-- [Paul Clarke's Flickr: NHS Hack Day 6, Cardiff](http://www.flickr.com/photos/paul_clarke/12153390494/in/set-72157640139264593/)
+- [Paul Clarke's Flickr: NHS Hack Day 6, Cardiff (25th & 26th January 2014)](https://www.flickr.com/photos/paul_clarke/albums/72157640139264593/)
 - [Dropbox: NHS Hack Day 4, London](https://www.dropbox.com/sh/s6jne1e5sm0xii4/gj5mRAHGDN)
 - [Rob Dyke's photos from NHS Hack Day 3, Oxford](http://robdyke.com/rdb/2013/01/28/photos-from-nhs-hackday/)
 - [Dropbox: NHS Hack Day 3, Oxford](https://www.dropbox.com/sh/vibpbbncmxggx9x/qbsDvhUxPS)
