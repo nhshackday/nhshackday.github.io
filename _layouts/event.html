@@ -19,6 +19,10 @@ layout: base
 
 <div class="content">
     
+    {% if page.extra %}
+        {{ page.extra | markdownify }}
+    {% endif %}
+
     {% assign sponsors = site.sponsors | where_exp:"item", "item.events[page.hackday]" %}
     {% if sponsors.size > 0 %}
     <h2>Supporters</h2>
