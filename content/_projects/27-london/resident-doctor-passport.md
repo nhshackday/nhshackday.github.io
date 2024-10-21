@@ -2,7 +2,7 @@
 hackday: "27-london"          # <hackday> slug for event project was presented at
 title: "Resident Doctor Passport"           # Project Name
 summary: "A digital solution to the repetitive pre-employment checks which rotating resident doctors must complete multiple times per year. "        # Short summary ideally ~50 words
-thumbnail:                      # Thumbnail image stored in `/assets/images/projects/<hackday>/<thumbnail>`
+thumbnail: "RDP_screenshot_demo.png"                     # Thumbnail image stored in `/assets/images/projects/<hackday>/<thumbnail>`
 header_image:                   # Header image stored in `/assets/images/projects/<hackday>/<header_image>`
 image_credit: []                # Image credit remove [] if using and uncomment following lines
 #- Credit:
