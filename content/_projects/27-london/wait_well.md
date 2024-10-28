@@ -17,4 +17,5 @@ links:
   presentation: https://docs.google.com/presentation/d/1_fQURncQYDFune-UCZHlY2KlavkxtVAwaDfRrPqePtY/edit?usp=sharing
   code:
     - https://github.com/stefpiatek/mental-health-wait-times
+  video: https://youtu.be/GLhMdsvVWog
 ---

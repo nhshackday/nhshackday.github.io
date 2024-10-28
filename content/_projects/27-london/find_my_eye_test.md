@@ -19,4 +19,5 @@ links:
   presentation: https://docs.google.com/presentation/d/1BKtJMQMUK8xTMvD9o4QULf7hIfSgVrwx/
   code:
     - https://github.com/regulate-tech/findmyeyetest
+  video: https://youtu.be/9NBcCVahceA
 ---

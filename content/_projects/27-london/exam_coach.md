@@ -18,4 +18,5 @@ about:
   from a resident doctor inputting a case summary from their day
 links:
   presentation: https://docs.google.com/presentation/d/1AJWCQdPsFOI1en_-582YIRT4MX8lsczSXaaiWDLS7HU/edit#slide=id.p
+  video: https://youtu.be/W4R1zmyPlF4
 ---

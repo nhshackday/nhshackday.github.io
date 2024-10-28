@@ -15,4 +15,5 @@ links:
   presentation: https://docs.google.com/presentation/d/1RRF1YmXreoUzeNG68hy_VqBOVkRi6E3eDmvl6As2ggs/edit?usp=sharing
   code:
     - https://nhshd.slack.com/archives/C07RE4FRR2A/p1728743144548829
+  video: https://youtu.be/ocsILAheU80
 ---

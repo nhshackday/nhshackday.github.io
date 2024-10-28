@@ -11,4 +11,5 @@ team:
 links:
   website: https://nicu-northmid.azurewebsites.net/
   presentation: https://docs.google.com/presentation/d/15u0tZlOYu4F2D3oHxGVkkGQTPsG9auhuLalMEaVf1rg/edit?usp=sharing
+  video: https://youtu.be/v_4zAcWAzwo
 ---

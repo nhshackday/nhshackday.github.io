@@ -28,5 +28,6 @@ about:
   Patient can also ask doctor about their risk of hereditary diseases and GP can
   confirm."
 links:
-  presentation: "https://docs.google.com/presentation/d/1L4c3b1XiJEN8M8eTuDvZiRt_3Xg_xgahhlwuRFv8SKY/edit?usp=sharing "
+  presentation: "https://docs.google.com/presentation/d/1L4c3b1XiJEN8M8eTuDvZiRt_3Xg_xgahhlwuRFv8SKY/"
+  video: https://youtu.be/K1D1uhSlR6c
 ---

@@ -30,4 +30,5 @@ links:
   presentation: https://gamma.app/docs/Medical-Data-A-New-Era-of-Patient-Empowerment-1b93002g9xyit5d
   code:
     - https://github.com/krumpverse/imageequity
+  video: https://youtu.be/xmVqtlxlHn4
 ---
