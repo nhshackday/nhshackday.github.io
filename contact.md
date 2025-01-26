@@ -14,12 +14,12 @@ image_credit:
 {:class="indent"}
 Please email: <hello@nhshackday.com>
 
-{:class="fa fa-twitter"}
-### Twitter <small>Follow us and say hello !</small>
+{:class="fa fa-comment"}
+### Bluesky <small>Follow us and say hello !</small>
 
 {:class="indent"}
-[@NHSHackDay](https://twitter.com/nhshackday)  
-[#nhshd](https://twitter.com/search?q=%23nhshd)
+[@nhshackday.com](https://bsky.app/profile/nhshackday.com)  
+[#nhshd](https://bsky.app/hashtag/nhshd)
 
 {:class="fa fa-list-alt"}
 ### Google group <small>Low volume, threaded discussions</small>
@@ -32,4 +32,11 @@ Please email: <hello@nhshackday.com>
 
 {:class="indent"}
 [Workspace](https://nhshd.slack.com/)  
-[Join Workspace](https://nhshackday.herokuapp.com)
+[Join Workspace](/join-slack)
+
+{:class="fa fa-twitter"}
+### Twitter <small>(Legacy)</small>
+
+{:class="indent"}
+[@NHSHackDay](https://twitter.com/nhshackday)  
+[#nhshd](https://twitter.com/search?q=%23nhshd)

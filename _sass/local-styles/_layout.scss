@@ -217,7 +217,7 @@ hr {
     background: #222222;
     color: #ccc;
     margin-top: 40px;
-    min-height: 345px;
+    min-height: 270px;
     position: absolute;
     bottom: 0;
     width: 100%;
@@ -260,6 +260,7 @@ hr {
     .right {
         padding-left: 30px;
         box-sizing: border-box;
+        float: right;
 
         @media screen and (max-width: 1000px) {
             padding-right: 20px;
@@ -269,6 +270,7 @@ hr {
             max-width: 520px;
             margin-left: auto;
             margin-right: auto;
+            float: none;
 
             input {
                 margin-bottom: 0 !important;
