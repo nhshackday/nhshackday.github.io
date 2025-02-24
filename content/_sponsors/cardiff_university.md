@@ -6,4 +6,5 @@ logo: "cardiff_university.svg"
 # Events sponsored denoted by `<hackday>` and sponsorship amount/resource
 events:
   23-cardiff: "For the Venue"
+  28-cardiff: ""
 ---
