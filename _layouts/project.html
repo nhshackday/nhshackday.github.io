@@ -55,9 +55,17 @@ layout: base
         {% endif %}
 
         {% if page.team.size > 0 %}
+            {% for member in page.team %}
+            {% if member contains '@' %}
+            {% assign twitter = "true" %}
+            {% else %}
+            {% endif %}
+            {% endfor %}
+            {% if page.email or twitter == "true"%}
             <hr>
             <h2>Contact</h2>
             <p>
+                {% if twitter == "true" %}
                 Twitter: 
                 {% for member in page.team %}
                 {% if member contains '@' %}
@@ -65,11 +73,13 @@ layout: base
                 {% else %}
                 {% endif %}
                 {% endfor %}
+                {% endif %}
                 {% if page.email %}
                 <br>
                 Email: <a href="mailto:{{ page.email }}">{{ page.email }}</a>
                 {% endif%}
             </p>
+            {% endif %}
         {% endif %}
     {% endif%}
 </div>
