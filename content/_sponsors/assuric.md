@@ -1,7 +1,7 @@
 ---
 title: "Assuric"
 link: https://www.assuric.com/
-logo: "assuric.svg"
+logo: "assuric.png"
 
 # Events sponsored denoted by `<hackday>` and sponsorship amount/resource
 events:
