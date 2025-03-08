@@ -14,4 +14,5 @@ about: An NHS app designed to place non-urgent patients into a virtual queue, he
 links:
   website: https://joshuarobertson.github.io/virtual-queue/
   presentation: https://docs.google.com/presentation/d/1x5xtyvVxsMUhEqYvR-57mZwnvPaAtfV24uEG-gPXVkM/edit?usp=sharing
+  video: https://youtu.be/K2F6jnvLU7Q
 ---

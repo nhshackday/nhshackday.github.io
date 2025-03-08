@@ -15,4 +15,6 @@ links:
   presentation: https://docs.google.com/presentation/d/1yv-Z7dkgwGSFPhhatbqyh9G2dwqbfLXs-8ANtHi_Gkg/edit?usp=sharing
   code:
   - https://github.com/sts-ryan-holton/nhs-hackday-2025
+  video: https://youtu.be/7S4zOW5uU2c
+rank-community: 1
 ---

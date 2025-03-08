@@ -20,4 +20,5 @@ about: "Our app’s purpose was originally just to provide AI powered diagnosis 
 links:
   website: https://www.figma.com/proto/u9qBxB2cr4SQWdCf6lecS1/Untitled?node-id=1-1000&p=f&t=KjyMV0L6mbxqogxj-1&scaling=min-zoom&content-scaling=fixed&page-id=1%3A2&starting-point-node-id=1%3A1000
   presentation: https://cf-my.sharepoint.com/:p:/g/personal/shannonci_cardiff_ac_uk/EVHYQD4Lmw1NiEZtb7Mf3ikBH7zHtloeAI8r3MX9gZDg9Q?e=fjiBbr
+  video: https://youtu.be/YGaewrTMwD4
 ---

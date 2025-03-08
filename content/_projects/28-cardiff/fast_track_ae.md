@@ -16,4 +16,5 @@ about: "The original idea was to try and minimise time for patients in the waiti
   using different scenarios using patient pathways and using assets/staff differently"
 links:
   presentation: https://docs.google.com/presentation/d/1-4i7pG2h7DHCHwkvqCCinRaqZZVFF7-XuHiiNy6AWos/edit?usp=drivesdk
+  video: https://youtu.be/J0ezO7EfKog
 ---

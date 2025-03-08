@@ -18,4 +18,5 @@ links:
   presentation: https://docs.google.com/presentation/d/1lGM78yc9C3HtYwZcL67pZjPsxXoJXUnBz933_mdb4QU/edit?usp=drivesdk
   code:
   - https://github.com/alexbal/nhs-hackday-2025-03
+  video: https://youtu.be/o8i4M6mnvTU
 ---

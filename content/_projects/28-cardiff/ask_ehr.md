@@ -24,4 +24,7 @@ about: Currently there is a wealth of valuable information information contained
 links:
   website: https://ask-ehr.streamlit.app/
   presentation: https://docs.google.com/presentation/d/1R0HAB4eqGVRVDKtjbmNygYjhW21yLxVn/edit?usp=drive_link&ouid=101605606438798103838&rtpof=true&sd=true
+  video: https://youtu.be/fyWDc6n2QXc
+rank-panel: 2
+rank-community: 3
 ---

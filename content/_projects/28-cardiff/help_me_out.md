@@ -18,4 +18,7 @@ about: We have been developing a needs based application to support people to be
   to specify total route restrictions (such as total elevation).
 links:
   presentation: https://docs.google.com/presentation/d/1vvht37MXhhH8l3VOEbaH0TQLagEX2S53S95QFeHkWvg/edit?usp=sharing
+  video: https://youtu.be/LHglJZ5OlMo
+rank-panel: 1
+rank-community: 2
 ---

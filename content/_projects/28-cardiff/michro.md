@@ -12,4 +12,5 @@ about: We use ML to turn wearables and patient-reported data into real-time, NHS
   to the right care before issues escalate.
 links:
   presentation: https://www.canva.com/design/DAGgfl6VY5U/ydTehsBhx8633-ZQRZ63_w/edit
+  video: https://youtu.be/SOEoCKYGvOA
 ---

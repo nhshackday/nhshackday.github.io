@@ -47,5 +47,7 @@ links:
   website: https://guidelines.fyi/
   presentation: https://guidelines.fyi/
   code:
+  - https://github.com/hackday-gitwellsoon/
   - https://api.guidelines.fyi/admin/
+  video: https://youtu.be/br2BJAzOmeM
 ---

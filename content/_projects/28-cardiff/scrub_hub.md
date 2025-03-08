@@ -19,4 +19,5 @@ about: Django web app with a postgress backend, which uses open source technolog
   all hospitals across the UK.
 links:
   presentation: https://cf-my.sharepoint.com/:p:/r/personal/fishelevav_cardiff_ac_uk/Documents/scrubhubpresentation.pptx?d=we0279b0f10bc4420a98f55f168b9e6c6&csf=1&web=1&e=0E2KE3
+  video: https://youtu.be/D-Gs0MAA_ws
 ---

@@ -20,4 +20,5 @@ links:
   presentation: https://docs.google.com/presentation/d/1mxXiayYKJSV1ikdIsHJkul_y0AXR5Igz2zxpfFfgI78/edit
   code:
   - https://github.com/thomasbeck95/CTM
+  video: https://youtu.be/ToglClB814c
 ---
