@@ -1,3 +1,7 @@
+**Sign up to our mailing list for a notification when tickets become available:**
+
+<a href="https://dashboard.mailerlite.com/forms/124997/63445041948918915/share" target="_blank" class="btn btn-info">Join Mailing List</a>
+
 ## Overview
 
 {::options parse_block_html="true" /}
