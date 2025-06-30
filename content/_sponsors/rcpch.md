@@ -1,10 +1,9 @@
 ---
-title: Kainos
-link: http://www.kainos.com
-logo: kainos.png
+title: "Royal College of Paediatrics and Child Health"
+link: https://www.rcpch.ac.uk/
+logo: "rcpch.png"
 
 # Events sponsored denoted by `<hackday>` and sponsorship amount/resource
 events:
-  01-london: "Raspberry Pi"
   29-belfast: ""
 ---
