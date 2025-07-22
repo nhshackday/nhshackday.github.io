@@ -1,6 +1,6 @@
 ---
 title: "Team"
-subtitle: "Some of the people behind NHS Hack Day"
+subtitle: "Some of the current people behind NHS Hack Day"
 header_image: graphics_img.jpg
 image_credit: 
   - Credit: "Paul Clarke"
@@ -23,33 +23,6 @@ team:
       social: {
           twitter: "http://twitter.com/mattstibbs"
           }
-        }  
-    - {
-        name: "Carl Reynolds",
-        photo: "carl.jpg",
-        bio: "Founder of NHS Hack Day, NIHR Academic Clinical Fellow at Imperial College Healthcare NHS Trust",
-        social: {
-            twitter: "https://twitter.com/drcjar"
-            }
-        }
-    - {
-        name: "David Miller",
-        photo: "david.jpg",
-        bio: "Managing Director, Open Healthcare UK",
-        social: { 
-            twitter: "https://twitter.com/thatdavidmiller"
-            }
-        }
-    - {
-        name: "Helen Jackson",
-        photo: "helen.jpg",
-        bio: "Grad-entry medical student at King's College London, RCPsych Pathfinder Fellow, researcher",
-        social: {
-            facebook: "https://www.facebook.com/helenmaryjackson", 
-            twitter: "https://twitter.com/deckofpandas",
-            linkedin: "https://uk.linkedin.com/in/helenmaryjackson",
-            github: "https://github.com/DeckOfPandas"
-            }
         }
 ---
 

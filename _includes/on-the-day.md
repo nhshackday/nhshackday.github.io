@@ -1,7 +1,3 @@
-## Sign up to our mailing list for a notification when tickets get released:
-
-<p style="text-align:center;width:100%;"><a href="/subscribe" target="_blank" class="btn btn-success">Join Mailing List</a></p>
-
 ## Overview
 
 {::options parse_block_html="true" /}
