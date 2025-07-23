@@ -11,5 +11,10 @@ layout: compress
   <noscript><meta http-equiv="refresh" content="0; url={{ link }}"></noscript>
   <h3>Redirecting…</h3>
   <p>Click <a href="{{ link }}">here</a> if you are not redirected.</p>
-  <script>window.opener = null; location.replace('{{ link }}')</script>
+  <script>
+    let params = new URLSearchParams(document.location.search);
+    let source = params.get("src");
+    let link = (source != null) ? "{{ link }}?source=" + source : "{{ link }}";
+    window.opener = null; location.replace(link)
+  </script>
 </html>
