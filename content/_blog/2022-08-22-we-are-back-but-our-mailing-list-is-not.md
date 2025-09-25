@@ -5,7 +5,7 @@ date: 2022-08-22
 header_image: graphics_img.jpg
 ---
 
-> Tldr; Mailchimp deleted our mailing list without warning. [Subscribe](https://dashboard.mailerlite.com/forms/124997/63445041948918915/share) to our new mailing list to get notified about upcoming events.
+> Tldr; Mailchimp deleted our mailing list without warning. [Subscribe](/subscribe) to our new mailing list to get notified about upcoming events.
 
 We are back! After an unplanned hiatus the wheels are turning and we should have something to announce soon about the next NHS Hack Day. However…
 
