@@ -26,7 +26,7 @@ A pitch is a short opportunity for a person to share a project idea to tempt oth
 
 At the start of NHS Hack Day, anyone with a problem or project they think might be interesting to other attendees can speak for up to 60 seconds to explain it to the rest of the group.
 
-Based on these short pitches, other attendees decide what they’d like to spend time on on during the weekend.
+Based on these short pitches, other attendees decide what they’d like to spend time on during the weekend.
 
 The pitches are short, and so it is not possible to use slides or to show demos on the projector. This is almost always a good thing -- you can focus on making your explanation as clear to as many people as possible.
 
@@ -38,9 +38,11 @@ If you really need to show something (seriously, you probably don't), you could 
 
 Short answer: Anyone.
 
-Longer answer: This is an opportunity for anyone with an idea that they'd like to explore, or a problem they have in their day-to-day work, to tell a room full of smart and motivated people about it, with the aim of coming up with a joint solution, or even 'just' some more information about the problem.
+Longer answer: This is an opportunity for anyone with an idea that they'd like to explore, or a problem they have in their day-to-day work or life, to tell a room full of smart and motivated people about it, with the aim of coming up with a joint solution, or even 'just' some more information about the problem.
 
-The weekend will be a great opportunity for you to learn about what other people in your sector are doing, and how they’re addressing the problems they face; but of course this will work best if everyone buys in.<br>
+That includes patients and carers, as well as health, care, community, voluntary-sector and housing professionals—anyone who sees a problem first-hand and wants to make things better.
+
+The weekend will be a great opportunity for you to learn about what other people in your sector or community are doing, and how they’re addressing the problems they face; but of course this will work best if everyone buys in.<br>
 
 ------
 
@@ -58,11 +60,12 @@ Here are some common concerns about pitching:
 
    The quick-fire pitching style is actually fun. It's so different to a formal presentation that people won't even think about the sort of things you're worried about.
 
-   And if you're still not sure: talk to an organiser or hang back down the queue a bit, watch some other people pitch first, and then see how you feel. Every hack event we've held has had at least one last minute idea pitched where someone gets inspired by the other pitches. 
+   And if you're still not sure: talk to an organiser or hang back down the queue a bit, watch some other people pitch first, and then see how you feel. Every hack event we've held has had at least one last-minute idea pitched where someone gets inspired by the other pitches.
 
    Lastly, no one will even notice if you decide not to go ahead. :)
 
-   If you think that talking through your pitch with someone might help, do get in touch with our team of volunteers on the event Slack, on Twitter, or at <hello@nhshackday.com> and we'll be happy to try and help you.
+   If you think that talking through your pitch with someone might help, do get in touch with our team of volunteers on the event Slack, on Bluesky, or at <hello@nhshackday.com>, and we'll be happy to try and help you.
+
 
 2. **"My idea is not developed enough to be interesting or useful"**
 
@@ -78,7 +81,7 @@ Here are some common concerns about pitching:
 
    You might have a clear idea, but feel like you haven't developed the 'how' enough yet -- that's great! Tell the audience this, and ask them to help you work out the 'how'. Again, this will be a really interesting proposition for some people.
 
-   Be careful here not to pitch a solution rather than a problem, see Tip 5 in [Top 10 tips for awesome pitches]({% link _blog/2017-11-15-10-tips-for-awesome-pitches.md %}) for more info on this!
+   Be careful here not to pitch a solution rather than a problem -- see Tip 5 in [Top 10 tips for awesome pitches]({% link _blog/2017-11-15-10-tips-for-awesome-pitches.md %}) for more info on this!
 
    There is no idea too small or too early to pitch - you'll get a feel for this as soon as you see what other people are pitching.
 
@@ -94,8 +97,12 @@ Here are some common concerns about pitching:
 
 ## Go on, give pitching a go
 
-Don’t be shy: do consider having a go at pitching. Your friends at NHS Hack Day are the best people you could do this with for sure.
+Don’t be shy: do consider having a go at pitching. Patients, carers, and professionals from across health, care, community, voluntary and housing sectors are all welcome. Your insight could spark something that makes a real difference.
 
 ------
 
-And lastly, as always, if you have any questions about anything in this post (or indeed about anything else), do get in touch with our team of volunteers on the event Slack, on Twitter, or at <hello@nhshackday.com> and we'll be happy to help.
+And lastly, as always, if you have any questions about anything in this post (or indeed about anything else), do get in touch with our team of volunteers on the event Slack, on Bluesky, or at <hello@nhshackday.com> and we'll be happy to help.
+
+<br>
+
+_Updated October 2025_
