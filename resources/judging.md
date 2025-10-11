@@ -62,7 +62,7 @@ _What we’re looking for:_
 - evidence of multi-disciplinary contribution
 - balanced voices during the presentation, and credit appropriately distributed
 
-## Bonus Criteria
+## Bonus Points
 
 **1. Hard Problems** – tackling something genuinely tough counts. A brave attempt on a difficult issue can be as impressive as a slick fix for an easy one.
 
@@ -71,17 +71,3 @@ _What we’re looking for:_
 **3. Policy Bombs** – if your prototype usefully challenges an ineffective or over-funded policy, it deserves at least an honourable mention.
 
 **4. Humour & joy** – if it makes people smile while helping someone in need, all the better.
-
-## NHS Hack Day Founding Doctrine
-The ethos at NHS Hack Day is still guided strongly by the original doctrine under which it was founded. Although our judging criteria and specific philosophies might evolve along with the health and care environment, we like to consider the energy and conditions under which the event came to exist originally.
-
-### Hard Problems
-- A less comprehensive attempt on a very hard problem is at least as good as a flashy attempt on an easy problem.
-- Something incredible by one person is better than something mediocre by a whole team.
-- Clever solutions to irrelevant problems are not actually clever. What is built matters; why it was built can be taken into account (and this may feed into other areas much more strongly).
-
-### Minimally invasive procedures
-- A practical improvement to a key critical aspect, with immediate benefit, even if nothing else at all changes, should be preferred over submissions that require large scale, immediate, fundamental process change.
-
-### Policy bombs
-- Submissions that legitimately destroy a Government Policy, or undermine a big-budget programme, simply by existing, should get at minimum an honourable mention (and their presentation sent to the appropriate bit of Government).
