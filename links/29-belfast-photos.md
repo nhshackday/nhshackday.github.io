@@ -1,5 +1,5 @@
 ---
 layout: link
-permalink: /belfast-29-photos
+permalink: /29-belfast-photos
 redirect_to: "https://markbartonphotography.pixieset.com/nhshackday/"
 ---
