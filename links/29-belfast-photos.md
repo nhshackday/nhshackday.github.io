@@ -1,5 +1,5 @@
 ---
 layout: link
 permalink: /29-belfast-photos
-redirect_to: "https://markbartonphotography.pixieset.com/nhshackday/"
+redirect_to: "https://flickr.com/photos/nhshackday"
 ---
