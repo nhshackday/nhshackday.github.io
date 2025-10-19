@@ -18,4 +18,7 @@ about: Our project transforms hospital waiting experiences by reducing uncertain
   hospital experience—proving that informed waiting feels shorter and less stressful.
 links:
   presentation: https://www.canva.com/design/DAG1fb__AXQ/P8ZIxg4XIj6BLdUV7fyXyg/view
+  video: https://youtu.be/CPGOELf35zY
+rank-panel: 1
+rank-community: 1
 ---

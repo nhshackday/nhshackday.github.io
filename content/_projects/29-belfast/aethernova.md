@@ -15,4 +15,5 @@ about: |
   Built with: Unity 6, Meta Quest Pro, OpenXR, Whisper, spaCy, librosa, FastAPI, Plotly Dash
 links:
   presentation: https://gamma.app/docs/Aethernova-h16u4z6x3c7ywpl
+  video: https://youtu.be/bsSt57zY0MQ
 ---

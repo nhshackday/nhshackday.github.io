@@ -16,4 +16,6 @@ team:
 about: This project delivers a working prototype of a digital front door for GP practices, designed to improve patient access to primary care using a conversational AI Agent. Built for web, text and voice-based interaction, the system allows patients to describe their needs in natural language and receive clear, safe, and appropriate triage outcomes — without the need for complex forms or long waits.
 links:
   presentation: https://app.slidespeak.co/presentation/cmgnjyaj6002zp9ooe6ss577g
+  video: https://youtu.be/jpofozX5Qm0
+rank-panel: 3
 ---

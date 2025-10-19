@@ -28,4 +28,5 @@ about: 'Safe Stride is a proactive, patient-centred system that predicts and sup
   us all.'
 links:
   website: https://okko-nhs-hack-day.netlify.app/
+  video: https://youtu.be/mJdrAy1Q8Bg
 ---

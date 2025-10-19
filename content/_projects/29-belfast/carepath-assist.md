@@ -15,4 +15,5 @@ about: elective recovery is limited by inefficiency and inequality in the preass
   is reduces the cost of preoperative assessment.
 links:
   presentation: https://docs.google.com/presentation/d/11c0PcsuO2tBvcuYl-71RV5QKyOa5ObQehIicHiGosk8/edit
+  video: https://youtu.be/N8IU67hyWcI
 ---

@@ -21,4 +21,7 @@ links:
   presentation: https://www.canva.com/design/DAG1eoOp_c0/Q9UT_ZqMIR29SA9WQvQzIQ/view
   code:
   - https://github.com/gasman-dom/need_app
+  video: https://youtu.be/zfLovJAszM4
+rank-panel: 2
+rank-community: 2
 ---

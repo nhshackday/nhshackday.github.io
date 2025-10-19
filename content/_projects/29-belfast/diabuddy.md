@@ -27,4 +27,6 @@ links:
   presentation: https://www.canva.com/design/DAG1faGMWa8/J9UsKrZikxsjhQmNfdhL6A/view
   code:
   - https://github.com/laurenv24/diabuddy
+  video: https://youtu.be/Ly4bVGWq_Ps
+rank-panel: 3
 ---

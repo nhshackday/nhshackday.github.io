@@ -24,4 +24,5 @@ links:
   #presentation: https://docs.google.com/presentation/d/1-L8513xOfoEBDCli7EWuLzd5y34-cgI1yOyoiL1iLUQ/edit
   code:
   - http://github.com/chuntimchan/nhshackday29
+  video: https://youtu.be/5WguqPz6_WQ
 ---

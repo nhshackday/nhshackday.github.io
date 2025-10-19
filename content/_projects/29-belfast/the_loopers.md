@@ -1,5 +1,5 @@
 ---
-hackday: 28-cardiff
+hackday: 29-belfast
 title: The Loopers
 summary: Patients don’t understand the process for and results of blood tests which
   leads to feeling anxious and taking unnecessary actions
@@ -25,4 +25,5 @@ links:
   presentation: https://docs.google.com/presentation/d/1MfsBif4_HDDVcx3HvEafxfW-MTrtFlYfsec1Q_Sn0rQ/edit
   code:
   - https://github.com/Rory80Hz/nhs-hackday-29
+  video: https://youtu.be/jz6QJtks2ZM
 ---

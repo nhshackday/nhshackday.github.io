@@ -14,4 +14,5 @@ about: |
   Imagine if the discharge letter was created automatically from the start of the patient’s admission and was available as a live and evolving document to be refined by the whole clinical team on ward rounds, containing a minimum dataset of quality information. The data will be collected via the Electronic health record and fed into a large language model AI which will then provide a discharge paper with the filled in details and some generated comments like for the explanation. Everything will be live updated and will be kept so doctors will have access to a full medical history of each patient as well as each discharge paper.
 links:
   presentation: https://www.canva.com/design/DAG1f3LqxWs/WPsBKGpwHT9YrFkFxeKgsQ/view
+  video: https://youtu.be/1p2dz-NMgN4
 ---

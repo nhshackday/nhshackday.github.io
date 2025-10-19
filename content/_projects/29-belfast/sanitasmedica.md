@@ -9,4 +9,5 @@ about: A Modern GP Platform leveraging AI and Automation, to not replace doctors
   to do cumbersome, manual admin processes for them saving them time
 links:
   presentation: https://www.icloud.com/keynote/072EcEOMJdmtb0NeGGUvehiPg
+  video: https://youtu.be/QbFajEAIkSY
 ---

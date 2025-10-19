@@ -46,4 +46,5 @@ about: 'Whole Story is an AI companion designed to help patients clearly express
 links:
   website: https://wholestory.netlify.app/
   presentation: https://docs.google.com/presentation/d/1w66K0CvjNj8vqE0uCFfcHCd7zKeJqMWYHfRYrrNcRJ0/edit
+  video: https://youtu.be/ZMnePF15yko
 ---

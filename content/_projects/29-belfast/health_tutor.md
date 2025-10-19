@@ -25,4 +25,5 @@ links:
   #presentation: https://docs.google.com/presentation/d/1fRLRYplfRzX2LE9jfw8axWKj6suuowmrVvr0D_5Bpi8/edit
   code:
   - https://github.com/littleredpanda99/public-tutor
+  video: https://youtu.be/04PoJknTED0
 ---
