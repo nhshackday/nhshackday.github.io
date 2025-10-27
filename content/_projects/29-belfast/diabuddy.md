@@ -11,7 +11,7 @@ team:
 - Lauren Vallely
 - Mairead O'Kane
 - Mark Breen
-- Robert Craig
+- Robert Moore
 about: |
   The project has been built by people living with or alongside people living with diabetes.
 
