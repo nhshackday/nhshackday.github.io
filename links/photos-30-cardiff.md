@@ -1,5 +1,5 @@
 ---
 layout: link
-permalink: /photos-30-cardiff
+permalink: /photos/30-cardiff
 redirect_to: "https://paulclarkephotography.pixieset.com/nhshackday/"
 ---
