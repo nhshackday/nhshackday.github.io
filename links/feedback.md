@@ -1,5 +1,27 @@
 ---
 layout: link
 permalink: /feedback
-redirect_to: "https://docs.google.com/forms/d/e/1FAIpQLSf3BAA5g37D0g9vMbpY-XEnPeK4sVMd1ek3Jdv_z0BaXob-Zg/viewform"
+redirect_link: /not-active
 ---
+{% assign events = "" | split: "," %}
+{% assign current_time = site.time | date: "%s" | to_integer %}
+{% assign sorted = site.events | sort: 'date' %}
+{% for post in sorted %}
+{% assign end = post.date_end | date: "%s" | plus: 86400 | to_integer %}
+{% assign start = post.date | date: "%s" | plus: 86400 | to_integer %}
+{% if end >= current_time or start >= current_time %}
+{% assign events = events | push:post %}
+{% endif %}
+{% endfor %}
+{% if events.size > 0 %}
+    {% for post in events %}
+        {% assign end = post.date_end | date: "%s" | plus: 86400 | to_integer %}
+        {% assign start = post.date | date: "%s" | plus: 86400 | to_integer %}
+        {% if end >= current_time %}
+            {% if post.feedback != "" %}
+                {{ post.feedback }}
+                {% break %}
+            {% endif %}
+        {% endif %}
+    {% endfor %}
+{% endif %}
