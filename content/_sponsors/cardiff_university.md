@@ -7,4 +7,5 @@ logo: "cardiff_university.svg"
 events:
   23-cardiff: "For the Venue"
   28-cardiff: ""
+  30-cardiff: ""
 ---

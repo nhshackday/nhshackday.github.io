@@ -6,4 +6,5 @@ logo: "rcpch.png"
 # Events sponsored denoted by `<hackday>` and sponsorship amount/resource
 events:
   29-belfast: ""
+  30-cardiff: ""
 ---
