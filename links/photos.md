@@ -21,6 +21,9 @@ redirect_link: /not-active
             {% if post.photos != "" %}
                 {{ post.photos }}
                 {% break %}
+            {% else %}
+                {{ "https://nhshackday.com/media" }}
+                {% break %}
             {% endif %}
         {% endif %}
     {% endfor %}
