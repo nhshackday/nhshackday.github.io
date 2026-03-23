@@ -11,7 +11,7 @@ social_links: true
 ---
 
 ## Photo collections
-- [Paul Clarke's photos of NHS Hack Day 30, Cardiff (21st & 22nd March 2026)](https://pcpho.to/NHSHD)
+- [Paul Clarke's photos of NHS Hack Day 30, Cardiff (21st & 22nd March 2026)](https://pcpho.to/nhshd)
 - [Mark Barton's photos of NHS Hack Day 29, Belfast (11th & 12th October 2025)](https://www.flickr.com/photos/nhshackday/albums/72177720329668724)
 - [Paul Clarke's photos of NHS Hack Day 28, Cardiff (1st & 2nd March 2025)](https://pcpho.to/NHS25)
 - Paul Clarke's Flickr: NHS Hack Day 23, Cardiff (25th & 26th January 2020): [Day 1](https://www.flickr.com/photos/paul_clarke/albums/72157712828771766/), [Day 2](https://www.flickr.com/photos/paul_clarke/albums/72157712841427697/)
