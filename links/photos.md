@@ -25,6 +25,5 @@ redirect_link: /not-active
         {% endif %}
     {% endfor %}
 {% else %}
-    {{ "https://nhshackday.com/resources/media" }}
-    {% break %}
+    https://nhshackday.com/resources/media
 {% endif %}
