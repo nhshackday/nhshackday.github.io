@@ -31,7 +31,7 @@ about: 'This project delivers a zero-cost, instant respiratory and cardiac early
   digital pathways, community outreach, and remote monitoring programmes—turning any
   smartphone into a scalable, equitable screening tool for respiratory health.'
 links:
-  presentation: https://github.com/gbucci1972/BreathCheckAI/raw/refs/heads/main/BreathApp.pptx
+  presentation: https://docs.google.com/presentation/d/e/2PACX-1vSCxNIarJG1m06c72NnhEFlpqwNpXlnX6YcHXo2rHFA5mBB4Hj2rTGlE2xIwUSw16rxtzux5m4Ytv_c/pubembed
   code: 
   - https://github.com/gbucci1972/BreathCheckAI
   video: https://youtu.be/IbHHrYE445Q
