@@ -38,4 +38,5 @@ links:
   website: https://preview--ai-patient-whisperer.lovable.app/
   code:
   - https://github.com/sadiqueamin-1999/ai-healthcare-assistant
+  video: https://youtu.be/0uhy9vrIr-E
 ---

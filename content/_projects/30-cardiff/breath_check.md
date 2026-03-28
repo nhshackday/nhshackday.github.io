@@ -1,6 +1,6 @@
 ---
 hackday: 30-cardiff
-title: Giovanni Bucci - Breath Check application
+title: Breath Check
 summary: Every year about 16000 people look for medical attention for breath issues
   and copd, with this app they can use their mobile phone to upload a sample of their
   breath , cough and some words, and they receive a signal if there is an issue.
@@ -34,4 +34,5 @@ links:
   presentation: https://github.com/gbucci1972/BreathCheckAI/raw/refs/heads/main/BreathApp.pptx
   code: 
   - https://github.com/gbucci1972/BreathCheckAI
+  video: https://youtu.be/IbHHrYE445Q
 ---

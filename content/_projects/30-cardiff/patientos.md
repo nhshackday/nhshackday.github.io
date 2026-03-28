@@ -15,4 +15,5 @@ links:
   presentation: https://gamma.app/docs/PatientOS-xra1lwsvjs30wyi
   code:
   - patientos.onrender.com
+  vidoe: https://youtu.be/UWR4Vo4BYWE
 ---

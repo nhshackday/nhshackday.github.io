@@ -40,4 +40,5 @@ links:
   presentation: https://docs.google.com/presentation/d/1gzRaHFGZKGxgZQx9RKlwBWDAdFr4HTc2mAj9y7B2V08/edit?usp=sharing
   code:
   - https://github.com/FindMyJabs
+  video: https://youtu.be/PmaJq3bmpys
 ---

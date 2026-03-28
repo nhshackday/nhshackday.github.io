@@ -20,5 +20,6 @@ about: "We asked for ideas on how this would be possible using digital technolog
 links:
   website: https://stevanbarry.com/projects/find-my-clinic/
   presentation: https://docs.google.com/presentation/d/1Od9dz4Lu6SSqLc1k8rAs9TcKha8zhI81iMAg_7dSmrk/edit?usp=sharing
+  video: https://youtu.be/ekVKuLNs2SM
 rank-panel: 1
 ---

@@ -21,5 +21,6 @@ about: "Tinderm is a web-based swipe interface for dermatologists to rapidly rev
 links:
   website: https://brilliant-meringue-3ebdf7.netlify.app/
   presentation: https://docs.google.com/presentation/d/18xnIH7Gz5TLgsnMMfSAcf3GrCi55oBrZ-xNs0W4jXYM/
+  video: https://youtu.be/CqtdxVCK0-E
 rank-community: 2
 ---

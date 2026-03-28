@@ -33,6 +33,7 @@ about: "NHS EpiNav is a community-driven emergency response network designed to 
   during the \"Golden Hour\" of anaphylaxis."
 links:
   presentation: https://www.canva.com/design/DAHElMeVROI/xGOya0H-Hjcx8YRfNJzM5w/view
+  video: https://youtu.be/cPzygvdk4aE
 rank-panel: 1
 rank-community: 1
 ---
