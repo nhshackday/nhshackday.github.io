@@ -24,7 +24,7 @@
       "purpose": "maskable"
     },
     {
-      "src": "favicon.svg",
+      "src": "/assets/icons/favicon.svg",
       "sizes": "any",
       "type": "image/svg+xml",
       "purpose": "maskable"
